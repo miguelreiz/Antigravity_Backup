@@ -1,0 +1,41 @@
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in root
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Editor backups
+*~
+*.swp
+*.swo
+*.bak
+
+# Word temporary files
+~$*.doc*
+~$*.xls*
+*.tmp
+
+# Build outputs (se converter para outros formatos)
+*.pdf
+*.epub
+
+# Excluir arquivos muito grandes ou temporários
+# (ajuste conforme necessário)

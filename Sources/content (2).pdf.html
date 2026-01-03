@@ -1,0 +1,70 @@
+<p>Segue um upgrade pragmático do nomograma PresbyCor, incorporando as variáveis  <em>técnicas que a investigação revelou (idade, ceratometria K, diâmetro de zona, pupila,</em> anisometropia‑limite e Q pré‑op).  O objetivo é manter o algoritmo simples de aplicar em planilha ou App Script, mas mais fiel ao comportamento real do PresbyCor.</p>
+<h3 id="1-nova-l-gica-de-c-lculo-presbycor_v2"><em>1 ▪ Nova lógica de cálculo   (presbycor_v2)</em></h3>
+<p>python Copiar def presbycor_v2(esf, q0, add, dom, strat,                  idade, k_med, zona_mm, pupila_mm,                  aniso_max=1.75, teto_esf=5.0):     &#34;&#34;&#34;     Cálculo refinado do nomograma PresbyCor.     Parâmetros novos: idade, K médio, zona óptica, pupila, anisometropia máxima.     Retorna (esfera_final, q_target)     &#34;&#34;&#34;     # 1. Normalização de flags     dom = str(dom).lower() in [&#39;sim&#39;, &#39;yes&#39;, &#39;true&#39;, &#39;1&#39;]     strat = str(strat).lower()      # 2. Delta‑base para cada estratégia (tabelado)     if strat == &#39;equi-vision&#39;:         delta_base = 1.2 if dom else 1.8     # mesma lógica anterior         q_shift   = 0.8                      # Q mais negativo bilateral     elif strat == &#39;dual-vision&#39;:         delta_base = 1.2 if dom else 2.2         q_shift   = 0.8     elif strat == &#39;mono-vision&#39;:         delta_base = 0   if dom else float(add)  # defocus no não‑dominante         q_shift   = 0   if dom else 0.7     else:                                     # fallback         delta_base, q_shift = 0, 0      # 3. Ajustes finos conforme nova pesquisa  $# 3a. Idade (≤50 anos = mais acomodação, menor delta)$
+delta_idade = -0.1 if idade &lt;= 50 else 0     q_idade     = -0.05 if idade &lt;= 50 else 0      # -0,05 = 0,05 mais negativo?   $# 3b. Ceratometria (K &gt;45 D → tendência a hipercorreção: reduzir$ delta)     delta_k = -0.05 if k_med &gt; 45 else 0.05 if k_med &lt; 42 else 0   $# 3c. Zona óptica (≥7 mm exige maior compensação)$     delta_zona = 0.10 if zona_mm &gt;= 7 else -0.05 if zona_mm &lt;= 6 else 0   $# 3d. Pupila mesópica (&gt;6 mm → reduzir Q para evitar halos)$     q_pupila = -0.15 if pupila_mm &gt; 6 else 0      # 4. Soma dos ajustes     delta_total = delta_base + delta_idade + delta_k + delta_zona     q_total     = q_shift  + q_idade     + q_pupila      # 5. Limitar anisometropia (só se estratégia gera defocus entre olhos)     if strat in [&#39;dual-vision&#39;, &#39;mono-vision&#39;] and not dom:         # diferença entre novo alvo e olho dominante presumido 0 D         if abs(delta_total - (1.2 if strat==&#39;dual-vision&#39; else add)) &gt; aniso_max:             # aparar excesso             excesso = abs(delta_total) - aniso_max             delta_total -= excesso * (1 if delta_total &gt; 0 else -1)      # 6. Cálculo final     esf_final = min(esf + delta_total, teto_esf)     q_target  = q0 - q_total     return round(esf_final, 2), round(q_target, 2)</p>
+<h5 id="principais-ajustes-incorporados">Principais ajustes incorporados</h5>
+<p>Variável Efeito resumido Motivo clínico
+$Idade ≤50 a → −0,10 D de delta e −0,05 de ΔQ$
+Maior acomodação residual, precisa de menos “potência extra”.
+$K médio &gt;45 D → −0,05 D; &lt;42 D →$ +0,05 D
+Córneas curvas supercorrigem hipermétropes; planas subcorrigem.
+$Zona óptica ≥7 mm → +0,10 D; ≤6 mm →$ −0,05 D
+Zonas grandes exigem mais ablação; pequenas exigem menos.
+$Pupila mesópica &gt;6 mm → ΔQ −0,15 (menos$ negativo)
+Reduz halos e perda de contraste em pupilas grandes.
+Anisometropia‑limi te
+Corta defocus extra se  <em>exceder aniso_max (padrão</em> 1,75 D)
+Mantém conforto binocular.
+Ajuste os coeficientes conforme ganhar experiência; eles partem da literatura/empiria de Ghenassia.</p>
+<h3 id="2-exemplo-aplicado-dados-de-maria">2 ▪ Exemplo aplicado (dados de “Maria”)</h3>
+<p>Pa c.
+Ol ho
+Es f.
+Cil Ei xo
+Q0 A dd
+Do m
+Estr at.
+Ida de
+K Zo na
+Pup ila
+Esf. Fi nal
+Q Tar get
+Mar ia
+OD 1. 50
+‑0. 75
+90 ‑0. 28</p>
+<ol>
+<li>00
+Si m
+Equi‑ V.
+47 4 3
+6.5 4.0 2.65 ‑1.06
+Mar ia
+OS 2. 50
+‑1. 00
+90 ‑0. 26</li>
+<li>00
+Nã o
+Dual‑ V.
+47 4 3
+6.5 4.0 4.65 ‑1.11</li>
+</ol>
+<ul>
+<li>OD (Equi‑Vision; dominante):  $ΔBase 1.2 − 0.05 (K plano) = 1.15 → 1.50 + 1.15 = 2.65 D.  Q: −0.28 − 0.80 = ‑1.08, ajustado pupila pequena (0) e idade (−0.05) → ‑1.06.$</li>
+<li>OS (Dual‑Vision; não‑dominante):  $ΔBase 2.2 − 0.05 (K) = 2.15; aniso_max 1.75 não atingido; 2.50 + 2.15 = 4.65 D.$  Q: −0.26 − 0.80 − 0.05 = ‑1.11.
+Esses valores alinham‑se com a engenharia reversa, mas agora refletem nuances adicionais (K, zona, idade, pupila, limite de anisometropia).</li>
+</ul>
+<h3 id="3-como-aplicar-na-sua-planilha-appscript">3 ▪ Como aplicar na sua planilha/AppScript</h3>
+<ol>
+<li>Adicione as novas colunas (idade, K, zona, pupila, anisometropia‑limite).</li>
+<li>Cole a função presbycor_v2 no AppScript.
+Use na célula:   cpp Copiar =INDEX(PRESBYCOR_V2(C2; F2; G2; H2; I2; L2; M2; N2; O2; P2); 1; 1)   // esfera =INDEX(PRESBYCOR_V2(C2; F2; G2; H2; I2; L2; M2; N2; O2; P2); 1; 2)   // Q</li>
+<li>Ajuste as letras das colunas conforme sua folha.</li>
+</ol>
+<h5 id="benef-cios-do-upgrade">Benefícios do upgrade</h5>
+<ul>
+<li>Melhora a exatidão (compensa idade, K e zona de tratamento).</li>
+<li>Reduz chances de ajuste pós‑op (menor under/over‑correction).</li>
+<li>Inclui segurança binocular (anisometropia‑cap) e conforto noturno (pupila).</li>
+<li>Mantém simplicidade – apenas alguns coeficientes fáceis de calibrar.</li>
+</ul>

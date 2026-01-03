@@ -1,0 +1,188 @@
+<h1 id="an-lise-t-cnica-dos-algoritmos-f-cat-e-t-cat-do-laser-allegretto">Análise Técnica dos Algoritmos F-CAT e T-CAT do Laser Allegretto</h1>
+<h3 id="introdu-o">Introdução</h3>
+<h5 id="o-laser-allegretto-wave-eye-q-400-hz-fabricado-pela-alcon-wavelight-um-sistema-de">O laser Allegretto Wave Eye-Q 400 Hz, fabricado pela Alcon/WaveLight, é um sistema de</h5>
+<h5 id="excimer-laser-de-alta-frequ-ncia-amplamente-utilizado-em-cirurgia-refrativa-seu-sucesso-se">excimer laser de alta frequência amplamente utilizado em cirurgia refrativa. Seu sucesso se</h5>
+<h5 id="deve-em-parte-sofistica-o-de-seus-algoritmos-de-abla-o-customizada-que-visam">deve, em parte, à sofisticação de seus algoritmos de ablação customizada, que visam</h5>
+<h5 id="otimizar-os-resultados-visuais-e-tratar-uma-ampla-gama-de-condi-es-refrativas-este">otimizar os resultados visuais e tratar uma ampla gama de condições refrativas. Este</h5>
+<h5 id="documento-oferece-uma-an-lise-t-cnica-detalhada-de-dois-de-seus-principais-algoritmos-de">documento oferece uma análise técnica detalhada de dois de seus principais algoritmos de</h5>
+<h5 id="tratamento-o-f-cat-fine-tuned-customized-ablation-treatment-tamb-m-conhecido">tratamento: o F-CAT (Fine-tuned Customized Ablation Treatment), também conhecido</h5>
+<h5 id="como-custom-q-e-o-t-cat-topography-guided-custom-ablation-treatment">como Custom-Q, e o T-CAT (Topography-guided Custom Ablation Treatment).</h5>
+<h5 id="embora-o-c-digo-fonte-exato-desses-algoritmos-seja-propriet-rio-e-confidencial-esta">Embora o código-fonte exato desses algoritmos seja proprietário e confidencial, esta</h5>
+<h5 id="an-lise-foi-compilada-a-partir-de-uma-revis-o-aprofundada-de-manuais-t-cnicos">análise foi compilada a partir de uma revisão aprofundada de manuais técnicos,</h5>
+<h5 id="publica-es-cient-ficas-e-implementa-es-de-c-digo-aberto-relacionadas-com-o-objetivo-de">publicações científicas e implementações de código aberto relacionadas, com o objetivo de</h5>
+<h5 id="elucidar-os-princ-pios-matem-ticos-e-operacionais-que-fundamentam-seu-funcionamento">elucidar os princípios matemáticos e operacionais que fundamentam seu funcionamento.</h5>
+<h3 id="1-fundamentos-matem-ticos-da-abla-o-corneal">1. Fundamentos Matemáticos da Ablação Corneal</h3>
+<h5 id="a-base-para-a-maioria-dos-c-lculos-de-abla-o-em-cirurgia-refrativa-foi-estabelecida-por">A base para a maioria dos cálculos de ablação em cirurgia refrativa foi estabelecida por</h5>
+<h5 id="princ-pios-pticos-e-matem-ticos-que-relacionam-a-remo-o-de-tecido-com-a-mudan-a-na">princípios ópticos e matemáticos que relacionam a remoção de tecido com a mudança na</h5>
+<h5 id="curvatura-da-c-rnea">curvatura da córnea.</h5>
+<h4 id="1-1-a-f-rmula-de-munnerlyn">1.1 A Fórmula de Munnerlyn</h4>
+<h5 id="a-pedra-angular-para-o-c-lculo-da-profundidade-da-abla-o-em-corre-es-de-miopia-a">A pedra angular para o cálculo da profundidade da ablação em correções de miopia é a</h5>
+<h5 id="f-rmula-de-munnerlyn-proposta-em-1988-1-ela-estabelece-uma-rela-o-direta-entre-a">Fórmula de Munnerlyn, proposta em 1988 1 . Ela estabelece uma relação direta entre a</h5>
+<h5 id="corre-o-di-ptrica-desejada-e-a-quantidade-de-tecido-a-ser-removido">correção dióptrica desejada e a quantidade de tecido a ser removido.</h5>
+<h5 id="onde">Onde:</h5>
+<ul>
+<li>
+<h5 id="t-profundidade-da-abla-o-no-centro-da-c-rnea-em-micr-metros">t = Profundidade da ablação no centro da córnea (em micrômetros)</h5>
+</li>
+<li>
+<h5 id="s-di-metro-da-zona-ptica-em-mil-metros">S = Diâmetro da zona óptica (em milímetros)</h5>
+</li>
+<li>
+<h5 id="d-corre-o-di-ptrica-desejada-equivalente-esf-rico">D = Correção dióptrica desejada (equivalente esférico)</h5>
+</li>
+</ul>
+<h5 id="esta-f-rmula-uma-aproxima-o-paraxial-e-serve-como-guia-fundamental-as-plataformas">Esta fórmula é uma aproximação paraxial e serve como guia fundamental. As plataformas</h5>
+<h5 id="de-laser-modernas-como-o-allegretto-utilizam-vers-es-modificadas-e-mais-complexas-que">de laser modernas, como o Allegretto, utilizam versões modificadas e mais complexas que</h5>
+<p>t \approx \frac{S^2 \cdot D}{3}</p>
+<h5 id="consideram-a-asfericidade-da-c-rnea-e-outros-fatores-para-otimizar-o-perfil-de-abla-o-e">consideram a asfericidade da córnea e outros fatores para otimizar o perfil de ablação e</h5>
+<h5 id="minimizar-a-indu-o-de-aberra-es-de-alta-ordem-2">minimizar a indução de aberrações de alta ordem 2 .</h5>
+<h4 id="1-2-par-metros-de-seguran-a-cr-ticos">1.2 Parâmetros de Segurança Críticos</h4>
+<h5 id="a-seguran-a-da-cirurgia-refrativa-a-laser-depende-de-par-metros-rigorosos-para-preservar-a">A segurança da cirurgia refrativa a laser depende de parâmetros rigorosos para preservar a</h5>
+<h5 id="integridade-biomec-nica-da-c-rnea-dois-dos-mais-importantes-s-o-o-leito-estromal">integridade biomecânica da córnea. Dois dos mais importantes são o Leito Estromal</h5>
+<h5 id="residual-rsb-e-o-percentual-de-tecido-alterado-pta">Residual (RSB) e o Percentual de Tecido Alterado (PTA).</h5>
+<p>Parâmetro Fórmula Critério de Segurança Importância
+Leito Estromal Residual (RSB)
+CCT - FT - AD &gt; 300 µm (padrão
+atual)
+Prevenir a ectasia
+pós-operatória,
+garantindo
+estabilidade
+estrutural.
+Percentual de Tecido Alterado (PTA)
+(FT + AD) / CCT &lt; 40%
+Identificar risco de
+ectasia mesmo em
+topografias normais
+3 .</p>
+<h5 id="cct-espessura-corneal-central-ft-espessura-do-flap-ad-profundidade-da-abla-o">CCT: Espessura Corneal Central; FT: Espessura do Flap; AD: Profundidade da Ablação.</h5>
+<h3 id="2-algoritmo-f-cat-custom-q-treatment">2. Algoritmo F-CAT (Custom-Q Treatment)</h3>
+<h5 id="o-algoritmo-f-cat-ou-tratamento-custom-q-uma-abordagem-de-otimiza-o-da">O algoritmo F-CAT, ou tratamento Custom-Q, é uma abordagem de otimização da</h5>
+<h5 id="asfericidade-corneal-seu-objetivo-n-o-apenas-corrigir-o-erro-refrativo-mas-tamb-m">asfericidade corneal. Seu objetivo não é apenas corrigir o erro refrativo, mas também</h5>
+<h5 id="manter-ou-melhorar-a-forma-prolata-natural-da-c-rnea-o-que-impacta-diretamente-a">manter ou melhorar a forma prolata natural da córnea, o que impacta diretamente a</h5>
+<h5 id="qualidade-da-vis-o">qualidade da visão.</h5>
+<h4 id="2-1-o-conceito-de-asfericidade-q-value">2.1 O Conceito de Asfericidade (Q-value)</h4>
+<h5 id="a-asfericidade-da-c-rnea-quantificada-pelo-q-value-este-coeficiente-descreve-como-a">A asfericidade da córnea é quantificada pelo Q-value. Este coeficiente descreve como a</h5>
+<h5 id="curvatura-da-c-rnea-muda-do-centro-para-a-periferia">curvatura da córnea muda do centro para a periferia.</h5>
+<ul>
+<li>
+<h5 id="q-0-prolata-a-c-rnea-se-achata-em-dire-o-periferia-esta-a-forma-normal-e">Q &lt; 0 (Prolata): A córnea se achata em direção à periferia. Esta é a forma normal e</h5>
+</li>
+</ul>
+<h5 id="oticamente-ideal-pois-ajuda-a-focar-a-luz-em-um-nico-ponto">oticamente ideal, pois ajuda a focar a luz em um único ponto.</h5>
+<ul>
+<li>
+<h5 id="q-0-esf-rica-a-curvatura-a-mesma-em-todos-os-pontos">Q = 0 (Esférica): A curvatura é a mesma em todos os pontos.</h5>
+</li>
+<li>
+<h5 id="q-0-oblata-a-c-rnea-se-torna-mais-curva-na-periferia-esta-forma-geralmente-resulta">Q &gt; 0 (Oblata): A córnea se torna mais curva na periferia. Esta forma geralmente resulta</h5>
+</li>
+</ul>
+<h5 id="de-cirurgias-refrativas-mais-antigas-e-pode-induzir-aberra-es-esf-ricas">de cirurgias refrativas mais antigas e pode induzir aberrações esféricas.</h5>
+<h5 id="o-f-cat-utiliza-o-q-value-pr-operat-rio-do-paciente-para-criar-um-perfil-de-abla-o-que">O F-CAT utiliza o Q-value pré-operatório do paciente para criar um perfil de ablação que</h5>
+<h5 id="preserve-essa-asfericidade-evitando-a-indu-o-de-aberra-es-esf-ricas-que-degradam-a">preserve essa asfericidade, evitando a indução de aberrações esféricas que degradam a</h5>
+<h5 id="qualidade-visual-especialmente-em-condi-es-de-baixa-luminosidade-4">qualidade visual, especialmente em condições de baixa luminosidade 4 .</h5>
+<h4 id="2-2-funcionamento-do-algoritmo">2.2 Funcionamento do Algoritmo</h4>
+<h5 id="o-f-cat-um-algoritmo-wavefront-optimized-n-o-wavefront-guided-isso-significa-que-ele">O F-CAT é um algoritmo wavefront-optimized, não wavefront-guided. Isso significa que ele</h5>
+<h5 id="n-o-mede-as-aberra-es-totais-do-olho-mas-utiliza-um-modelo-te-rico-da-c-rnea-para">não mede as aberrações totais do olho, mas utiliza um modelo teórico da córnea para</h5>
+<h5 id="precompensar-a-indu-o-de-aberra-o-esf-rica">precompensar a indução de aberração esférica.</h5>
+<h5 id="processo-de-c-lculo">Processo de Cálculo:</h5>
+<h5 id="1-entrada-de-dados-o-algoritmo-recebe-a-refra-o-manifesta-do-paciente-o-di-metro-da">1. Entrada de Dados: O algoritmo recebe a refração manifesta do paciente, o diâmetro da</h5>
+<h5 id="zona-ptica-e-o-q-value-pr-operat-rio-medido-pelo-topolyzer">zona óptica e o Q-value pré-operatório medido pelo Topolyzer.</h5>
+<h5 id="2-c-lculo-do-perfil-base-um-perfil-de-abla-o-inicial-calculado-com-base-na-f-rmula-de">2. Cálculo do Perfil Base: Um perfil de ablação inicial é calculado com base na fórmula de</h5>
+<h5 id="munnerlyn-para-corrigir-a-miopia-ou-hipermetropia">Munnerlyn para corrigir a miopia ou hipermetropia.</h5>
+<h5 id="3-otimiza-o-asf-rica-o-algoritmo-adiciona-pulsos-de-laser-na-periferia-da-zona-ptica">3. Otimização Asférica: O algoritmo adiciona pulsos de laser na periferia da zona óptica.</h5>
+<h5 id="essa-abla-o-perif-rica-adicional-compensa-o-achatamento-excessivo-que-ocorreria">Essa ablação periférica adicional compensa o achatamento excessivo que ocorreria</h5>
+<h5 id="com-uma-abla-o-puramente-esf-rica-mantendo-o-q-value-alvo">com uma ablação puramente esférica, mantendo o Q-value alvo.</h5>
+<h5 id="4-ajuste-de-zernike-o-processo-envolve-a-otimiza-o-de-coeficientes-de-zernike">4. Ajuste de Zernike: O processo envolve a otimização de coeficientes de Zernike,</h5>
+<h5 id="principalmente-o-c-4-0-aberra-o-esf-rica-para-garantir-que-o-perfil-de-abla-o-final">principalmente o C(4,0) (aberração esférica), para garantir que o perfil de ablação final</h5>
+<h5 id="resulte-em-uma-c-rnea-com-a-asfericidade-desejada">resulte em uma córnea com a asfericidade desejada.</h5>
+<h3 id="3-algoritmo-t-cat-topography-guided-custom-ablation">3. Algoritmo T-CAT (Topography-Guided Custom Ablation)</h3>
+<h5 id="o-t-cat-um-dos-algoritmos-mais-avan-ados-projetado-para-tratar-c-rneas-com">O T-CAT é um dos algoritmos mais avançados, projetado para tratar córneas com</h5>
+<h5 id="irregularidades-como-as-encontradas-em-pacientes-com-ceratocone-ectasias-p-s">irregularidades, como as encontradas em pacientes com ceratocone, ectasias pós-</h5>
+<h5 id="cir-rgicas-ou-descentraliza-es">cirúrgicas ou descentralizações.</h5>
+<h4 id="3-1-princ-pio-fundamental">3.1 Princípio Fundamental</h4>
+<h5 id="ao-contr-rio-de-outros-m-todos-o-t-cat-baseia-se-diretamente-nos-dados-topogr-ficos-da">Ao contrário de outros métodos, o T-CAT baseia-se diretamente nos dados topográficos da</h5>
+<h5 id="c-rnea-o-objetivo-prim-rio-n-o-a-corre-o-refrativa-mas-a-regulariza-o-da-superf-cie">córnea. O objetivo primário não é a correção refrativa, mas a regularização da superfície</h5>
+<h5 id="corneal-transformando-uma-c-rnea-irregular-e-assim-trica-em-uma-superf-cie-mais-suave">corneal, transformando uma córnea irregular e assimétrica em uma superfície mais suave</h5>
+<h5 id="e-opticamente-mais-eficiente-5">e opticamente mais eficiente 5 .</h5>
+<h4 id="3-2-funcionamento-do-algoritmo-e-a-t-cnica-tnt">3.2 Funcionamento do Algoritmo e a Técnica TNT</h4>
+<h5 id="o-conceito-do-tratamento-guiado-por-topografia-modificar-a-c-rnea-tratando-as">O conceito do tratamento guiado por topografia é modificar a córnea tratando as</h5>
+<h5 id="altera-es-anat-micas-em-vez-das-fisiol-gicas-e-consequentemente-menos">alterações anatômicas em vez das fisiológicas e, consequentemente, é menos</h5>
+<h5 id="influenciado-por-fatores-intraoculares-do-que-a-abla-o-guiada-por-wavefront-5">influenciado por fatores intraoculares do que a ablação guiada por wavefront 5 .</h5>
+<h5 id="o-t-cat-utiliza-dados-do-topolyzer-vario-para-criar-um-mapa-de-abla-o-o-software-do">O T-CAT utiliza dados do Topolyzer VARIO para criar um mapa de ablação. O software do</h5>
+<h5 id="allegretto-analisa-m-ltiplas-medi-es-topogr-ficas-para-criar-um-perfil-de-abla-o-que">Allegretto analisa múltiplas medições topográficas para criar um perfil de ablação que</h5>
+<h5 id="aplana-os-picos-e-preenche-os-vales-da-superf-cie-corneal-irregular">&#34;aplana&#34; os picos e &#34;preenche&#34; os vales da superfície corneal irregular.</h5>
+<h5 id="um-desafio-do-t-cat-que-a-regulariza-o-da-c-rnea-induz-invariavelmente-uma">Um desafio do T-CAT é que a regularização da córnea induz, invariavelmente, uma</h5>
+<h5 id="mudan-a-no-erro-refrativo-para-gerenciar-isso-foi-desenvolvida-a-t-cnica-de">mudança no erro refrativo. Para gerenciar isso, foi desenvolvida a Técnica de</h5>
+<h5 id="neutraliza-o-topogr-fica-tnt-6">Neutralização Topográfica (TNT) 6 .</h5>
+<h5 id="planejamento-com-tnt">Planejamento com TNT:</h5>
+<ul>
+<li>
+<h5 id="an-lise-do-cone-o-cirurgi-o-analisa-a-localiza-o-do-cone-central-ou-descentrado-e-o">Análise do Cone: O cirurgião analisa a localização do cone (central ou descentrado) e o</h5>
+</li>
+</ul>
+<h5 id="q-value-associado">Q-value associado.</h5>
+<ul>
+<li>
+<h5 id="manipula-o-do-q-value-para-cones-centrais-com-alto-q-negativo-o-cirurgi-o-pode">Manipulação do Q-value: Para cones centrais com alto Q negativo, o cirurgião pode</h5>
+</li>
+</ul>
+<h5 id="optar-por-reduzir-o-q-pr-operatoriamente-no-software-para-alcan-ar-uma-c-rnea-mais">optar por reduzir o Q pré-operatoriamente no software para alcançar uma córnea mais</h5>
+<h5 id="neutra-para-cones-descentrados-o-q-pode-ser-ajustado-para-zero-para-evitar-um-q">neutra. Para cones descentrados, o Q pode ser ajustado para zero para evitar um Q</h5>
+<h5 id="excessivamente-negativo-ap-s-a-cirurgia">excessivamente negativo após a cirurgia.</h5>
+<ul>
+<li>
+<h5 id="corre-o-refrativa-parcial-o-algoritmo-permite-que-o-cirurgi-o-insira-uma-parte-do">Correção Refrativa Parcial: O algoritmo permite que o cirurgião insira uma parte do</h5>
+</li>
+</ul>
+<h5 id="erro-refrativo-do-paciente-no-c-lculo-isso-ajuda-a-compensar-a-mudan-a-refrativa">erro refrativo do paciente no cálculo. Isso ajuda a compensar a mudança refrativa</h5>
+<h5 id="induzida-pela-abla-o-topogr-fica-com-o-cuidado-de-manter-a-profundidade-m-xima">induzida pela ablação topográfica, com o cuidado de manter a profundidade máxima</h5>
+<h5 id="da-abla-o-dentro-de-limites-seguros-tipicamente-50-m">da ablação dentro de limites seguros (tipicamente &lt; 50 µm).</h5>
+<h4 id="3-3-pseudoc-digo-simplificado">3.3 Pseudocódigo Simplificado</h4>
+<h5 id="a-l-gica-de-implementa-o-pode-ser-visualizada-atrav-s-de-um-pseudoc-digo-que-ilustra-a">A lógica de implementação pode ser visualizada através de um pseudocódigo que ilustra a</h5>
+<h5 id="diferen-a-fundamental-entre-os-dois-algoritmos">diferença fundamental entre os dois algoritmos.</h5>
+<p>Python</p>
+<h1 id="pseudoc-digo-de-algoritmo-f-cat-class-fcat_ablation-def-init-self-refraction-q_value-optical_zone-self-refraction-refraction-self-q_value-q_value-self-optical_zone-optical_zone">Pseudocódigo de algoritmo F-CAT class FCAT_Ablation:     def <strong>init</strong>(self, refraction, q_value, optical_zone):         self.refraction = refraction         self.q_value = q_value         self.optical_zone = optical_zone</h1>
+<p>def generate_ablation_map(self):         # 1. Calcula o perfil de ablação central para corrigir a refração (baseado em Munnerlyn).         central_map = calculate_central_ablation(self.refraction, self.optical_zone)                 # 2. Calcula a ablação periférica para manter o Q-value alvo.         peripheral_map = calculate_peripheral_ablation(self.q_value, self.optical_zone)</p>
+<h1 id="3-combina-os-mapas-para-criar-o-perfil-final-wavefront-optimized-final_map-combine_maps-central_map-peripheral_map-return-final_map">3. Combina os mapas para criar o perfil final wavefront-optimized.         final_map = combine_maps(central_map, peripheral_map)         return final_map</h1>
+<h1 id="pseudoc-digo-de-algoritmo-t-cat-class-tcat_ablation-def-init-self-topography_data-pachymetry_data-target_q-partial_refraction-self-topography-topography_data-self-pachymetry-pachymetry_data-self-target_q-target_q-self-partial_refraction-partial_refraction">Pseudocódigo de algoritmo T-CAT class TCAT_Ablation:     def <strong>init</strong>(self, topography_data, pachymetry_data, target_q, partial_refraction):         self.topography = topography_data         self.pachymetry = pachymetry_data         self.target_q = target_q         self.partial_refraction = partial_refraction</h1>
+<p>def generate_ablation_map(self):         # 1. Identifica as irregularidades (picos e vales) no mapa topográfico.         irregularities = find_irregularities(self.topography)                 # 2. Calcula o perfil de ablação para regularizar a superfície (TNT).         regularization_map = calculate_regularization(irregularities, self.target_q)                 # 3. Adiciona a correção refrativa parcial, se aplicável.         refractive_map = calculate_central_ablation(self.partial_refraction)                 # 4. Combina e otimiza os mapas, respeitando os limites de paquimetria.         final_map = combine_and_optimize(regularization_map, refractive_map, self.pachymetry)         return final_map</p>
+<h3 id="4-conclus-o">4. Conclusão</h3>
+<h5 id="os-algoritmos-f-cat-e-t-cat-do-laser-allegretto-wave-eye-q-representam-duas-abordagens">Os algoritmos F-CAT e T-CAT do laser Allegretto Wave Eye-Q representam duas abordagens</h5>
+<h5 id="distintas-e-complementares-para-a-cirurgia-refrativa-a-laser-o-f-cat-foca-na-otimiza-o-da">distintas e complementares para a cirurgia refrativa a laser. O F-CAT foca na otimização da</h5>
+<h5 id="qualidade-ptica-para-c-rneas-regulares-preservando-sua-forma-natural-enquanto-o-t-cat">qualidade óptica para córneas regulares, preservando sua forma natural, enquanto o T-CAT</h5>
+<h5 id="oferece-uma-solu-o-poderosa-para-a-reabilita-o-visual-de-pacientes-com-c-rneas">oferece uma solução poderosa para a reabilitação visual de pacientes com córneas</h5>
+<h5 id="complexas-e-irregulares-a-compreens-o-de-seus-fundamentos-matem-ticos-e">complexas e irregulares. A compreensão de seus fundamentos matemáticos e</h5>
+<h5 id="operacionais-embora-baseada-em-informa-es-p-blicas-revela-a-sofistica-o-por-tr-s-do">operacionais, embora baseada em informações públicas, revela a sofisticação por trás do</h5>
+<h5 id="planejamento-cir-rgico-e-a-busca-cont-nua-por-resultados-mais-seguros-e-precisos">planejamento cirúrgico e a busca contínua por resultados mais seguros e precisos.</h5>
+<h5 id="a-an-lise-de-projetos-de-c-digo-aberto-como-o-pearldgs_toolbox-para-c-lculo-de-lentes">A análise de projetos de código aberto, como o pearldgs_toolbox  para cálculo de lentes</h5>
+<h5 id="intraoculares-7-embora-n-o-diretamente-relacionados-demonstra-que-a-implementa-o">intraoculares 7 , embora não diretamente relacionados, demonstra que a implementação</h5>
+<h5 id="de-c-lculos-pticos-complexos-em-oftalmologia-vi-vel-e-segue-estruturas-l-gicas">de cálculos ópticos complexos em oftalmologia é viável e segue estruturas lógicas</h5>
+<h5 id="semelhantes-s-inferidas-para-os-algoritmos-propriet-rios">semelhantes às inferidas para os algoritmos proprietários.</h5>
+<h3 id="refer-ncias">Referências</h3>
+<h5 id="1-munnerlyn-c-r-koons-s-j-marshall-j-1988-photorefractive-keratectomy-a">[1] Munnerlyn, C. R., Koons, S. J., &amp; Marshall, J. (1988). Photorefractive keratectomy: a</h5>
+<h5 id="technique-for-laser-refractive-surgery-journal-of-cataract-refractive-surgery-14-1-46-52">technique for laser refractive surgery. Journal of Cataract &amp; Refractive Surgery, 14(1), 46-52.</h5>
+<h5 id="acessado-em-eyewiki">Acessado em <a href="https://eyewiki.org/CalculationforLASIK_Ablation">EyeWiki</a>.</h5>
+<h5 id="2-mrochen-m-donitzky-c-w-llner-c-l-ffler-j-2004-wavefront-optimized-ablation">[2] Mrochen, M., Donitzky, C., Wüllner, C., &amp; Löffler, J. (2004). Wavefront-optimized ablation</h5>
+<h5 id="profiles-theoretical-background-journal-of-cataract-refractive-surgery-30-4-775-785">profiles: theoretical background. Journal of Cataract &amp; Refractive Surgery, 30(4), 775-785.</h5>
+<h5 id="acessado-em-pubmed">Acessado em <a href="https://pubmed.ncbi.nlm.nih.gov/15093638/">PubMed</a>.</h5>
+<h5 id="3-santhiago-m-r-smadja-d-gomes-b-f-mello-g-r-monteiro-m-l-wilson-s-e">[3] Santhiago, M. R., Smadja, D., Gomes, B. F., Mello, G. R., Monteiro, M. L., Wilson, S. E., &amp;</h5>
+<h5 id="randleman-j-b-2014-association-between-the-percent-tissue-altered-and-post-laser-in">Randleman, J. B. (2014). Association between the percent tissue altered and post‒laser in</h5>
+<h5 id="situ-keratomileusis-ectasia-in-eyes-with-normal-preoperative-topography-american-journal">situ keratomileusis ectasia in eyes with normal preoperative topography. American journal</h5>
+<h5 id="of-ophthalmology-158-1-87-95">of ophthalmology, 158(1), 87-95.</h5>
+<h5 id="4-villa-c-jim-nez-j-r-anera-r-g-guti-rrez-r-hita-e-2009-visual-performance">[4] Villa, C., Jiménez, J. R., Anera, R. G., Gutiérrez, R., &amp; Hita, E. (2009). Visual performance</h5>
+<h5 id="after-lasik-for-a-q-optimized-and-a-standard-ablation-algorithm-applied-optics-48-30">after LASIK for a Q-optimized and a standard ablation algorithm. Applied optics, 48(30),</h5>
+<h5 id="5741-5747-acessado-em-optica-publishing-group">5741-5747. Acessado em [Optica Publishing Group]</h5>
+<h5 id="https-opg-optica-org-ao-viewmedia-cfm-uri-ao-48-30-5741">(<a href="https://opg.optica.org/ao/viewmedia.cfm?uri=ao-48-30-5741">https://opg.optica.org/ao/viewmedia.cfm?uri=ao-48-30-5741</a> ).</h5>
+<h5 id="5-shetty-r-d-souza-s-srivastava-s-ashwini-r-2013-topography-guided-custom">[5] Shetty, R., D’Souza, S., Srivastava, S., &amp; Ashwini, R. (2013). Topography-guided custom</h5>
+<h5 id="ablation-treatment-for-treatment-of-keratoconus-indian-journal-of-ophthalmology-61-8">ablation treatment for treatment of keratoconus. Indian journal of ophthalmology, 61(8),</h5>
+<h5 id="445-acessado-em-pmc">445. Acessado em <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3775085/">PMC</a>.</h5>
+<h5 id="6-lin-d-t-2008-method-for-optimizing-topography-guided-ablation-of-highly-aberrated">[6] Lin, D. T. (2008). Method for optimizing topography-guided ablation of highly aberrated</h5>
+<h5 id="eyes-with-the-allegretto-wave-excimer-laser-journal-of-refractive-surgery-24-4-s445">eyes with the ALLEGRETTO WAVE excimer laser. Journal of Refractive Surgery, 24(4), S445-</h5>
+<h5 id="s452-acessado-em-pacific-laser-https-www-pacific-laser-com-ch-downloads-method">S452. Acessado em [Pacific Laser](<a href="https://www.pacific-laser.com/ch/downloads/Method-">https://www.pacific-laser.com/ch/downloads/Method-</a></h5>
+<h5 id="for-optimizing-topography-guided-jrs-pdf">for-optimizing-topography-guided.JRS.pdf ).</h5>
+<h5 id="7-gatinel-d-debellemani-re-g-et-al-2021-pearl-dgs-formula-the-development-of-an">[7] Gatinel, D., Debellemanière, G., et al. (2021). PEARL-DGS formula: the development of an</h5>
+<h5 id="open-source-machine-learning-based-thick-iol-calculation-formula-american-journal-of">open-source machine learning-based thick IOL calculation formula. American Journal of</h5>
+<h5 id="ophthalmology-c-digo-dispon-vel-em-github">Ophthalmology. Código disponível em [GitHub]</h5>
+<h5 id="https-github-com-gdebel-pearldgs_toolbox">(<a href="https://github.com/gdebel/pearldgs_toolbox">https://github.com/gdebel/pearldgs_toolbox</a> ).</h5>

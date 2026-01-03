@@ -1,0 +1,578 @@
+<p><img src="data:image/jpeg;base64,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" alt="image">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAoGCQcICAgGBgUHBgUHBgYFBQYFBgYFBgYGBgYFBQYHChALBwgOCQYGDSENGhERHxMfBwsWGCIeGBAeExIBBQUFBwcHCAgICBILCAofEhISEhISHhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEv/AABEIAFQAUQMBIgACEQEDEQH/xAAcAAEBAQADAQEBAAAAAAAAAAAABgIEBQcDAQj/xAAoEAACAgECBQMFAQAAAAAAAAAAAQIDEQYhBAUxQXFCUZESImGxwTL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A/si6z6Iyk+kU38HR8JqONk3FxUcPHU7Dn0/pqn+U/jB5rO1wm2vdgerVWKayjZIac51nEZPfYrKrFNZQGwAAAAAAAAAB1GppYrfhnnF3+n5Z6FqqWK34f6PPLOr8sD9ptcGmtsFfpznWcRk/kjTdNrg8rbAHrdNimk0bJDTvOs4jJlZXYppNAbAAAAAAABPaul9j8fwgJ9WXOspfayGfcD8AAG6bXBprbBX6d51nEZPfyRpum1waa7Aet1WKaTRskNOc6ziMn7dSsqsU0mgNgAAAAJPWktmRTK/WkiQAAAAAAPpTY4NNbYK7TvOs4jJ+xGm6bXBprKA9bpsU1lGyQ05zrOIye5WU2KaTQGwABEazluSpUaug5S2TZ0EOCm/S/gDjA7CvlVkvSzk1chsfYDpgUdWmpPqc2nS/uBH4NKD9mXVWmYrrg5VWn4LsgIHh4Ti00mXek75zi1JNYXV9Dm1corj2TOdVUoLEUor8AbAAHX8TwkJveOTdPA1r0oAD7QoivSu/Y+igl2XwABvAAAAAAAAAAA//2Q==" alt="image">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAsJCwUKBAQIDQUOCgwKDQcIDQ8ICwoMDwsNDgkODQkHFhwXDg4aFQ0HGCEYGhIRHx8fExcYGBgeJBweHR4BBQUFBwYHDggIDxYUERMeHh0eHh8WFRIfGB4eHR4VHhYeHhUVFhUVHRceFxUVHh8VHhIVHRUVFRUSFRUYFRUVFf/AABEIAEwAKAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAACAECBgcF/8QALxAAAQIEBAQEBgMAAAAAAAAAAQIDAAQFEQYHITFBUXG0CBI1gyUyQkNTshMUhP/EABkBAAMAAwAAAAAAAAAAAAAAAAMEBQABBv/EACMRAAICAQIHAQEAAAAAAAAAAAECAAMEETMFEiExUXGB8BP/2gAMAwEAAhEDEQA/AHLgggjJkgRVxYSFFxQCACSo6ADjcmBxYSFFagEgXKjoAOJuYWjPPNYzpekcOPkUoHyuzCTYzJ4pSR9r9um58fHa9tBDU0ta2gm7k80hUK3RpGhKSaQlb/8AJMEAmYWmVeI8hVsgG2u56bxHIfD161Q/9HavQQXOpWpwq+ITLqFbBR4jegRVxYSFFagEAXKjoAOJuYHFhIUVqAQBcqOgA4m5hbM8c1DOl2Rw6+RSgfK5MJ0MyeKUn8X7dNxUY7XNoIOmlrW0ErnjmoZ0vSOHHyKUD5XZhJsZk8UpI+1+3Tfj1otaC0dHTStS8qy3VUtY5RN34ex8aoen5+1eiIv4fR8aofv9q9ExG4nuj1JmfufJtfEbjeaDhpsvKusyRQlS3F6KmQoXASUG38Y1B11IIO2vD7Q52YWDWKuwpmoIs8LlqZSLrZXzHNJ0uOPWxCl4ww0/TH3ZarMWdGqVjVDqPpWhR3B15W2OsOcPurKcg6H91jOFYhXlHQzxIItBFGPTdeH0fGqH7/avRMT4f/WaJ7/avREQuJ7o9SRn7nyNvGazCwcxVmCzUE2eFy1MpF1sr5jmk6XHHrYjTRET1YqdR3iSsVOoiT4ww2/TH3Zaqs2dGqVj5HUfStCjuDrytsdY8eHLzCwcxV2FM1BFnhdTUykXWyvmOaTpccetiFMxhht+mPuy1WZs6NUrHyOo+laFHcHXlbY6xfxMsXDQ95axskWjQ95o8gPWaJ7/AGr0EGQHrNE9/tXoIn8T3R6iWfu/I20EEET4jIjNZhYOYq7BZqCbOi5amUi62V8xzSdLjj1sRpYI2rFTqO82rFTqIsWWGG36ZiCky1VZs6C+UrGqHUf1XvKtCjuDrytsdYIZGZprTjkm9MSyTMtKUpt0/M2VIKF2I4EKULbbchBBsi7+5DHxC3Wm0gnxP//Z" alt="image">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAQEAwUICAQICAgICAkLBwcJCA8ICAgMCAwIBxEPEQcIFhwPCBQaFQgRDiEYDh0RHx8fBwsiJCIeJBweFx4BBQUFBwYHDQgIDh4VERUVFRUWFxUdHRceHh4VHh4VFRUeFRkeHhUeHRUeFRUVHh4eFRUVHRUeHhUVFR4XFRUVFf/AABEIAEwAJwMBIgACEQEDEQH/xAAcAAABBQADAAAAAAAAAAAAAAAAAQIFBwgDBAb/xAAtEAABAwMDAgQGAwEAAAAAAAABAAIDBAURBiExB0ESIkJRMmFxkbLhQ4GxI//EABoBAAIDAQEAAAAAAAAAAAAAAAUGAAMEAgH/xAAgEQACAgICAgMAAAAAAAAAAAABAgADBBESMSEiBZHw/9oADAMBAAIRAxEAPwDZaEIUkiBNkeyONznODWgEucTgADfk8Ike2NjnOcA0AlzicAAb5yeFmjrn1WdfnzW63TltED4amoacGrI9II4Z+X05vx8dr20JdTS1raE5+sfWOqrrmKW0VDWU8DyX1ZY15qHjLPK2UENaMnfk/TkVLYSJirxq61CgfcMpj1qNa3N+AJsj2xsc5zgGgEucTgADfOTwkMsYhLi8BoGS4nAAG+cnhZt649VHX18tut05FEDioqGnBqyPSD2Z+X05XcfHa5tCBqaWtbQjeuPVR99fNbrdORRA+GoqGnBqyPSCNwz8vpzT2E7CMJjppWpeKw3VUta8RGeH5JU7CRWyyXD1p17epoxbI45Kencxrp5Ds6qDt/CHN2DRwcclpHHNRYV/6lsdFf7cYZm4I3ilA80Tj3HuNsEd1SOoLPW2S4vgnjw4bsePhkaeHB3cbf6h2BdWU4Dwf3mYcOxCvEeDI1CchEJujcITkKSTSSjNS2Oiv9udDM3BG8UoHmice49x2IPOFJoSmjFTsdxcVip2Jn/UFnrbJcXwTx4I3Y4fDI08ODu4/aj1fupbHRX+3GGZuCMmKUDzROPce47EHlUlqCz1tkuL4J48EbscPhkaeHB3cftH8XKFw0e4ZxskWjR7kclQhbJqmkEuCeynoLfTH0n7qQgtlJt5D90pRankhG8+lR+o9N0+oLcYZYiCN4pQPNE49x7jbBHdWZBbKTb/AJrv01vpR/EF0jlW2O56rFTsTGupLHcdP3R8FRCWuG7HeiRpyA5rj8Q2x/RQthaj0tp/UlNDHW2yOdsTvFFnLSwkFpw9hBx8uPKPYJEWT5JePsPMJ1568fYT/9k=" alt="image">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAUICAUGBQYGBQYIBgcFBQUFBQUFBQYFBgYHEgYFBgUHChAXBwgaCQURGBUYDhERHxMTBxcWGBYSGBASEx4BBQUFBwYHCggGDhILEQgSEhISEhISEhISEhISEh4SEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEv/AABEIAEoAJwMBIgACEQEDEQH/xAAZAAEBAQADAAAAAAAAAAAAAAAAAQIDBAb/xAAgEAEAAgEEAgMAAAAAAAAAAAAAARECAyFBcTHwUYGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEG/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/APMgNa0okzzJLg1M76WQajOZyivG+3ztO6Jo+Y94kLB2EGMpvpBnOb6ZpukpQ043j7/FXCN494CjWVpTRQM0LRQJCNCUaAAAAAAAAAAAB//Z" alt="image">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAQEDAYJBwgFBQUFBwwHBwcGBwgIBwkGEQ8SEhEPEQgTFhALBxQaFQkMGCEYDhEiEx8fEw8iJBoSJBweEx4BBQUFBwYIDggIDx4UEhQeHh4eHhQYFR4dHhUeHh4VHh4eGBUVEhUeGhUeGRoeGxwVFRIVHhUSFR4eFRISFRIWEv/AABEIACcAJwMBIgACEQEDEQH/xAAZAAEAAwEBAAAAAAAAAAAAAAAAAQYHBQL/xAAoEAABAwIDCAMBAAAAAAAAAAAAAQIDBAYRMmESEyEjQVGCsgUkNDH/xAAaAQACAgMAAAAAAAAAAAAAAAADBQIGAAEE/8QAIREAAQMDBQEBAAAAAAAAAAAAAAIDBQERQRIxM3GBIQT/2gAMAwEAAhEDEQA/AMnsv5uBqJTypHE5XKsb2ojWuVei9EUuGBj5dbRuJJdmCpdzMsUrlzaKvfXqWhDmKh42Qp8ac8LVgMD1gMAw+OLeafWqfD3aSTeifWqfD3aQBc3EMny06M3AAEQF1tG497swVLuZlilcubRV769S2mOl1tG497swVLuZlilcubRV769QqF4qWCOkb2bc8Oref5qnw92gXn+ap8PdoJL3NSfLTozUAABAAAYYd93z7qmmnp51V82Dd1JxVXNRycF14f0gAlqqdC/0rXbVg//Z" alt="image">
+<em>Mostafa et al. Eye and Vision            (2022) 9:43</em> <a href="https://doi.org/10.1186/s40662-022-00312-3">https://doi.org/10.1186/s40662-022-00312-3</a>
+RESEARCH</p>
+<h3 id="q-value-customized-versus-wavefront-optimized-ablation-in-femtosecond-laser-assisted-lasik-for-myopia-and-myopic-astigmatism-a-prospective-contralateral-comparative-study">Q-value customized versus wavefront-optimized ablation in femtosecond laser-assisted LASIK for myopia and myopic astigmatism: a prospective contralateral comparative study</h3>
+<p>Magdi Mohammad Mostafa, Hazem Abdelmotaal, Khaled Abdelazeem, Islam Goda and Mahmoud Abdel‑Radi*
+Abstract
+Background: Corneal refractive surgery for myopia results in an oblate shift with increased postoperative aberrations inversely affecting the quality of vision. Aspheric ablation profiles have been introduced to minimize such a prob‑ lem. The aim of this study was to compare changes in corneal asphericity, central and mid‑peripheral pachymetry between the Q‑value customized and the wavefront‑optimized (WFO) ablation profiles.
+Methods: A prospective, comparative non‑randomized fellow eye study was conducted. Eighty eyes of 40 eligible patients underwent femtosecond laser‑assisted laser in situ keratomileusis for myopia and myopic astigmatism. In each patient, the more myopic eye was included in the custom‑Q ablation experimental group and the other less myopic eye was included in the WFO control group. For the custom‑Q group, the target asphericity was set to the preoperative Q‑value. Corneal asphericity, central and mid‑peripheral pachymetric changes and the root mean square of corneal higher‑order aberrations (RMSh) were assessed 6 months following surgery. Visual and refractive outcomes were also evaluated in both platforms 6 months postoperatively.
+Results: The mean preoperative refractive spherical equivalent was significantly more myopic in the custom‑Q group  <em>than in the WFO group (P = 0.001). The mean Q‑value changed from − 0.2 ± 0.1 to 0.6 ± 0.7 and from − 0.2 ± 0.1 to</em> 0.4 ± 0.5 in the custom‑Q and WFO groups, respectively. The oblate shift in corneal asphericity was not significantly  <em>different between both treatment groups (P = 0.094). The mean ablation depth at the pupillary center was signifi‑ cantly greater in the custom‑Q group (P = 0.011), while there was no significant difference at the mid‑peripheral pachymetry (P = 0.256). The RMSh significantly increased in both treatment profiles (P &lt; 0.001) with no significant dif‑ ference between the two groups (P = 0.06). The uncorrected distance visual acuity (UDVA) and the manifest refraction spherical equivalents (MRSE) significantly improved in both treatment groups (P &lt; 0.001).</em>
+Conclusions: The custom‑Q treatment profile with target asphericity set at the preoperative Q‑value achieved com‑  <em>parable outcomes vs. the WFO profile in terms of postoperative corneal asphericity and mid‑peripheral pachymetry</em>
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat iveco mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Open Access
+*Correspondence:  <a href="mailto:mahmoudradi@aun.edu.eg">mahmoudradi@aun.edu.eg</a>
+Department of Ophthalmology, Assiut University Hospital, Assiut University, Sixth Floor, Assiut 71516, Egypt
+<em>Page 2 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+Background Myopia and high  myopia which are main causes of decreased unaided visual acuity are significantly increas-ing globally [1]. It is largely accepted as an epidemic and thus raises the need for measures to prevent its onset and slow down its progression as well as promoting the access to appropriate and accurate refractive correction [2–4].
+Normally, the cornea is aspheric in shape and changes in the radius of the curvature from the apex to the periphery is expressed numerically as the “Q-value”. Curvature flattening or steepening towards the corneal periphery has a negative or a positive Q-value, respec-tively. In the general population, the Q-values range from − 0.8 to + 0.4 with a mean of − 0.2 [5, 6]. The aver-age Q-value associated with the least spherical aberra-tions was found to be about − 0.27 on corneal topography and about − 0.53 on whole eye wavefront aberrometry [7–10]. A midway value of about − 0.4 was suggested based on an aspheric eye model [11].
+Unfortunately, the standard treatment of myopia with the conventional laser assisted in  situ keratomileusis (LASIK) is inevitably associated with central corneal flat-tening and change in asphericity towards the oblate shape (increase in Q-value). This oblate shift is associated with the development of higher-order aberrations (HOAs) and degradation of the quality of vision, in terms of contrast sensitivity and night vision, despite the improvement in visual acuity [12, 13]. Many algorithms were introduced to tackle this problem, the so-called “aspheric ablation profiles”, such as the wavefront-guided (WFG), wave-front-optimized (WFO) and the custom-Q factor abla-tion profiles [14].
+The WFO ablation profile was designed to pre-com-pensate for the expected amount of HOAs induced by the conventional LASIK in the average eye but with-out changing the pre-existing optical aberrations. The peripherally sloping cornea leads to obliquity of the angle of incidence of the conventional LASIK pulses, known as the cosine effect [15], which leads to a significant decrease in the efficacy of ablation and hence a decrease in the ablation depth intended in the cornea’s periph-ery. The WFO profile in myopic correction significantly increases the depth of ablation in the mid-periphery of the optical zone by up to 35% than in the classic profile. It helps preserving the normal corneal prolateness but
+doesn’t aim for adjusting the amount of corneal aspheric-ity [6, 14].
+The aspheric ablation profile of Q-adjusted treatments offers the ability to obtain a desired postoperative asphe-ricity target, through modifying the mean corneal asphe-ricity by symmetrically adjusting the number of laser pulses in the mid-periphery of the optical zone [16, 17]. However, the Q-adjusted treatments may lead to hypo- or hypercorrections derived from changes in corneal asphericity, especially with higher errors, necessitating adjustments in the refractive nomogram [18–20].
+Previous studies compared different aspheric ablation profiles with special reference to the observed changes in central pachymetry or pachy-apex using variably adjusted custom-Q ablation nomograms [21–23]. The aim of this study is to compare the Q-value customized (asphericity-guided) and WFO ablation profiles focusing on the observed changes in mid-peripheral pachymetry. We also investigated the keratorefractive outcomes of the custom-Q ablation platform utilizing the preopera-tive Q-value as the target asphericity to better compare the impact of both ablation profiles on corneal aspheric-ity as well as to decrease the need for custom-Q ablation nomograms suggested by earlier studies [19, 24].
+Patients and methods Study design and patient selection This prospective, comparative non-randomized fellow eye study was conducted at Tiba Eye Center (private prac-tice) from June 2020 to June 2021 and included 80 eyes of 40 consecutive patients. All patients were informed about the risks and benefits of the procedure and a writ-ten informed consent was obtained. The study included candidates undergoing femtosecond laser-assisted laser in situ keratomileusis (FS-LASIK) for myopic correction with or without myopic astigmatism. Our inclusion cri-teria were eyes with manifest refraction spherical equiva-lent (MRSE) up to − 12 diopters (D), corneal thickness at  $thinnest location ≥ 500 μm with the estimated postopera-$ tive residual stromal bed (RSB) of at least 60% of the thin-nest pachymetry [25].
+We excluded patients with unilateral myopia, hyperopic refractive error, mixed astigmatism, previous corneal sur-gery, ocular diseases, and those with contraindications to keratorefractive surgery such as significant dry eye,
+despite the greater amount of ablation, the smaller optical zone, and the resulting increase in postoperative corneal flattening in the custom‑Q group.
+<em>Trial registration (Clinicaltrials.gov): NCT04738903, 4 February 2021‑ Retrospectively registered, https:// clini caltr ials. gov/</em> ct2/ show/ NCT04 738903
+Keywords: Custom Q, Wavefront‑optimized, Corneal asphericity, Q‑value
+<em>Page 3 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+recurrent epithelial erosions, systemic autoimmune dis-eases and pregnant or lactating females.
+In a fellow-eye study pattern, the eye that had a greater myopic MRSE was included in the custom-Q treatment group (experimental group) while the other eye with the less myopic MRSE was included in the WFO treatment group (control group). Eyes in each group were further stratified according to the degree of myopia into mild myopia (MRSE up to − 3.00 D), moderate myopia (MRSE from − 3.00 D to − 6.00 D), and high myopia (MRSE higher than − 6.00 D).
+Preoperative assessment Preoperative assessment included a detailed history tak-ing, exclusion of contact lens use in the past two weeks and a complete ocular examination. Refractive assess-ment involves measurement of the uncorrected distance visual acuity (UDVA), manifest refraction, corrected dis-tance visual acuity (CDVA) using logarithms of minimum angle of resolution (logMAR) 4  m chart (Sussex Vision, Inc., Rustington, UK), and cycloplegic refraction. Slit-lamp biomicroscopy of anterior and posterior segment, intraocular pressure (IOP) assessment and Schirmer I test were also evaluated. Corneal tomography using the Pentacam (Oculus Pentacam HR, Oculus GmbH, Ger-many) was the standard tool for keratorefractive evalua-tion. The Pentacam capture was automatically triggered and only captures with good quality specification were used. Captures of low quality such as data gaps, blink, model or had extrapolated data to the central 8  mm were omitted. The preoperative Q-value for each eye was determined by calculating the average of three Q-value readings of three good quality captures (front surface Q-value at 6  mm). The root mean square of corneal HOAs (RMSh) was extracted from Pentacam by export- $ing data from OcuLink software to the  EX500® (Wave-$ Light, Alcon lab, TX, USA) and then obtained from the ablation profile through the Zernike icon. The mean mid-periphery pachymetry was calculated for each eye by dividing the sum of 8 pachymetry points at the 4–6 mm zone in the pachymetry map by their numbers. One oph-thalmologist (MM) performed all the preoperative clini-cal and investigatory assessments.
+Surgical technique  $In both treatment groups, data entry in the EX500® treat-$ ment planning section included the patient’s refraction, K readings, thinnest pachymetry and optical zone diameter. In addition, the custom-Q profile data involved entry of Q1 and Q2 values (Q-values at the horizontal and verti-cal meridians in the topometric map of the corneal front at 6 mm, the average of both values is the front surface
+Q-value at 6 mm). The target postoperative Q-value was set the same value of the preoperative Q-value.
+The target postoperative refraction was set to emme-tropia. The only exception for intentional refractive undercorrection was if the assumed RSB was out of the safe thickness limits even with decreasing the optical zone to 6 mm. The Wellington nomogram was the nomo-gram of choice implemented for both groups as recom-mended by the manufacturer regardless of the degree of myopia or optical zone diameter.
+All patients underwent corneal flap creation using  $the femtosecond laser WaveLight  FS200® (Alcon lab,$ TX, USA). The FS200 used a 200  kHz repetition rate, 1030  nm wavelength, a 6  µm spot size and laser pulse energy set at 0.8 µJ. The flap diameter was planned to be 9  mm in diameter with a superior hinge and a side cut angle of 90° in all eyes, while flap thickness ranged from 90 to 130   $μm according to the patient’s keratorefrac-$ tive profile and the surgeon’s preference. Excimer laser for myopia and/or myopic astigmatism correction was  $then performed using WaveLight  EX500®. Postoperative$ treatment included a combination of Dexamethasone 0.1% and Tobramycin 0.3% eye drops four times daily for one  week (TobraDex, Alcon) and topical lubricant eye drops containing Propylene Glycol 0.3% and Polyethylene Glycol-400 0.4% four times daily for 3  months (Systane Ultra, Alcon). One surgeon (MA) performed all FS-LASIK surgeries.
+Postoperative follow‑up Follow-up visits were scheduled at the first postopera-tive day, 2 weeks, 1 month, and 6 months postoperatively. Masking of the outcome assessor was applied at each fol-low-up visit. One of the authors (who was not involved in the non-random contralateral eye selection, preopera-tive assessment, and surgical intervention) performed the postoperative clinical and investigatory assessment using the same preoperative tools being masked from know-ing the aspheric ablation platform used. At each visit, slit-lamp examination, UDVA, CDVA, residual refrac-tive error with calculation of postoperative MRSE were documented. Pentacam was scheduled 6  months fol-lowing surgery to assess postoperative topography, front surface Q-value at 6 mm, RMSh, K readings, central and mid-peripheral pachymetry. The actual depth of stromal tissue ablated was calculated by subtracting the postop-erative pachymetry value from the preoperative pachym-etry value.
+Statistical analyses Statistical analyses were performed using the Statisti-cal Package for Social Science software for Windows version 20.0 (Armonk, NY: IBM Corp, Inc, USA). The
+<em>Page 4 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+normal distribution of data was tested using the Sha-piro-Wilk’s test. Descriptive statistics were evaluated to compare patients’ characteristics between groups. Independent samples t-test or the Mann-Whitney U test was used to compare the differences between the two treatment groups when the data were normally or non-normally distributed, respectively. On the other hand, the paired samples t-test or the Wilcoxon signed-rank test was used to compare the preopera-tive and postoperative values within each treatment group when the data were normally or non-normally distributed, respectively. Spearman’s rank-order cor-relation coefficient was used to measure the strength  <em>and direction of association between variables. P</em> values less than 0.05 were considered statistically significant.
+The sample size was calculated using G power  soft-ware  v.3.1.3 utilizing t-test for comparison of differ-ences between two means assuming effect size of 0.28. Alpha error probability was set at 0.05 and power of 0.8 was used.
+Results This contralateral eye study comprised 80 eyes of 40 patients, 16 males (40%) and 24 females (60%), with a mean age of 28.12 ± 7.55 years (range, 20 to 47 years). All patients completed their 6-month follow-up schedule.
+Preoperative data The preoperative values of the spherical error and MRSE were significantly higher in the custom-Q group than the WFO group, while the UDVA and CDVA were sig-nificantly lower. Other parameters showed no signifi-cant preoperative differences between the two treatment groups (Table  1). On further analysis of the refractive error into mild, moderate, and high myopia, there were significantly more myopic spherical errors and MRSEs  <em>(P = 0.014 and P = 0.019, respectively) in the custom-Q</em> than the WFO group in the high myopia subgroup, but non-significant differences were observed in the mild and moderate myopia subgroups.
+Visual outcome The UDVA significantly improved, while the CDVA showed non-significant change in each of the treatment groups even through myopia subgrouping. However, both the UDVA and CDVA were significantly better in the WFO than in the custom-Q group in preoperative and postoperative follow-up (Table 2). In each of myopia subgroup, there were non-significant differences between the two treatment groups in UDVA and CDVA regard-ing the preoperative, postoperative and the amount of change.
+Seven eyes in the custom-Q group (17.5%) achieved 20/20 UDVA (Fig.  1a); Four eyes in the mild myopia (66.7%) and three eyes in the moderate myopia sub-group (33.3%). For the WFO group, 11 eyes (27.5%)
+Table 1 Preoperative data of both treatment groups
+<em>SE = standard error of the mean; CI = confidence interval; LB = lower bound; UB = upper bound; UDVA = uncorrected distance visual acuity; CDVA = corrected distance visual acuity; logMAR = logarithms of minimum angle of resolution; MRSE = manifest refraction spherical equivalent; D = diopter; K1 = flat keratometry; K2 = steep keratometry; Km = mean keratometry; Pachy. = pachymetry; WFO = wavefront-optimized. P values in bold indicate statistical significance</em>
+Parameter Ablation profile groups Mean ± SE 95% CI (LB, UB)
+<em>P value</em>
+Custom‑Q profile (n = 40) WFO profile (n = 40)
+UDVA (logMAR) 1.30 ± 0.03 (1.23, 1.36) 1.10 ± 0.05 (1.00, 1.20) 0.009 CDVA (logMAR) 0.28 ± 0.03 (0.22, 0.35) 0.17 ± 0.03 (0.10, 0.20) 0.010 Sphere (D) − 6.20 ± 0.48 (− 7.15, − 5.23) − 4.10 ± 0.40 (− 4.90, − 3.30) 0.001 Cylinder (D) − 1.70 ± 0.20 (− 2.10, − 1.30) − 1.50 ± 0.20 (− 1.90, − 1.10) 0.489
+MRSE (D) − 7.00 ± 0.48 (− 8.00, − 6.10) − 4.90 ± 0.40 (− 5.70, − 4.0) 0.001 K1 (D) 43.30 ± 0.24 (42.80, 43.80) 43.30 ± 0.30 (42.80, 43.90) 0.967
+K2 (D) 44.80 ± 0.24 (44.30, 45.30) 44.60 ± 0.30 (44.10, 45.20) 0.582
+Km (D) 44.00 ± 0.24 (43.60, 44.50) 44.00 ± 0.30 (43.50, 44.50) 0.852
+Q value − 0.20 ± 0.02 (− 0.25, − 0.17) − 0.20 ± 0.02 (− 0.25, − 0.16) 0.712
+$Pachy. pupil center (μm)$ 539.00 ± 4.50 (530, 548) 539.00 ± 4.50 (530, 548) 0.973
+$Mid‑peripheral Pachy. (μm)$ 572. 00 ± 4.80 (562, 582) 574.00 ± 4.70 (564, 583) 0.744
+<em>Degree of myopia, eyes n (%)</em>
+$Mild (≤ − 3.00 D)$  Moderate (− 3.00 to − 6.00 D)  $High (≥ − 6.00 D)$
+6 (15.0%) 9 (22.5%) 25 (62.5%)
+12 (30.0%) 15 (37.5%) 13 (32.5%)
+<em>Page 5 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+achieved 20/20 UDVA (Fig. 2a); Seven eyes in the mild myopia (58.3%) and four eyes in the moderate myopia subgroup (26.7%). None of the eyes achieved 20/20 in high myopia in either group. Collectively, for myopia up to − 6.00 D, 46.7% of custom-Q group and 40.7% of the WFO group achieved 20/20.
+In the custom-Q group, one eye (2.5%) gained two lines and two eyes (5%) lost one line in the CDVA logMAR (in the high myopia subgroup), while 37 eyes (92.5%) had their preoperative CDVA preserved (Fig. 1b). The two eyes in the custom-Q group were in the high myopia subgroup and were treated using an optical zone of 6  mm; they had an oblate shift of 1.00 and 1.36, and an increase in the RMSh by 0.71 and 1.44 µm. In the WFO group, three eyes (7.5%) lost one line (two in the high myopia and one in the moderate myopia subgroup) while 37 eyes (92.5%) had their pre-operative CDVA preserved (Fig.  2b). Two of the three eyes that lost one line in the WFO group were in the high myopia subgroup and were treated using an opti-cal zone of 6 mm. They had an oblate shift of 1.12 and 0.30, and an increase in the RMSh by 0.93 and 0.42 µm,
+while the third eye had an oblate shift of 0.98 and an increase in the RMSh by 0.17 µm.
+Seventeen eyes in the custom-Q group (42.5%) had ani- $sometropia of ≥ 3.00 D (15 eyes in the high myopia sub-$ group and two eyes in the moderate myopia subgroup). The magnitude of anisometropia ranged from − 3.00 to − 6.25 D (mean ± SE: − 4.1 ± 0.3  D; 95% CI: − 3.50 to − 4.70 D). Out of these 17 eyes, there were 12 eyes (30% of the custom-Q group, 11 eyes in the high myopia subgroup and one eye in the moderate myopia subgroup) with suggested amblyopia as their preoperative CDVA  $were ≤ 20/32 (≥ 0.2 logMAR). They were worse than$ contralateral eyes of the WFO group by at least two lines  $with anisometropia of ≥ 3.00 D. The depth of amblyopia$ ranged from 0.2 to 0.5 logMAR lines, and it was two lines in five eyes, three lines in two eyes, four lines in four eyes and five lines in one eye. There was a weak and non-sig-nificant correlation between the magnitudes of anisome-tropia and the depths of amblyopia (Spearman coefficient  <em>r = 0.22, P = 0.499).</em>
+Spearman’s rank-order correlation was used to deter-mine the relationship between the inter-ocular difference
+Table 2 Visual and refractive outcomes in both treatment groups
+<em>UDVA = uncorrected distance visual acuity; CDVA = corrected distance visual acuity; logMAR = logarithms of minimum angle of resolution; MRSE = manifest refraction spherical equivalent; WFO = wavefront-optimized. P values in bold indicate statistical significance a P value of change between pre- and postoperative values (intra-group) b P value of difference between custom-Q and WFO groups (inter-group)</em>
+Parameter Ablation profile groups Mean ± SE 95% CI (LB, UB)
+<em>P value b</em>
+Custom‑Q profile (n = 40) WFO profile (n = 40)
+UDVA (logMAR) Preoperative 1.30 ± 0.03 (1.23, 1.36) 1.10 ± 0.05 (1.00, 1.20) 0.009 Postoperative 0.40 ± 0.04 (0.28, 0.46) 0.20 ± 0.04 (0.14, 0.30) 0.007 Difference 0.90 ± 0.04 (0.86, 1.00) 0.90 ± 0.04 (0.84, 1.00) 0.819
+<em>P  valuea</em> &lt; 0.001 &lt; 0.001 CDVA (logMAR) Preoperative 0.28 ± 0.03 (0.22, 0.35) 0.17 ± 0.03 (0.10, 0.20) 0.010
+Postoperative 0.28 ± 0.03 (0.22, 0.35) 0.18 ± 0.03 (0.10, 0.20) 0.014 Difference 0.000 ± 0.006 (− 0.010, 0.010)  − 0.008 ± 0.004 (− 0.020, 0.001) 0.417
+<em>P  valuea</em> 1.000 0.083
+Optical zone 6.20 ± 0.04 (6.16, 6.32) 6.40 ± 0.03 (6.32, 6.46) 0.006 Sphere (D) Preoperative  − 6.20 ± 0.48 (− 7.15, − 5.23)  − 4.10 ± 0.40 (− 4.90, − 3.30) 0.001
+Postoperative  − 0.50 ± 0.09 (− 0.60, − 0.30)  − 0.10 ± 0.05 (− 0.20, 0.01) 0.001 Difference 5.70 ± 0.40 (4.90, 6.60) 4.00 ± 0.40 (3.20, 4.80) 0.003  <em>P  valuea</em> &lt; 0.001 &lt; 0.001
+Cylinder (D) Preoperative  − 1.70 ± 0.20 (− 2.10, − 1.30)  − 1.50 ± 0.20 (− 1.90, − 1.10) 0.489
+Postoperative  − 0.30 ± 0.07 (− 0.45, − 0.18)  − 0.20 ± 0.05 (− 0.30, − 0.10) 0.274
+Difference 1.40 ± 0.19 (0.98, 1.70) 1.30 ± 0.17 (0.90, 1.60) 0.892
+<em>P  valuea</em> &lt; 0.001 &lt; 0.001 MRSE (D) Preoperative  − 7.00 ± 0.48 (− 8.00, − 6.10)  − 4.90 ± 0.40 (− 5.70, − 4.00) 0.001
+Postoperative  − 0.60 ± 0.10 (− 0.80, − 0.40)  − 0.20 ± 0.06 (− 0.32, − 0.08) 0.001 Difference 6.40 ± 0.40 (5.60, 7.20) 4.70 ± 0.40 (3.90, 5.40) 0.002  <em>P  valuea</em> &lt; 0.001 &lt; 0.001
+<em>Page 6 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+in MRSE (magnitude of anisometropia) and the differ-ence in preoperative CDVA, which showed a strong posi- <em>tive correlation (r = 0.838, P &lt; 0.001).</em>
+<em>Refractive outcome and optical zone</em> Significant improvement of spherical and cylindrical errors and MRSE was noted in both treatment groups, but a significantly smaller optical zone had to be used in the custom-Q group (Table  2). The preoperative and postoperative MRSE were significantly more myopic, and
+the amount of error corrected was significantly greater in the custom-Q group (Table 2).
+In the mild and moderate myopia subgroups, there was no significant difference in preoperative, postoperative or the amount of error corrected, between the custom-Q and the WFO groups. In the high myopia subgroup, the MRSE was significantly more myopic in the custom- <em>Q group, both in the preoperative visit (P = 0.019) and postoperative visit (P = 0.009), while the amount of error</em> corrected was not significantly different between the two  <em>treatment groups (P = 0.065).</em>
+a b
+c d
+0.0%
+17.5%
+25%
+37.5%
+47.5%
+65%
+82.5%
+100%
+30%
+45%
+65%
+80%
+90%
+100%
+0%
+20%
+40%
+60%
+80%
+100%
+20/16 20/20 20/25 20/32 20/40 20/50 20/63 20/100 20/200
+Cu m
+ul a
+ve  P
+er ce
+nt ag
+e of
+E ye
+s
+Cumulave Snellen VA (20/x or beer)
+40 eyes (Custom-Q) 6 months postop
+Postop UDVA
+Preop CDVA
+0% 0% 5%
+92.5%
+0% 2.5% 0% 0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Loss 3 or more
+Loss 2 Loss 1 No Change Gain 1 Gain 2 Gain 3 or more
+Pe rc
+en ta
+ge  o
+f E ye
+s
+Change in Snellen Lines of CDVA
+40 eyes 6 months  postop
+0%
+10%
+35%
+27.5%
+22.5%
+2.5% 2.5%
+0%
+10%
+20%
+30%
+40%
+&lt; −1.50 −1.50  to −1.01
+−1.00  to −0.51
+−0.50  to −0.14
+−0.13  to  +0.13
++0.14  to +0.50
++0.51  to +1.00
+Pe rc
+en ta
+ge  o
+fE ye
+s
+Accuracy of MRSE to Intended Target (D)
+40 eyes 6 months postop
+50%
+32.5%
+2.5%
+12.5%
+0% 2.5%
+0% 0% 0%
+10% 10%
+0%
+30%
+5%
+22.5%
+12.5% 10%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+$≤  0.25$ 0.26  to 0.50
+0.51  to 0.75
+0.76  to 1.00
+1.01  to 1.25
+1.26  to 1.50
+1.51 to 2.00
+2.01 to 3.00</p>
+<blockquote>
+<p>3.00
+Pe rc
+en ta
+ge  o
+fE ye
+s
+Refracve Asgmasm (D)
+40 eyes 6 months postop
+Postop
+Preop
+± 0.50 D: 52.5% ± 1.00 D: 90%
+2 or more lines lost 0 %
+Fig. 1 Visual and refractive outcomes in the custom‑Q group 6 months postoperatively. a Cumulative postoperative Snellen UDVA as compared to the cumulative preoperative Snellen CDVA. b Difference between preoperative and postoperative CDVA in terms of lost or gained lines. c Proximity of the achieved to the intended spherical equivalent. d Preoperative and postoperative refractive cylinder. CDVA, corrected distance visual acuity; UDVA, uncorrected distance visual acuity
+<em>Page 7 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+In all eyes of the mild and moderate myopia subgroups, the optical zone was 6.5  mm. In the high myopia sub-group, the optical zone had to be decreased to 6 mm in 21 out of 25 eyes (84%) in the custom-Q group and in 9 out of 13 eyes (69%) in the WFO group. Even while decreasing the optical zone to 6 mm, six eyes in the high myopia subgroup of the custom-Q treatment group had to be undercorrected with intended postoperative MRSE of − 0.50 to − 0.75 D.
+Fifteen eyes (37.5%) in the custom-Q group and 28 eyes (70%) in the WFO group were within 0.25 D of the intended target MRSE, and 21 eyes (52.5%) in the
+custom-Q group (Fig.  1c) and 35 eyes (87.5%) in the WFO group (Fig. 2) were within 0.50 D of the intended target MRSE. On analyzing the mild and moderate myopia subgroups together, 12 eyes (80%) in the cus-tom-Q and 22 eyes (81.5%) in the WFO group were within 0.25 D of the intended target MRSE. In addition, 14 eyes (93.3%) in the custom-Q and 27 eyes (100%) in the WFO group were within 0.50 D of the intended tar-get MRSE.
+The cylindrical error showed statistically significant postoperative improvement in each treatment group, but non-significant difference was noted between the
+a b
+c d
+0.0%
+27.5%
+50%
+62.5%
+82.5%
+92.5%
+30%
+55%
+70.0%
+90% 95% 95%
+100%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+20/16 20/20 20/25 20/32 20/40 20/50 20/63 20/100 20/200
+Cu m
+ul a
+ve  P
+er ce
+nt ag
+e of
+E ye
+s
+Cumulave Snellen VA (20/x or beer)
+40 eyes (WFO group) 6 months postop
+Postop UDVA Preop CDVA
+0% 0%
+7.5%
+92.5%
+0% 0% 0% 0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Loss 3 or more
+Loss 2 Loss 1 No Change Gain 1 Gain 2 Gain 3 or more
+%  O
+f E ye
+s
+Change in Snellen Lines of CDVA
+40 eyes 6 months postop
+0% 0%
+12.5%
+30%
+52.5%
+5%
+0% 0%
+10%
+20%
+30%
+40%
+50%
+60%
+&lt;−1.50 −1.50  to −1.01
+−1.00  to −0.51
+−0.50  to −0.14
+−0.13  to +0.13
++0.14  to +0.50
++0.51  to +1.00
+Pe rc
+en ta
+ge  o
+f E ye
+s
+Accuracy of MRSE to Intended Target (D)
+40 eyes 6 months postop 62.5%
+32.5%
+5%
+0% 0% 0% 0% 0%
+17.5%
+7.5%
+0%
+30%
+7.5%
+17.5%
+12.5%
+7.5%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+$≤  0.25$ 0.26  to 0.50
+0.51  to 0.75
+0.76  to 1.00
+1.01  to 1.25
+1.26  to 1.50
+1.51 to 2.00
+2.01 to 3.00
+3.00
+Pe rc
+en ta
+ge  o
+fE ye
+s
+Refracve Asgmasm (D)
+40 eyes 6 months postop
+Postop
+Preop
+2 or more lines lost 0 %
+± 0.50 D: 87.5% ± 1.00 D: 100%
+Fig. 2 Visual and refractive outcomes in the wavefront‑optimized group 6 months postoperatively. a Cumulative postoperative Snellen UDVA as compared to the cumulative preoperative Snellen CDVA. b Difference between preoperative and postoperative CDVA in terms of lost or gained lines. c Proximity of the achieved to the intended spherical equivalent. d Preoperative and postoperative refractive cylinder. CDVA, corrected distance visual acuity; UDVA, uncorrected distance visual acuity
+<em>Page 8 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+two groups in preoperative, postoperative and the amount of error corrected (Table 2, Figs. 1d and 2d).
+<em>Pachymetry change at pupillary center and mid‑periphery</em> No significant difference between the two treatment groups was noted in the mean mid-peripheral pachyme-try, while pachymetry at the pupillary center showed sig-nificantly thinner postoperative values in the custom-Q than WFO group (Table 3).
+The mean mid-peripheral pachymetry showed non-sig-nificant differences between custom-Q and WFO groups in all myopia subgroups for the preoperative, postopera- <em>tive and amount of change. In mild myopia, the P values</em> were 0.454, 0.888 and 0.512, respectively. In moderate  <em>myopia, the P values were 0.788, 0.270 and 0.152, respec-tively. In high myopia, the P values were 0.866, 0.723 and</em> 0.890, respectively.
+In the mild myopia subgroup, the mean postopera-tive mid-peripheral ablation depth was non-significantly greater in the custom-Q (23.8 ± 5.7) than the WFO group (18.5 ± 1.7). In the moderate and high myopia sub-groups, the mean postoperative mid-peripheral ablation depth was non-significantly greater in the WFO group, 38.0 ± 5.8 for the custom-Q group and 51.5 ± 6.4 for the WFO group in the moderate myopia subgroup and 65.8 ± 3.1 for the custom-Q group and 67.7 ± 6.0 for the WFO group in the high myopia subgroup.
+<em>Keratometry readings</em> Both the custom-Q and the WFO ablation profiles led to a statistically significant flattening-effect on  K1,  K2  <em>and  Km (P &lt; 0.001 for each). The preoperative  K1,  K2 and</em>  Km readings were non-significantly different in the two
+treatment groups, but the postoperative readings showed a statistically significantly greater flattening in the cus-tom-Q treatment group (Table 4).
+<em>Corneal asphericity</em> The Q-value showed a statistically significant oblate shift  <em>(P &lt; 0.001) in each treatment group with non-significant</em> difference between the mean postoperative Q-values of  <em>both groups (P = 0.089; Table 4, Fig. 3).</em>
+In the mild, moderate, and high myopia subgroups, both treatment profiles led to a statistically significant  <em>postoperative oblate shift, a P value of 0.027, 0.018 and</em> less than 0.001, respectively in the custom-Q group, and  <em>a P value of 0.002, 0.001 and 0.002, respectively in the</em> WFO group. However, on comparing both treatment profiles in each myopia subgroup, there were non-signif-icant differences in preoperative, postoperative Q-value  <em>or the amount of oblate shift in mild myopia (P = 0.963,</em> 0.925 and 0.605, respectively), in moderate myopia  <em>(P = 0.928, 0.233 and 0.270, respectively) and in the high myopia subgroup (P = 0.295, 0.415 and 0.242, respec-</em> tively). The mean change in postoperative corneal asphe- <em>ricity showed statistically non-significant (P = 0.094)</em> greater oblate shift in the custom-Q group (0.8 ± 0.1) than the WFO group (0.60 ± 0.08). On subgroup analy-sis, both treatment profiles had similar amounts of oblate shift in the mild myopia subgroup (0.20 ± 0.05 for the  <em>custom-Q and 0.20 ± 0.04 for the WFO group, P = 0.6).</em> In the moderate myopia subgroup, the mean oblate shift was non-significantly greater in the WFO group than the custom-Q group (0.5 ± 0.1 and 0.3 ± 0.1, respectively,  <em>P = 0.27). In the high myopia group, the mean oblate</em> shift was non-significantly greater in the custom-Q group
+Table 3 Pachymetry changes in both treatment groups
+<em>Pachy. = pachymetry; WFO = wavefront-optimized. P values in bold indicate statistical significance a P value of change between pre- and postoperative values (intra-group) b P value of difference between custom-Q and WFO groups (inter-group)</em>
+Parameter Ablation profile groups Mean ± SE 95% CI (LB, UB)
+<em>P value b</em>
+Custom‑Q profile (n = 40) WFO profile (n = 40)
+$Pachy. pupil center (μm)$
+Preoperative 539.00 ± 4.50 (530, 548) 539.00 ± 4.50 (530, 548) 0.973
+Postoperative 449.00 ± 7.80 (433, 464.90) 470.00 ± 7.30 (455, 485) 0.044  Difference 90.00 ± 6.40 (77, 102.90) 69.00 ± 6.20 (57, 82) 0.011  <em>P  valuea</em> &lt; 0.001 &lt; 0.001
+$Mid‑peripheral Pachy. (μm)$
+Preoperative 572.00 ± 4.80 (562, 582) 574.00 ± 4.70 (564, 583) 0.744
+Postoperative 519.00 ± 6.00 (506.70, 530.90) 527.00 ± 6.10 (514.40, 539.00) 0.397
+Difference 53.00 ± 3.60 (45.90, 60.60) 46.9.00 ± 4.40 (38.00, 55.70) 0.256
+<em>P value a</em> &lt; 0.001 &lt; 0.001
+<em>Page 9 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+than the WFO group (1.2 ± 0.1 and 1.0 ± 0.2, respectively,  <em>P = 0.24).</em>
+<em>Root mean square of corneal HOAs (RMSh) at 6 mm zone</em> There was a statistically significant increase in the post- <em>operative RMSh in both treatment groups (P &lt; 0.001,</em> Table  4). There was no significant difference between the two treatment groups regarding the preoperative  <em>(P = 0.658), postoperative (P = 0.133) and the amount of increase in the RMSh (P = 0.06).</em>
+The amount of increase in the RMSh, although non-significant, was greater in the custom-Q group than the WFO group (0.50 ± 0.06 and 0.31 ± 0.04   $μm,$  <em>respectively, P = 0.06). In the mild myopia subgroup,</em> we found a non-significant greater increase in RMSh in the WFO than the custom-Q group (0.16 ± 0.02 and 0.10 ± 0.01   <em>$μm, respectively, P = 0.08). The RMSh</em>$ also showed a non-significant greater increase in the WFO group than the custom-Q group (0.29 ± 0.06 and 0.17 ± 0.08   <em>$μm, respectively, P = 0.055) in the moder-</em>$ ate myopia subgroup. In the high myopia subgroup, the custom-Q group had a non-significantly greater increase
+than the WFO group (0.73 ± 0.06 and 0.50 ± 0.10   $μm,$  <em>respectively, P = 0.069).</em>
+<em>Subgroup analysis excluding eyes with amblyopia</em> A subgroup analysis was conducted and involved only eyes without amblyopia, where both treatment groups were compared. The results showed no significant dif-ference in preoperative, postoperative and the amount of change in the UDVA, CDVA, optical zone, MRSE, pachymetry at pupillary center, mid-peripheral pachyme-try, keratometry readings, corneal asphericity and RMSh. For corneal asphericity, the amount of oblate shift was almost equal in both groups as it was 0.6 ± 0.1 in the cus- <em>tom-Q and 0.60 ± 0.08 in WFO group with P = 0.901.</em>
+<em>Correlations</em> A Spearman’s rank-order correlation was performed to assess the relationship between the preoperative MRSE and the postoperative Q-value in both custom-Q and WFO treatment groups. A strong, negative, statistically significant correlation in both treatment groups was found
+Table 4 Keratometry, Q‑value and root mean square changes in both treatment groups
+<em>K1 = flat keratometry; K2 = steep keratometry; Km = mean keratometry; RMSh = root mean square of corneal higher-order aberrations; WFO = wavefront-optimized. P</em> values in bold indicate statistical significance  <em>a P value of change between pre- and postoperative values (intra-group) b P value of difference between custom-Q and WFO groups (inter-group)</em>
+Parameter Ablation profile groups Mean ± SE 95% CI (LB, UB)
+<em>P  valueb</em>
+Custom‑Q profile (n = 40) WFO profile (n = 40)
+K1 (D) Preop 43.30 ± 0.24 (42.80, 43.80) 43.30 ± 0.30 (42.80, 43.90) 0.967
+Postop 39.00 ± 0.44 (37.80, 39.60) 40.20 ± 0.40 (39.40, 40.90) 0.014 Difference 4.60 ± 0.40 (3.80, 5.40) 3.20 ± 0.40 (2.40, 3.90) 0.007  <em>P  valuea</em> &lt; 0.001 &lt; 0.001
+K2 (D) Preop 44.80 ± 0.24 (44.30, 45.30) 44.60 ± 0.30 (44.10, 45.20) 0.582
+Postop 39.20 ± 0.40 (38.40, 40.10) 40.60 ± 0.40 (39.80, 41.30) 0.026 Difference 5.60 ± 0.40 (4.80, 6.40) 4.10 ± 0.40 (3.30, 4.80) 0.003  <em>P value a</em> &lt; 0.001 &lt; 0.001
+Km (D) Preop 44.00 ± 0.24 (43.60, 44.50) 44.00 ± 0.30 (43.50, 44.50) 0.852
+Postop 39.00 ± 0.44 (38.00, 39.80) 40.40 ± 0.40 (39.60, 41.10) 0.014 Difference 5.10 ± 0.40 (4.40, 5.90) 3.60 ± 0.40 (2.90, 4.40) 0.003  <em>P  valuea</em> &lt; 0.001 &lt; 0.001
+Q‑value Preop − 0.20 ± 0.02 (− 0.25, − 0.17) − 0.20 ± 0.02 (− 0.25, − 0.16) 0.712
+Postop 0.60 ± 0.11 (0.41, 0.84) 0.40 ± 0.08 (0.19, 0.53) 0.089
+Difference 0.80 ± 0.10 (0.63, 1.05) 0.60 ± 0.08 (0.40, 0.73) 0.094
+<em>P  valuea</em>  &lt; 0.001  &lt; 0.001  $RMSh (μm)$ Preop 0.50 ± 0.03 (0.44, 0.55) 0.52 ± 0.04 (0.45, 0.60) 0.658
+Postop 1.00 ± 0.07 (0.86, 1.10) 0.83 ± 0.04 (0.74, 0.92) 0.133
+Difference 0.50 ± 0.06 (0.38, 0.63) 0.31 ± 0.04 (0.22, 0.40) 0.060
+<em>P  valuea</em> &lt; 0.001 &lt; 0.001
+<em>Page 10 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+<em>(r = − 0.74, r = − 0.6, respectively, P &lt; 0.001). The same</em> correlation was also noticed between the preoperative MRSE and the depth of ablation at the pupillary center and the mid-periphery in both treatment groups (r = − 0.8,  <em>P &lt; 0.001). The amount of increase of RMSh showed a</em> strong, negative, statistically significant correlation to the preoperative MRSE in the custom-Q group (r = − 0.87,  <em>P &lt; 0.001), and in the WFO group (r = − 0.6, P &lt; 0.001).</em> Likewise, the optical zone showed a strong, negative, sta-tistically significant correlation to the amount of increase  <em>in RMSh in the custom-Q group (r = − 0.74, P &lt; 0.001),</em> but there was a weak, negative, statistically significant cor-relation to RMSh change in the WFO group (r = − 0.3,  <em>P = 0.036).</em>
+Discussion Both custom-Q and WFO aspheric treatment platforms work through modifying the ablation profile at the mid-periphery of the optical zone from that of the con-ventional profile. Increasing the ablation depth at the mid-periphery to preserve prolateness is a strategy of the WFO profile while symmetrical adjustment of this increase in mid-periphery ablation is the strategy of the custom-Q profile [16, 17].
+We compared the effect of each treatment profile on the mean mid-peripheral ablation depth and corneal asphericity when the target Q-value was set to the pre-operative value in the custom-Q group. We found no significant difference between the custom-Q and the
+ba
+c d
+27.5%
+12.5%
+5%
+10%
+45%
+32.5%
+25%
+12.5%
+15% 15%
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+&lt;0.25 0.25  to  0.49 0.50  to  0.74 0.75  to  0.99  $≥1.00$
+Pe rc
+en ta
+ge  o
+f E ye
+s
+Proximity to Preopera
+ve Q-value
+All MRSE subgroups
+Custom-Q WFO
+50% 50%
+0% 0% 0%
+58.3%
+41.7%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+&lt;0.25 0.25  to  0.49 0.50  to  0.74 0.75  to  0.99  $≥1.00$
+Pe rc
+en ta
+ge  o
+f Ey
+es
+Proximity to Preopera
+ve Q-value
+Low Myopia Subgroup
+Custom-Q
+WFO
+55.6%
+11.1%
+22.2%
+0%
+11.1%
+33.3%
+20%
+26.7%
+20%
+0% 0%
+10%
+20%
+30%
+40%
+50%
+60%
+&lt;0.25 0.25  to  0.49 0.50  to  0.74 0.75  to  0.99  $≥1.00$
+Pe rc
+en ta
+ge  o
+f Ey
+es
+Proximity to Preopera
+ve Q-value
+Moderate Myopia Subgroup
+Custom-Q
+WFO
+12%
+4%
+0%
+16%
+68%
+7.7%
+15.4%
+7.7%
+23%
+46.2%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+&lt;0.25 0.25  to  0.49 0.50  to  0.74 0.75  to  0.99  $≥1.00$
+Pe rc
+en ta
+ge  o
+f Ey
+es
+Proximity to Preopera
+ve Q-value
+High Myopia Subgroup
+Custom-Q
+WFO
+Custom-Q WFO Proximity within 0.25: 27.5% 32.5% Proximity within 0.50:   40% 57.5%
+Custom-Q WFO Proximity within 0.25: 50% 58.3 % Proximity within 0.50:   100% 100 %
+Custom-Q WFO Proximity within 0.25: 55.6% 33.3 % Proximity within 0.50:   66.7% 53.3 %
+Custom-Q WFO Proximity within 0.25: 12 % 7.7 % Proximity within 0.50:   16 % 23.1 %
+Fig. 3 Proximity of the achieved to the preoperative Q‑value in both treatment groups (taking the preoperative Q‑value as the target asphericity for the custom‑Q group). a All manifest refractive spherical equivalent (MRSE) subgroups; b Low myopia subgroup; c Moderate myopia subgroup; d High myopia subgroup
+<em>Page 11 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+WFO treatment profiles in their effect on the mean mid-peripheral depth of ablation or corneal asphericity despite the greater amount of correction and the con-sequent greater flattening in the custom-Q group even when further studied in each myopia subgroup.
+Unlike other studies [26, 27] that reported non-sig-nificant preoperative differences between the custom-Q and WFO groups, our study included eyes that were significantly more myopic with significantly lower vis-ual acuities and detected amblyopia in 30% of eyes in the custom-Q group. Despite the significantly greater amount of correction in the custom-Q group, the post-operative MRSE remained significantly more myopic than in the WFO group, which can be partly explained by aiming for undercorrection in 15% of eyes in the custom-Q group. However, these significant differences were present only in the high myopia subgroup while there were no significant differences in mild and mod-erate myopia subgroups between the custom-Q and WFO eyes which was consistent with previous studies that included the same range of spherical equivalent [16, 26, 27].
+Pachymetry at the pupillary center following surgery was significantly thinner in the custom-Q group than the WFO group. This was consistent with the significantly greater amount of myopic correction in the custom-Q group. Moreover, a significantly smaller optical zone had to be used to achieve such greater myopic correc-tion in the custom-Q group without jeopardizing the safe RSB thickness. Previous reports did not report such differences between the two treatment groups [16, 26, 27]. Unlike the tendency of the central ablation towards a greater depth in custom-Q group, the mid-peripheral pachymetry ablation depth showed non-significant dif-ferences between the two treatment groups even with myopic subgroup stratification.
+The flattening effect of myopic correction on kerato-metry readings was statistically significant in both treat-ment groups which is expected in any myopia correction protocol [17]. However, a significantly greater flattening effect in the custom-Q group was noted. This is consist-ent with the greater myopic correction in the custom-Q group and supported by previous reports that found a linear positive correlation between the degree of central flattening and the depth of ablation [17, 28].
+In the current study, the target asphericity was set the same as the preoperative Q-value for eyes in the custom-Q group to compare the impact of both ablation profiles on corneal asphericity impartially. A statistically signifi-cant postoperative oblate shift was observed in all eyes in both treatment groups as demonstrated by prior stud-ies [26–28] while there was no significant difference in
+the degree of oblate shift between the two groups. Our results showed a non-significantly higher postoperative oblate shift in the custom-Q group compared with the WFO group that can be explained by the greater refrac-tive correction in addition to the significantly smaller optical zone in the custom-Q group. Smaller optical zones are associated with tendency towards a more oblate shift as suggested by Hou et al. [29]. On further subgroup analysis, a non-significant greater oblate shift was noted in the WFO group in the moderate myopia subgroup which is consistent with previous reports that dealt with a similar range of refractive error [16, 26]. On the other hand, a non-significant greater oblate shift was noted in the custom-Q group in the high myopia subgroup. Oth-ers reported that setting the target asphericity towards a more prolate target (around − 0.4) achieved a marginally significant lesser oblate shift in custom-Q group when compared with WFO [16] or WFG profile [17].
+The root mean square of corneal higher-order aber-rations (RMSh) were significantly different between the pre- and postoperative values in each treatment group, with non-significant differences on comparing the two treatment groups. Previous studies [30–32] supported our results that contradict Stojanovic et  al.’s [16] study who reported that RMS of HOAs did not change signifi-cantly in both custom-Q and WFO eyes with moderate myopia who underwent surface ablation with a standard 6.5 mm optical zone diameter.
+The postoperative corneal asphericity, the degree of oblate shift, the ablation depth at corneal mid-periphery and the amount of change in RMSh showed non-sig-nificant differences between the two treatment groups despite the significantly higher magnitude of corrected refractive error, greater central ablation depth, smaller optical zone and the more flattening effect in the custom-Q group.
+Our study had a few limitations such as the lack of ran-domization with application of the custom-Q profile to the more myopic of the two eyes of each patient. Unex-pectedly, the preoperative MRSE, anisometropia, CDVA and amblyopia were strongly significantly greater in the custom-Q group. This potential bias was partially solved by stratifying eyes into myopia subgroups. However, such a stratification had its own limitations in terms of une-qual percentages of eyes in each myopia subgroup that may have resulted in a lower statistical power and poten-tial statistical bias. On the other hand, finding out that the custom-Q profile has achieved comparable results to the WFO even when challenged with more myopic errors can be a worthwhile contribution. Other limitations include the lack of access to aberrometry and contrast sensitivity tools.
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUDBAkICggIDQkICA4GCAgIBwcHCAkICggJCggNCAgICAgIChANCAgOCw0IDRgNDh0dExYTCA0WJBYSGRESFhIBBQUFBwYHBQgIBRIIBQgSEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEv/AABEIAFoETAMBIgACEQEDEQH/xAAcAAEBAQEBAQEBAQAAAAAAAAAACAcJBgUEAwH/xABMEAACAgEDAgMFBAYFBwsFAQACAwEEBQAGEhETBwgUCSEiNrUVMXaFGCMyQUbEFjNUlNUXJDdVpbPUJUJhZnWChIeWxuQ0NUdRcSb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AsvTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000DTTTQNNNNA0000Gfb4XutKbr6Nnb9s19xlDGXMTdQTgg+oVmZCM1w9R2+sQyQECOI69oSmQk7BecDdd6xWpJx232tyFhNWqr09wO49zIUlfNmTEQ5GQx1KYiOvvmNXlrk14E/MO2vxBhvqKtBeWbu+JtdLHBV2ReJfDjTpllgc3kcDPbK7YSmOMTJTzKPcE9Os9InxmJ82/ob04jN4Sxh3U+3Xv2arvVCuzMrg3zTlYkGPICN8Eo2lIdvjDucFqptRz7SPaAyvDZ8YWJAxmItnLG9xgmJ3aAgrpK4WuQyPUvcXWwEfFERwCv6FtVhanrYty7Kwch6TFi3LYMGtqmBMixZDMFBR7piYn9+v76i32c2/LZuyG3GGxyE0yydDuMiRpEFkE2kqCQku24nrZ05QIkg5gZlpzq0tA0000DWf+L26M7jk2Cx2C+15Rj32psNurSMPExWqtWoqgrGRsQMseSo7cECeAsNhiEaBpoIN8ufjJn9xbxxPq8jYlNj7SGcXVMq1EVjjrdhS5qKni/tnI9GO5M/Vr6mXGOl5a5m+SX5vwX5n9Hta6ZaBpppoJ58zvixujA07VmrhF1kDcZSHOWbKrzFLlMAq9ONrdQqLZYPopjyKOtfixIS5Yz5nyBb1ymaZuh13IXL8izFtUNp5sWgnldJ0VUde3VWUiHwKiBiFjEREDHTRvO18oZ38s+sVdYz7Mv+KfyT+e0Fma5z+Ybxk3RX3JkxjI5DGRhcgdehQrG6rX9NXfJ03vpHPbud9fbdJughYL4j+r4APRjXxcrtPG27CLzsdj7Nin2vS3rNOu6xX7TJcnsWGBJq4MkjjjPuIpmOkzoP8ANiZCzbx+MtWU+msXMfTsXqvbYn09ltYGWEdl0yxXBkmPA55Rx6T1nX29NNA0000Gf+L26M7jk2Cx2C+15Rj32psNurSMPExWqtWoqgrGRsQMseSo7cECeAsNhiESb5c/GTP7i3jifV5GxKbH2kM4uqZVqIrHHW7ClzUVPF/bOR6MdyZ+rX1MuMdLy1zN8kvzfgvzP6Pa0HTLTTTQNNNNA0000DTTTQNSn5ovGzd2Er1iVh14NWSY8F5Rz6+WsLJdjrXQ1ahKpRuMrrNkrKXCS7EwJwaWcas1M3tHPl6h+IKv067oPp+QfcN7JYK6+3cuZBgZyyoH37LrbBVFCocKFjzIoXBEwuMe7qZT++dUNqZvZx/L1/8AEFr6dS1TOgaaaaBpppoGmmmgaaaaBpppoMf8wHiHuHB1cjbo4BdtWMXVM8nbuCweJyTLb14qpPfdTrrEQNhmshJ/OANSjPWG+SLxKzee3HkZvZO5dEsG9sVmN4VQYu5TQDVUUwKEMgJKOQDEz3DmeskUzT/jt8vbl/D+Z+nN1Gfs4/mG/wDh+19RpaC/9Qb52fFDcVTcDcaq9kMVWx9esVCMe6zQ9YFiutr7TWqMZudHw5MTHwD6YhiILuyV5a+LubaeNyna9ZjsfkfTc/T/AGhSr2+z3OPc7XqALt8uK+vT7+2P/wCo0HmfLruTIZfAYfJXg4WbtcyfPYmv3gGwxda12pjpHfQKX9Q6BPe5DAjIxGgaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBqcvETx1yGRyjNp7eqd+6ixaq5PLZBMxTxoJHsPsqHrMz2HlMS1w8OaBAV2e8GvW+b3xAbt3b9t6ZYD8qwcVReuSGazbCmG2z3FtA0sCuuyQMDrMNhU9Jjl0yb2be11jTzOantmyzcXi1dUD3EKrpC27hYmZLtuJ6Oq4iI60lzMl7uIez3y3e+067M2WZp7srY9fcymLsYZeLsAj1CYN9E8YJzLBVNgiY6e2tYkcg3p8OjeBnitj920Yu157TUcF5LGsOCdRcUTMCUxEd2ufQ5B0REHAz7hIWAGga53eBG8FbJ3jkMd32RQdlLuCtnZaMQClXTRQv2C7ikCxLBCTcUdBU+10GJKNB0R1PPmJ8yA4G0WAx9NmSyfcpBC2oYdVRWYhoIhaTF924ayRArV0H/ADoZ5yQEudy3Zkm06d62usy6yjTs2UUE8u5bYpJNXVVwAy7jCiAjpEz1OPcX3azny7+FAYNLcpaj1GW3H1uZ680ECSn2D9VYoVhrTKlVwdM8pV7mGHL3CKgWEnby8cvEmjyt2ftDEKsWCFMWdvIrV1mfJq6qG3qJEfEBPpBkRyKpmZLpM61/y++bYctaTi8nVXVfkria2Nt4tTJqkTo7a0WlOexqmS7thDA5DPqI6wqFkZVLfqKsLahi1uXZWaXocAsW5bBkGKas4kWLIZkZGfdMTMfv1y18yWwx25nsljVgwEdwbWNli2AM1LAQ5a1G4zKwtJSyt3es8iqn16TyiA6o6azjyz7obmNt4O+zudw6fpnsc4rDHspuPHstNccQRscSZdPXrMS2Y6l06zo+gayXxfv70xybF3Gjt/LhX77pxrcdkE3hQJjKl1pXkiDI2IXLJKIhclKY4gZHARrWmgiDw6852QZkKa8lWxdem1hBdsY6pcl6RJZQtwwy6cSsW9sjiBku2J9BIuMTbFC2qwtT1sW5dlYOQ9JixblsGDW1TAmRYshmCgo90xMT+/XNzzd4Ap3Vuk0IWC8cvH37sKhShWNitRS2xIdY7jGXLS5KR6lJWCOf+dMax5G/HZvcTta/YXK5XC8BcssKGAyCEF4iTkZFiyGSlUnMSMrhMSfNIAFpa89uOpl2MEql7F1VwuINV/EWb7CZyKZMXIy1YRXI9uOEjM9RKeU8ogfQ6aCWdp+LW+7u4n7UKntiu3G/rslchN5yUUohRRcSMZISsdwHVpBXuPrYGC7XRkhRm2a+TX3fWW8fb5cOx9n4yxju305dzu+oyVrvdf1fTpx6cS/a5RxwDw8/0obs/D9b/cYjVM6BpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaD+F9xLW1gqZYJSzMK6ZWLHEIzIpVL2AuGFMQMSZQPUo6kMdZ1Gnms8cd44wkY6aC9tBkqYNi1VsxkXvk1ENuujJdoF12JlqgKFDDQYkTFsgxclaWoz9pp/C353/ACOg3Lyg5aze2thrVixYuNf9o921ccyw5nHK2Vh3HNKSPiAgMdZ90DEfu1rWsZ8kvyhgvzP6xa1s2gaaaaBpppoGmmmgaaaaBpppoGp58xPmQHA2iwGPpsyWT7lIIW1DDqqKzENBELSYvu3DWSIFaug/50M85ICXO5bsyTadO9bXWZdZRp2bKKCeXctsUkmrqq4AZdxhRAR0iZ6nHuL7tZz5d/CgMGluUtR6jLbj63M9eaCBJT7B+qsUKw1plSq4OmeUq9zDDl7hFQLCTt5eOXiTR5W7P2hiFWLBCmLO3kVq6zPk1dVDb1EiPiAn0gyI5FUzMl0mda/5ffNsOWtJxeTqrqvyVxNbG28Wpk1SJ0dtaLSnPY1TJd2whgchn1EdYVCyMqlv1FWFtQxa3LsrNL0OAWLctgyDFNWcSLFkMyMjPumJmP365a+ZLYY7cz2SxqwYCO4NrGyxbAGalgIctajcZlYWkpZW7vWeRVT69J5RAdUdNZx5Z90NzG28HfZ3O4dP0z2OcVhj2U3Hj2WmuOII2OJMunr1mJbMdS6dZ+N5vfEBu3dv23plgPyrBxVF65IZrNsKYbbPcW0DSwK67JAwOsw2FT0mOXQPJeInjrkMjlGbT29U791Fi1VyeWyCZinjQSPYfZUPWZnsPKYlrh4c0CArs94Nf33y3e+067M2WZp7srY9fcymLsYZeLsAj1CYN9E8YJzLBVNgiY6e2tYkcg3p8PjPZt7XWNPM5qe2bLNxeLV1QPcQqukLbuFiZku24no6riIjrSXMyXu41zoM/wDAzxWx+7aMXa89pqOC8ljWHBOouKJmBKYiO7XPocg6IiDgZ9wkLADQNc7vAjeCtk7xyGO77IoOyl3BWzstGIBSrpooX7BdxSBYlghJuKOgqfa6DElGr93Zkm06d62usy6yjTs2UUE8u5bYpJNXVVwAy7jCiAjpEz1OPcX3aDDfMT5kBwNosBj6bMlk+5SCFtQw6qisxDQRC0mL7tw1kiBWroP+dDPOSAlzPW8vHLxJo8rdn7QxCrFghTFnbyK1dZnyauqht6iRHxAT6QZEciqZmS6TOqx8u/hQGDS3KWo9Rltx9bmevNBAkp9g/VWKFYa0ypVcHTPKVe5hhy9wioF6nfqKsLahi1uXZWaXocAsW5bBkGKas4kWLIZkZGfdMTMfv0EteX3zbDlrScXk6q6r8lcTWxtvFqZNUidHbWi0pz2NUyXdsIYHIZ9RHWFQsjKrNcrvMlsMduZ7JY1YMBHcG1jZYtgDNSwEOWtRuMysLSUsrd3rPIqp9ek8ojoV5Z90NzG28HfZ3O4dP0z2OcVhj2U3Hj2WmuOII2OJMunr1mJbMdS6dZD03iLu+pgcfcy9qWQnHLg2dlcsYZGwUpUoImIljGmtcSUwMScTJCMTMSDunzG70zxWGYPEXE003JCvdp4ZuTtSK1e9FxpA6qDD5rdKwHkHJY8zjqTN58Ztiu3XlsZh7CbC8Thq8ZrIvXwEcnkDcynSxYtmBajtpG2wzTMzwtQMwoiSzWv0Kiq61IWtaV1lglCEgK1pWsYBalLCIFaxGIGBj3RERH7tBz72z5st2Yuw1N6K+S7VgF26eQpBQsVuywhtV1FSBXp7Be8ZlwnwJY/D7igrX8HvEnH7qo/adP1AgFhtVybioU5D1wJytkAZrLqs0siQKY6NiOsFBCOTefDw4Tk8KzMgjrb292md5CDa5+PlvC1WZKyjpXV3Jtdw4KFxXb04QxhanvyBboZS3IuhHcNe4Kdqs1cOJawbXUWQTaNMRIvYIpemOvSRi6cxP3wQdEdNNNA0000DTTTQNcmvAn5h21+IMN9RVrrLrkd4T13OzODUmx6Nz8xjF1bvZCx6V53Vimz2GTAv7ZyJ9svcXHpP36DrjqRvaSboWNPDYWO2bLNxmUb0ePcQquk6iedeIku24nv6MmYjrSZEQXv46nnq/iOfqVJsbIAT7y6t3s5hVgAnqKbPYZL0rsRHE+2XMIKOk84+/JsV5Q8hlbj8pnc76h1ywxlsMSEsN4dmBSQXbawGrxPoPZFUgK0CIyPWOAfG9m9s502MtuCZ4pXXnDoHoBd9zGJu2Z6wzkvsgurHSR6F6z3F+rKJ0XzIeJ+8NnLqXOO3MlWuM9MVqMdeqMRbkTaKDrTl2SSzUBlDBmfes4mA+CWb/tbb9TFVa+PqoXVRRXCq9dUTxAevKZmSmSYwikiJhTJERkUyUzMzPXtHPl6h+IKv067oPc+U7xPvbsxVrI21U0sr5R1IAoLctcrCpXeJEL3MKWcmsjrE9OkD7vv6+s8Tf6RAl1jFHh2mivBKxmUpWSK28TmTAMgrIqXX5L6QImExzH3sES6hjXs4/l6/+ILX06lqmdBIHl48z+c3FncbhrFXDqVkPWd1lOvbBw9mg60HbJt0xjqawiesT7pn7vviv9czfJL834L8z+j2tdMtBzI8mttVfdeHexi0LrLyznvcYrWlS8JaNjWMOYFaxGJKSn3RETOtr8TfMNunMucO28bkCpU7EIjM1cK7IOttWEy0ZhiGJq1yhiThRD3ugLKSDuEscH8p2AqZTc+FpWkLtpay21lZ0SS2lXx77SYaET0YuGrXMrL4SiJGYIZmJ6e0Kiq61IWtaV1lglCEgK1pWsYBalLCIFaxGIGBj3RERH7tBB3hV5xsxTZC8mpeZSxkSdhK00rlcSJYlKoQA17CwCHFCiESI2x1cMREaurBZVN6vWupPuqyFdNqq3gYdxDlw1LODBEg5AQz0KImOvviNSD7QHwnrJSnc9VPZKbA1MuipUWKWd83WBytliAiQsE8oSbG9e5NhEdRkejPW+zs3eVzD3cQcsItvXINEytYrCpfg3LUBhPNjIsryBzJx7oeEQUx7gD3Pna+UM7+WfWKusZ9mX/FP5J/Pa2bztfKGd/LPrFXWM+zL/in8k/ntBWW8M/9nJB0U8hkCfYRWTTxdb1DjY0+MEZGYJq1wjkRPsECxgfeXWRgon8ZPN3nW2HVKFb7AGlYNbJuIXYyJGpjVEu0q0sk0+sdrkiBkwYmY7pRMxq8tczfO183538s+j1dB0y1j/jn4tvxV3F7dx1Zd3KbhYiawW1WCp0qhOJbLtyasdxi4hdieK/2AQ1hTEAIt2DUAeZbO3dr7/nPCr/Vt+sHNX+eUvs8MZcVykWen7navI5EPMf24j9iZCkr+xt9sW147zp13NWbQxyduUpppeQyY013X83zTE/1cOMZZwiCkSL3T43Zvi/u0t247amTqYuiLGXGtZja9jjkK68ZabXbXfbeyCpm0FnyCBZBV5CeMi0Nax4S+NWC3MtRVri0uexyhxF9iK+Q5KGWFI1IaUvXKo7ncVJDx5dZiQMR/bvDw/VdzO3dwBCwdt5l9Vg54iVijax1hEKkoVJtYqyaSASKAEX2p95FGg91rmR5Nbaq+68O9jFoXWXlnPe4xWtKl4S0bGsYcwK1iMSUlPuiImddN9cu/KdgKmU3PhaVpC7aWsttZWdEktpV8e+0mGhE9GLhq1zKy+EoiRmCGZiQrLfPiVvXOLZO3cExFWWca24MnNWvYvL4peq3j6GVNQrpsGWRDWCyGLbEx2TEoHJfBrzWZihkmU88xlhDGelsmVFNW1iHrOQNh16qFk1cF1FiiiWRwiR94Stt2a59e0TqKXuOqYrWsrWDqOsGsBEnMi5aQLWkMdWMhS0r5F7+KgH7hjoHQXWZeNvjNj9r+mrEqxkbuU6jjMJjxg7DzLktBNj3yiux8CmCiCMiIuK2cD4+g8GLbbGC2+9rGPZZweJa97jJjHNOgo2Naw5kmMIpkpKffMzM6jrYPiovIb5ym4ToZjPhSr3U4BO36lm02rWBoUatuKTnhKa51WWZOC+HvZEi4CRRxChbG29/ZCqq3O4cXgbJ05ksHRwaLdULHUzUFjJXX2GQyYlQGaolY8J4izpyZkGK8xW49o5R+H3Gj7QAO4wb1GuhVg1kMRVsUZX2K9zHkQMjoUCyCazqUEqVa2b/AC+/9UPED/05/wDK1PXm8fe3ezEvp7T3ZXZjl3E3H39vOSxy2Eo6ihZXlhMWsotlxLpAzYKY/bLQXJQtqsLU9bFuXZWDkPSYsW5bBg1tUwJkWLIZgoKPdMTE/v1lnmI8c8fs5KoMPX27nEquJU6ElKYPiy1ZdwP01eOhiMzEyZjIxEwLCX8byQoydfboUbtGxjixWQuV6iblSxUc2szhe77F2YiT6vfZCDGIHoqI6TIlM4P5fMkW9d+2My9zHqxS7+RxlW+hbJXUU+KuLqioTldRiJsqscw5frUEXWTOWaDeMRtXxAyAzbs7mx+3zsdshw+LwVTKJqh2F9RO1dPueo7nd5DBGHWOoskZiBnrzd73zY0K+1cymmVyncx+VqZbEl1q5Gj6G1Saxy2cTRcizJ9egiBdGdAWIBLb41LPtIcWk8Nibsh1bUzEVUt5H8CbVJzbK+EFxLkdarPWY6x2vdMci6h+32cfy9f/ABBa+nUtUzqZvZx/L1/8QWvp1LVM6BpprBvPJvwsNt91ZZrF25GTjBGWK7g1DWRZBwIYBS9faiK0zHThN8C5DMDBB+K9483s3mG7d25Xxd0qKzsXc7mHu+z+2rqt41k1JhthfeOosbATMERl0XK+jtf23lsjxEr1zdT3hXyTV8i9FZwGLx3dAVkXFD+24ZsEcLCBZxD45mWDx9/k/Zt4VS8VmcjBM7l7KLpMCZHtiqlUB6SAYHlDJK2+JmZmOgL6RHSeVWaCbPL/AOZ0cvd+wsrUXh73cOuk47qq9i2LjAqB17PVlC5EdsIBhF3GCY9QKVrPed4Z/wCzkg6KeQyBPsIrJp4ut6hxsafGCMjME1a4RyIn2CBYwPvLrIwUEefnZysbuCLakMUvcFMLrThQggrwtNFwUEtYjLJEaz2RMyfcuycz+sHVb+UrfR5/buPstd37FDnjciye9JS+t0hRuZYkpfYZVKo42RMxJvP9meoiEz+Mnm7zrbDqlCt9gDSsGtk3ELsZEjUxqiXaVaWSafWO1yRAyYMTMd0omY1QviL4wZJly5g9v4tefuYpcFlbjrAJx+MZLhCKjTNqht3JGHxKhMZAgn+slbgXHXna+b87+WfR6uuj21tv1MVVr4+qhdVFFcKr11RPEB68pmZKZJjCKSImFMkRGRTJTMzIQ3l/HPxC2tkKsZcWMWLOrKNqjj01764WJOCrksfX4kwBaueaSKAZIwQl0IJtfw63fUz2Pp5erLJTkVyau8uVsAgYSXKaEzMQxbQYuZGZGZCZgiGYmZ69pDi0nhsTdkOramYiqlvI/gTapObZXwguJcjrVZ6zHWO17pjkXX6fs7LbWbctATGMGrnLaa4MMiFK5p1XkpQlPRa5axzOI+7k0y+8p6hsHjt8vbl/D+Z+nN1Gfs4/mG/+H7X1GlqzPHb5e3L+H8z9ObqM/Zx/MN/8P2vqNLQXXurMjj6ti7KLlqKq5OKuNqsuWnl14gmvWTEkxhFMR1noMdeREIwRRIPmG81uYqWrWHpY5mDZSZCrFrLLS+7BRCmxKawyyqpc/rYhky0WKcsxkOsTq0tQB7Rz5hofh+r9Ru6C2PCfKPvYbB3XH3W5DD4y1abxAO459JbXM4LgRDkZFPQYiI6+6I1hvj/5nbOCBAVsDkFHkPUzTvbjrMpV2Lr24QTE0hOLDeYwye26UsAW12SBCwYnZvAn5e21+H8N9OVrGfaOfL1D8QVfp13QfM8EPMRYDbljJ5NzMxes5x+MwWMqoQm1kmxTqGqqhNJAx24a6ZJ0jMx3hHoZEpZ+f8ZN+eKlTu5P7P8AsWonnHp8arGZjsKHu2PUXWf5w2OCY4m/oCf1QzxCS+L0Hs4cBUjFZLK9hfqW5RuPK5MTLIqLqVbA1wkp6LXLWGcwPTlIr68u2HGns7i03q9mk4O6rIV3VbSuZh3EOXKnL5rITDkBFHUZiY6+6Y0GG+UXx6/pUk8bajhkMZX7zmrXxTkKwmCZuDARxr2IM1CavcMyyCD3SQJoDXNTyPW2L3biABjFjaXklWAWZALlRjHvhTRGejFw1aWcS93JQT94xq0fNrvo8Bt3IWVO7Fi/wxuOZHegofZ6w00sryMosLqjbcDJmIg0B+1PQSD43+Wqznsp9i7fRXtxjrH/AC7uTJKY3F1a0D0j0Q1rCzvWGM7oh7xE5rFI81kTlef8UNteJGNqncpbnXm5rLY2xSjA4ynaIRkekUlChw22ce6UrmRL9VEDDCOB15PymeJKMHt+rWDbO77xWrFy1cyGIw53adt5WCQLEPKzETwQqsmYGIiDQfumeUzrP+X3/qh4gf8Apz/5Wg8/5XvMirdLIxVtC6V/t2XgVeRCncWshIV1he8njchZMKVRyjhVYznETIBQ2uZF/aO4EZ1ubpbWziF1s4eVxVJ2AurWpS7826dZqKy4FaxGFhK1z0iImIn7p1030HPT9MDcf2p67/N/R+o5f0f7SO36bj2+z9odj1HqOPx97rx7nv7fD9VroXrP/wDIxtz7U/pB9lV/Weo9X6nm/h6nj09T6Pu+n9Ry/Wdzjy7n6zrz+LWgaBpppoIa9pPne5kcHjO109Bj7F71HPr3PXWYr9rt8fg4ej5cus9e/wBOg8fi2zyHYVVTatN4kySzFzIXbEMkZEGBZnHQKoEYkV9qskuhdZ5Ec9ekxETz7Rz5hofh+r9Ru6pnyS/KGC/M/rFrQbNrmb52vm/O/ln0errplrmb52vm/O/ln0eroOjGxM79qY7GZPtdj7Wx9O96fn3ez6msFjtdziPc48uPLpHXp16Rr7WvGeBPy9tr8P4b6crXs9A1z09oVlE2NyLUB8yxmHp1bg8THtPJ77or6lEQfVD6x9R6x+s6desFEXvuncFTFVbGQtPXVRRX3bFhszxAevGIiBiSYwikRFYxJERiMQUzETIPlu2Pb3nuC3vvIV2KrDc9ViAlsLl1us0F0FhKkhNunSUsQlvw82oCJ7nSwMBTHgFtAsDgcNiyFgMqUxO2trFNJVuwRXLqYYj4CWFhrgGR6/CI/EX7U+6000DTTTQS/suoqx4mbxQxa3Ls7bUp6HALFuUytiQYpqziRYshmRkZ90xMxqdPNl4Lt2tkDehDIxuSZE418sJ8V2Svm3H2GEMEtglDSXB9ZNQxPNhA3jSXh5/pQ3Z+H63+4xGt/wB87ZrZmjdxdgeasnXZXb0FZEvlHwPT3QIRsLPgwCmJ4msS6e7QYz5M/Gj+ktGcbY+G7gK9cGtN/cLJVojsheiGmTjsDIgLinqPNyy5R3uAUBrlp4j7Sy3h/nFrC123UuF7FZOrIj36xkaluJJSXb5cXqZXZ1GejB/WLKCPoX4GeK2P3bRi7XntNRwXksaw4J1FxRMwJTER3a59DkHREQcDPuEhYABk3h5/pQ3Z+H63+4xGqZ1M3h5/pQ3Z+H63+4xGqSv21V1texi0rrLNz3uMVrStYybGtYcwK1iMSUlPuiImf3aDLPMR454/ZyVQYevt3OJVcSp0JKUwfFlqy7gfpq8dDEZmJkzGRiJgWEv5lDbe/sktVqxuHF7bYSwicVh8GjKrGJGGSdizkXkQ3IIjUQJkldEDMEXIp1J3hBli3fv7H5Gz3FTeyjMktaiVJJHHVTuY6rLISItWsa1VJHxgjECnrBFyjo9oJAv+OO7Nj3l4/cFevmUXeja+VxwhXIlzKhf6Ri0qTZ7Ed2JrtAGSbgmWislyVV7W3BUytWvkKr12kXlw2vYVM8THrxmJgoglsEoISWUQQkBDMDMTEYz56NnqyW27VvsMa/b7FXah11CbBWTgRfFhdsjinFcjecDMR1prOZ6LnWD+zv30dXKW8Cx3RWbrnZppLvn/AMoVh5lCYGZWjuVIskZFHxeiRHKOIiQaZ5ifGHeuznKk6u379S50GrllY/IJGXQHJlWyn7UP01iOhkMTMwYDJRMyLBX6byweJO5d313ZNp7fpV6eQCmSK+NvusWeC12LUC08oK6n6tqRBnQ/iI5kIgI5+z8zXhz/AEnwd3HgPKxX6XsV7+nW6gC7avictcd5ZPr8mTwD1PPpMhGpB8gm+gxecZjmt7Sdy14rBBdgVlkEl3KMsa2RIOQFcQIB1k2W1DxmeMiHQvU8+J/iBvDF5jC4CqzamUduJbjULKd6gyoKJknPtonLNkKfaFhiwZkjms8YCSCOdDawXwHeW4Nwbn3ZLlmmgw9pYNdZ63LKpVau5atSxaBhy3NlD1nBT0i04Z5CKy0GzUntq1ZbdtUymqtrrl5SSx9UFBJMlsrsWnTXWCojkRHMfARfDE9Ixnb3ivlN42rFbBAvH0KS7SL+68xRN5FbmJGqOGoRYWLWQPbf/nH3C4eawmAB/wAzz976PF4NeOU3tO3LYmscD3xYWPSPcvStqpEQ5GVNBAfWDXbaPGY5SP4/A7xYTiMHhcerae92jWx9cisUsGdmvZe4fU2rVZ7LXVldz2OaMx0jiyOkDHSID8XjEPiNtlP2srPV9w1cf2n5BE4WjUcKxMieTqqEyR48QFcG1LIYMNMugCsmR7/yy+O9beCWJJXo7uOrpbfrc19l/MyWdjHxLScdcZFUlBx+rm0sOTOsEX8b/jip62oZszfbl2Vml6HbZFi2rYMgxTFnZkWLIZkZGfdMTMakjy57N3LiNxYK9OAzCxXkFV7DreIvglNa3E0bb2MlYwvtoa04Mp4xIRM9YiYkKq8wXmDbttLpTg8o6fWOx1fJZGuVLGlYCt3ZYsinv2liZBAxxAHQmxIOKFzOvDeWbzDXbydyZHLWe+NSxilYfGUKaocyzeO328XjEJGHXbDJWoAFhEUQqSk4iGHrTfO18oZ38s+sVdYN7NvAVH2s7kGIW1+KXj1ULDIkirDbi1FqVRM8RYYqWPPpygZMYmIM4IPQeLniJ4mzXLMIw/8AR6lUrxaYtf2dkrgpNa5Jl5dqCcPbnuHMAoJWDD5xPbkh/t5SfMrks1kEbfyILtMurfNLKV1AhksSttxgXkrkVEuUjIiaRGYlIxIn3CMK51y0/otS/pl9idn/ADT+mH2X6Tut/wDovtr0nY73Pu/1Pw8+vP8Af16+/QWL4g+Ke6Mqx6NsYld+vXW1DtyXO0uvYsERo7mDO5YSi6uuxbRlv6xZMiPg4QJOxPCeY3eG2ssutngsWFRzC3QdQp03dqWyr12OfWSsbXE1sgS5SlkCcQQ9RYF10Kiq61IWtaV1lglCEgK1pWsYBalLCIFaxGIGBj3RERH7tRp7S+oqGbafC1wxy8spr4AYYxSiqGlRsiORrAmvKBn3RLzmOnKeoWJgsqm9XrXUn3VZCum1VbwMO4hy4alnBgiQcgIZ6FETHX3xGpB9pp/C353/ACOts8mdtr9pYE2MY0hXdSJtMjKFJydhCFQRTMwtagWsR+6BWMR0iI1iftNP4W/O/wCR0H7fC7xmTtjZW3aqVfaOTy/2ivD4dQm0jNmbtJXZsrT+s9P3PhFY/G0x4D06MNeZ7m8wfiFi7CrFyLGOCzYN1fH5DBKqV3LWwTZUUdisNhlcRJa5mD7kCwfj5TBaovyLbVx9fbmNyi6dcLWT+0Yt5DtwVhoDkmIFPfLqQV4BFb9UHQOS+XTlJTOv+IOzqOdpvx1tC3LsraIGalNZVYaTQNupL1mKLixYyRbEdRmf/wCxoMt8sHmDTu/vUm1vQ3aNcLDVKI217SR7an2q5kPWv0eYx2GTMwLV9Db8fDc9ctMI92xt1BJlY/8A81mCS9kVQW61j+5KHsTWslIj6qiZkEzP3WAKDj4T1ePm130eA27kLKndixf4Y3HMjvQUPs9YaaWV5GUWF1RtuBkzEQaA/anoJB8b/LVZz2U+xdvor24x1j/l3cmSUxuLq1oHpHohrWFnesMZ3RD3iJzWKR5rInK8/wCKG2vEjG1TuUtzrzc1lsbYpRgcZTtEIyPSKShQ4bbOPdKVzIl+qiBhhHA68n5TPElGD2/VrBtnd94rVi5auZDEYc7tO28rBIFiHlZiJ4IVWTMDERBoP3TPKZ1n/L7/ANUPED/05/8AK0Hn/K95kVbpZGKtoXSv9uy8CryIU7i1kJCusL3k8bkLJhSqOUcKrGc4iZAPWeOXjR/RlNx0YTMZGMf6KG3BT6TGiy2cwCyyDYIj4gM9WJA1ixqVEYGyIiIr+0dwIzrc3S2tnELrZw8riqTsBdWtSl35t06zUVlwK1iMLCVrnpERMRP3TroJ47fL25fw/mfpzdBNvlw8yORyuVy9nLXadKhjsG6+VZNYFIqsXbqVRJTJg7TmH3GRCpIpJliBEevAY8L4xeaHdU3u7U9RgKlqup+Kq3MdVN1umcl2ckxl2ufc73xTHZntRAQMSciTD815JdnJzWfmu+edenj3XrtA4Ik5IE2kQipaAWDDK42iq2ZBkEBTSEZGYnrF++IOwMTuBMV79CveFfXtE2CByORgw/TWlSLq3OVqgu2UcoCInrHu0HzPATe7dx4PGZliV1mZBboelJES4ZXtMpsNXP4hWZKI4CZmRhkDyPpyn3Wvw4LFJo161JIdpWPrpq1VczPtoSuFJXzYREfEBGOpTMz098zr92gaaaaBrnp7QrKJsbkWoD5ljMPTq3B4mPaeT33RX1KIg+qH1j6j1j9Z069YKIvfdO4KmKq2Mhaeuqiivu2LDZniA9eMREDEkxhFIiKxiSIjEYgpmImQfLdse3vPcFvfeQrsVWG56rEBLYXLrdZoLoLCVJCbdOkpYhLfh5tQET3OlgYCmPALaBYHA4bFkLAZUpidtbWKaSrdgiuXUwxHwEsLDXAMj1+ER+Iv2plT2k+d7mRweM7XT0GPsXvUc+vc9dZiv2u3x+Dh6Ply6z17/ToPH4rl1AHtHPmGh+H6v1G7oKG8h2FVU2rTeJMksxcyF2xDJGRBgWZx0CqBGJFfarJLoXWeRHPXpMRG86xnyS/KGC/M/rFrWzaDmb52vm/O/ln0erroxsTO/amOxmT7XY+1sfTven593s+prBY7Xc4j3OPLjy6R16deka5z+dr5vzv5Z9Hq6v8A8Cfl7bX4fw305Wg9nppr5e6dwVMVVsZC09dVFFfdsWGzPEB68YiIGJJjCKREVjEkRGIxBTMRIQR7QrKJsbkWoD5ljMPTq3B4mPaeT33RX1KIg+qH1j6j1j9Z069YKItHwC2gWBwOGxZCwGVKYnbW1imkq3YIrl1MMR8BLCw1wDI9fhEfiL9qZn8t2x7e89wW995CuxVYbnqsQEthcut1mgugsJUkJt06SliEt+Hm1ARPc6WBi0tA0000Gf8AmOyiae2txtafbFmHvVRLgZ9X20TSqr6LGZjm9qQ6z7o59ZmIiZiOvZ77QK7nm5WYZC9uU2GLFsUI+ruCVNCmrKJNiyrzkC6h06EgOpR1gT1/zvbxdkPRbGx0euuZuwpmSqVpA2KQrjZq1n81yKO4cDalnIZWulBF0W3rOzeAHhsjauJrYwPiafS1lHQ02i/IMSAWWJkwDjXjgCwiBj4FBMxJSZEGgaaaaBpppoGmmmga5NeBPzDtr8QYb6irXWXXJrwJ+YdtfiDDfUVaDrLpppoGpm9o58vUPxBV+nXdUzqefaBYVlrbMvAliOHylK7YhklBGsxZjoFUCMwTO7aSXQukcRP39YiCD5ns4/l6/wDiC19OpapnUjezn3hRGhkMGT1psllCu10OakCuKdRAJGmsmdywxUVHGyBjoIsXPWes8d/8SvEuph2Ix4gzI5HKLIsRgKfX1FwoLhBtbIyvH04nuGVh8wMLrvKOcqIdBA/kl+b8F+Z/R7WumWuXflOz9TF7nwt209dRKmW1MsumRWorGPfVTLTiOi1y1i4lhfCMTJTIjEzHTbFZatb73ZsV7Po7Dalr0zlu9PZV071Z/bKe1YDqPVZfFHKOsRoObfkl+b8F+Z/R7WumWuY/kztqRu3Amxi1CTLqRNpisZa7GWEIVBFMRLGNNaxH75JgxHWZjXTjQYz52vlDO/ln1irrJvZpYtwV9xXZDoq3YxtVDeQTzdWW9tlfCC5DxCzVnrMdJ7vumehdPp+ebdDcoWM2Tj+5duZK4uzfp03lBLWtUnVq3AiIXK2Sfqp7hRChoLaUQJAcbL5dPDMdqYevi5NbnGxlvJWE9yFutt6QXbhpTMLWoEJiYgeUIg5AZMo0HwPO18oZ38s+sVdYz7Mv+KfyT+e1s3na+UM7+WfWKusZ9mX/ABT+Sfz2gszXM3ztfN+d/LPo9XXTLXM3ztfN+d/LPo9XQdMteL8WfDHE7orjVvVu96fulTtKMk2KbGrlZMruH/uF2zglkSVyQHwHp7TWGbc8YE1d37h2vbsdqLVjFtwDHScr77cPWixju6bJFHcOFsUuBiCY2xHKTYsSCWvFzypZ/C8n1R+3649P1mPSQ3A69sP1uM5GZdWGcR6eWfAkjLtx7tes8rHmbvVrVPDZW2uxUsscA5rJOcVqmxkc0RYtlJQ+nLYIOrYiQ9TBS0VqgIuzUAeb3YqL+86mKxqq42M9XplkAr8zFeQfYdL7VxSIOa3SrFeyyYHrwknTEyZEQX/rmb5Jfm/Bfmf0e1rplrmb5Jfm/Bfmf0e1oOmWoA9o58w0Pw/V+o3dX/qAPaOfMND8P1fqN3QWZ4E/L22vw/hvpytQp5Etzqxu5q6mdsRzlOzixc1wpFLTILiJjlEw1jG111xX1iZK0PSZmIErr8Cfl7bX4fw305WoO84OyrO3NyvvKOwsM1YPNY28BsA1WTf3rawsAsICwm1MmIrmSBbq0yXItB0k01Jngv5xMeyvVq5gbFayHNdjLVq0NpuAF8lWXprzLkWGTHCVpAg5zBRwEpFfpvELzgbcopgqXqM41nXihSn49K+JhE+ps3UQQcgJkj2gPrKuk8OUToNT8bbamYDdYCxbCq4PMJsAsxIksnEk+FNEZ6rZKmJZxL38WhP3FGo09nZbUvcdoCYtZWsHbTXBhiJOZFyq8lKEp6sZCluZxH38VGX3DPSuPATYr8fhSrZFNd1vcFjIZLcq5kLCbVrINKXA5UR2P/p+wk1qjs9Vl05RPIoBy9LLeHu4okY4vw1hjKFi1XHs5GkyGVwsQuDKJr2ES0JgC5hJMHkDFzxDqXqZvaOfL1D8QVfp13W2eF/iLi9yVQu0rS3RK1nYqyQRapEySGE3awlJIZyBsRM/CXbkhIx6FM2+0H31j7ePrYiu71jaOYS/IMqdH18eYVrlUKd2yuZFGQYcWJGvPx8abpmBiB5B6b2cfy9f/EFr6dS1TOpG9n5vXF0sJlqti/Tpsp5Q8g8brwqiFR9epSTYlr5ECXNge1MxPwkxUT07i+Vc6BqM/aafwt+d/wAjqzNZL5r/AA2fujBupI99mlYVkMeomgkHuUBqOuw2BMRzQ2xA9ZGO52upiMFoM69nDbVOCySIYuWJzjXNRBjLFqbQqglprieQrMlPGCn3TKDiP2Z6U/rnp5Ht8f0ez9jE25sVRz3bxh1jrfEvLKtQqkFoSHvV+kncRMR7oOyPKIgeQdC9BGftNP4W/O/5HXufZ2VGr25aMlsWNrOW3VzYBCLlxTqoJqiKOjFw1bl8h93JRj94z0zPz2ZJu4M9htr0qzLlnFrbzBXKCKxkAS+ESLAEAWqslDyfykIGwXWQ7R6rjwr2cjb+Lx+HVPMcZXFZN6GPfeRS21Z4MYcq7rycztxMwPc4x7ojQc9PO183538s+j1ddMtczfO183538s+j1ddMtBM3tHPl6h+IKv067p7OP5ev/iC19Opae0c+XqH4gq/Truns4/l6/wDiC19OpaDZvHb5e3L+H8z9ObqM/Zx/MN/8P2vqNLVmeO3y9uX8P5n6c3UZ+zj+Yb/4ftfUaWgv/UAe0c+YaH4fq/Ubur/1AHtHPmGh+H6v1G7oLM8Cfl7bX4fw305WsZ9o58vUPxBV+nXdbN4E/L22vw/hvpytYz7Rz5eofiCr9Ou6B7OP5ev/AIgtfTqWqZ1M3s4/l6/+ILX06lqmdBzN8kvzfgvzP6Pa1TPtHPl6h+IKv067qZvJL834L8z+j2tX9437K/pFhcphoPtFkK8enZJcBGylo2qneKFnMV5etUHxiS4SfTpPSYDLfIFuhd3ba6EdsGbfuWqzVw4WMNVhpZBNo0xEEhZE56Y69YKaRzE/fA0Nrld4NeJmU2VkjcsGRAs9NmcNa5pGwKjkTQ8CHlWuKLucWdOSykomCEmAdsbc82u0bSyYy3cxpCyQivfx9hjDGBGYcM44bC4XMzI9JKC6rL4YjjMhuV+2qutr2MWldZZue9xitaVrGTY1rDmBWsRiSkp90REz+7X99SnuHxUV4jX6+0sdUYyiNyrf3HkLzRqDcxVG9BWa6K4hLwW4/QEDRIHcjgSBY8yirNA01LP6aOJ+1PR+gseh9R2ft7vFz7fHj6v7L9P3PT9z39OXc7fxcOf6rVTaBpppoIz9pPtb/wCx5sE/2jF3bfd/8Xjkdkj/AO1C5hH/AEFP9XGtT8h2aVb2rTQIsgsPcyFKxLIGBNh2ZyMEqRKZJfaspHqXSeQnHTpETPv/AB38P1bmw97ElC4Y5fdxz2QMRXvKjnVb3JUwlLkuqjII59p7Rjpy1M/s8t3lStZja1kmVmNZ6ynTsLWggt14mvlK5QyRfNyVjVLs9J4jReXQOhcgtLXMHzFWHZ/eGYSmv0bazAYerX7wT3n1ZXh0z3WQAr7xqE+he4e70kp48p6Sb53NWw1G7lLBcFYyuyw3oSxJnGPgQnumIlYYfBYDMxyNgj19+on8kOyH7hzl3dV0e+OMsNtd1iQELeZtkTe4IenlJdiCY+YXIktjKhRHSdBcmCxSaNetSSHaVj66atVXMz7aErhSV82ERHxARjqUzM9PfM6/dpqQPHPx8xmcvTtkMx9k4seY7gz9VNiy7JgMwLMXifSJZxrn1kSsHHA4g+nNcQFoPQb/ACt+JWSLC0bjE4HCsXGfy1YIEcrfA+5NKg+ZIbqwHsSJdO0JTLph0ek50Xtbb9TFVa+PqoXVRRXCq9dUTxAevKZmSmSYwikiJhTJERkUyUzMzjO1fMHsDFVa+Pq5JdVFFcKr11YvLcQHrymZkqckxhFJETCmSIjIpkpmZn6n6Uey/wDXX+zMt/wWg2bTWP8AgV4oWN32r2SQplLF41Y0KqbS0TayGSZC7Nmw8lOOai6qu2sVD1FnryOTmRgF7BoGmmmgmbw8/wBKG7Pw/W/3GI1TOpm8PP8AShuz8P1v9xiNUzoM48wXhVU3XjXU2LXFistzcNdIpWVW3IfBBtEDL0bChYsDpPUYiYjmCyGCPCbeuW8P84S3LsVYVYVW3DiTEWd+tBcpJa5YK2WBWRNS8S4z3I6ES2nB9PtT/wCbrwF/pUkMlVnhkMZX7KVMZxTkKwmboplJzxr2IM2kDfcMyyRP3SJpDyfgnuCplfEbcmQqvXaRe23VbXsKmeJj2cSJRMFEEtglBCSyiCEgIZiJiYjefHb5e3L+H8z9ObqM/Zx/MN/8P2vqNLV/6DmP5M7akbtwJsYtQky6kTaYrGWuxlhCFQRTESxjTWsR++SYMR1mY1041y78ZPD/ACOxs2uRhiwRc9ftzJlweLlIsQ2sZkSoWdxM9mGKIYiC6TxkDCT6R+HW76mex9PL1ZZKciuTV3lytgEDCS5TQmZiGLaDFzIzIzITMEQzEyHzfHb5e3L+H8z9ObqB/I9UYzduIMFsYNVeSbYNYEYpVOMeiGtIY6LXLWJXyL3cmhH3lGrS83G8UYbbWWJkcyzFduGpq6mPcdeQainmKyge2j1L+hdIL0/DkMmOss9n54XNx9W1uOwliW5lY1sWDRICjG9Rey1Aw3oS7LYTx5jBQNITGZB3vCrNczvNfsr+i25XelP0wXOzmsV6QuydHuvPqtXYWuKvatKf2xX+ysU/FJRPTpjqefPnsMcrgZyQgwn7YZ6pUKWxxHUeYJyC5BZwK1iMJsk0oniNEv2YI5gPp+I/jEt+z15qoFj1G664YvEVaZWfUBlrcHUYis5VeGFYrMC2QnEDDCpxAzEsCdaZ4V7ORt/F4/DqnmOMrism9DHvvIpbas8GMOVd15OZ24mYHucY90RqLvI7ibedyGPF3bdT2Ay/ka8PGLEjbyi1pr1Vg53RCwbXbdA1j8DUMmZgmhI3xoIz9pp/C353/I63nyoboVlds4RodsSx9NeLsJW4XEplAYpjLekRKmNUCbHbKOsDZD3lHQi/F5vfD9u4tv20JhhvxTBytFC4IpstrqYDa3bWozcw67LIgsOky2VR1iOXWJ/LR4429oWpCe5aoXmDORx0THIC6QHraXOYFdwRgYkZ6CwQgSmJhZrDpxr+F22pIwbGLUJMUkTaYrGWOaKEKginpLGNNaxGPfJMGI6zMaxPCea/Z9hIOPIWKJM5cqdzHXDcricjHcKkpyZ5REFHAp9xx16T1iPJbP8AEAvEjOY309FlfF7JuBl7x37CwsW75VTDDENetBGlibMWz4icqNYFJ9J4LIPdedr5Qzv5Z9Yq6xn2Zf8AFP5J/Pa2bztfKGd/LPrFXWM+zL/in8k/ntBZmuZv/wCQ/wDzA/8AcWumWuZv/wCQ/wDzA/8AcWg6ZajP2mn8Lfnf8jqzNRn7TT+Fvzv+R0GzeSX5QwX5n9Ytaxn2mn8Lfnf8jrZvJL8oYL8z+sWtYz7TT+Fvzv8AkdBs3kl+UMF+Z/WLWtm1iXketqZtLEADFsKqzJKsAsxIktnJvfCmiM9VslTEs4l7+LQn7ijWs7p3BUxVWxkLT11UUV92xYbM8QHrxiIgYkmMIpERWMSREYjEFMxEhzu83eLde3vk6SQ7rchYw1WqnkAdx7sXUUlfNsiIcjIY6lMRHXrMxGqM9o58vUPxBV+nXdZz5avDy9u7cDt9XFMTTDKPv0V2nOcy1YW0ppV6rokCKnRKED3ZjtzNMUwBR3IVVfjfsr+kWFymGg+0WQrx6dklwEbKWjaqd4oWcxXl61QfGJLhJ9Ok9JgMt8gW6F3dtroR2wZt+5arNXDhYw1WGlkE2jTEQSFkTnpjr1gppHMT98DQ2uV3g14mZTZWSNywZECz02Zw1rmkbAqORNDwIeVa4ou5xZ05LKSiYISYB2xtzza7RtLJjLdzGkLJCK9/H2GMMYEZhwzjhsLhczMj0koLqsvhiOMyG5X7aq62vYxaV1lm573GK1pWsZNjWsOYFaxGJKSn3RETP7teT8dvl7cv4fzP05usG3D4qK8Rr9faWOqMZRG5Vv7jyF5o1BuYqjegrNdFcQl4LcfoCBokDuRwJAseZRvPjt8vbl/D+Z+nN0EZ+zj+Yb/4ftfUaWr/ANc+vZ2W1L3HaAmLWVrB201wYYiTmRcqvJShKerGQpbmcR9/FRl9wz06C6BpppoGmmpA8c/HzGZy9O2QzH2Tix5juDP1U2LLsmAzAsxeJ9IlnGufWRKwccDiD6c1xAWg9Bv8rfiVkiwtG4xOBwrFxn8tWCBHK3wPuTSoPmSG6sB7EiXTtCUy6YdHpOdF7W2/UxVWvj6qF1UUVwqvXVE8QHrymZkpkmMIpIiYUyREZFMlMzM4ztXzB7AxVWvj6uSXVRRXCq9dWLy3EB68pmZKnJMYRSREwpkiIyKZKZmZ+p+lHsv/AF1/szLf8FoNm1GftJ9rf/Y82Cf7Ri7tvu/+LxyOyR/9qFzCP+gp/q41tngV4oWN32r2SQplLF41Y0KqbS0TayGSZC7Nmw8lOOai6qu2sVD1FnryOTmRgF+m8d/D9W5sPexJQuGOX3cc9kDEV7yo51W9yVMJS5LqoyCOfae0Y6ctB4DyHZpVvatNAiyCw9zIUrEsgYE2HZnIwSpEpkl9qykepdJ5CcdOkRM7zqLfZ5bvKlazG1rJMrMaz1lOnYWtBBbrxNfKVyhki+bkrGqXZ6TxGi8ugdC5Vxvnc1bDUbuUsFwVjK7LDehLEmcY+BCe6YiVhh8FgMzHI2CPX36Dm35irDs/vDMJTX6NtZgMPVr94J7z6srw6Z7rIAV941CfQvcPd6SU8eU9MMFik0a9akkO0rH101aquZn20JXCkr5sIiPiAjHUpmZ6e+Z1Dfkh2Q/cOcu7quj3xxlhtrusSAhbzNsib3BD08pLsQTHzC5ElsZUKI6Tq8tA1MG/yt+JWSLC0bjE4HCsXGfy1YIEcrfA+5NKg+ZIbqwHsSJdO0JTLph0ek5+f8c/HzGZy9O2QzH2Tix5juDP1U2LLsmAzAsxeJ9IlnGufWRKwccDiD6c1xAWtF2r5g9gYqrXx9XJLqoorhVeurF5biA9eUzMlTkmMIpIiYUyREZFMlMzMhs21tv1MVVr4+qhdVFFcKr11RPEB68pmZKZJjCKSImFMkRGRTJTMzP1NYz+lHsv/XX+zMt/wWv7eBXihY3favZJCmUsXjVjQqptLRNrIZJkLs2bDyU45qLqq7axUPUWevI5OZGAWGwaz7xz8SU7boy2P19zI86u38WtR2HZDIFEAhY1lGLGVxYSpORmPccDEybFiX++Ofitj9pUZu2J7rX8143GrOBdecMRMiMzE9quHUJN0xMBBR7iIlgc8+DXivtYLR7pzOcXcy99cgpQYzKlV2/UKJ447Gj6QhhkCRibomevcZEEfNzbAan5d/Bh+Oc3cuXb9o5nLdWOc0gaOLBgcJrVpD9X6jt9FkxfwAAwlfRcETdz1jP6Uey/9df7My3/AAWvP7z81OHIU0sP3M5fyzBqYxEodSqrttatFeLrr0ILtkTJmIX169qRk0wUHAUNpr8OCrvTXrJdY9Y1FdK7V3shX9U8VwLrPp1zxR3Dgj7Y+4eXSPu1+7QNNNNA0000Gf748Nm5hN2m7cG4F18n3BdSp/Y1cRQZ8pqreGJ9R6fj+rmCOZIOolJwRcsm/Qq21/btwf3qh/h2qZ00HkdrbQtUSr9c9nMguouFRVyUYhouGFSoJsWU4tdprI9x85PkRDElJdSgvXaaaBr+F+oqwtqGLW5dlZpehwCxblsGQYpqziRYshmRkZ90xMx+/X99NBI26fJJUfasOq5lmPQ5knXoNx03SrDMdZVFqbqyauC5cZKOUDxiSOYki3Lwb8FsJtQTmmhhOsL7VjJXWd+05XdlsKkhEVoXEyESKRGC7CpLnIROtH00E2eFXlAwmKZFm65meYpkGhTk+kphAkti5bTBplZZBCyJhhSogdIyqenWaFwmJrUUrq169empPLtVaaV10r5HLD7aVCIByMjKeke+Smf36/dpoMF8UPKptvMkb0qZhHEtkCWJha6pNlQqQbseQSuFrkIKQr9uT7jJkpmYIf8AfD7wX3Lhlopr3zcKshiutU8HTewUAIKmtUs5GxYmmuFBAiMRKwn38J6lE7zpoM/8KfCHE7bOxZrhYs2shz9fmsm8rd63zeVg+66YgQ5GQyXbEecqXJcyGC1oGmmgyXxZ8Da+5+IXszuBiUWG2a1BDcZXroNnuGBBeM5P7YTKwJ8kYiRfF8ZyXwNg+V7GYG0OQo5jclJwrYmWhZxhia2REGpqXYwlvXMwJcTiYglgUdJEZjedNB8XK4aw6uiuGTyFQ0dvuZGsvGlYs8FyBd8LVBlceZTDJ7QD8Qx04j1GcGv+Tbb72NezJbkcyyw3Pe67SYxzGFJsa1h4+SYwimSkp98zMzqk9NB4vwy2FOBSmmGWzF+vTr+mq0soePcKAg4Jcg9FBVguAxKxAzkBCeMDECHHOvEnyu4jcOTyGZt3coDMkyvIJoHWQtKkUU0xAu/XcTWSSmHziYjowR4/DJFvOmgwzCeFO8KaQrBv+wYp5cSubcp3nTyOWT3LV20xzekzMRzKekRER0iIiPTeFPghhtuusXVjYyNu5YOyzM5o1XLwGwCBsJsQkOzz7j5MxjmffLkRxAwOm6aDxfibsKc8l1M8tmKFe5X9NapYs8ekXhJyTJN76DbA8xmFkAHAEA8ZGYI+WQUPJtt+uxT15LciWVmA5D03aS2JYsoNbVMDHwS2CUQUFHviYidUnpoPPV8BaGq6rOYyjGOZBhlGKxEWkDEhMpUteMGrK5gSjqxZF+vP4vcHHGt1eUrC5S1YyFrK7ktPvMltiw23j+Rl0gYiIHHQK1iMCIrGIERARiIiIiKG00GceEvhQG2VqqVsxnHVkMc0cXfZjn1+TRmCgWRjhehcHPd4KMR58imJ5ny9Nv7ZeNz1UsfeqLupJgN7TCNZA0J6g1TkkLEM6SQ8gmJkWGM9RIon0OmgkDN+R2sbmFXz1iuqePaRcxq7jg+CIPuWVWkCzqfOY6BHSCiPf0mZ0bwU8ruE26xF5pMzFyqwXIt2ghNeuwCPttq0AMhFkCS55OI5hiBMe3P3bzpoGvC+MvhXi92VV07q2RNZndqXapAu1UKZjuwhrFmPbYMQJAcSM9BnpyACH3WmgkD9B2t6jn9vWPT+o5em+zV+o9N3OvZ9Z6nt+o7fw97t8eXxdvp8Ovf718rWJsYZWCot+yeOQq5C3kWoLI2LzK9J1MYsST1dOveNnEOixImcVj3C1QGmgyzwv8ANt7fEJTQXbcpi3Dk8sK7toWKaTUNSRBC6bAkoiCriEz2lzPIhidanppoGmmmgx/xw8vWE3UTLbBZRuGsQHK05+JkrUa0RcrFPbtrGSX1n4WyNdYQ0RGI18zCeEW6kJXSPfuQdX+JdiIw1X1xpack8U5ezYdYRYkSOAdMlK549I6AMa3PTQZ/4U+EOJ22dizXCxZtZDn6/NZN5W71vm8rB910xAhyMhku2I85UuS5kMFr1m48Y60sVrv3MaQsg5sUAosYYwJRKSjI1LC4XMyJdYGC6rH4ojlBfU00E2X/Jtt97GvZktyOZZYbnvddpMY5jCk2Naw8fJMYRTJSU++ZmZ1r/AIZbCnApTTDLZi/Xp1/TVaWUPHuFAQcEuQeigqwXAYlYgZyAhPGBiBDj7TTQYl4leXOluRiHZDN7kuzTWSqwy7FIWoSLkyQRVxQLhhTx6s6ciha4mZgBiHhr5c6W22Pdj83uSlNxYqsjDsU9bREuS5NFrFGuWDPLozpyGGMiJiDKJ23TQZx4s+FAbmW2pZzGcTWexLSxdBmORX5KGIGCZOOJ71ycd3g0yHnxKIjgHHwG1fKVhcXar5CrldyVH0WQ2vYVbx/IC6cZiYLHSLFkMkJLKJEhMhmJiZiaG00Hxfsax6P0f2pkO5/rft431n9d3P6v0Ho/2f1X9V+x7/2vj1ie6vKVhcpasZC1ldyWn3mS2xYbbx/Iy6QMREDjoFaxGBEVjECIgIxERERFDaaDOPCXwoDbK1VK2YzjqyGOaOLvsxz6/JozBQLIxwvQuDnu8FGI8+RTE8z5eZ8SvLnS3IxDshm9yXZprJVYZdikLUJFyZIIq4oFwwp49WdORQtcTMwAxG26aDEvDXy50ttse7H5vclKbixVZGHYp62iJclyaLWKNcsGeXRnTkMMZETEGUT7nxN2FOeS6meWzFCvcr+mtUsWePSLwk5Jkm99BtgeYzCyADgCAeMjMEfL2mmgmyh5Ntv12KevJbkSyswHIem7SWxLFlBrapgY+CWwSiCgo98TETrf9uYx1VZLZfuZIiZJxYvhRWwBkRiEjGOqV1yuJgi6yMl1YXxTHGB+ppoMf8cPL1hN1Ey2wWUbhrEBytOfiZK1GtEXKxT27axkl9Z+FsjXWENERiNY1Q8jaoYqWbhYxYsCXqTiRSxi4KO4C3HeYKmSPWIORKImYniX3TYumg8X4TeGOJ2vXKrRrdn1HaK5aaZOsXGKXCxZYcX/AHy7YQKxJzJEA5l19pppoJZ/QuxP2p6z19j0PqO99g9kufb48vSfanqO56fue7rx7nb+Hnz/AFuqm000DTTTQNZL4seBOPzlwcyq1kMHkEV2pVl8M6K7GGSewhlwYGCf2wkl9VkBkspXJ9BDhrWmgwbMeAV/NsqjnNz3M9WoM9QnF1cbVwi2P5DHK0ymZS9cqhy/dEMGHlxYvqXLZdrbfqYqrXx9VC6qKK4VXrqieID15TMyUyTGEUkRMKZIiMimSmZmfqaaDz3iLtVWbx9zEssXKq8ksVPfjnCix2+4JsULDAx7bBiVGMxMEtpj/wA7WD/oVba/t24P71Q/w7VM6aCZv0Kttf27cH96of4dp+hVtr+3bg/vVD/DtUzpoPJeE3h/R2zj1YmpDJWljmm+x2pfYY1knLbLEKWLWQPbVBTHWFpWPv4xr1ummga8xvLa9jI8xDM5jFg2uVdiMT9mr68uUE8LNrHusIscSiOajHj2xmOJRMz6fTQT/hPKriqV4MunM7oXbVYK1F+b1FjieczLWONmOLv9zkyDhnWDhhwUFBTE7NtnDWKnd7uUyGU7vDh9oKxq+xx5cu19mUK/Xn1jr3OX9WPTj8XL7WmgaaaaDPsJ4UY+jn7O568emblMfYp5KosI7Nl7bSLMXx6THZsT2jg4iOjJZB/CUMlug6aaDz2/tl43PVSx96ou6kmA3tMI1kDQnqDVOSQsQzpJDyCYmRYYz1EiicU2p5ccpgHPnEbwyGLr2PfFC3jK+UGDIFw1zAa5dc7BEoYhorE4CIDrMdZKjNNBjFTwBrXLFfI5rJZDdVir1lab/bqYtLO4uRZVw1WIWnqtSANZES2zzIgKSjjs+mmga/hfqKsLahi1uXZWaXocAsW5bBkGKas4kWLIZkZGfdMTMfv1/fTQZx4DeEVHaFW1UrsZZK/cbZdcsLSLyXE8KdUjUESa0q//AH7pY15xAQzgOj6aaBrBvGvyu4TcTH3lEzD3LTCc+3VCHV7DDIO421QMxEmSIsnkkgmWPIy7k/fvOmgkDCeR2sDllYz1iwqOXdRTxq6bj+CYDt2W2nivofCZ6hPWBmPd1iYp7YOy8bgao4+jUXSSLDb21kbCNpz1NrXOImPZ0gR5HMzArAY6QIxHodNBkviz4G19z8QvZncDEosNs1qCG4yvXQbPcMCC8Zyf2wmVgT5IxEi+L4zkvgbB8r2MwNochRzG5KThWxMtCzjDE1siINTUuxhLeuZgS4nExBLAo6SIzG86aDzG59rWLtdVWMzmKPCudezax/2aqxc5rFcva5mPP01iOhlB1IX0JpTHToHHDf0Kttf27cH96of4dqmdNB5jbG1rFKu2rOZzF7nXCvWtZD7NbYp8FkuHqcvHh6mxPUCk7cM6koZnr1Pllu/vK9jM9aLIXsxuS64lrTDTs4wBBa4mAUpKcYK0LiZIuIRESTDKeskUzvOmgyXwm8Da+2OQUczuBaX2FWbNB7cZYrvNfuKCBmM5I7gRCzJEiZCI/F8ASPs/EHYGJ3AmK9+hXvCvr2ibBA5HIwYfprSpF1bnK1QXbKOUBET1j3a9PpoJgoeUosVcVfxG58phiWsBOXVlXWNIXQ6RaaG1luplIV+tdoEMyqevKJ6D7m34GszA1gz2dyG5Bo2HPRRVXrYOifcRCQKzXxow59hcywhb3I6c5GBiCZ3Nm00H8KFRVdakLWtK6ywShCQFa0rWMAtSlhECtYjEDAx7oiIj92v76aaDH/HDy9YTdRMtsFlG4axAcrTn4mStRrRFysU9u2sZJfWfhbI11hDREYjWNUPI2qGKlm4WMWLAl6k4kUsYuCjuAtx3mCpkj1iDkSiJmJ4l902LpoPF+E3hjidr1yq0a3Z9R2iuWmmTrFxilwsWWHF/3y7YQKxJzJEA5l1+Z4s+FAbmW2pZzGcTWexLSxdBmORX5KGIGCZOOJ71ycd3g0yHnxKIjgHHR9NBPO1fKVhcXar5CrldyVH0WQ2vYVbx/IC6cZiYLHSLFkMkJLKJEhMhmJiZid4wlNldIJO1YvEvlyuXBrA5vI5KO4NJCUxxiYGOAx7gjr1nrM/u00DTTTQee8RdqqzePuYlli5VXklip78c4UWO33BNihYYGPbYMSoxmJgltMf+drB/0Kttf27cH96of4dqmdNBM36FW2v7duD+9UP8O0/Qq21/btwf3qh/h2qZ00HkvCbw/o7Zx6sTUhkrSxzTfY7UvsMayTltliFLFrIHtqgpjrC0rH38Y163TTQZL4seBOPzlwcyq1kMHkEV2pVl8M6K7GGSewhlwYGCf2wkl9VkBkspXJ9BDh8DMeAV/NsqjnNz3M9WoM9QnF1cbVwi2P5DHK0ymZS9cqhy/dEMGHlxYvqXLedNB8va236mKq18fVQuqiiuFV66oniA9eUzMlMkxhFJETCmSIjIpkpmZn8XiLtVWbx9zEssXKq8ksVPfjnCix2+4JsULDAx7bBiVGMxMEtpj/zteh00EzfoVba/t24P71Q/w7T9CrbX9u3B/eqH+HapnTQTN+hVtr+3bg/vVD/DtbZ4TeH9HbOPViakMlaWOab7Hal9hjWSctssQpYtZA9tUFMdYWlY+/jGvW6aDEvFry14jc2Qblbd7OQxy0qBFe3WivXWpcAKqy302EpclzbIxPTm5he7lOvJ/oVba/t24P71Q/w7VM6aCZv0Kttf27cH96of4dr0Hh35Vdv4PIU8qt2UtMxrCahGRbSfX7nbIFtJYUgLuLKYaBRMSLFAX7tbzpoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoGmmmgaaaaBpppoP/9k=" alt="image">
+<em>Page 12 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em>
+Conclusions The custom-Q treatment profile did not result in a more favorable outcome than the WFO ablation pro-file in terms of corneal asphericity and mid-peripheral depth of ablation. However, it should be taken into consideration that the custom-Q profile was chal-lenged with a more myopic refractive error, a smaller optical zone, and consequently led to greater central ablation and corneal flattening in addition to using the preoperative Q-value instead of a more prolate target asphericity.
+Further, software innovations are required to upgrade different aspheric ablation profiles to achieve an aberra-tion-free vision with high level of patient satisfaction fol-lowing refractive surgery.
+Abbreviations FS‑LASIK: Femtosecond laser‑assisted laser in situ keratomileusis; WFO: Wavefront‑optimized; HOAs: Higher‑order aberrations; WFG: Wavefront‑ guided; MRSE: Manifest refraction spherical equivalent; UDVA: Uncorrected distance visual acuity; CDVA: Corrected distance visual acuity; IOP: Intraocular pressure; LogMAR: Logarithm of the minimum angle of resolution; Km: Mean keratometry; RMSh: Root mean square of higher‑order aberrations; RSB: Residual stromal bed.
+Acknowledgements None.
+Author contributions MM: conception and design, data collection, analysis, and interpretation of data, writing the manuscript, critical revision of the manuscript and supervi‑ sion; HA: statistical expertise and critical revision of the manuscript; KA: data collection and critical revision of the manuscript; IG: writing the manuscript and critical revision of the manuscript; MA: conception and design, data collection, analysis, and interpretation of data, writing the manuscript, critical revision of the manuscript and supervision. All authors read and approved the final manuscript.
+Funding Open access funding provided by The Science, Technology &amp; Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB).
+Availability of data and materials Data are available from the corresponding author upon reasonable request.
+Declarations
+Ethics approval and consent to participate The study adhered to the tenets of the Declaration of Helsinki and received approval from the Ethics Committee of the Faculty of Medicine, Assiut Univer‑ sity, Egypt (IRB: 17300551).
+Consent for publication Not applicable.
+Competing interests The authors declare that they have no competing interests.
+Received: 22 May 2022   Accepted: 11 October 2022
+References  1. Holden BA, Fricke TR, Wilson DA, Jong M, Naidoo KS, Sankaridurg P, et al.
+Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050. Ophthalmology. 2016;123(5):1036–42.</p>
+</blockquote>
+<ol start="2">
+<li>Cheung N, Lee SY, Wong TY. Will the myopia epidemic lead to a retinal detachment epidemic in the future? JAMA Ophthalmol. 2021;139(1):93–4.</li>
+<li>Cooper J, Tkatchenko AV. A review of current concepts of the etiology and treatment of myopia. Eye Contact Lens. 2018;44(4):231–47.</li>
+<li>Németh J, Tapasztó B, Aclimandos WA, Kestelyn P, Jonas JB, De Faber JHN, et al. Update and guidance on management of myopia. European Soci‑ ety of Ophthalmology in cooperation with International Myopia Institute. Eur J Ophthalmol. 2021;31(3):853–83.</li>
+<li>Mrochen M, Donitzky C, Wüllner C, Löffler J. Wavefront‑optimized ablation profiles: theoretical background. J Cataract Refract Surg. 2004;30(4):775–85.</li>
+<li>Mrochen M, Lemanski N, Pajic B. Optical physics of customized laser abla‑ tion profiles. In: Sinjab M, Cummings A, editors. Customized laser vision correction. Springer; 2018. p. 95–114.</li>
+<li>Holladay JT. Effect of corneal asphericity and spherical aberra‑ tion on intraocular lens power calculations. J Cataract Refract Surg. 2015;41(7):1553–4.</li>
+<li>Beiko GH, Haigis W, Steinmueller A. Distribution of corneal spherical aberration in a comprehensive ophthalmology practice and whether keratometry can predict aberration values. J Cataract Refract Surg. 2007;33(5):848–58.</li>
+<li>Sinjab MM. Introduction to astigmatism and corneal irregularities. In: Sin‑ jab M, Cummings A, editors. Customized laser vision correction. Springer; 2018. p. 1–64.</li>
+<li>Queirós A, Villa‑Collar C, Jorge J, Gutiérrez ÁR, González‑Méijome JM. Multi‑aspheric description of the myopic cornea after different refractive treatments and its correlation with corneal higher order aberrations. J Optom. 2012;5(4):171–81.</li>
+<li>Manns F, Ho A, Parel JM, Culbertson W. Ablation profiles for wavefront‑ guided correction of myopia and primary spherical aberration. J Cataract Refract Surg. 2002;28(5):766–74.</li>
+<li>Chan JW, Edwards MH, Woo GC, Woo VC. Contrast sensitivity after laser in situ keratomileusis one‑year follow‑up. J Cataract Refract Surg. 2002;28(10):1774–9.</li>
+<li>Sharma M, Wachler BS, Chan CC. Higher order aberrations and relative risk of symptoms after LASIK. J Refract Surg. 2007;23(3):252–6.</li>
+<li>Smadja D, Reggiani‑Mello G, Santhiago MR, Krueger RR. Wavefront abla‑ tion profiles in refractive surgery: description, results, and limitations. J Refract Surg. 2012;28(3):224–32.</li>
+<li>Mrochen M, Seiler T. Influence of corneal curvature on calculation of ablation patterns used in photorefractive laser surgery. J Refract Surg. 2001;17(5):S584–7.</li>
+<li>Stojanovic A, Wang L, Jankov MR, Nitter TA, Wang Q. Wavefront optimized versus custom‑Q treatments in surface ablation for myopic astigmatism with the WaveLight ALLEGRETTO laser. J Refract Surg. 2008;24(8):779–89.</li>
+<li>Koller T, Iseli HP, Hafezi F, Mrochen M, Seiler T. Q‑factor customized abla‑ tion profile for the correction of myopic astigmatism. J Cataract Refract Surg. 2006;32(4):584–9.</li>
+<li>Gatinel D, Azar DT, Dumas L, Malet J. Effect of anterior corneal surface asphericity modification on fourth‑order Zernike spherical aberrations. J Refract Surg. 2014;30(10):708–15.</li>
+<li>George MR, Shah RA, Hood C, Krueger RR. Transitioning to optimized correction with the WaveLight ALLEGRETTO WAVE: case distribu‑ tion, visual outcomes, and wavefront aberrations. J Refract Surg. 2010;26(10):S806–13.</li>
+<li>Courtin R, Saad A, Grise‑Dulac A, Guilbert E, Gatinel D. Changes to corneal aberrations and vision after monovision in patients with hyperopia after using a customized aspheric ablation profile to increase corneal aspheric‑ ity (Q‑factor). J Refract Surg. 2016;32(11):734–41.</li>
+<li>Mearza AA, Muhtaseb M, Aslanides IM. Visual and refractive outcomes of LASIK with the SCHWIND ESIRIS and WaveLight ALLEGRETTO WAVE Eye‑q excimer lasers: a prospective, contralateral study. J Refract Surg. 2008;24(9):885–90.
+<em>Page 13 of 13Mostafa et al. Eye and Vision            (2022) 9:43</em></li>
+</ol>
+<ul>
+<li>fast, convenient online submission
+•
+thorough peer review by experienced researchers in your field</li>
+<li>rapid publication on acceptance</li>
+<li>support for research data, including large and complex data types</li>
+<li></li>
+</ul>
+<p>gold Open Access which fosters wider collaboration and increased citations
+maximum visibility for your research: over 100M website views per year •
+At BMC, research is always in progress.
+Learn more biomedcentral.com/submissions
+Ready to submit your research ?  Choose BMC and benefit from:
+22. Shetty R, Shroff R, Deshpande K, Gowda R, Lahane S, Jayadev C. A prospective study to compare visual outcomes between wavefront‑ optimized and topography‑guided ablation profiles in contralateral eyes with myopia. J Refract Surg. 2017;33(1):6–10.
+23. Roe JR, Manche EE. Prospective, randomized, contralateral eye compari‑ son of wavefront‑guided and wavefront‑optimized laser in situ keratomi‑ leusis. Am J Ophthalmol. 2019;207:175–83.
+24. Alves EM, Lyra AF, Tenório M, Mesquita N, Bacelar C, Montenegro A, et al. Femtosecond laser‑assisted in situ keratomileusis with topography‑ guided or asphericity‑adjusted derived data: a comparative contralateral eye study. BMC Ophthalmol. 2022;22(1):189.
+25. Santhiago MR, Smadja D, Gomes BF, Mello GR, Monteiro ML, Wilson SE, et al. Association between the percent tissue altered and post‑laser in situ keratomileusis ectasia in eyes with normal preoperative topography. Am J Ophthalmol. 2014;158(1):87–95.e1.
+26. Tawfik A, Eid AM, Hasanen R, Moftah IA. Q‑value customized ablation (custom‑Q) versus wavefront optimized ablation for primary myopia and myopic astigmatism. Int Ophthalmol. 2014;34(2):259–62.
+27. Mai ELC, Lian I, Chih‑Cheng L, Chang C. Custom‑Q vs. wavefront opti‑ mized lasik ablation treatment profile in high myopic Asian eyes. SM Opthalmol J. 2018;4(1):1013.
+28. Gad RE, Hosny M, Ahmed RA, Sherif AM, Salah Eldin Y. Contralateral eye study of topography guided versus Q value adjusted photorefractive keratectomy in myopia and myopic astigmatism. Clin Ophthalmol. 2021;15:1735–49.
+29. Hou J, Wang Y, Lei Y, Zheng X. Comparison of effective optical zone after small‑incision lenticule extraction and femtosecond laser‑ assisted laser in situ keratomileusis for myopia. J Cataract Refract Surg. 2018;44(10):1179–85.
+30. Ryan A, O’Keefe M. Wavefront‑guided and aspheric ablation for myo‑ pia—one‑year results of the zyoptix personalized treatment advanced algorithm. Am J Ophthalmol. 2012;153(6):1169‑77.e2.
+31. Sia RK, Ryan DS, Stutzman RD, Pasternak JF, Eaddy JB, Logan LA, et al. Wavefront guided versus wavefront‑optimized photorefractive keratec‑ tomy: clinical outcomes and patient satisfaction. J Cataract Refract Surg. 2015;41(10):2152–64.
+32. Faramarzi A, Moshirfar M, Karimian F, Delfazayebaher S, Kheiri B. Aspheric versus wavefront‑guided aspheric photorefractive keratectomy in eyes with significant astigmatism. J Cataract Refract Surg. 2017;43(12):1534–40.</p>
