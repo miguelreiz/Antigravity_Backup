@@ -137,6 +137,9 @@ Proposta por Coleman, esta teoria sugere que alterações relacionadas à idade 
 
 Isto engloba alterações no músculo ciliar, zônulas e coroide. Como mencionado, estas estruturas retêm função, tornando este um contribuinte menor, na melhor das hipóteses.
 
+![Fisiopatologia da Presbiopia: Teorias Comparativas](figures/chapter1/pathophysiology_theories.png)
+*Figura 1.3: Comparação conceptual. Esquerda: Teoria Lenticular de Helmholtz (Consenso - Esclerose Nuclear). Direita: Teorias Extralenticulares (Controversas - Mudanças Geométricas).*
+
 ---
 
 ## 1.4. A Curva de Duane e Progressão Clínica
@@ -261,6 +264,9 @@ A escolha entre correção corneana e troca de lente refrativa (RLE) depende de 
 **Racional:**
 O cristalino é a fonte primária de degradação óptica. A correção corneana não consegue superar a dispersão e aberrações lenticulares. A substituição do cristalino aborda cirurgicamente tanto a presbiopia quanto a catarata.
 
+![Classificação DLS e Árvore de Decisão Cirúrgica](figures/chapter1/dls_classification.png)
+*Figura 1.4: Árvore de decisão cirúrgica baseada no Estadiamento da Síndrome do Cristalino Disfuncional (DLS).*
+
 ### Ferramentas de Avaliação Objetiva para Estadiamento DLS
 
 Ferramentas diagnósticas modernas permitem estadiamento quantitativo:
@@ -330,6 +336,9 @@ Emétropes representam os candidatos cirúrgicos presbiópicos de maior risco po
 - Aconselhamento pré-operatório extensivo sobre trade-offs
 - Considerar soluções baseadas em lentes (LIO fácica ou RLE precoce) se o paciente não estiver disposto a aceitar qualquer compromisso na visão de longe
 
+![Matriz Clínica: Interação Erro Refrativo - Presbiopia](figures/chapter1/refractive_matrix.png)
+*Figura 1.5: Matriz de decisão clínica correlacionando o erro refrativo prévio com a estratégia de correção da presbiopia e sintomas esperados.*
+
 ---
 
 ## 1.7. Presbiopia e Dinâmica Pupilar
@@ -339,6 +348,9 @@ O tamanho da pupila muda com a idade e condições de iluminação, afetando pro
 ### Alterações Pupilares Relacionadas à Idade (Miose Senil)
 
 O diâmetro pupilar normal diminui com a idade:
+
+![Dinâmica Pupilar e Envelhecimento](figures/chapter1/pupil_dynamics.png)
+*Figura 1.6: Impacto da senescência na dinâmica pupilar. Esquerda: Olho jovem (pupila grande, menor profundidade de campo). Direita: Olho idoso (miose senil, efeito pinhole natural que aumenta a profundidade de campo).*
 
 | Idade (Anos) | Diâmetro Fotópico (Luz Brilhante) | Diâmetro Mesópico (Luz Fraca) |
 |-------------|----------------------------------|------------------------------|

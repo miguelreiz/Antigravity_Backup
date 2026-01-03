@@ -1,6 +1,6 @@
 # PresbyCor: Modern Strategies for Presbyopia and Laser Mechanics
 ## Dr. Miguel Reis
-### Preview de Implantação - Sat Jan  3 18:39:29 -03 2026
+### Preview de Implantação - Sat Jan  3 19:00:20 -03 2026
 
 
 <!-- START OF Preface_Methodology.md -->
@@ -405,6 +405,9 @@ Proposta por Coleman, esta teoria sugere que alterações relacionadas à idade 
 
 Isto engloba alterações no músculo ciliar, zônulas e coroide. Como mencionado, estas estruturas retêm função, tornando este um contribuinte menor, na melhor das hipóteses.
 
+![Fisiopatologia da Presbiopia: Teorias Comparativas](figures/chapter1/pathophysiology_theories.png)
+*Figura 1.3: Comparação conceptual. Esquerda: Teoria Lenticular de Helmholtz (Consenso - Esclerose Nuclear). Direita: Teorias Extralenticulares (Controversas - Mudanças Geométricas).*
+
 ---
 
 ## 1.4. A Curva de Duane e Progressão Clínica
@@ -529,6 +532,9 @@ A escolha entre correção corneana e troca de lente refrativa (RLE) depende de 
 **Racional:**
 O cristalino é a fonte primária de degradação óptica. A correção corneana não consegue superar a dispersão e aberrações lenticulares. A substituição do cristalino aborda cirurgicamente tanto a presbiopia quanto a catarata.
 
+![Classificação DLS e Árvore de Decisão Cirúrgica](figures/chapter1/dls_classification.png)
+*Figura 1.4: Árvore de decisão cirúrgica baseada no Estadiamento da Síndrome do Cristalino Disfuncional (DLS).*
+
 ### Ferramentas de Avaliação Objetiva para Estadiamento DLS
 
 Ferramentas diagnósticas modernas permitem estadiamento quantitativo:
@@ -598,6 +604,9 @@ Emétropes representam os candidatos cirúrgicos presbiópicos de maior risco po
 - Aconselhamento pré-operatório extensivo sobre trade-offs
 - Considerar soluções baseadas em lentes (LIO fácica ou RLE precoce) se o paciente não estiver disposto a aceitar qualquer compromisso na visão de longe
 
+![Matriz Clínica: Interação Erro Refrativo - Presbiopia](figures/chapter1/refractive_matrix.png)
+*Figura 1.5: Matriz de decisão clínica correlacionando o erro refrativo prévio com a estratégia de correção da presbiopia e sintomas esperados.*
+
 ---
 
 ## 1.7. Presbiopia e Dinâmica Pupilar
@@ -607,6 +616,9 @@ O tamanho da pupila muda com a idade e condições de iluminação, afetando pro
 ### Alterações Pupilares Relacionadas à Idade (Miose Senil)
 
 O diâmetro pupilar normal diminui com a idade:
+
+![Dinâmica Pupilar e Envelhecimento](figures/chapter1/pupil_dynamics.png)
+*Figura 1.6: Impacto da senescência na dinâmica pupilar. Esquerda: Olho jovem (pupila grande, menor profundidade de campo). Direita: Olho idoso (miose senil, efeito pinhole natural que aumenta a profundidade de campo).*
 
 | Idade (Anos) | Diâmetro Fotópico (Luz Brilhante) | Diâmetro Mesópico (Luz Fraca) |
 |-------------|----------------------------------|------------------------------|
@@ -3899,6 +3911,12 @@ O algoritmo de Ghenassia inverte a pergunta:
 **Conceito-Chave:**  
 Córneas planas (K <41 D) com Q já ligeiramente prolato (-0.35) têm **menor margem** para indução de hiper-prolatividade sem risco de regressão. Córneas curvas (K >44 D) com Q oblato (+0.10, comum em hipermétropes) têm **maior margem** de modificação segura.
 
+![Perfil de Ablação PresbyCor vs LASIK Standard](figures/chapter5/ablation_profile.png)
+*Figura 5.1: Comparação 2D dos perfis de ablação. Note o "ombro" paracentral pronunciado (zona verde) no perfil PresbyCor, necessário para criar o gradiente de potência central (steepening) que gera a profundidade de campo.*
+
+![Perfil de Ablação PresbyCor vs LASIK Standard](figures/chapter5/ablation_profile.png)
+*Figura 5.1: Comparação 2D dos perfis de ablação. Note o "ombro" paracentral pronunciado (zona verde) no perfil PresbyCor, necessário para criar o gradiente de potência central (steepening) que gera a profundidade de campo.*
+
 ### 5.1.2. Fundamentos Biomecânicos
 
 **Princípio da Estabilidade Geométrica:**
@@ -4014,6 +4032,12 @@ Arredondar: **Q = -0.75** (redução mais significativa)
 ## 5.3. Nomograma "de Bolso" do Autor - Aplicação Prática
 
 Com base na experiência cirúrgica acumulada com o algoritmo PresbyCor em plataforma Alcon Wavelight EX500, desenvolvi tabelas de referência rápida para uso intra-operatório.
+
+![Fluxograma de Decisão Q-Target](figures/chapter5/q_target_flow.png)
+*Figura 5.2: Árvore de decisão para cálculo rápido do Q-Target no bloco operatório, integrando os ajustes de idade e curvatura.*
+
+![Fluxograma de Decisão Q-Target](figures/chapter5/q_target_flow.png)
+*Figura 5.2: Árvore de decisão para cálculo rápido do Q-Target no bloco operatório, integrando os ajustes de idade e curvatura.*
 
 ### 5.3.1. Tabela de Decisão Q-Target (Olho Não-Dominante)
 
@@ -4192,6 +4216,12 @@ Após lifting de flap (ou desepitelização em PRK):
 Em análise retrospectiva de 47 casos, pacientes com tempo entre secagem e ablação >60 segundos (interrupções por eye-tracker) apresentaram Q pós-operatório ~0.08 menos negativo que planeado (hipocorreção significativa).
 
 **Correção:** Refazer secagem se ablação atrasar >45 segundos.
+
+![Mapa Comparativo Topográfico: Pré vs Pós-PresbyCor](figures/chapter5/topography_compare.png)
+*Figura 5.3: Topografia diferencial. À esquerda, córnea normal pré-operatória (verde/amarelo). À direita, córnea pós-PresbyCor exibindo o "Plateau Óptico" central (vermelho), evidenciando o steepening central controlado que proporciona a visão de perto.*
+
+![Mapa Comparativo Topográfico: Pré vs Pós-PresbyCor](figures/chapter5/topography_compare.png)
+*Figura 5.3: Topografia diferencial. À esquerda, córnea normal pré-operatória (verde/amarelo). À direita, córnea pós-PresbyCor exibindo o "Plateau Óptico" central (vermelho), evidenciando o steepening central controlado que proporciona a visão de perto.*
 
 ---
 
@@ -4596,6 +4626,12 @@ Matriz 2×2 baseada em queixas do paciente com condutas.
 - Direita: Boa (J2 ou melhor)
 
 **4 Quadrantes:**
+
+![Matriz de Solução de Problemas Clínicos](figures/chapter5/troubleshooting_matrix.png)
+*Figura 5.4: Matriz de decisão clínica baseada na visão de longe (UCDVA) e perto (UCNVA) aos 3 meses.*
+
+![Matriz de Solução de Problemas Clínicos](figures/chapter5/troubleshooting_matrix.png)
+*Figura 5.4: Matriz de decisão clínica baseada na visão de longe (UCDVA) e perto (UCNVA) aos 3 meses.*
 
 ---
 
