@@ -49,7 +49,7 @@ ax2.legend()
 ax2.grid(axis='y', alpha=0.3)
 
 # Adicionar anotação SUPRACOR
-ax2.annotate('SUPRACOR:\nMaior taxa\nreversão',  xy=(3, 12), xyt ext=(4.5, 15),
+ax2.annotate('SUPRACOR:\nMaior taxa\nreversão',  xy=(3, 12), xytext=(4.5, 15),
             arrowprops=dict(arrowstyle='->', color='red', lw=1.5),
             fontsize=9, color='red', ha='center')
 
