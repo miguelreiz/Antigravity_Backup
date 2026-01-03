@@ -265,7 +265,7 @@ Questionário validado (escala 0-10, 10=severo):
 - Não sei: 12%
 - **Não faria novamente:** 8%
 
-**Taxa de Retreatment/Reversão:** 15-18% [3]
+**Taxa de retratamento/Reversão:** 15-18% [3]
 
 **Indicações:**
 - Reversão (remover multifocalidade): 6-8%

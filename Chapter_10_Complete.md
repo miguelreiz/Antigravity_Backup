@@ -126,17 +126,17 @@ Gradual melhoria funcional. Paciente começa a notar:
 
 - **Refração estável:** Geralmente atingida
 - **UCDVA/UCNVA:** Ainda podem estar abaixo do target final
-- **Decisão Crítica:** Enhancement ou aguardar?
+- **Decisão Crítica:** Retoque Cirúrgico ou aguardar?
 
 **Regra de Ouro:**
 
-**NÃO fazer enhancement antes de 6 meses** exceto em:
+- **NÃO fazer retoque (enhancement) antes de 6 meses** exceto em:
 - Erro refrativo grosseiro (>1.50 D off-target)
 - Complicação objetiva (descentramento, ingrowth)
 - Intolerância severa documentada (score <2/10 persistente, teste LC falha)
 
 **Raciocínio:**  
-Neuroadaptação pode melhorar função visual sem intervenção adicional. Enhancement prematuro "desperdiça" potencial de adaptação natural.
+Neuroadaptação pode melhorar função visual sem intervenção adicional. Retoque Cirúrgico prematuro "desperdiça" potencial de adaptação natural.
 
 ### 10.2.3. Fase Tardia (Mês 3-12): "Otimização e Estabilização"
 
@@ -155,7 +155,7 @@ Maioria dos ganhos funcionais completam-se.
 
 **Mês 12:**
 - Estabilização completa
-- Se insatisfação persiste (score <6/10): Enhancement **agora válida**
+- Se insatisfação persiste (score <6/10): Retoque Cirúrgico **agora válida**
 
 **Gráfico de Satisfação Temporal (Dados Agregados Literatura):**
 
@@ -296,7 +296,7 @@ Insatisfação Persistente (Mês 3)
 Erro    Aberrações    ↓
 Refr    HOA     [Reversível?]
    ↓         ↓        ↓
-Enhancement Topo-   Considerar
+Retoque Cirúrgico Topo-   Considerar
             Guided  Reversão ou
                     RLE
 ```
@@ -307,7 +307,7 @@ Enhancement Topo-   Considerar
 - Refração residual significativa (>0.75 D off-target)
 - Topografia mostra descentramento
 - Aberrometria: Coma/Trefoil elevado
-- **Solução:** Enhancement (refrativo ou topoguiado)
+- **Solução:** Retoque Cirúrgico (refrativo ou topoguiado)
 
 **Problema Neuroadaptativo (Não-Corrigível Cirurgicamente):**
 - Refração no target
@@ -362,7 +362,7 @@ Enhancement Topo-   Considerar
    - Condução noturna prolongada
    - **Não** é falha cirúrgica
 
-5. **"Taxa de enhancement: 10-15%":**
+5. **"Taxa de retoque (enhancement): 10-15%":**
    - Alguns precisam ajuste
    - Não significa erro, mas variabilidade biológica
 
@@ -380,7 +380,7 @@ Eu compreendo e aceito que:
 ☐ Vou experienciar halos noturnos nas primeiras semanas/meses
 ☐ A neuroadaptação demora 3-6 meses; devo ser paciente
 ☐ Posso precisar de óculos ocasionais para tarefas específicas
-☐ 10-15% pacientes precisam de um "ajuste" (enhancement)
+☐ 10-15% pacientes precisam de um "ajuste" (retoque/enhancement)
 ☐ Existe pequena possibilidade (2-5%) de não me adaptar e precisar reversão
 
 Assinatura: ________________  Data: __________
@@ -550,7 +550,7 @@ Antes de prosseguir, confirmo que compreendo:
 ✓ Resultados Realistas
   ☑ 90% atingem independência óculos >80% do tempo
   ☑ Óculos ocasionais são NORMAIS (leitura <30cm, condução noturna)
-  ☑ 10-15% podem precisar ajuste (enhancement)
+  ☑ 10-15% podem precisar ajuste (retoque)
   ☑ 2-5% podem não adaptar (reversão possível)
 
 ✓ Compromisso do Paciente

@@ -74,11 +74,11 @@ A ablação hipermetrópica remove tecido periférico, criando um incurvamento c
 - **Aberração esférica induzida:** Negativa
 - **Consequência clínica:** Extensão da profundidade de campo (desejável para presbiopia)
 
-#### Perfis Asféricos Guiados (Wavefront-Optimized / Q-Optimized)
+#### Perfis Asféricos Guiados (Otimizados para Frente de Onda / Q-Otimizado)
 
 Plataformas modernas (Alcon Wavelight, Schwind Amaris) incorporam algoritmos que preservam ou ajustam o Q de forma controlada:
 
-- **Wavefront-Optimized:** Tenta preservar Q pré-operatório (~-0.26)
+- **Otimizado para Frente de Onda (Wavefront-Optimized):** Tenta preservar Q pré-operatório (~-0.26)
 - **Custom-Q:** Permite ao cirurgião definir o Q-alvo, essencial para cirurgia presbiópica
 
 ---
@@ -167,7 +167,7 @@ $$\text{Ganho de DoF} \propto |Z_4^0| \quad \text{mas} \quad \text{Perda de Cont
 
 ## 2.3. Polinómios de Zernike: A Linguagem da Análise de Frente de Onda
 
-A análise de frente de onda (wavefront aberrometry) utiliza a pirâmide de **Polinómios de Zernike** (norma ANSI Z80.28-2017) para decompor matematicamente os erros ópticos do olho. [7]
+A análise de frente de onda (aberrometria de frente de onda) utiliza a pirâmide de **Polinómios de Zernike** (norma ANSI Z80.28-2017) para decompor matematicamente os erros ópticos do olho. [7]
 
 ### 2.3.1. Estrutura Hierárquica dos Polinómios
 
@@ -180,7 +180,12 @@ Onde:
 - **θ** = ângulo meridional
 - **n** = ordem radial (grau do polinómio)
 - **m** = frequência angular
+- **m** = frequência angular
 
+![Pirâmide de Zernike (Representação Visual)](figures/chapter2/zernike_pyramid.png)
+*Figura 2.1: Pirâmide de Polinómios de Zernike mostrando a hierarquia das aberrações ópticas.*
+
+### 2.3.2. Pirâmide de Zernike: Nomenclatura Clínica
 ### 2.3.2. Pirâmide de Zernike: Nomenclatura Clínica
 
 #### **Ordem 0 e 1** (Artefatos, sem relevância clínica):
@@ -454,9 +459,9 @@ A **Point Spread Function** é a distribuição bidimensional de intensidade lum
 Softwares de simulação (iTrace, OPD-Scan III) permitem ao cirurgião mostrar ao paciente **previamente à cirurgia** como será a sua visão:
 
 **Técnica:**  
-1. Captura de wavefront pré-operatório
+1. Captura de frente de onda pré-operatória
 2. Modelação matemática da ablação planeada
-3. Cálculo do wavefront pós-operatório previsto
+3. Cálculo da frente de onda pós-operatória prevista
 4. Convolução da PSF prevista com imagens de teste (letras, cenas noturnas)
 
 **Valor Clínico:**  
@@ -666,11 +671,11 @@ Uma tabela de decisão clínica (decision matrix) colorida para seleção de OZ.
 - Label: "EVITAR – Alto Risco de Halos Permanentes e Insatisfação"
 
 **Anotações:**
-- Seta apontando para o canto superior direito: "Consumo de tecido aumenta (RSB baixo)"
+- Seta apontando para o canto superior direito: "Consumo de tecido aumenta (LER baixo)"
 - Seta apontando para o canto inferior esquerdo: "Risco de halos aumenta"
 
 **Objetivo:**  
-Fornecer ao cirurgião uma ferramenta visual rápida para balancear segurança refrativa (OZ adequada) e preservação de tecido (RSB).
+Fornecer ao cirurgião uma ferramenta visual rápida para balancear segurança refrativa (OZ adequada) e preservação de tecido (Leito Estromal Residual - RSB).
 
 ---
 

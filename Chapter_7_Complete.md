@@ -332,7 +332,7 @@ Menos proeminente que Custom-Q ou PresbyMAX. ~60% já satisfeitos semana 1.
 - Neutro: 5%
 - Insatisfeito: **2%** (taxa muito baixa)
 
-### 7.5.4. Estabilidade e Taxa de Enhancement
+### 7.5.4. Estabilidade e Taxa de Retoque Cirúrgico
 
 **Regressão Refrativa:**
 
@@ -340,7 +340,7 @@ Mediana de shift aos 12 meses:
 - Esfera: +0.12 D (hipermetrópico ligeiro, esperado)
 - Add efetiva: Perda de ~0.15 D (mínima)
 
-**Taxa de Retreatment:** 8-10% [4]
+**Taxa de retratamento:** 8-10% [4]
 
 **Indicações Principais:**
 - Hipocorreção (visão perto insuficiente): 5%
@@ -405,7 +405,7 @@ Mediana de shift aos 12 meses:
 | **Dependência Pupilar** | Baixa | Moderada | **Muito Alta** |
 | **Neuroadaptação** | Rápida (60% sat. sem 1) | Moderada (3-6 meses) | Moderada-Lenta |
 | **Satisfação 12m** | **93%** | 85-89% | 89% |
-| **Retreatment Rate** | 8-10% | 12-18% | **10-15%** |
+| **taxa de retratamento** | 8-10% | 12-18% | **10-15%** |
 | **Plataforma** | **Exclusivo Zeiss MEL 90** | Qualquer com Custom-Q | Exclusivo Schwind Amaris |
 | **Curva Aprendizagem** | Baixa (automático) | **Alta (cálculos)** | Baixa-Moderada |
 | **Flexibilidade Cirurgião** | Nula (black box) | **Total (manual)** | Moderada |
@@ -456,7 +456,7 @@ Mediana de shift aos 12 meses:
 
 ---
 
-### Caso 2: Enhancement por Hipocorreção
+### Caso 2: Retoque Cirúrgico por Hipocorreção
 
 **Pré-Operatório:**
 - Idade: 54 anos, contador
@@ -476,10 +476,10 @@ Mediana de shift aos 12 meses:
 - Refração residual OE: -0.50 D (deveria ser -1.25 D)
 - **Diagnóstico:** Hipocorreção por regressão hipermetrópica
 
-**Enhancement (6 meses):**
+**Retoque Cirúrgico (6 meses):**
 - OE: PRK topoguiado adicional -0.75 D + aumento SA negativa
 
-**Resultado Pós-Enhancement:**
+**Resultado Pós-Retoque Cirúrgico:**
 - UCNVA: J2 ✓
 - Satisfação: 9/10
 
@@ -630,14 +630,14 @@ Linha temporal mostrando sequência completa.
 **Passo 7:** Avaliação de Neuroadaptação
 - Satisfação: Se <7/10 → Investigar causas
 - Refração: Verificar targets atingidos
-- Decidir: Enhancement necessário?
+- Decidir: Retoque Cirúrgico necessário?
 
 ---
 
 **Mês 6-12 (Estabilização):**
 
-**Passo 8:** Alta ou Enhancement
-- Se UCNVA <J3 persistente → Enhancement (8-10% casos)
+**Passo 8:** Alta ou Retoque Cirúrgico
+- Se UCNVA <J3 persistente → Retoque Cirúrgico (8-10% casos)
 - Se satisfação ≥8/10 → Alta com follow-up anual
 
 ---

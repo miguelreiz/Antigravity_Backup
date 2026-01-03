@@ -81,11 +81,11 @@
 
 **Se Descentramento <0.8 mm:**
 - Observar 6 meses (neuroadaptação pode compensar parcialmente)
-- Se sintomas persistem: Considerar enhancement topoguiado
+- Se sintomas persistem: Considerar retoque topoguiado
 
 **Se Descentramento >0.8 mm (Severo):**
 
-1. **Enhancement Topoguiado (T-CAT/Contoura):**
+1. **Retoque Cirúrgico Topoguiado (T-CAT/Contoura):**
    - Capturar topografia pós-op
    - Software calcula ablação para "regularizar" e re-centrar
    - **Limitação:** Consome tecido adicional (RSB crítico)
@@ -94,7 +94,7 @@
    - Lentes RGP (corrigem irregularidade)
    - RLE (se idade >60 e cristalino DLS ≥2)
 
-**Taxa de Sucesso Enhancement Topoguiado:**
+**Taxa de Sucesso Retoque Cirúrgico Topoguiado:**
 - Melhoria ≥2 linhas BCVA: 70-80%
 - Resolução completa sintomas: 60%
 - Alguns casos residual coma irremediável
@@ -238,12 +238,12 @@ Olho seco pós-LASIK já é comum (50-70% sintomas transitórios). **Em PresbyLA
 
 **Gestão:**
 
-**Enhancement Timing:**
+**Retoque Cirúrgico Timing:**
 
 - **NÃO antes de 12 meses** (regressão pode estabilizar espontaneamente)
 - Ideal: 12-18 meses (permite estabilização completa)
 
-**Técnica de Enhancement:**
+**Técnica de Retoque Cirúrgico:**
 
 1. **Re-Tratamento Similar:**
    - Repetir perfil presbiópico (Custom-Q, PresbyMAX etc.)
@@ -253,7 +253,7 @@ Olho seco pós-LASIK já é comum (50-70% sintomas transitórios). **Em PresbyLA
    - Se Custom-Q falhou: Considerar monovisão adicional (micro-miopia olho não-dominante)
    - Se PresbyMAX/SUPRACOR falhou múltiplas vezes: **Considerar RLE**
 
-**Taxa de Sucesso Enhancement:**
+**Taxa de Sucesso Retoque Cirúrgico:**
 
 - 75-85% atingem outcome satisfatório (≥7/10 score)
 - 10-15% precisam 2º enhancement
@@ -461,8 +461,8 @@ Paciente objetivamente com bom resultado (UCDVA ≥20/25, UCNVA ≥J3, topografi
    - Explicar **não há "fix" cirúrgico** adicional para problema não-técnico
    - Reversão não resolverá (troca um set de queixas por outro)
 
-4. **Evitar Enhancement Desnecessário:**
-   - Enhancement em paciente psicogénico frequentemente **piora situação**
+4. **Evitar Retoque Cirúrgico Desnecessário:**
+   - Retoque Cirúrgico em paciente psicogénico frequentemente **piora situação**
    - Cria novo foco de queixas
 
 **Outcome:**
@@ -526,7 +526,7 @@ Aguardar   Sintomático?
       SIM     NÃO
        ↓       ↓
    T-CAT    RGP ou
-   Enhancement  RLE
+   Retoque Cirúrgico  RLE
 ```
 
 ---
@@ -572,7 +572,7 @@ Heatmap comparando taxas de complicações específicas.
 | **Regressão Add** | 15% 🟡 | 18% 🟠 | 10% 🟢 | **25% 🔴** |
 | **Olho Seco Crónico** | 28% 🟡 | 30% 🟠 | 25% 🟢 | 35% 🔴 |
 | **Reversão Necessária** | 2-4% 🟢 | 6% 🟡 | 1-2% 🟢 | **12% 🔴** |
-| **Enhancement Rate** | 15% 🟡 | 12% 🟢 | 10% 🟢 | 18% 🟠 |
+| **Retoque Cirúrgico Rate** | 15% 🟡 | 12% 🟢 | 10% 🟢 | 18% 🟠 |
 
 **Legenda:**
 - 🟢 <10% (Baixo)

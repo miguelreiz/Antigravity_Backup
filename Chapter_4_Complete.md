@@ -149,20 +149,20 @@ A ablação de superfície (PRK/TransPRK/LASEK) em presbiopia apresenta desafios
 
 1. **Córnea Fina:**
    - Paquimetria <500 μm (insuficiente para LASIK + ablação presbiópica)
-   - História de LASIK miópico prévio com RSB limítrofe
+   - História de LASIK miópico prévio com Leito Estromal Residual (RSB) limítrofe
 
 2. **Profissões de Alto Risco Traumático:**
    - Desportistas de contacto
    - Militares, polícias
    - Risco de deslocamento de flap inaceitável
 
-3. **Retratamento (Enhancement) Tardio:**
+3. **Retratamento Tardio:**
    - >5-10 anos após LASIK primário
    - Interface cicatrizada; lifting de flap de alto risco (epithelial ingrowth)
 
 4. **Preferência do Paciente:**
    - Evitar criação de interface permanente
-   - Menor risco de dry eye a longo prazo (preservação de nervos estromais profundos)
+   - Menor risco de olho seco a longo prazo (preservação de nervos estromais profundos)
 
 **Indicações Relativas:**
 
@@ -247,7 +247,7 @@ O LASIK permanece a técnica de eleição para a correção presbiópica cornean
 |-----------|-----|-------|-----------|
 | **Regressão aos 12 meses** | 0.40-0.75 D | 0.15-0.30 D | **2-3× menor no LASIK** |
 | **Incidência de Haze** | 15-25% (grau ≥1) | <2% | **7-10× menor** |
-| **Retreatment Rate** | 18-22% | 8-12% | **~50% redução** |
+| **Taxa de Retratamento** | 18-22% | 8-12% | **~50% redução** |
 | **Tempo até Estabilização** | 6-12 meses | 3-6 meses | **2× mais rápido** |
 
 **Mecanismo da Superioridade:**
@@ -286,7 +286,7 @@ Para perfis presbiópicos baseados em SA negativa contínua (Custom-Q, PRESBYOND
 1. **Espessura Previsível:**
    - Variação intra-operatória: ±5-10 μm
    - Microquerátomo: ±15-30 μm
-   - **Implicação:** Cálculo de RSB mais fiável
+   - **Implicação:** Cálculo de Leito Estromal Residual (RSB) mais fiável
 
 2. **Geometria Customizável:**
    - Ângulo de corte lateral: 70-90° (vs. meniscus do microquerátomo)
@@ -319,7 +319,7 @@ Para perfis presbiópicos baseados em SA negativa contínua (Custom-Q, PRESBYOND
 - Menor controlo de geometria
 
 **Recomendação em Presbiopia:**  
-**Femtosegundo preferível** devido à previsibilidade de RSB (essencial quando ablações hipermetrópicas consomem muito tecido periférico).
+**Femtosegundo preferível** devido à previsibilidade de Leito Estromal Residual (RSB) (essencial quando ablações hipermetrópicas consomem muito tecido periférico).
 
 ### 4.4.3. Protocolo Cirúrgico LASIK Presbiópico
 
@@ -434,11 +434,11 @@ Alió et al. demonstraram que pacientes PresbyLASIK atingem independence de ócu
 | **UCVA Dia 1** | 20/200 | 20/40-20/20 | **LASIK** |
 | **Estabilidade Refractiva** | Moderada (regressão 10-15%) | Alta (regressão 5-8%) | **LASIK** |
 | **Risco de Haze** | 15-25% (grau ≥1) sem MMC | <2% | **LASIK** |
-| **Retreatment Rate** | 18-22% | 8-12% | **LASIK** |
+| **Taxa de Retratamento** | 18-22% | 8-12% | **LASIK** |
 | **Preservação Biomecânica** | Superior (sem corte lamelar) | Inferior (flap permanente) | **PRK** |
 | **Risco Traumático** | Nulo (sem flap) | Deslocamento de flap possível | **PRK** |
 | **Tempo até Profissão** | 7-10 dias | 1-3 dias | **LASIK** |
-| **Dry Eye Sintomático** | Menor (sem transecção nervosa profunda) | Maior (~30-40% pacientes) | **PRK** |
+| **Olho Seco Sintomático** | Menor (sem transecção nervosa profunda) | Maior (~30-40% pacientes) | **PRK** |
 | **Custo** | Menor (sem femto) | Maior | **PRK** |
 | **RSB Consumido** | 50 μm epithélio | 50 μm epith + 100-110 μm flap | **PRK** |
 | **Indicação em Córnea Fina** | Possível até 450 μm | Limitado <500 μm | **PRK** |
@@ -453,7 +453,7 @@ Candidato a Cirurgia Presbiópica Corneana
 [Paquimetria Central?]
     ↓
 <480 μm → **PRK mandatório**
-480-500 μm → **PRK preferível** (RSB limitado para LASIK)
+480-500 μm → **PRK preferível** (Leito Estromal Residual limitado para LASIK)
 >500 μm → Continuar
     ↓
 [Profissão / Estilo de Vida?]
@@ -468,7 +468,7 @@ Virgem / LASIK recente (<5 anos) → **LASIK**
     ↓
 [Superfície Ocular?]
     ↓
-Olho seco severo → **PRK** (menor dry eye crónico)
+Olho seco severo → **PRK** (menor olho seco crónico)
 Normal → **LASIK**
     ↓
 **Decisão Final**
@@ -901,7 +901,7 @@ Educar sobre reconhecimento precoce e gestão graduada de epithelial ingrowth, c
 
 **Nó 4: Superfície Ocular**
 - **Pergunta:** "Olho seco severo (OSDI >25, Schirmer <7 mm)?"
-- **SIM:** → **PRK** (menor dry eye crónico) (Verde – Fim)
+- **SIM:** → **PRK** (menor olho seco crónico) (Verde – Fim)
 - **NÃO:** → Continuar
 
 **Nó 5: Urgência de Recuperação Visual**

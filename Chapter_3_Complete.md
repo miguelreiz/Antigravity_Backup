@@ -251,10 +251,10 @@ Ablações presbiópicas (especialmente hipermetrópicas) thin the cornea perife
 #### Espessura Corneana e Leito Estromal Residual (RSB)
 
 **Regra de Segurança:**
-$$\text{RSB} = \text{Paquimetria Mínima} - \text{Flap/Epitélio} - \text{Ablação} > 300 \, \mu m$$
+$$\text{LER} = \text{Paquimetria Mínima} - \text{Flap/Epitélio} - \text{Ablação} > 300 \, \mu m$$
 
 Para PRK (sem flap):
-$$\text{RSB} = \text{Paquimetria Mínima} - 50 \, \mu m - \text{Ablação} > 300 \, \mu m$$
+$$\text{LER} = \text{Paquimetria Mínima} - 50 \, \mu m - \text{Ablação} > 300 \, \mu m$$
 
 **Ablação Hiperópica Típica (+2.00 D presbyopic correction, zona óptica 6.0 mm):**
 - Ablação central: ~10-15 μm
@@ -269,10 +269,10 @@ Paciente: +2.00 D hipermétrope, age 50, candidato PresbyLASIK (LASIK com Q targ
 - Flap (LASIK 110 μm): 110 μm
 - Ablação periférica prevista: 75 μm
 
-$$\text{RSB} = 520 - 110 - 75 = 335 \, \mu m \, \checkmark \, \text{(Seguro)}$$
+$$\text{LER} = 520 - 110 - 75 = 335 \, \mu m \, \checkmark \, \text{(Seguro)}$$
 
 Se paquimetria mínima fosse 480 μm:
-$$\text{RSB} = 480 - 110 - 75 = 295 \, \mu m \, \times \, \text{(Limítrofe - Considerar PRK ou RLE)}$$
+$$\text{LER} = 480 - 110 - 75 = 295 \, \mu m \, \times \, \text{(Limítrofe - Considerar PRK ou RLE)}$$
 
 #### Curvatura e Asfericidade Corneana
 
@@ -454,9 +454,9 @@ Antes de PresbyLASIK em paciente com MGD:
 
 Permite ao paciente "ver" como será a sua visão pós-cirurgia através de:
 
-1. **Captura de Wavefront Pré-Op**
+1. **Captura de Frente de Onda Pré-Operatória**
 2. **Modelação do Tratamento Planeado** (incorporando Q-target, SA induzida)
-3. **Cálculo de Wavefront Pós-Op Previsto**
+3. **Cálculo de Frente de Onda Pós-Operatória Prevista**
 4. **Geração de Imagens Simuladas:**
    - Leitura de texto (jornal, menu)
    - Cena noturna (luzes de automóveis, street lights)
@@ -563,7 +563,7 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
    - Visão flutuante inicial
    - "Semana do arrependimento" (primeira semana pós-operatória)
 
-5. **Taxa de Retoque (Enhancement):**
+5. **Taxa de Retoque Cirúrgico:**
    - 10-20% dos pacientes requerem ajuste refrativo
    - Geralmente após 6-12 meses (após estabilização)
 
@@ -597,7 +597,7 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
 
 11. Reinstein DZ, Archer TJ, Gobbe M. The corneal light reflex, pupil centre, and visual axis in refractive surgery. *Journal of Refractive Surgery*. 2009;25(12):1071-1074. doi:10.3928/1081597X-20091117-04
 
-12. Lemp MA, Bron AJ, Baudouin C, et al. Tear osmolarity in the diagnosis and management of dry eye disease. *American Journal of Ophthalmology*. 2011;151(5):792-798. doi:10.1016/j.ajo.2010.10.032
+12. Lemp MA, Bron AJ, Baudouin C, et al. Tear osmolarity in the diagnosis and management of olho seco disease. *American Journal of Ophthalmology*. 2011;151(5):792-798. doi:10.1016/j.ajo.2010.10.032
 
 13. Blackie CA, Korb DR, Knop E, Bedi R, Knop N, Holland EJ. Nonobvious obstructive meibomian gland dysfunction. *Cornea*. 2010;29(12):1333-1345. doi:10.1097/ICO.0b013e3181d4f366
 
@@ -631,7 +631,7 @@ Diagrama de fluxo vertical com nós de decisão coloridos (verde/amarelo/vermelh
 - **Emetropia ±0.50 D (Laranja):** → "Alto Risco – Teste LC Obrigatório" → Continuar
 
 **Decisão 3 (Biomecânica Corneana):**
-- **Pergunta:** "BAD-D <1.60 e RSB >300 μm?"
+- **Pergunta:** "BAD-D <1.60 e Leito Estromal Residual (LER) >300 μm?"
 - **NÃO (Vermelho):** → "**Contraindicação – Sem Cirurgia Corneana**" (Fim)
 - **SIM (Verde):** → Continuar
 
@@ -832,7 +832,7 @@ Corte sagital da córnea mostrando:
 1. **Epitélio (50 μm):** Camada mais superficial, azul claro
 2. **Flap LASIK (110 μm):** Camada amarela (levantada)
 3. **Zona de Ablação (75 μm):** Tecido removido (espaço vazio com laser)
-4. **Leito Estromal Residual (RSB) (305 μm):** Camada verde (tecido que permanece)
+4. **Leito Estromal Residual (LER) (305 μm):** Camada verde (tecido que permanece)
 5. **Estroma Posterior + Descemet + Endotélio (Não ablacionado):** Camada cinzenta
 
 **Régua Lateral:**  
@@ -847,7 +847,7 @@ Paquimetria Central:        550 μm
 - Flap:                    -110 μm
 - Ablação Periférica:       -75 μm
 ─────────────────────────────────
-= RSB:                      365 μm ✓ (>300 μm)
+= LER:                      365 μm ✓ (>300 μm)
 
 CONCLUSÃO: SEGURO para PresbyLASIK
 ```

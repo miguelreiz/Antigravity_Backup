@@ -141,7 +141,7 @@ A estratégia híbrida permite:
 | **Halo Severo** | 35% | **18%** | Híbrido -17% |
 | **Perda de Linhas CDVA** | 1.8 linhas | **0.4 linhas** | Híbrido preserva longe |
 | **Satisfação Global** | 78% | **89%** | Híbrido +11% |
-| **Retreatment Rate** | 18% | **9%** | Híbrido -50% |
+| **taxa de retratamento** | 18% | **9%** | Híbrido -50% |
 
 **Conclusão Baseada em Evidência:**  
 PresbyMAX Híbrido é a estratégia de escolha atual, com melhoria dramática em CDVA e satisfação comparado ao simétrico.
@@ -325,7 +325,7 @@ Centrar **estritamente no eixo visual (Purkinje reflex)**.
 |----------------|--------------|--------|
 | <0.2 mm | Aceitável | Sem intervenção |
 | 0.2-0.4 mm | Degradação moderada (coma induzido ~0.15 μm) | Observar, considerar enhancement se sintomático |
-| >0.4 mm | **Falha cirúrgica** (coma >0.25 μm, diplopia) | Enhancement topoguiado mandatório |
+| >0.4 mm | **Falha cirúrgica** (coma >0.25 μm, diplopia) | Retoque Cirúrgico topoguiado mandatório |
 
 **Validação Intra-Op:**
 
@@ -399,7 +399,7 @@ Fenômenos fóticos tendem a **reduzir com neuroadaptação** ao longo de 6-12 m
 - **Add efetiva:** Perda média de 0.20-0.30 D (de +2.00 D → +1.70-1.80 D)
 - **Esfera:** Shift hipermetrópico de 0.15-0.25 D (esperado, por mascaramento epitelial)
 
-**Taxa de Enhancement:** 10-15% [3,5]
+**Taxa de Retoque Cirúrgico:** 10-15% [3,5]
 
 **Indicações Principais:**
 - Hipocorreção (visão perto insuficiente)
@@ -467,7 +467,7 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 | **CDVA Preservada (20/20)** | 75-85% | 65-75% (Symmetric), 80-90% (Hybrid) |
 | **Sensibilidade Contraste** | Redução ligeira (-0.15 log) | Redução moderada (-0.25 log) |
 | **Estabilidade Refrativa** | Alta | Moderada (mais regressão) |
-| **Retreatment Rate** | 12-18% | 10-15% |
+| **taxa de retratamento** | 12-18% | 10-15% |
 | **Reversibilidade** | Difícil (perfil contínuo) | Mais viável (ilha discreta) |
 | **Plataformas** | Qualquer com Custom-Q | **Exclusivo Schwind Amaris** |
 | **Custo** | Equipamento standard | Requer licença módulo PresbyMAX |

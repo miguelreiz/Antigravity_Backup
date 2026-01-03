@@ -439,7 +439,7 @@ Possível causa: Q induzido excessivo ou miopização inesperada.
 > [!CAUTION]
 > Esta modulação farmacológica é **empírica e controversa**. Não existe evidência de nível 1 suportando este protocolo. Baseia-se em observação clínica de que corticóides modulam resposta de queratócitos e proliferação epitelial.
 
-### 5.7.3. Retreatment (Enhancement) - Critérios e Timing
+### 5.7.3. retratamento (Retoque Cirúrgico) - Critérios e Timing
 
 **Indicações para Retoque:**
 
@@ -463,7 +463,7 @@ Possível causa: Q induzido excessivo ou miopização inesperada.
 - **PRK:** Se >5 anos ou flap problemático
 - **Ajuste de Q:** Geralmente adicionar mais $\Delta Q$ negativo (-0.15 a -0.30)
 
-**Taxa de Enhancement na Literatura PresbyCor:** 12-18% [4]
+**Taxa de Retoque Cirúrgico na Literatura PresbyCor:** 12-18% [4]
 
 ---
 
@@ -536,7 +536,7 @@ Diferentes lasers normalizam SA para diâmetros pupilares diferentes:
 
 8. Applegate RA, Marsack JD, Thibos LN. Metrics of retinal image quality predict visual performance in eyes with 20/17 or better visual acuity. *Optometry and Vision Science*. 2006;83(9):635-640.
 
-9. Thibos LN, Hong X, Bradley A, Applegate RA. Accuracy and precision of objective refraction from wavefront aberrations. *Journal of Vision*. 2004;4(4):329-351.
+9. Thibos LN, Hong X, Bradley A, Applegate RA. Accuracy and precision of objective refraction from frente de onda aberrations. *Journal of Vision*. 2004;4(4):329-351.
 
 10. Artal P, Chen L, Fernández EJ, Singer B, Manzanera S, Williams DR. Neural compensation for the eye's optical aberrations. *Journal of Vision*. 2004;4(4):281-287.
 
@@ -740,12 +740,12 @@ Matriz 2×2 baseada em queixas do paciente com condutas.
 
 **Conduta:**
 1. **Confirmar estabilização:** Aguardar até mês 6
-2. **Enhancement:**
+2. **Retoque Cirúrgico:**
    - Re-lift flap (ou PRK)
    - Adicionar Q: -0.15 a -0.25
    - Target miópico adicional: -0.25 a -0.50 D (olho não-dominante)
 
-**Taxa de Sucesso Enhancement:** 85-90%
+**Taxa de Sucesso Retoque Cirúrgico:** 85-90%
 
 ---
 
@@ -778,7 +778,7 @@ Matriz 2×2 baseada em queixas do paciente com condutas.
 3. OCT anterior (procurar ingrowth, striae)
 
 **Conduta:**
-- **Se Coma >0.40 μm:** Topography-Guided Enhancement
+- **Se Coma >0.40 μm:** Topography-Guided Retoque Cirúrgico
 - **Se Ingrowth Grau 3:** Re-lift + debridamento
 - **Se Striae:** Lifting + stretching + sutura temporária
 
@@ -803,7 +803,7 @@ Matriz 2×2 baseada em queixas do paciente com condutas.
 2. **Refração:** Quantificar miopia residual
 3. **Opções:**
    - **Conservadora (Preferível):** Lente contacto temporária positiva no olho miopizado (simular correção); se tolera, enhancement
-   - **Enhancement:** PRK/LASIK hipermetrópico ligeiro (+0.50 a +1.00 D) para reduzir anisometropia
+   - **Retoque Cirúrgico:** PRK/LASIK hipermetrópico ligeiro (+0.50 a +1.00 D) para reduzir anisometropia
 
 ---
 

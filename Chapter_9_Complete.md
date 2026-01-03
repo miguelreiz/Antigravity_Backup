@@ -292,7 +292,7 @@ Paciente:
 - Topografia: Steepening progressivo central
 - K central: Aumento +2.00 D
 - Refração: Shift miópico progressivo
-- **Diagnóstico:** **Ectasia iatrogénica pós-Enhancement**
+- **Diagnóstico:** **Ectasia iatrogénica pós-Retoque Cirúrgico**
 
 **Gestão:**
 

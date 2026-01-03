@@ -1,6 +1,6 @@
 # Prefácio
 
-## PresbyCor: Modern Strategies for Presbyopia and Laser Mechanics
+
 
 A presbiopia é uma condição universal que afeta todos os seres humanos sem exceção. Aos 50 anos, a amplitude de acomodação está reduzida a valores que tornam a leitura confortável impossível sem correção óptica. Esta realidade fisiológica, descrita há mais de 150 anos por Donders e Helmholtz, permanece como um dos maiores desafios da cirurgia refrativa contemporânea.
 
