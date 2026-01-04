@@ -30,9 +30,6 @@ Córneas planas (K <41 D) com Q já ligeiramente prolato (-0.35) têm **menor ma
 ![Perfil de Ablação PresbyCor vs LASIK Standard](figures/chapter5/ablation_profile.png)
 *Figura 5.1: Comparação 2D dos perfis de ablação. Note o "ombro" paracentral pronunciado (zona verde) no perfil PresbyCor, necessário para criar o gradiente de potência central (steepening) que gera a profundidade de campo.*
 
-![Perfil de Ablação PresbyCor vs LASIK Standard](figures/chapter5/ablation_profile.png)
-*Figura 5.1: Comparação 2D dos perfis de ablação. Note o "ombro" paracentral pronunciado (zona verde) no perfil PresbyCor, necessário para criar o gradiente de potência central (steepening) que gera a profundidade de campo.*
-
 ### 5.1.2. Fundamentos Biomecânicos
 
 **Princípio da Estabilidade Geométrica:**
@@ -148,9 +145,6 @@ Arredondar: **Q = -0.75** (redução mais significativa)
 ## 5.3. Nomograma "de Bolso" do Autor - Aplicação Prática
 
 Com base na experiência cirúrgica acumulada com o algoritmo PresbyCor em plataforma Alcon Wavelight EX500, desenvolvi tabelas de referência rápida para uso intra-operatório.
-
-![Fluxograma de Decisão Q-Target](figures/chapter5/q_target_flow.png)
-*Figura 5.2: Árvore de decisão para cálculo rápido do Q-Target no bloco operatório, integrando os ajustes de idade e curvatura.*
 
 ![Fluxograma de Decisão Q-Target](figures/chapter5/q_target_flow.png)
 *Figura 5.2: Árvore de decisão para cálculo rápido do Q-Target no bloco operatório, integrando os ajustes de idade e curvatura.*
@@ -332,9 +326,6 @@ Após lifting de flap (ou desepitelização em PRK):
 Em análise retrospectiva de 47 casos, pacientes com tempo entre secagem e ablação >60 segundos (interrupções por eye-tracker) apresentaram Q pós-operatório ~0.08 menos negativo que planeado (hipocorreção significativa).
 
 **Correção:** Refazer secagem se ablação atrasar >45 segundos.
-
-![Mapa Comparativo Topográfico: Pré vs Pós-PresbyCor](figures/chapter5/topography_compare.png)
-*Figura 5.3: Topografia diferencial. À esquerda, córnea normal pré-operatória (verde/amarelo). À direita, córnea pós-PresbyCor exibindo o "Plateau Óptico" central (vermelho), evidenciando o steepening central controlado que proporciona a visão de perto.*
 
 ![Mapa Comparativo Topográfico: Pré vs Pós-PresbyCor](figures/chapter5/topography_compare.png)
 *Figura 5.3: Topografia diferencial. À esquerda, córnea normal pré-operatória (verde/amarelo). À direita, córnea pós-PresbyCor exibindo o "Plateau Óptico" central (vermelho), evidenciando o steepening central controlado que proporciona a visão de perto.*
@@ -742,9 +733,6 @@ Matriz 2×2 baseada em queixas do paciente com condutas.
 - Direita: Boa (J2 ou melhor)
 
 **4 Quadrantes:**
-
-![Matriz de Solução de Problemas Clínicos](figures/chapter5/troubleshooting_matrix.png)
-*Figura 5.4: Matriz de decisão clínica baseada na visão de longe (UCDVA) e perto (UCNVA) aos 3 meses.*
 
 ![Matriz de Solução de Problemas Clínicos](figures/chapter5/troubleshooting_matrix.png)
 *Figura 5.4: Matriz de decisão clínica baseada na visão de longe (UCDVA) e perto (UCNVA) aos 3 meses.*

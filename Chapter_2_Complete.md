@@ -194,7 +194,7 @@ Onde:
 
 #### **Ordem 2** (Baixa Ordem - LOA):
 - $Z_2^0$: **Defocus (Esfera)** → Miopia/Hipermetropia
-- $Z_2^{-2}, Z_2^{+2}$: **Astigmatismo** (oblíquo e with-the-rule/against-the-rule)
+- $Z_2^{-2}, Z_2^{+2}$: **Astigmatismo** (oblíquo e a favor da regra / contra a regra)
 
 #### **Ordem 3** (Alta Ordem - HOA Patológicas):
 - $Z_3^{-3}, Z_3^{+3}$: **Trefoil** (aberração trifoliada)
@@ -313,7 +313,7 @@ A cirurgia presbiópica expande a DoF através de **três mecanismos complementa
 Redução do diâmetro pupilar efetivo bloqueia raios periféricos aberrados, diminuindo o blur circle.
 
 **Aplicação Cirúrgica:**
-- **Inlays corneanos (Kamra, IC-8):** Criam um pinhole físico (1.6-2.1 mm)
+- **Implantes corneanos (Inlays) (Kamra, IC-8):** Criam um pinhole físico (1.6-2.1 mm)
 - **Gotas mióticas (Pilocarpina, Vuity™):** Induzem miose farmacológica
 
 **Limitação:**  
@@ -422,7 +422,7 @@ Se a pupila dobra de 3 mm para 6 mm, a SA aumenta **32× (2⁵)**.
 **Implicação Crítica:**  
 Pacientes com pupilas mesópicas >6.5 mm experimentarão magnificação dramática de aberrações induzidas cirurgicamente, resultando em halos e degradação visual noturna severos.
 
-### 2.6.2. Pupil Matching e Zona Óptica
+### 2.6.2. Correspondência Pupilar (Pupil Matching) e Zona Óptica
 
 A seleção da **zona óptica (OZ)** da ablação deve ser baseada na pupila mesópica do paciente:
 
@@ -507,297 +507,57 @@ Gestão de expectativas. Permite ao paciente decidir se o trade-off (halos vs. l
 
 ### Infográfico 2.1: A Pirâmide de Zernike Clínica (Hierarquia Funcional)
 
-**Descrição:**  
-Uma representação visual hierárquica em formato piramidal, organizada por ordem radial e relevância clínica.
-
-**Estrutura da Pirâmide:**
-
-**Base (Ordem 2 - Baixa Ordem):**
-- **Cor:** Azul claro
-- **Termos:** $Z_2^0$ (Defocus), $Z_2^{-2}$, $Z_2^{+2}$ (Astigmatismo)
-- **Label:** "Corrigível com Óculos/Lentes de Contacto"
-- **Ícone:** Óculos
-
-**Camada Intermédia (Ordem 3 - HOA Patológicas):**
-- **Cor:** Vermelho
-- **Termos:** $Z_3^{-1}$, $Z_3^{+1}$ (Coma), $Z_3^{-3}$, $Z_3^{+3}$ (Trefoil)
-- **Label:** "Aberrações Indesejadas – Descentramento/Irregularidade"
-- **Ícone:** Símbolo de alerta (triângulo)
-- **Anotação:** "Coma vertical = Principal causa de perda de linhas pós-LASIK"
-
-**Topo (Ordem 4 - HOA Terapêuticas):**
-- **Cor:** Verde
-- **Termo Destacado:** $Z_4^0$ (Aberração Esférica)
-- **Label:** "Ferramenta Terapêutica para Presbiopia"
-- **Ícone:** Laser excimer
-- **Anotação:** "SA negativa (-0.40 a -0.60 μm) = Extensão de DoF"
-
-**Elementos Adicionais:**
-- Setas laterais indicando: "Ordem Crescente = Impacto Visual Crescente"
-- Caixa de texto: "Objetivo Cirúrgico: Minimizar Ordem 3, Maximizar Ordem 4 negativa"
-
-**Objetivo:**  
-Demonstrar que nem todas as HOA são deletérias; o $Z_4^0$ é deliberadamente manipulado como ferramenta terapêutica.
+![Pirâmide de Zernike Clínica](figures/chapter2/zernike_pyramid_clinical.png)
+*Figura 2.1: Uma representação visual hierárquica das aberrações de Zernike, desde a baixa ordem (correção com óculos) até a alta ordem (terapêutica vs patológica).*
 
 ---
 
 ### Infográfico 2.2: Fator Q e Perfil Corneano (Comparação Geométrica)
 
-**Descrição:**  
-Três painéis lado a lado mostrando cortes sagitais da córnea com diferentes valores de Q.
-
-**Painel A: Esférica (Q = 0)**
-- **Perfil:** Curvatura uniforme (arco circular perfeito)
-- **Raios de luz:** Convergem para um ponto focal único
-- **Retina:** Ponto focal nítido e estreito
-- **Label:** "Foco Único – Sem DoF"
-
-**Painel B: Prolata Fisiológica (Q = -0.26)**
-- **Perfil:** Ligeiro aplanamento periférico
-- **Raios de luz:** Raios centrais e periféricos convergem próximos (pequena dispersão axial)
-- **Retina:** Ponto focal ligeiramente alargado
-- **Label:** "DoF Natural Mínima (~0.5 D)"
-- **Anotação:** "Estado Pré-Operatório Normal"
-
-**Painel C: Hiper-Prolata PresbyCor (Q = -1.20)**
-- **Perfil:** Aplanamento periférico muito acentuado; centro fortemente curvo
-- **Raios de luz:** Raios centrais focam antes da retina; raios periféricos focam depois
-- **Retina:** "Zona caustica" alongada cobrindo múltiplos planos axiais
-- **Label:** "DoF Expandida (~2.0-2.5 D)"
-- **Anotação:** "Alvo Cirúrgico Presbiópico"
-
-**Gráfico Inferior:**  
-Gráfico de potência dióptrica (eixo Y) vs. distância radial (eixo X) para cada perfil:
-- Esférica: Linha horizontal (potência constante)
-- Prolata: Declínio suave
-- Hiper-prolata: Declínio acentuado (criando "plateau óptico" central)
-
-**Objetivo:**  
-Mostrar visualmente como a modificação do Q altera a distribuição de potência e cria múltiplos focos.
+![Comparação de Perfis de Fator Q](figures/chapter2/q_factor_profiles.png)
+*Figura 2.2: Comparação geométrica entre córnea esférica, prolata fisiológica e hiper-prolata PresbyCor. Note como o perfil hiper-prolado cria uma 'caustica' focal estendida.*
 
 ---
 
 ### Infográfico 2.3: Aberração Esférica Negativa vs. Positiva (Ray Tracing Comparativo)
 
-**Descrição:**  
-Diagrama de traçado de raios (ray tracing) demonstrando o comportamento focal de SA positiva e negativa.
-
-**Painel Superior: SA Positiva (+0.40 μm) – Pós-LASIK Miópico**
-- **Córnea:** Perfil oblato (centro plano, periferia curva)
-- **Raios Paraciais (Centro, Azuis):** Focam na retina
-- **Raios Periféricos (Margem, Vermelhos):** Focam **antes** da retina (miopia periférica)
-- **Resultado na Retina:** Círculo de confusão alargado
-- **Label:** "Halos Noturnos / Perda de Contraste"
-- **Ícone:** Estrela com halos ao redor
-
-**Painel Inferior: SA Negativa (-0.50 μm) – PresbyLASIK**
-- **Córnea:** Perfil hiper-prolato (centro curvo, periferia plana)
-- **Raios Paraciais (Centro, Azuis):** Focam **ligeiramente antes** da retina
-- **Raios Periféricos (Margem, Vermelhos):** Focam **depois** da retina (hipermetropia periférica)
-- **Resultado na Retina:** Múltiplas "zonas de menor confusão" ao longo do eixo z
-- **Label:** "Profundidade de Campo Aumentada"
-- **Ícone:** Livro legível a múltiplas distâncias
-
-**Elementos Adicionais:**
-- Linha tracejada vertical representando o plano retiniano
-- Setas bidirecionais mostrando a "zona de foco aceitável" (DoF) no caso SA negativa
-
-**Objetivo:**  
-Ilustrar o mecanismo óptico exato pelo qual SA negativa cria DoF terapêutica.
+![Ray Tracing SA Positiva vs Negativa](figures/chapter2/sa_ray_tracing.png)
+*Figura 2.3: Diagrama de Ray Tracing comparando SA Positiva (halos, foco antes da retina) vs SA Negativa (DoF estendido, foco através da retina).*
 
 ---
 
 ### Infográfico 2.4: Escalamento de Aberrações com Diâmetro Pupilar (Gráfico Exponencial)
 
-**Descrição:**  
-Gráfico logarítmico demonstrando a relação não-linear entre pupila e magnitude de aberrações.
-
-**Eixo X:** Diâmetro Pupilar (2 mm a 8 mm)  
-**Eixo Y:** Magnitude de Aberração (μm), escala logarítmica
-
-**Três Curvas:**
-
-1. **Curva Verde (Defocus, $Z_2^0$):**  
-   - Curva cúbica (d³)
-   - Aumenta moderadamente
-   - Label: "Erro Refrativo (controlável com óculos)"
-
-2. **Curva Laranja (Coma, $Z_3^1$):**
-   - Curva quartica (d⁴)
-   - Aumenta mais acentuadamente
-   - Label: "Coma (patológica, descentramento)"
-
-3. **Curva Vermelha (SA, $Z_4^0$):**
-   - Curva quintica (d⁵)
-   - Aumenta dramaticamente acima de 5 mm
-   - Label: "Aberração Esférica (magnificada à noite)"
-
-**Zona Sombreada (Pupila >6.5 mm):**
-- **Cor:** Vermelho transparente
-- **Label:** "Zona de Risco – Halos Severos"
-- **Anotação:** "Pacientes com pupilas mesópicas >6.5 mm: Reduzir target de SA ou contraindicar PresbyLASIK"
-
-**Linha Vertical de Referência:**
-- Marca a pupila média mesópica (5.0 mm)
-
-**Objetivo:**  
-Quantificar visualmente porque pacientes com pupilas grandes experimentam magnificação desproporcional de fenómenos fóticos.
+![Gráfico de Aberrações vs Diâmetro Pupilar](figures/chapter2/aberrations_pupil_scaling.png)
+*Figura 2.4: Comportamento exponencial das aberrações. Note o crescimento explosivo da Aberração Esférica (curva vermelha, d^5) em pupilas >6.0 mm.*
 
 ---
 
 ### Infográfico 2.5: Matriz de Decisão – Zona Óptica vs. Pupila Mesópica
 
-**Descrição:**  
-Uma tabela de decisão clínica (decision matrix) colorida para seleção de OZ.
-
-**Eixo Vertical:** Diâmetro da Pupila Mesópica (3.0 mm a 7.0 mm)  
-**Eixo Horizontal:** Zona Óptica da Ablação (5.0 mm a 7.0 mm)
-
-**Células da Matriz:**
-
-**Células Verdes (Seguras):**
-- OZ ≥ Pupila + 0.5 mm
-- Exemplo: Pupila 5.0 mm + OZ 6.0 mm = **VERDE**
-- Label: "Match Ideal – Mínimo Risco de Halos"
-
-**Células Amarelas (Cautela):**
-- OZ = Pupila ± 0.3 mm
-- Exemplo: Pupila 6.0 mm + OZ 6.0 mm = **AMARELO**
-- Label: "Aceitável – Informar Paciente sobre Halos Transitórios"
-
-**Células Vermelhas (Alto Risco):**
-- OZ < Pupila - 0.5 mm
-- Exemplo: Pupila 6.5 mm + OZ 5.5 mm = **VERMELHO**
-- Label: "EVITAR – Alto Risco de Halos Permanentes e Insatisfação"
-
-**Anotações:**
-- Seta apontando para o canto superior direito: "Consumo de tecido aumenta (LER baixo)"
-- Seta apontando para o canto inferior esquerdo: "Risco de halos aumenta"
-
-**Objetivo:**  
-Fornecer ao cirurgião uma ferramenta visual rápida para balancear segurança refrativa (OZ adequada) e preservação de tecido (Leito Estromal Residual - RSB).
+![Matriz de Decisão Zona Óptica vs Pupila](figures/chapter2/oz_pupil_matrix.png)
+*Figura 2.5: Matriz de segurança (Risco de Halos vs Cobertura). Zona Verde = Zona Óptica Segura (Pupila + 0.5 a 1.0mm).*
 
 ---
 
 ### Infográfico 2.6: Simulação de PSF – Normal vs. PresbyLASIK
 
-**Descrição:**  
-Duas Point Spread Functions simuladas lado a lado, mostrando a distribuição de intensidade luminosa na retina.
-
-**Painel Esquerdo: Olho Normal (Emmétrope, SA mínima)**
-- **PSF:** Padrão de Airy nítido
-  - Disco central brilhante (diâmetro ~10 μm)
-  - Anéis concêntricos muito ténues
-- **Perfil de Intensidade (Gráfico Linear):**  
-  - Pico central elevado e estreito
-  - Base estreita
-- **Strehl Ratio:** 0.90
-- **Label:** "Alta Qualidade Óptica – Foco Pontual"
-
-**Painel Direito: Pós-PresbyLASIK (SA negativa -0.50 μm)**
-- **PSF:** Padrão alargado
-  - Disco central mais largo (diâmetro ~25-30 μm)
-  - Anéis periféricos mais pronunciados (energia dispersa)
-  - Múltiplos "hot spots" ao longo do eixo z (não visível em 2D, mas indicado)
-- **Perfil de Intensidade:**
-  - Pico central reduzido (60-70% do original)
-  - Base alargada (correlacionando com DoF)
-- **Strehl Ratio:** 0.55
-- **Label:** "Qualidade Reduzida – Profundidade de Campo Expandida"
-
-**Gráfico Inferior: Through-Focus PSF**
-- Eixo X: Defocus (D), de -2.0 a +2.0
-- Eixo Y: Strehl Ratio
-- Curva Normal: Pico estreito em 0.0 D
-- Curva PresbyLASIK: Pico alargado, plateau de -1.0 a +1.5 D (zona de foco aceitável)
-
-**Objetivo:**  
-Demonstrar o trade-off fundamental: perda de qualidade de pico em troca de gama focal alargada.
+![Simulação PSF Normal vs PresbyLASIK](figures/chapter2/psf_simulation.png)
+*Figura 2.6: Comparação de Point Spread Function (PSF). Esquerda: Foco pontual (Strehl alto). Direita: Foco estendido PresbyLASIK (Strehl reduzido, mas DoF aumentada).*
 
 ---
 
 ### Infográfico 2.7: Curva MTF – Impacto da Aberração Esférica na Sensibilidade ao Contraste
 
-**Descrição:**  
-Gráfico de Modulation Transfer Function mostrando contraste preservado vs. frequência espacial.
-
-**Eixo X:** Frequência Espacial (cycles/degree), escala logarítmica 1-30 cpd  
-**Eixo Y:** MTF (Contraste Normalizado), escala 0.0-1.0
-
-**Três Curvas:**
-
-1. **Curva Azul (Olho Ideal – Difração Limitada):**
-   - Curva superior
-   - MTF = 1.0 em todas as frequências até corte de difração (~60 cpd para pupila 3 mm)
-   - Label: "Limite Teórico"
-
-2. **Curva Verde (Olho Normal Jovem):**
-   - Ligeiramente abaixo da azul
-   - MTF ~0.8 a 6 cpd, ~0.5 a 18 cpd
-   - Label: "Pré-Operatório (SA fisiológica)"
-
-3. **Curva Laranja (Pós-PresbyLASIK – SA -0.50 μm):**
-   - Redução em frequências médias e altas
-   - MTF ~0.6 a 6 cpd (funcionalidade preservada)
-   - MTF ~0.3 a 12-15 cpd (leitura ainda possível, mas com redução de contraste)
-   - MTF <0.2 acima de 18 cpd (detalhes finos comprometidos)
-   - Label: "Pós-Cirurgia Presbiópica"
-
-**Zonas Sombreadas Verticais (Correlação com Tarefas Visuais):**
-
-- **Zona 1 (3-6 cpd):** "Reconhecimento Facial, Orientação Espacial" – **VERDE** (preservado)
-- **Zona 2 (6-12 cpd):** "Leitura (N8-N10), Uso de Computador" – **AMARELO** (reduzido mas funcional)
-- **Zona 3 (12-18 cpd):** "Leitura Pequena (N5-N6)" – **LARANJA** (comprometido)
-- **Zona 4 (>18 cpd):** "Condução Noturna, Detalhes Finos" – **VERMELHO** (severamente reduzido)
-
-**Linha Horizontal de Referência:**
-- MTF = 0.3 (linha tracejada vermelha)
-- Label: "Limiar de Funcionalidade Visual"
-
-**Caixa de Texto:**  
-"Critério de Sucesso Cirúrgico: Manter MTF >0.3 até 12 cpd para garantir leitura funcional sem óculos."
-
-**Objetivo:**  
-Quantificar objetivamente o impacto da SA negativa terapêutica na visão diária, permitindo aconselhamento realista do paciente.
+![Curva MTF Comparativa](figures/chapter2/mtf_curve.png)
+*Figura 2.7: Gráfico de Função de Transferência de Modulação (MTF). Note a queda em frequências espaciais médias/altas no PresbyLASIK (laranja) em troca de funcionalidade (MTF > 0.3) em faixa de leitura.*
 
 ---
 
 ### Infográfico 2.8: Mecanismos de Profundidade de Campo (Triplo Diagrama)
 
-**Descrição:**  
-Três painéis ilustrando os três mecanismos complementares de DoF em cirurgia presbiópica.
-
-**Painel 1: Mecanismo Óptico Geométrico (Pinhole)**
-- **Ilustração:** Pupila pequena (2 mm) vs. pupila grande (6 mm)
-  - Pupila pequena: Poucos raios (3-4), todos convergem ao mesmo ponto
-  - Pupila grande: Muitos raios (10-12), convergem a pontos diferentes (blur)
-- **Gráfico:** DoF (D) vs. Diâmetro Pupilar (curva hiperbólica inversa)
-- **Label:** "Pinhole Físico ou Farmacológico (Miose)"
-- **Vantagem:** DoF aumentada
-- **Desvantagem:** Luminância reduzida (visão escura)
-
-**Painel 2: Mecanismo Óptico por Aberração (SA Negativa)**
-- **Ilustração:** Perfil corneano hiper-prolato criando múltiplos focos axiais
-  - Raios centrais focam em F₁ (perto)
-  - Raios médios focam em F₂ (intermédio)
-  - Raios periféricos focam em F₃ (longe)
-- **Label:** "Indução de Aberração Esférica Controlada"
-- **Vantagem:** DoF sem perda de luminância
-- **Desvantagem:** Redução de contraste
-
-**Painel 3: Mecanismo Neural (Neuroadaptação)**
-- **Ilustração:** Córtex cerebral (área V1) com múltiplas imagens sobrepostas chegando à retina
-  - Imagem focada (alta frequência espacial): Processada ativamente
-  - Imagem desfocada (baixa frequência): Suprimida ativamente
-- **Gráfico de Linha Temporal:** Eficácia de supressão (%) vs. Tempo pós-cirurgia (dias)
-  - Dia 1: 20%
-  - Semana 1: 40%
-  - Mês 1: 60%
-  - Mês 3: 80-90% (plateau)
-- **Label:** "Plasticidade Cortical e Supressão de Blur"
-- **Anotação:** "Requer 3-6 meses para otimização completa"
-
-**Caixa Inferior (Síntese):**
+![Tríade de Mecanismos DoF](figures/chapter2/dof_mechanisms.png)
+*Figura 2.8: Os três mecanismos complementares da visão presbiópica cirúrgica: 1. Pinhole (Pupila), 2. Aberração (Córnea), 3. Neuroadaptação (Cérebro).*
 "**Cirurgia Presbiópica Eficaz = Óptica + Neural**  
 Sem neuroadaptação, o paciente percebe apenas 'visão turva'. Com neuroadaptação, o cérebro extrai nitidez funcional."
 
