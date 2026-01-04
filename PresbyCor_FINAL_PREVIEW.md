@@ -1,6 +1,6 @@
 # PresbyCor: Modern Strategies for Presbyopia and Laser Mechanics
 ## Dr. Miguel Reis
-### Preview de Implantação - Sat Jan  3 23:10:35 -03 2026
+### Preview de Implantação - Sun Jan  4 07:04:31 -03 2026
 
 
 <!-- START OF Preface_Methodology.md -->
@@ -4567,17 +4567,17 @@ Pronto para copiar para o Google Drive!
 # Capítulo 6: PresbyMAX (Schwind) - A Abordagem Bi-Asférica Multifocal
 
 > [!NOTE]
-> **Definição Tecnológica:** O **PresbyMAX** (Schwind Eye-Tech-Solutions, Alemanha) é um módulo de software de ablação proprietário que difere fundamentalmente da modulação de asfericidade global contínua (Q-factor/Custom-Q). Baseia-se na criação de um perfil corneano **bi-asférico multifocal**, consistindo numa zona central otimizada para visão de perto e uma zona periférica para visão de longe, conectadas por uma zona de transição asférica suave. Esta arquitetura mimética a óptica de lentes de contacto multifocais de centro-perto (Center-Near Design). [1]
+> **Definição Tecnológica:** O **PresbyMAX** (Schwind Eye-Tech-Solutions, Alemanha) é um módulo de software de ablação proprietário que difere fundamentalmente da modulação de asfericidade global contínua (Q-factor/Custom-Q). Baseia-se na criação de um perfil corneano **bi-asférico multifocal**, consistindo numa zona central otimizada para visão de perto e uma zona periférica para visão de longe, conectadas por uma zona de transição asférica suave. Esta arquitetura mimética a óptica de lentes de contacto multifocais de **Design Centro-Perto (Center-Near Design)**. [1]
 
 ## 6.1. Princípios Ópticos: Bi-Asfericidade vs. Prolatividade Contínua
 
-### 6.1.1. Conceito de "Optical Island" (Ilha Óptica Central)
+### 6.1.1. Conceito de "Ilha Óptica" (Optical Island)
 
 Ao contrário do Custom-Q/PresbyCor, que induz uma **curva de potência contínua** (gradient smooth de centro para periferia), o PresbyMAX estrutura a córnea em **zonas funcionais distintas**.
 
 **Anatomia do Perfil PresbyMAX:**
 
-**Zona 1 - Central Near Zone (Zona de Perto):**
+**Zona 1 - Zona Central de Perto (Central Near Zone):**
 - Diâmetro: 1.8-2.3 mm (programável)
 - Geometria: Hiper-convexa (steepening acentuado)
 - Função: Foca raios paraciais na distância de leitura (~33-40 cm)
@@ -4588,7 +4588,7 @@ A zona central **não é uma simples esfera positiva** (o que induziria aberraç
 - Maximiza potência de perto
 - Minimiza aberrações de alta ordem desnecessárias (redução de SA positiva que degradaria qualidade)
 
-**Zona 2 - Transition Zone (Zona de Transição):**
+**Zona 2 - Zona de Transição (Transition Zone):**
 - Largura: 0.8-1.2 mm
 - Geometria: Asférica progressiva (blend suave)
 - Função: **Crítica para qualidade visual**
@@ -4597,7 +4597,7 @@ A zona central **não é uma simples esfera positiva** (o que induziria aberraç
   
 **Evidência:** Baenninger demonstrou que a qualidade da zona de transição correlaciona diretamente com sensibilidade ao contraste pós-operatória. Perfis com transições <0.8 mm apresentaram perda de >0.4 log units em frequências médias. [2]
 
-**Zona 3 - Peripheral Distance Zone (Zona de Longe):**
+**Zona 3 - Zona Periférica de Longe (Peripheral Distance Zone):**
 - Início: ~3.5-4.0 mm do centro
 - Extenção radial: Até zona óptica total (6.5-7.0 mm)
 - Geometria: Ligeiramente prolata a esférica
@@ -4627,13 +4627,13 @@ Onde:
 - **σ:** Largura da zona central (Gaussian width)
 - **B · r⁴:** Termo de aberração esférica de controlo (minimiza SA positiva excessiva)
 
-Esta formulação cria um perfil de **"Gaussian-like elevation"** no centro, diferente da elevação polinomial contínua do Custom-Q.
+Esta formulação cria um perfil de **"elevação tipo Gaussiana" (Gaussian-like)** no centro, diferente da elevação polinomial contínua do Custom-Q.
 
 ---
 
 ## 6.2. Variantes do Algoritmo PresbyMAX
 
-### 6.2.1. PresbyMAX Symmetric (Bilateral Simétrico)
+### 6.2.1. PresbyMAX Simétrico (Symmetric)
 
 **Configuração:**  
 Ambos os olhos recebem o mesmo perfil multifocal com adição central completa.
@@ -4661,14 +4661,14 @@ Ambos os olhos recebem o mesmo perfil multifocal com adição central completa.
 **Indicação Atual:**  
 Rara. Maioria dos cirurgiões abandonou estratégia simétrica em favor da híbrida (ver abaixo).
 
-### 6.2.2. PresbyMAX Hybrid (Micro-Monovision) - **PADRÃO ATUAL**
+### 6.2.2. PresbyMAX Híbrido (Hybrid) - **PADRÃO ATUAL**
 
 **Conceito (Uthoff et al.):**  
 Combinar os benefícios da multifocalidade com os da monovisão, minimizando as desvantagens de cada uma. [4]
 
 **Configuração:**
 
-**Olho Dominante - "Distance-Optimized with Mild EDOF":**
+**Olho Dominante - "Otimizado para Longe com EDOF Leve":**
 - **Opção A (Conservadora):** LASIK/PRK standard asférico **sem** PresbyMAX
   - Apenas correção refrativa (preserva Q natural ou wavefront-optimized)
   - Target: Plano (0.00 D)
@@ -4679,7 +4679,7 @@ Combinar os benefícios da multifocalidade com os da monovisão, minimizando as 
   - Zona central menor: 1.5 mm
   - Prioriza longe, adiciona ligeira DoF para intermédio
 
-**Olho Não-Dominante - "Near-Optimized Full Multifocal":**
+**Olho Não-Dominante - "Otimizado para Perto Multifocal Completo":**
 - PresbyMAX completo
 - Add central: +1.75 a +2.25 D
 - Zona central: 2.1-2.3 mm
@@ -4839,11 +4839,11 @@ Advertir paciente sobre maior probabilidade de retoque ou considerar RLE.
 
 - **Frequência de Ablação:** 500-1050 Hz (programável)
   - PresbyMAX optimizado para 750 Hz (balanceia velocidade e precisão)
-- **Flying Spot:** 0.54 mm (ultra-fino, permite resolução de alta frequência espacial para zonas de transição)
+- **Ponto Volante (Flying Spot):** 0.54 mm (ultra-fino, permite resolução de alta frequência espacial para zonas de transição)
 - **Eye-Tracker:** 1050 Hz, 6 dimensões (x, y, z, ciclotorsão, elevação ocular)
   - Latência: <3 ms
   - Precisão: ±0.05 mm
-- **Perfil:** "Smart Pulse Technology" (modulação de energia por pulso para suavizar transições)
+- **Perfil:** "Tecnologia de Pulso Inteligente (Smart Pulse)" (modulação de energia por pulso para suavizar transições)
 
 ### 6.5.2. Software: Seleção de Perfil PresbyMAX
 
@@ -4926,7 +4926,7 @@ Secagem padronizada com 2 Weck-Cel, 5 segundos, aguardar 10 seg, ablação imedi
 - Funcional sem óculos: 75-80%
 - Excelente: 45-50%
 
-**Spectacle Independence:**
+**Independência de Óculos (Spectacle Independence):**
 - Completa (0% uso de óculos): 60-65%
 - Parcial (<25% do tempo): 25-30%
 - **Necessitam óculos regularmente:** 10-15%
@@ -4953,7 +4953,7 @@ Leitura de texto normal (6-12 cpd) é funcional, mas leitura prolongada ou texto
   - Moderados: 35%
   - Severos (limitam condução): 10-15%
 - **Glare:** 25-30%
-- **Starburst:** 15-20%
+- **Efeito Estrela (Starburst):** 15-20%
 
 **Nota:**  
 Fenômenos fóticos tendem a **reduzir com neuroadaptação** ao longo de 6-12 meses. Apenas ~5-8% persistem sintomáticos após 1 ano.
@@ -5127,230 +5127,36 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 
 ### Infográfico 6.1: Perfil Bi-Asférico PresbyMAX (Corte Transversal Anatómico)
 
-**Descrição:**  
-Diagrama em corte sagital da córnea mostrando geometria pós-PresbyMAX com zonas claramente demarcadas.
-
-**Estrutura Central (Zona Near):**
-- **Corte:** Mostra elevação central pronunciada em forma de "domo"
-- **Dimensões:** 2.1 mm diâmetro (marcado)
-- **Cor:** Vermelho intenso (alta potência)
-- **Label:** "Zona Central - Near (+2.00 D add)"
-- **Raios de Luz:** Convergem para ponto focal ~33 cm anterior à retina
-
-**Estrutura Intermediária (Zona de Transição):**
-- **Corte:** Declíneo suave conectando centro a periferia
-- **Largura:** ~1.0 mm (marcado)
-- **Cor:** Gradiente laranja→amarelo
-- **Label:** "Transição Asférica Suave (crítica para minimizar halos)"
-- **Seta anotada:** "Slope controlado para evitar difração"
-
-**Estrutura Periférica (Zona Distance):**
-- **Corte:** Região plana ou ligeiramente prolata
-- **Início:** 3.5 mm do centro
-- **Cor:** Azul-verde (baixa potência)
-- **Label:** "Zona Periférica - Distance (plano)"
-- **Raios de Luz:** Convergem para foco na retina (infinito óptico)
-
-**Sobreposição: Perfil de Potência Dióptrica:**
-
-Gráfico linear sobreposto (eixo X: distância radial 0-4 mm, eixo Y: potência local D):
-- Curva PresbyMAX: Pico central (+2.0 D acima baseline), plateau, queda abrupta controlada, plateau periférico
-- Curva Custom-Q (tracejada para comparação): Queda suave contínua sem pico pronunciado
-
-**Caixa de Comparação:**
-"**PresbyMAX:** Zonas discretas (degraus funcionais)  
-**Custom-Q:** Curva contínua (gradient suave)"
+![Perfil Bi-Asférico PresbyMAX](figures/chapter6/presbymax_profile_schematic.png)
+*Figura 6.1: Diagrama esquemático do perfil bi-asférico PresbyMAX. Note a 'ilha central' de potência para visão de perto conectada à periferia de longe por uma zona de transição suave.*
 
 ---
 
 ### Infográfico 6.2: Estratégia Híbrida vs. Simétrica (Esquema Binocular)
 
-**Descrição:**  
-Dois painéis lado a lado mostrando as duas estratégias.
-
-**Painel Esquerdo: PresbyMAX Symmetric (Não Recomendado)**
-
-**Olho Direito e Esquerdo (Idênticos):**
-- Ambos: Círculo com zona central vermelha (multifocal) + periferia azul
-- Label: "Bilateral Add +2.00 D"
-- Target refrativo: Ambos 0.00 D
-
-**Resultado Visual:**
-- Ícone livro (perto): ✓✓ (Excelente bilateral)
-- Ícone carro (longe): ✗✗ (Ambos os olhos com degradação)
-- Ícone computador (intermédio): ✓ (Moderado)
-
-**Caixa de Desvantagem (Vermelha):**
-"⚠ **Problemas:**
-- Perda CDVA média: 1.5 linhas
-- Halos severos: 35%
-- Sensibilidade contraste: -0.25 log units"
-
----
-
-**Painel Direito: PresbyMAX Hybrid (RECOMENDADO)**
-
-**Olho Direito (Dominante):**
-- Círculo azul uniforme (monofocal ou EDOF mínima)
-- Label: "Distance Only ou Mild EDOF"
-- Target: 0.00 D
-
-**Olho Esquerdo (Não-Dominante):**
-- Círculo com zona central vermelha (multifocal) + periferia azul
-- Label: "Full PresbyMAX Add +1.75 D"
-- Target: -0.50 D
-
-**Resultado Visual:**
-- Ícone livro (perto): ✓ (Olho esquerdo principalmente)
-- Ícone carro (longe): ✓✓ (Olho direito high-quality)
-- Ícone computador (intermédio): ✓✓ (Fusão binocular)
-
-**Caixa de Vantagem (Verde):**
-"✓ **Benefícios:**
-- CDVA preservada: 90% ≥20/25
-- Halos moderados: 18%
-- Satisfação: 89%"
+![PresbyMAX Simétrico vs Híbrido](figures/chapter6/presbymax_hybrid_vs_symmetric.png)
+*Figura 6.2: Comparação visual das estratégias Simétrica (Não Recomendada - Halos excessivos) e Híbrida (Recomendada - Equilíbrio entre visão de longe e perto).*
 
 ---
 
 ### Infográfico 6.3: Dinâmica Pupilar e Performance (Gráfico Temporal Dia/Noite)
 
-**Descrição:**  
-Gráfico mostrando variação de performance visual ao longo do dia correlacionando com diâmetro pupilar.
-
-**Eixo X:** Hora do Dia (6h → 12h → 18h → 24h)  
-**Eixo Y Esquerdo:** Diâmetro Pupilar (mm), escala 2-7 mm  
-**Eixo Y Direito:** Performance Visual (qualitativo: Excelente/Bom/Moderado/Fraco)
-
-**Curva A (Azul - Diâmetro Pupilar):**
-- 6h (amanhecer): 4.5 mm
-- 12h (meio-dia): **2.5 mm** (miose fotópica)
-- 18h (entardecer): 5.0 mm
-- 24h (noite): **6.5 mm** (midríase mesópica)
-
-**Curva B (Verde - Visão de Perto - UCNVA):**
-- 6h: Boa
-- 12h: **Excelente** (pupila pequena usa só zona central)
-- 18h: Boa
-- 24h: Boa (zona central ainda ativa)
-
-**Curva C (Vermelha - Visão de Longe - UCDVA):**
-- 6h: Boa
-- 12h: **Moderada** (pupila pequena "presa" em zona central)
-- 18h: Boa
-- 24h: **Boa** (pupila grande acessa zona periférica)
-
-**Curva D (Laranja Tracejada - Halos Subjetivos):**
-- 6h-18h: Mínimos/Ausentes
-- **24h: MÁXIMO** (pupila grande = múltiplas zonas ativas)
-
-**Zonas Sombreadas:**
-- Amarelo claro (12h-15h): "Peak Performance Near" (leitura ideal)
-- Azul escuro (20h-6h): "Risk Zone for Halos" (condução noturna)
-
-**Anotações:**
-- Seta apontando para 12h: "Leitura em luz brilhante: Óptimo"
-- Seta apontando para 24h: "Condução noturna: Halos presentes mas geralmente toleráveis"
+![Gráfico Dinâmica Pupilar](figures/chapter6/presbymax_pupil_dynamics_graph.png)
+*Figura 6.3: Gráfico de performance visual ao longo do dia. O conceito 'Center-Near' favorece leitura à luz do dia (pupila pequena), mas pode induzir halos à noite (pupila grande).*
 
 ---
 
 ### Infográfico 6.4: PresbyMAX vs. Custom-Q (Decisão Algorítmica)
 
-**Descrição:**  
-Flowchart de decisão para selecionar entre as duas tecnologias.
-
-**Nó Inicial:**  
-"Candidato Aprovado para Cirurgia Presbiópica"
-
-**Decisão 1: Plataforma Disponível?**
-- **Tem Schwind Amaris com PresbyMAX?**
-  - NÃO → **Custom-Q em plataforma disponível** (Fim)
-  - SIM → Continuar
-
-**Decisão 2: Pupila Mesópica?**
-- **Pupila >6.5 mm?**
-  - SIM → **Custom-Q** (menor dependência pupilar, menos halos) (Fim - Verde)
-  - NÃO → Continuar
-
-**Decisão 3: Add Desejada?**
-- **Add necessária >+1.75 D?**
-  - SIM → **PresbyMAX** (permite até +2.50 D) (Fim - Verde)
-  - NÃO → Continuar
-
-**Decisão 4: Preferência de Complexidade?**
-- **Cirurgião quer automatização (push-button)?**
-  - SIM → **PresbyMAX** (software automatizado) (Fim - Amarelo)
-  - NÃO (prefere personalização) → **Custom-Q** (controlo manual total) (Fim - Amarelo)
-
-**Decisão 5: Perfil Profissional/Lifestyle?**
-- **Profissão crítica-contraste (piloto, fotógrafo)?**
-  - SIM → **Custom-Q** (preserva contraste melhor) (Fim - Verde)
-  - NÃO → Qualquer opção viável
-
-**Caixa Final (Ambas Válidas):**
-"Ambas tecnologias adequadas. Decisão baseada em preferência cirurgião + disponibilidade equipamento."
+![Flowchart PresbyMAX vs Custom-Q](figures/chapter6/presbymax_vs_customq_flowchart.png)
+*Figura 6.4: Árvore de decisão clínica para seleção entre PresbyMAX (Automatizado/Alta Add) e Custom-Q (PresbyCor/Personalizado).*
 
 ---
 
 ### Infográfico 6.5: Reversão de PresbyMAX (Protocolo Step-by-Step)
 
-**Descrição:**  
-Sequência de 5 painéis mostrando processo de reversão.
-
-**Painel 1: Identificação de Candidato para Reversão**
-
-Critérios (checklist):
-- ☑ Halos severos persistentes >12 meses (impede condução/trabalho)
-- ☑ Perda de ≥2 linhas CDVA
-- ☐ Diplopia monocular
-- ☑ Insatisfação persistente (score <4/10)
-
-**Decisão:** Indicado para reversão
-
----
-
-**Painel 2: Captura Topográfica**
-
-Imagem: Mapa Pentacam mostrando:
-- Zona central vermelha elevada (ilha multifocal)
-- Software: Marcar região a aplanar
-- Export para T-CAT (Topography-Guided)
-
----
-
-**Painel 3: Planeamento T-CAT**
-
-Software Contoura/T-CAT:
-- Input: Topografia pós-PresbyMAX
-- Objectivo: "Regularização - Remover ilha central"
-- Output: Mapa de ablação
-  - Centro: Remoção de ~25 μm (aplanar steep)
-  - Periferia: Ablação mínima
-
----
-
-**Painel 4: Cirurgia de Reversão**
-
-Procedimento:
-- LASIK re-lift de flap (ou PRK se >5 anos)
-- Ablação T-CAT executada
-- Validação: Topografia intra-op (se disponível)
-
----
-
-**Painel 5: Resultado Esperado**
-
-**Mapa Pós-Reversão:**
-- Zona central: Laranja-amarelo (aplanada, ~44 D)
-- Perfil mais homogéneo
-
-**Resultado Funcional:**
-- BCVA: Recuperação para 20/25-20/20 (70-80% casos)
-- Halos: Redução significativa (não eliminação completa)
-- Visão Perto: **PERDIDA** (volta a necessitar óculos leitura)
-
-**Caixa de Aviso:**
-"⚠ Reversão restaura visão longe mas **elimina** capacidade de leitura sem óculos. Paciente deve estar ciente do trade-off."
+![Protocolo Reversão PresbyMAX](figures/chapter6/presbymax_reversal_protocol.png)
+*Figura 6.5: Protocolo de reversão cirúrgica de multifocalidade corneal utilizando ablação guiada por topografia para aplanar a ilha central.*
 
 ---
 
