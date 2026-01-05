@@ -13,6 +13,9 @@ A resposta cicatricial após ablação excimer segue um padrão temporal bem car
 
 #### Fase Aguda (0-7 dias)
 
+![Processo de Cicatrização da Córnea (Pós-Laser)](figures/chapter4/healing_cascade.png)
+*Figura 4.1: Cascata biológica de cicatrização pós-excimer. Note a libertação de citoquinas (IL-1, TNF-α) pelo epitélio lesado, induzindo apoptose de queratócitos e subsequente transformação em miofibroblastos (Haze).*
+
 **Eventos Celulares:**
 1. **Apoptose de Queratócitos Superficiais:**
    - A radiação UV do excimer induz morte celular programada nas primeiras 100-150 μm do estroma

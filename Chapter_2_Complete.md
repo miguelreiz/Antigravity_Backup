@@ -32,6 +32,9 @@ A superfície corneana assume diferentes geometrias conforme o valor de Q:
 | **Q > 0** | Oblata | Achatada verticalmente | Curvatura *aumenta* (incurva) do centro para a periferia |
 | **Q = -1** | Parábola | Caso especial | Transição matemática |
 
+![Comparação de Perfis de Fator Q](figures/chapter2/q_factor_profiles.png)
+*Figura 2.2: Comparação geométrica entre córnea esférica, prolata fisiológica e hiper-prolata PresbyCor. Note como o perfil hiper-prolado cria uma 'caustica' focal estendida.*
+
 ### 2.1.3. Asfericidade Corneana Fisiológica
 
 A córnea humana normal é **ligeiramente prolata**, com valores médios bem estabelecidos na literatura:
@@ -95,6 +98,9 @@ A aberração esférica ocorre quando raios de luz que atravessam diferentes zon
 **Manifestação Clínica:**
 - **SA Positiva (+):** Raios periféricos focalizam *anterior* aos raios centrais (antes da retina em olhos emétropes) → Miopia periférica
 - **SA Negativa (-):** Raios periféricos focalizam *posterior* aos raios centrais (depois da retina) → Hipermetropia periférica
+
+![Ray Tracing SA Positiva vs Negativa](figures/chapter2/sa_ray_tracing.png)
+*Figura 2.3: Diagrama de Ray Tracing comparando SA Positiva (halos, foco antes da retina) vs SA Negativa (DoF estendido, foco através da retina).*
 
 ### 2.2.2. Quantificação: Coeficiente de Zernike $Z_4^0$
 
@@ -315,6 +321,9 @@ Um presbita com pupila naturalmente pequena (miose senil, <3.0 mm) terá DoF nat
 
 A cirurgia presbiópica expande a DoF através de **três mecanismos complementares**:
 
+![Tríade de Mecanismos DoF](figures/chapter2/dof_mechanisms.png)
+*Figura 2.8: Os três mecanismos complementares da visão presbiópica cirúrgica: 1. Pinhole (Pupila), 2. Aberração (Córnea), 3. Neuroadaptação (Cérebro).*
+
 #### Mecanismo 1: Óptico Geométrico (Efeito Pinhole)
 
 **Princípio:**  
@@ -401,6 +410,9 @@ A **MTF** quantifica a capacidade do sistema óptico de transferir contraste em 
 **Critério de Sucesso Cirúrgico:**  
 Manter MTF >0.3 em frequências até 12 cpd garante leitura funcional.
 
+![Curva MTF Comparativa](figures/chapter2/mtf_curve.png)
+*Figura 2.7: Gráfico de Função de Transferência de Modulação (MTF). Note a queda em frequências espaciais médias/altas no PresbyLASIK (laranja) em troca de funcionalidade (MTF > 0.3) em faixa de leitura.*
+
 ---
 
 ## 2.6. Interação Pupila-Aberração: A Dinâmica de Expansão
@@ -430,6 +442,9 @@ Se a pupila dobra de 3 mm para 6 mm, a SA aumenta **32× (2⁵)**.
 **Implicação Crítica:**  
 Pacientes com pupilas mesópicas >6.5 mm experimentarão magnificação dramática de aberrações induzidas cirurgicamente, resultando em halos e degradação visual noturna severos.
 
+![Gráfico de Aberrações vs Diâmetro Pupilar](figures/chapter2/aberrations_pupil_scaling.png)
+*Figura 2.4: Comportamento exponencial das aberrações. Note o crescimento explosivo da Aberração Esférica (curva vermelha, d^5) em pupilas >6.0 mm.*
+
 ### 2.6.2. Correspondência Pupilar (Pupil Matching) e Zona Óptica
 
 A seleção da **zona óptica (OZ)** da ablação deve ser baseada na pupila mesópica do paciente:
@@ -444,6 +459,9 @@ $$\text{OZ ideal} = \text{Pupila Mesópica} + 0.5 \text{ a } 1.0 \text{ mm}$$
 
 **Justificação:**  
 Uma OZ demasiado pequena (<pupila mesópica) resulta em transição abrupta entre a zona tratada e não-tratada, gerando difração e halos. Uma OZ demasiado grande consome tecido estromal excessivo.
+
+![Matriz de Decisão Zona Óptica vs Pupila](figures/chapter2/oz_pupil_matrix.png)
+*Figura 2.5: Matriz de segurança (Risco de Halos vs Cobertura). Zona Verde = Zona Óptica Segura (Pupila + 0.5 a 1.0mm).*
 
 ---
 
@@ -461,6 +479,9 @@ A **Point Spread Function** é a distribuição bidimensional de intensidade lum
 - Disco central alargado (30-50% mais largo)
 - Energia dispersa em anéis periféricos
 - Múltiplos "hot spots" ao longo do eixo z (simulando múltiplos focos)
+
+![Simulação PSF Normal vs PresbyLASIK](figures/chapter2/psf_simulation.png)
+*Figura 2.6: Comparação de Point Spread Function (PSF). Esquerda: Foco pontual (Strehl alto). Direita: Foco estendido PresbyLASIK (Strehl reduzido, mas DoF aumentada).*
 
 ### 2.7.2. Simulação de Visão Pós-Cirúrgica
 
@@ -511,66 +532,7 @@ Gestão de expectativas. Permite ao paciente decidir se o trade-off (halos vs. l
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
-### Infográfico 2.1: A Pirâmide de Zernike Clínica (Hierarquia Funcional)
-
-![Pirâmide de Zernike Clínica](figures/chapter2/zernike_pyramid_clinical.png)
-*Figura 2.1: Uma representação visual hierárquica das aberrações de Zernike, desde a baixa ordem (correção com óculos) até a alta ordem (terapêutica vs patológica).*
-
----
-
-### Infográfico 2.2: Fator Q e Perfil Corneano (Comparação Geométrica)
-
-![Comparação de Perfis de Fator Q](figures/chapter2/q_factor_profiles.png)
-*Figura 2.2: Comparação geométrica entre córnea esférica, prolata fisiológica e hiper-prolata PresbyCor. Note como o perfil hiper-prolado cria uma 'caustica' focal estendida.*
-
----
-
-### Infográfico 2.3: Aberração Esférica Negativa vs. Positiva (Ray Tracing Comparativo)
-
-![Ray Tracing SA Positiva vs Negativa](figures/chapter2/sa_ray_tracing.png)
-*Figura 2.3: Diagrama de Ray Tracing comparando SA Positiva (halos, foco antes da retina) vs SA Negativa (DoF estendido, foco através da retina).*
-
----
-
-### Infográfico 2.4: Escalamento de Aberrações com Diâmetro Pupilar (Gráfico Exponencial)
-
-![Gráfico de Aberrações vs Diâmetro Pupilar](figures/chapter2/aberrations_pupil_scaling.png)
-*Figura 2.4: Comportamento exponencial das aberrações. Note o crescimento explosivo da Aberração Esférica (curva vermelha, d^5) em pupilas >6.0 mm.*
-
----
-
-### Infográfico 2.5: Matriz de Decisão – Zona Óptica vs. Pupila Mesópica
-
-![Matriz de Decisão Zona Óptica vs Pupila](figures/chapter2/oz_pupil_matrix.png)
-*Figura 2.5: Matriz de segurança (Risco de Halos vs Cobertura). Zona Verde = Zona Óptica Segura (Pupila + 0.5 a 1.0mm).*
-
----
-
-### Infográfico 2.6: Simulação de PSF – Normal vs. PresbyLASIK
-
-![Simulação PSF Normal vs PresbyLASIK](figures/chapter2/psf_simulation.png)
-*Figura 2.6: Comparação de Point Spread Function (PSF). Esquerda: Foco pontual (Strehl alto). Direita: Foco estendido PresbyLASIK (Strehl reduzido, mas DoF aumentada).*
-
----
-
-### Infográfico 2.7: Curva MTF – Impacto da Aberração Esférica na Sensibilidade ao Contraste
-
-![Curva MTF Comparativa](figures/chapter2/mtf_curve.png)
-*Figura 2.7: Gráfico de Função de Transferência de Modulação (MTF). Note a queda em frequências espaciais médias/altas no PresbyLASIK (laranja) em troca de funcionalidade (MTF > 0.3) em faixa de leitura.*
-
----
-
-### Infográfico 2.8: Mecanismos de Profundidade de Campo (Triplo Diagrama)
-
-![Tríade de Mecanismos DoF](figures/chapter2/dof_mechanisms.png)
-*Figura 2.8: Os três mecanismos complementares da visão presbiópica cirúrgica: 1. Pinhole (Pupila), 2. Aberração (Córnea), 3. Neuroadaptação (Cérebro).*
-"**Cirurgia Presbiópica Eficaz = Óptica + Neural**  
-Sem neuroadaptação, o paciente percebe apenas 'visão turva'. Com neuroadaptação, o cérebro extrai nitidez funcional."
-
-**Objetivo:**  
-Educar o cirurgião (e através dele, o paciente) sobre a natureza multifatorial do sucesso cirúrgico, enfatizando a necessidade de tempo para adaptação neural.
 
 ---
 
