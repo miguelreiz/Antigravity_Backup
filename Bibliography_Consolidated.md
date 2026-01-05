@@ -92,6 +92,10 @@
 
 34. Sinjab MM. *Refractive Surgery: A Guide to Assessment and Management*. New Delhi: Jaypee Brothers Medical Publishers; 2015.
 
+35. Sinjab MM. *Boilerplate for Corneal Tomography: Reading Pentacam Scheimpflug Tomography*. New Delhi: Jaypee Brothers Medical Publishers; 2012.
+
+36. Sinjab MM. *Corneal Tomography in Clinical Practice (Pentacam System)*. New Delhi: Jaypee Brothers Medical Publishers; 2012.
+
 ## T
 
 35. Tabernero J, Schwarz C, Fernández EJ, Artal P. Binocular visual simulation of a corneal inlay to increase depth of focus. *Journal of Refractive Surgery*. 2011;27(7):500-507. doi:10.3928/1081597X-20110202-01

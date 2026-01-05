@@ -9,9 +9,11 @@ São Paulo, Brasil
 
 ## Formação e Experiência Profissional
 
-Dr. Miguel Reis é médico oftalmologista com especialização em cirurgia refrativa e doenças da córnea, exercendo atividade clínica e cirúrgica em São Paulo, Brasil.
+Dr. Miguel Reis é médico oftalmologista com especialização em cirurgia refrativa e doenças da córnea, exercendo atividade clínica e cirúrgica no estado 
 
-Sua prática clínica concentra-se em cirurgia refrativa a laser (LASIK, PRK) e gestão de patologias corneanas, com particular interesse em estratégias cirúrgicas para presbiopia. Ao longo de sua carreira, desenvolveu profundo interesse teórico e prático no algoritmo PresbyCor de Dr. Charles Ghenassia, aplicando sistematicamente os princípios de modificação de Q-factor e personalização de perfis asféricos em casos presbiópicos complexos.
+Sua prática clínica concentra-se em cirurgia refrativa e gestão de patologias corneanas, com particular interesse em estratégias cirúrgicas para presbiopia e ceratocone. Ao longo de sua carreira, desenvolveu profundo interesse teórico e prático no algoritmo PresbyCor de Dr. Charles Ghenassia, aplicando sistematicamente os princípios de modificação de Q-factor e personalização de perfis asféricos em casos presbiópicos complexos.
+
+Sua formação técnica foi profundamente influenciada pela tutoria de mestres internacionais. Aprimorou sua propedêutica corneana e análise tomográfica sob a orientação do **Prof. Mazen Sinjab**, e consolidou seus fundamentos em cirurgia refrativa complexa através da formação especializada com o **Prof. Jorge Alió**, referências que moldaram sua abordagem analítica e baseada em evidência.
 
 ## Filosofia de Prática
 
@@ -24,10 +26,10 @@ Dr. Reis posiciona-se como **cirurgião-aplicador crítico** (não inventor) de 
 
 ## Sobre Este Livro
 
-"PresbyCor: Modern Strategies for Presbyopia and Laser Mechanics" não representa pesquisa original ou invenção de novos algoritmos. É uma **obra de sistematização e interpretação clínica** dos principais protocolos presbiópicos publicados (Custom-Q de Ghenassia, PRESBYOND de Reinstein, PresbyMAX, SUPRACOR), traduzidos para linguagem cirúrgica prática e adaptados para realidades de diferentes plataformas laser disponíveis globalmente.
+"PresbyCor: Estratégias Modernas de Correção de Presbiopia a Laser" não representa pesquisa original ou invenção de novos algoritmos. É uma **obra de sistematização e interpretação clínica** dos principais protocolos presbiópicos publicados (PresbyCor de Ghenassia, READ da Alcon, PRESBYOND de Reinstein, PresbyMAX, SUPRACOR), traduzidos para linguagem cirúrgica prática e adaptados para realidades de diferentes plataformas laser disponíveis globalmente.
 
 O livro reflete a experiência de aplicação clínica sistemática destes algoritmos, com ênfase em:
-- Compreensão profunda dos fundamentos ópticos
+- Compreensão clínica dos fundamentos ópticos
 - Personalização de nomogramas para contextos individuais
 - Gestão de casos complexos (pós-LASIK, córneas atípicas)
 - Transparência sobre limitações e trade-offs de cada técnica
@@ -36,7 +38,7 @@ O livro reflete a experiência de aplicação clínica sistemática destes algor
 
 ## Declaração de Autoria e Transparência
 
-Este livro foi desenvolvido através de processo colaborativo entre o autor humano (Dr. Miguel Reis) e infraestrutura de inteligência artificial (Antigravity, Google DeepMind). 
+Este livro foi desenvolvido através de processo colaborativo entre o autor humano (Dr. Miguel Reis) e infraestrutura de inteligência artificial (Google DeepMind). 
 
 **O autor humano assume responsabilidade integral por:**
 - Toda precisão factual e clínica
@@ -64,4 +66,4 @@ Para questões relacionadas ao conteúdo deste livro ou discussões sobre aplica
 **Data de Publicação:** Janeiro 2026  
 **Edição:** Primeira Edição  
 **Formato:** Digital (Markdown)  
-**Idioma Principal:** Português (com Capítulo 1 em Inglês)
+**Idioma Principal:** Português

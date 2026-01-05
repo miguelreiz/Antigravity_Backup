@@ -264,7 +264,7 @@ A escolha entre correção corneana e troca de lente refrativa (RLE) depende de 
 **Racional:**
 O cristalino é a fonte primária de degradação óptica. A correção corneana não consegue superar a dispersão e aberrações lenticulares. A substituição do cristalino aborda cirurgicamente tanto a presbiopia quanto a catarata.
 
-![Classificação DLS e Árvore de Decisão Cirúrgica](figures/chapter1/dls_classification.png)
+![Classificação DLS e Árvore de Decisão Cirúrgica](figures/chapter1/infographic_1_4_dls_decision.md)
 *Figura 1.4: Árvore de decisão cirúrgica baseada no Estadiamento da Síndrome do Cristalino Disfuncional (DLS).*
 
 ### Ferramentas de Avaliação Objetiva para Estadiamento DLS

@@ -180,13 +180,21 @@ Onde:
 - **θ** = ângulo meridional
 - **n** = ordem radial (grau do polinómio)
 - **m** = frequência angular
-- **m** = frequência angular
 
-![Pirâmide de Zernike (Representação Visual)](figures/chapter2/zernike_pyramid.png)
-*Figura 2.1: Pirâmide de Polinómios de Zernike mostrando a hierarquia das aberrações ópticas.*
+![Pirâmide de Zernike (Padrão Científico)](figures/chapter2/zernike_pyramid_standard.png)
+*Figura 2.1a: A estrutura matemática padrão dos Polinómios de Zernike (Mapas de Fase).*
 
-### 2.3.2. Pirâmide de Zernike: Nomenclatura Clínica
-### 2.3.2. Pirâmide de Zernike: Nomenclatura Clínica
+![Pirâmide de Zernike Clínica com Alertas](figures/chapter2/zernike_clinical_pyramid.png)
+*Figura 2.1: Pirâmide de Zernike simplificada para uso clínico. Note a distinção crítica entre aberrações de "zona verde" (corrigíveis) e "zona vermelha" (patológicas).*
+
+### 2.3.2. Como as Aberrações Afetam a Visão (Manifestação Clínica)
+
+Nem todas as aberrações são iguais. O cirurgião deve reconhecer a "assinatura visual" de cada polinómio:
+
+![Simulação de Point Spread Function (PSF)](figures/chapter2/zernike_psf_manifestation.png)
+*Figura 2.2: Manifestação visual das aberrações de alta ordem. O Coma cria uma "cauda" (diplopia), o Trefoil triplica a imagem, e a Aberração Esférica reduz o contraste geral (halos).*
+
+### 2.3.3. Nomenclatura Clínica Detalhada
 
 #### **Ordem 0 e 1** (Artefatos, sem relevância clínica):
 - $Z_0^0$: Piston (translação axial)

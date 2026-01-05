@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OUTPUT="PresbyCor_FINAL_PREVIEW.md"
-echo "# PresbyCor: Modern Strategies for Presbyopia and Laser Mechanics" > "$OUTPUT"
+echo "# PresbyCor: Estratégias Modernas de Correção de Presbiopia a Laser" > "$OUTPUT"
 echo "## Dr. Miguel Reis" >> "$OUTPUT"
 echo "### Preview de Implantação - $(date)" >> "$OUTPUT"
 echo "" >> "$OUTPUT"
@@ -23,7 +23,6 @@ FILES=(
     "Chapter_13_Complete.md"
     "Bibliography_Consolidated.md"
     "Glossary_Abbreviations.md"
-    "Appendices_Technical.md"
     "About_Author.md"
 )
 

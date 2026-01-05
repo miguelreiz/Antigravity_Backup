@@ -1,4 +1,4 @@
-# PRESB YCOR: Modern Strategies for Presbyopia and Laser Mechanics
+# PRESB YCOR: Estratégias Modernas de Correção de Presbiopia a Laser
 
 ## 📚 Estrutura Completa do Livro
 
@@ -136,12 +136,7 @@
     - 32 abreviações essenciais
     - Consulta rápida alfanumérica
 
-17. **[Appendices_Technical.md](Appendices_Technical.md)** - Apêndices Técnicos  
-    - **Apêndice A:** Nomogramas resumidos (PresbyCor, PRESBYOND, PresbyMAX)
-    - **Apêndice B:** Tabelas de conversão (Snellen↔logMAR, Jaeger, D→μm)
-    - **Apêndice C:** Checklists cirúrgicas (pré-op, intra-op, follow-up)
-    - **Apêndice D:** Templates consentimento informado
-    - **Apêndice E:** Tabela master decisão rápida
+
 
 18. **[About_Author.md](About_Author.md)** - Sobre o Autor  
     - Biografia profissional Dr. Miguel Reis

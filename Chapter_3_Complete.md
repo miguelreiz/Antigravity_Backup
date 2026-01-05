@@ -230,6 +230,21 @@ Se o cristalino já possui SA positiva elevada, adicionar SA negativa corneana p
 2. **Avaliação de Biomecânica (Espessura e Distribuição Paquimétrica)**
 3. **Medição de Asfericidade (Q-value)**
 
+#### Protocolo de Interpretação Sistemática (Baseado em Sinjab)
+
+A análise tomográfica nesta obra segue o rigoroso protocolo "Five Steps to Start" preconizado pelo **Prof. Mazen Sinjab** [35,36], garantindo uma avaliação hierárquica e à prova de falhas:
+
+1.  **Qualidade de Captura (QS):** Confirmação técnica prévia.
+2.  **Mapas de Curvatura (Axial/Tangencial):** Identificação de padrões (Symmetric Bowtie, Asymmetric, Skewed).
+3.  **Mapas de Elevação (BFS):** Análise da elevação anterior e posterior (ilhas de elevação).
+4.  **Mapa Paquimétrico:** Avaliação da espessura no ponto mais fino e progressão paquimétrica.
+5.  **Integração Biomecânica (Tomographic/Biomechanical Index):** Correlação final para decisão.
+
+Esta sistematização é fundamental para distinguir corneas normais, suspeitas e patológicas com precisão.
+
+![Protocolo Tomográfico Padrão Quad-Map](figures/chapter3/neutral_topography_quad_map_1767558811134.png)
+*Figura 3.0: Visualização tomográfica padrão (Quad-Map) para avaliação sistemática de segurança biomecânica.*
+
 #### Parâmetros de Rastreio de Ectasia
 
 **Índices de Belin-Ambrósio Enhanced Ectasia Display (BAD-D):**
@@ -611,212 +626,15 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
 
 ### Infográfico 3.1: Fluxograma de Decisão "Go / No-Go" (Algoritmo de Triagem)
 
-**Descrição:**  
-Diagrama de fluxo vertical com nós de decisão coloridos (verde/amarelo/vermelho) guiando a decisão cirúrgica passo-a-passo.
-
-**Estrutura:**
-
-**Nó Inicial (Azul):**
-- "Candidato 45-60 Anos com Presbiopia Sintomática"
-
-**Decisão 1 (Avaliação Lenticular):**
-- **Pergunta:** "Cristalino Transparente? (LOCS <2, OSI <1.5)"
-- **NÃO (Vermelho):** → "**RLE Indicada**" (Fim)
-- **SIM (Verde):** → Continuar
-
-**Decisão 2 (Erro Refrativo):**
-- **Pergunta:** "Qual a Refração?"
-- **Hipermetropia +0.75 a +4.00 D (Verde):** → "Candidato Ideal" → Continuar
-- **Miopia -1.00 a -6.00 D (Amarelo):** → "Cautela – Monovisão Preferível" → Continuar
-- **Emetropia ±0.50 D (Laranja):** → "Alto Risco – Teste LC Obrigatório" → Continuar
-
-**Decisão 3 (Biomecânica Corneana):**
-- **Pergunta:** "BAD-D <1.60 e Leito Estromal Residual (LER) >300 μm?"
-- **NÃO (Vermelho):** → "**Contraindicação – Sem Cirurgia Corneana**" (Fim)
-- **SIM (Verde):** → Continuar
-
-**Decisão 4 (Ângulo Kappa):**
-- **Pergunta:** "Kappa <0.60 mm?"
-- **NÃO (Vermelho):** → "**Alto Risco Coma – Monovisão Simples ou RLE**" (Fim)
-- **SIM (Verde):** → Continuar
-
-**Decisão 5 (Superfície Ocular):**
-- **Pergunta:** "OSDI <23 e BUT >7 segundos?"
-- **NÃO (Amarelo):** → "Pré-Tratar MGD 3 Meses" → Reavaliar
-- **SIM (Verde):** → Continuar
-
-**Decisão 6 (Teste Funcional):**
-- **Pergunta:** "Teste de Lente de Contacto (Monovisão) – Tolerado?"
-- **NÃO (Vermelho):** → "**Contraindicação Neural**" (Fim)
-- **SIM (Verde):** → "✓ **Prosseguir com PresbyLASIK**" (Verde Intenso)
-
-**Elementos Visuais:**
-- Setas verdes (aprovado para próximo passo)
-- Setas vermelhas (encaminhamento alternativo ou fim)
-- Ícones: Lente (cristalino), Córnea (topografia), Olho (Kappa), Lágrima (superfície ocular)
-
-**Objetivo:**  
-Fornecer um algoritmo visual claro e sequencial para triagem rápida de candidatos.
+![Fluxograma de Decisão Clinical UI](figures/chapter3/screening_algorithm_ui_1767558790318.png)
+*Figura 3.1: Algoritmo de decisão clínica para triagem de candidatos a cirurgia presbiópica corneana (Interface Clínica).*
 
 ---
 
-### Infográfico 3.2: O Ângulo Kappa e Centração da Ablação
+### Infográfico 3.2: Matriz de Risco – Candidato Ideal vs. Alto Risco
 
-**Descrição:**  
-Esquema do olho visto de frente (vista anterior) mostrando a pupila, limbo, e eixos visuais.
-
-**Painel Esquerdo (Anatomia):**
-
-- **Círculo Exterior (Limbo):** Cinzento claro
-- **Círculo Médio (Íris):** Castanho
-- **Círculo Interior (Pupila):** Preto
-- **Cruz Verde (Reflexo de Purkinje P1):** Representa o eixo visual
-- **Ponto Vermelho (Centro Geométrico da Pupila):** Representa o eixo pupilar
-
-**Linha Bidirectional (Kappa):**
-- Linha tracejada vermelha conectando a Cruz Verde ao Ponto Vermelho
-- Label: "Distância Kappa (κ) = 0.55 mm"
-- Direção típica: Nasal-superior (reflexo deslocado temporalmente em relação à pupila)
-
-**Painel Direito (Decisão Cirúrgica):**
-
-**Três Cenários Sobrepostos:**
-
-1. **Cenário A (Kappa Baixo <0.30 mm – Verde):**
-   - Zona de ablação (círculo azul transparente) centrado na pupila (ponto vermelho)
-   - Label: "Centração Pupilar Segura"
-
-2. **Cenário B (Kappa Moderado 0.30-0.60 mm – Amarelo):**
-   - Zona de ablação (círculo azul) centrado no ponto médio entre pupila e Purkinje
-   - Label: "Centração Híbrida Recomendada"
-
-3. **Cenário C (Kappa Alto >0.60 mm – Vermelho):**
-   - Zona de ablação (círculo azul) centrado estritamente no Purkinje (cruz verde)
-   - Zona fantasma (círculo vermelho tracejado) mostra onde ficaria se centrado na pupila
-   - Seta de erro mostrando descentramento
-   - Label: "PERIGO: Centrar na Pupila Induziria Coma de ~0.15 μm"
-
-**Caixa de Texto Inferior:**  
-"**Regra de Ouro:** Em PresbyLASIK, sempre centrar no eixo visual (Purkinje) ou compensar parcialmente o Kappa. Nunca ignorar Kappa >0.30 mm."
-
-**Objetivo:**  
-Ilustrar visualmente o conceito de Kappa e a sua importância crítica na centragem de ablações presbiópicas multifocais.
-
----
-
-### Infográfico 3.3: Matriz de Risco – Candidato Ideal vs. Alto Risco
-
-**Descrição:**  
-Tabela comparativa visual lado-a-lado com perfis extremos.
-
-**Coluna Esquerda (Verde) – Candidato Ideal:**
-
-**Fotografia/Ícone:** Imagem estilizada de paciente sorridente
-
-**Perfil Clínico:**
-- **Idade:** 50 anos
-- **Refração:** +2.00 D (Hipermetropia)
-- **BCVA:** 20/20 bilateral
-- **Cristalino:** LOCS I, OSI 0.8
-- **Pupila Mesópica:** 4.5 mm
-- **Kappa:** 0.25 mm
-- **Paquimetria:** 550 μm
-- **BAD-D:** 0.95
-- **Superfície Ocular:** OSDI 8, BUT 11 seg
-- **Teste LC:** Tolerado sem queixas
-
-**Profissão:** Professor universitário (não-crítica visualmente)
-
-**Expectativas:** Realistas ("Quero ler sem óculos, aceito halos transitórios")
-
-**Resultado Previsto (Gráfico de Barras):**
-- Satisfação: 95%
-- UCNVA (Near): J2
-- UCDVA (Distance): 20/25
-- Halos: Ligeiros transitórios
-
-**Label:** "**EXCELENTE CANDIDATO – Proceder com Confiança**"
-
----
-
-**Coluna Direita (Vermelho) – Alto Risco:**
-
-**Fotografia/Ícone:** Imagem estilizada de paciente preocupado
-
-**Perfil Clínico:**
-- **Idade:** 58 anos
-- **Refração:** -0.50 D (Emétrope)
-- **BCVA:** 20/15 bilateral (Visão excecional)
-- **Cristalino:** LOCS II, OSI 2.1 (Scatter moderado)
-- **Pupila Mesópica:** 7.0 mm (Muito grande)
-- **Kappa:** 0.75 mm (Muito alto)
-- **Paquimetria:** 485 μm (Limítrofe)
-- **BAD-D:** 1.55 (Borderline)
-- **Superfície Ocular:** OSDI 28, BUT 5 seg (Olho seco moderado)
-- **Teste LC:** "Visão estranha, tonturas"
-
-**Profissão:** Engenheiro Civil (Precisão visual crítica)
-
-**Expectativas:** Irrealistas ("Quero visão perfeita longe E perto, sem halos")
-
-**Resultado Previsto (Gráfico de Barras):**
-- Satisfação: 40%
-- Halos severos permanentes: Alto risco
-- Perda de 2 linhas CDVA: Provável
-- Coma induzido: Alto risco (Kappa elevado)
-
-**Label:** "**ALTO RISCO – CONTRAINDICAR ou RLE Alternativa**"
-
----
-
-**Caixa Inferior (Síntese):**  
-"A seleção adequada é mais importante que a técnica cirúrgica perfeita. Um candidato ideal tolera pequenas imperfeições; um candidato inadequado rejeitará até uma cirurgia tecnicamente perfeita."
-
-**Objetivo:**  
-Demonstrar através de casos extremos os fatores de seleção que maximizam sucesso vs. risco.
-
----
-
-### Infográfico 3.4: Cronologia do Teste de Lente de Contacto (Timeline)
-
-**Descrição:**  
-Linha temporal horizontal mostrando as fases do teste de monovisão com lentes de contacto.
-
-**Dia 0 (Consulta Inicial):**
-- **Ação:** Determinação de dominância ocular (Hole-in-card test)
-- **Adaptação:** LC em olho não-dominante (-1.25 D)
-- **Sintomas:** "Visão estranha", ligeira desorientação (normal)
-
-**Dia 1-2:**
-- **Fase:** Neuroadaptação inicial
-- **Sintomas Comuns:** Flutuação visual, dificuldade em distância intermédia
-- **Ícone:** Paciente lendo (boa) + Computador (moderada)
-
-**Dia 3-5:**
-- **Fase:** Estabilização
-- **Sintomas:** Redução de estranheza
-- **Teste Funcional:** Conduzir automóvel (dia e noite)
-- **Ícone:** Automóvel
-
-**Dia 7 (Reavaliação):**
-- **Decisão Final:**
-
-**Ramo Superior (Verde – Sucesso):**
-- Paciente: "Visão confortável, consigo ler e conduzir"
-- Acuidade: UCNVA J3 ou melhor
-- Estereopsia: Preservada (>60 arcsec)
-- **Decisão:** ✓ Prosseguir com PresbyLASIK
-
-**Ramo Inferior (Vermelho – Falha):**
-- Paciente: "Tonturas persistentes, visão turva desconfortável"
-- Remove LC frequentemente
-- **Decisão:** ✗ Contraindicar PresbyLASIK
-
-**Caixa de Texto:**  
-"Taxa de Falha: 10-15%. Estes pacientes evitaram uma cirurgia que os teria deixado insatisfeitos. O teste é tão valioso pelos 'NAOs' que previne quanto pelos 'SIMs' que confirma."
-
-**Objetivo:**  
-Demonstrar o processo temporal de teste de tolerância e a importância deste período de neuroadaptação simulada.
+![Matriz de Risco](figures/chapter3/risk_matrix_v2.png)
+*Figura 3.2: Comparativo visual "Go/No-Go" destacando os perfis polares de candidatos.*
 
 ---
 

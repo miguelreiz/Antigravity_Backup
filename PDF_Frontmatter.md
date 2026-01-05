@@ -1,5 +1,5 @@
 ---
-title: "PresbyCor: Modern Strategies for Presbyopia and Laser Mechanics"
+title: "PresbyCor: Estratégias Modernas de Correção de Presbiopia a Laser"
 author: "Dr. Miguel Reis"
 date: "Janeiro 2026"
 lang: pt-BR
