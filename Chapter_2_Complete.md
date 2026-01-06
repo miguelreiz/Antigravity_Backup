@@ -532,8 +532,4 @@ Gestão de expectativas. Permite ao paciente decidir se o trade-off (halos vs. l
 
 ---
 
-
-
----
-
 Este Capítulo 2 está agora completo e pronto para ser copiado para o seu documento no Google Drive. Mantém a mesma profundidade técnica, rigor científico, e abordagem cirurgião-para-cirurgião do Capítulo 1.
