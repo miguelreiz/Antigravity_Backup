@@ -477,6 +477,8 @@ Paciência + suporte = sucesso mesmo em caso com início difícil.
 4. Evans BJW. Monovision: a review. *Ophthalmic and Physiological Optics*. 2007;27(5):417-439.
 
 5. Greenbaum S. Monovision pseudophakia. *Journal of Cataract and Refractive Surgery*. 2002;28(8):1439-1443.
+6. Pepin SM. Neuroadaptation of the visual system to the changing refractive correction. *Current Opinion in Ophthalmology*. 2005;16(1):29-32.
+7. Alió JL. *Presbyopia: Origins, Effects, and Treatment*. Thorofare, NJ: Slack Inc; 2008.
 
 ---
 
@@ -484,84 +486,18 @@ Paciência + suporte = sucesso mesmo em caso com início difícil.
 
 ### Infográfico 10.1: Curva Temporal de Neuroadaptação
 
-**Descrição:**  
-Gráfico mostrando evolução de satisfação e sintomas ao longo de 12 meses.
-
-**Eixo X:** Tempo (Semana 1, Mês 1, 3, 6, 12)  
-**Eixo Y Esquerdo:** Score Satisfação (0-10)  
-**Eixo Y Direito:** % Pacientes com Sintoma
-
-**Curva A (Verde - Satisfação):**
-- Semana 1: 3/10
-- Mês 1: 5.5/10
-- Mês 3: 7.8/10
-- Mês 6: 8.7/10
-- Mês 12: 9.1/10
-
-**Curva B (Vermelha - % com Halos Severos):**
-- Semana 1: 85%
-- Mês 1: 60%
-- Mês 3: 25%
-- Mês 6: 12%
-- Mês 12: 8%
-
-**Zona Sombreada Amarela ("Vale do Desespero"):**
-- Semana 1-Mês 1
-- Label: "Período Crítico - Suporte Intensivo Necessário"
-
-**Linha Tracejada Horizontal (Satisfação = 8/10):**
-- Label: "Threshold Sucesso Clínico"
-- Atingido: Mês 6
-
----
+![O Vale do Desespero](figures/chapter10/neuroadaptation_curve.png)
+*Figura 10.1: A jornada do paciente. O gráfico mostra o "Vale do Desespero" inicial (Semana 1-Mês 1) onde a satisfação (verde) é baixa e os sintomas (vermelho) são altos. A normalização ocorre tipicamente após o mês 3.*
 
 ### Infográfico 10.2: Protocolo de Troubleshooting (Algoritmo Visual)
 
-[Já descrito no texto na Secção 10.5.1]
-
----
+![Decisão: Óptico vs Neural](figures/chapter10/troubleshooting.png)
+*Figura 10.2: Antes de re-operar, pense. O algoritmo distingue falha óptica (corrigível com laser) de falha neural (não tocável). Intervir cirurgicamente num problema neural agrava o quadro (visão fantasma).*
 
 ### Infográfico 10.3: "Contrato de Expectativas" (Template Visual)
 
-**Descrição:**  
-Checkbox visual para educação paciente.
-
-```
-═══════════════════════════════════════════════
-  ACORDO DE EXPECTATIVAS PRESBIÓPICAS
-═══════════════════════════════════════════════
-
-Antes de prosseguir, confirmo que compreendo:
-
-✓ Conceito
-  ☑ Presbiopia não tem "cura" - cirurgia cria COMPROMISSO
-  ☑ Não voltarei a ter visão de "20 anos atrás"
-
-✓ Timeline Neuroadaptação
-  ☑ Semana 1: Visão estranha (NORMAL)
-  ☑ Mês 1-3: Melhoria gradual
-  ☑ Mês 6: Otimização (paciência necessária)
-
-✓ Sintomas Esperados
-  ☑ Halos noturnos primeiros meses (depois suprimidos)
-  ☑ Visão flutuante inicial
-  ☑ Possível fadiga ocular ligeira
-
-✓ Resultados Realistas
-  ☑ 90% atingem independência óculos >80% do tempo
-  ☑ Óculos ocasionais são NORMAIS (leitura <30cm, condução noturna)
-  ☑ 10-15% podem precisar ajuste (retoque)
-  ☑ 2-5% podem não adaptar (reversão possível)
-
-✓ Compromisso do Paciente
-  ☑ Serei paciente durante neuroadaptação (mínimo 3 meses)
-  ☑ Evitarei usar óculos antigos nas primeiras semanas
-  ☑ Farei exercícios visuais recomendados
-  ☑ Comunicarei preocupações ao médico
-
-Assinatura: ____________________  Data: _________
-═══════════════════════════════════════════════
-```
+![O Acordo de Presbiopia](figures/chapter10/expectation_contract.png)
+*Figura 10.3: Vacina contra expectativas irreais. Um checklist visual para o consentimento informado, garantindo que o paciente aceita os 4 pilares: Compromisso, Tempo, Halos e Independência imperfeita.*
 
 ---
 

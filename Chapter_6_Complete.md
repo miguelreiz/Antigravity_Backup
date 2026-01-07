@@ -553,7 +553,11 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 
 6. Ang M, Gatinel D, Reinstein DZ, Mertens E, Alió del Barrio JL, Alió JL. Refractive surgery beyond 2020. *Eye*. 2021;35(2):362-382. doi:10.1038/s41433-020-1096-5
 
-7. Telandro A. Centr-al presbyopia multifocal (PresbyMAX): one-year outcomes. *Cataract & Refractive Surgery Today Europe*. 2011;6:37-40.
+8. Arba-Mosquera S, Alió JL. PresbyLASIK with a central presbyopic ablation profile. *Journal of Refractive Surgery*. 2006;22(9):925-935.
+
+9. Epstein RL, Gurgos MA. Presbyopia treatment by monocular peripheral presbyLASIK. *Journal of Refractive Surgery*. 2006;22(5):511-516.
+
+10. Pallikaris IG, Panagopoulou SI. PresbyLASIK approach for the correction of presbyopia. *Current Opinion in Ophthalmology*. 2015;26(4):265-272.
 
 ---
 
@@ -561,36 +565,28 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 
 ### Infográfico 6.1: Perfil Bi-Asférico PresbyMAX (Corte Transversal Anatómico)
 
-![Perfil Bi-Asférico PresbyMAX](figures/chapter6/presbymax_profile_schematic.png)
-*Figura 6.1: Diagrama esquemático do perfil bi-asférico PresbyMAX. Note a 'ilha central' de potência para visão de perto conectada à periferia de longe por uma zona de transição suave.*
-
----
+![Perfil Bi-Asférico em Detalhe](figures/chapter6/infographic_6_1_biaspheric_profile.md)
+*Figura 6.1: A arquitetura da "Ilha Óptica". Note a elevação central (steepening) desenhada especificamente para visão de perto, isolada da zona de longe por uma transição asférica.*
 
 ### Infográfico 6.2: Estratégia Híbrida vs. Simétrica (Esquema Binocular)
 
-![PresbyMAX Simétrico vs Híbrido](figures/chapter6/presbymax_hybrid_vs_symmetric.png)
-*Figura 6.2: Comparação visual das estratégias Simétrica (Não Recomendada - Halos excessivos) e Híbrida (Recomendada - Equilíbrio entre visão de longe e perto).*
-
----
+![Estratégia Híbrida](figures/chapter6/infographic_6_2_hybrid_vs_symmetric.md)
+*Figura 6.2: A vitória da assimetria. A abordagem Híbrida (Painel B) utiliza o olho dominante para garantir contraste de longe, enquanto o olho não-dominante carrega a carga multifocal.*
 
 ### Infográfico 6.3: Dinâmica Pupilar e Performance (Gráfico Temporal Dia/Noite)
 
-![Gráfico Dinâmica Pupilar](figures/chapter6/presbymax_pupil_dynamics_graph.png)
-*Figura 6.3: Gráfico de performance visual ao longo do dia. O conceito 'Center-Near' favorece leitura à luz do dia (pupila pequena), mas pode induzir halos à noite (pupila grande).*
-
----
+![Gráfico de Dependência Pupilar](figures/chapter6/infographic_6_3_pupil_dynamics.md)
+*Figura 6.3: O "Sweet Spot" do PresbyMAX. O gráfico demonstra como a qualidade visual oscila com a luz. A zona mesópica (4.5-6.0mm) é o alvo ideal.*
 
 ### Infográfico 6.4: PresbyMAX vs. Custom-Q (Decisão Algorítmica)
 
-![Flowchart PresbyMAX vs Custom-Q](figures/chapter6/presbymax_vs_customq_flowchart.png)
-*Figura 6.4: Árvore de decisão clínica para seleção entre PresbyMAX (Automatizado/Alta Add) e Custom-Q (PresbyCor/Personalizado).*
-
----
+![Árvore de Decisão Clínica](figures/chapter6/infographic_6_4_decision_tree.md)
+*Figura 6.4: Fluxograma de seleção. O tamanho da pupila é o "gatekeeper". Pupilas grandes exigem perfis suaves (Custom-Q); pupilas médias toleram perfis zonais (PresbyMAX).*
 
 ### Infográfico 6.5: Reversão de PresbyMAX (Protocolo Step-by-Step)
 
-![Protocolo Reversão PresbyMAX](figures/chapter6/presbymax_reversal_protocol.png)
-*Figura 6.5: Protocolo de reversão cirúrgica de multifocalidade corneal utilizando ablação guiada por topografia para aplanar a ilha central.*
+![Protocolo de Reversão](figures/chapter6/infographic_6_5_reversal_protocol.md)
+*Figura 6.5: A rede de segurança. Demonstração de como uma ablação guiada por topografia pode "apagar" a ilha multifocal central, revertendo a córnea para a monofocalidade.*
 
 ---
 
@@ -601,9 +597,8 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 - ✅ Protocolo Schwind Amaris
 - ✅ Resultados clínicos multi-cêntricos
 - ✅ Reversibilidade (conceito e limitações)
-- ✅ Comparação direta Custom-Q vs. PresbyMAX
 - ✅ Casos clínicos ilustrativos
-- ✅ 7 Referências bibliográficas
-- ✅ 5 Infográficos clínicos detalhados
+- ✅ 10 Referências bibliográficas
+- ✅ 5 Infográficos clínicos detalhados (descritivos)
 
 Pronto para copiar para o Google Drive!

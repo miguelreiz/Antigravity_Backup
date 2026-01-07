@@ -503,40 +503,35 @@ IMEDIATO     ↓         ↓    TRANQUILIZAR
 
 3. Ang M, Gatinel D, Reinstein DZ, Mertens E, Alió del Barrio JL, Alió JL. Refractive surgery beyond 2020. *Eye*. 2021;35(2):362-382.
 
+4. Kohnen T. Presbyopia correction with intraocular lenses. *Der Ophthalmologe*. 2018;115(8):636-642.
+5. Pallikaris IG, Kymionis GD, Panagopoulou SI. Induced optical aberrations following formation of a laser in situ keratomileusis flap. *Journal of Cataract and Refractive Surgery*. 2002;28(10):1737-1741.
+
 ---
 
-## Infográfico Final: Master Decision Pathway
+### Infográfico 13.1: The Master Decision Pathway (O Algoritmo Final)
 
-**Descrição:**  
-Flowchart unificado consolidando TODAS as árvores (1-4) num diagrama único A3.
+![The Master Pathway](figures/chapter13/master_pathway.png)
+*Figura 13.1: O algoritmo de suporte à vida do cirurgião refrativo. Comece no topo (Triagem) e siga o fluxo. A integridade do cristalino (DLS) é o principal divisor de águas entre LASIK (Verde) e RLE (Laranja).*
 
-```
-                    PACIENTE
-                       ↓
-              ┌────────┴────────┐
-         TRIAGEM           NÃO-CANDIDATO
-              ↓                  ↓
-        PROPEDÊUTICA         EDUCAR/
-              ↓              ÓCULOS
-      ┌───────┴───────┐
-  CÓRNEA            CÓRNEA
-  VIÁVEL         INVIÁVEL
-      ↓                  ↓
-  ┌───┴───┐            RLE
-  ↓       ↓           ou
-CORN     RLE        RECUSAR
-  ↓
-┌─┴─┐
-C-Q Presby Presby Supra
-    MAX    OND    COR
-      ↓
-  CIRURGIA
-      ↓
-    ┌─┴─┐
-SUCESSO  COMPLICAÇÃO
-    ↓        ↓
-  ALTA   GESTÃO
-```
+### Infográfico 13.2: The PresbyCor Cheat Sheet (Consulta Rápida)
+
+![Cheat Sheet Clínico](figures/chapter13/cheat_sheet.png)
+*Figura 13.2: Guia de referência rápida para os 4 perfis de pacientes mais comuns. Use isto para uma validação mental rápida antes de confirmar a cirurgia.*
+
+### Infográfico 13.3: Árvore de Decisão - Triagem Inicial
+
+![Triagem Inicial](figures/chapter13/triagem_decision.png)
+*Figura 13.3: Filtro inicial. Identificar expectativas irrealistas é tão importante quanto medir a adição. Se não passar aqui, não avance.*
+
+### Infográfico 13.4: Qual Técnica Corneana?
+
+![Seleção de Técnica](figures/chapter13/technique_selection.png)
+*Figura 13.4: O seletor de plataforma. A pupila mesópica e a adição necessária ditam a escolha entre Custom-Q, PRESBYOND e PresbyMAX/SUPRACOR.*
+
+### Infográfico 13.5: Viabilidade Corneana (Propedêutica)
+
+![Viabilidade Corneana](figures/chapter13/propedeutica_viability.png)
+*Figura 13.5: Safety check. O algoritmo de segurança para evitar ectasia e complicações de olho seco.*
 
 ---
 

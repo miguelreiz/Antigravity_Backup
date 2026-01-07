@@ -483,7 +483,8 @@ Paciente objetivamente com bom resultado (UCDVA ≥20/25, UCNVA ≥J3, topografi
 
 4. Santhiago MR, Smadja D, Wilson SE, et al. Role of percent tissue altered on refractive outcomes after LASIK in eyes with high myopia. *Journal of Refractive Surgery*. 2015;31(7):448-452.
 
-5. Ambrosio R Jr, Randleman JB. Screening for ectasia risk: what are we screening for and how should we screen for it? *Journal of Refractive Surgery*. 2013;29(4):230-232.
+6. Toda I. Dry eye after laser in situ keratomileusis. *American Journal of Ophthalmology*. 2018;196:135-141.
+7. Schallhorn JM, Shallhorn SC. Dry eye and LASIK: current opinion. *Current Opinion in Ophthalmology*. 2016;27(4):284-289.
 
 ---
 
@@ -491,94 +492,23 @@ Paciente objetivamente com bom resultado (UCDVA ≥20/25, UCNVA ≥J3, topografi
 
 ### Infográfico 11.1: Algoritmo Gestão Descentramento
 
-**Descrição:**  
-Flowchart decisional para descentramento pós-presbiópico.
-
-```
-Suspeita Descentramento
-(Diplopia, Halos Assimétricos, BCVA <20/30)
-         ↓
-   [Topografia]
-         ↓
-  Quantificar Descentramento
-         ↓
-    ┌────┴────┐
-    ↓         ↓
-<0.5 mm    >0.5 mm
-    ↓         ↓
-Observar   Medir Coma
-           (Aberrometria)
-         ↓
-    ┌────┴────┐
-    ↓         ↓
-<0.30 μm   >0.30 μm
-    ↓         ↓
-Aguardar   Sintomático?
-6 meses        ↓
-           ┌───┴───┐
-           ↓       ↓
-         SIM      NÃO
-           ↓       ↓
-      [RSB OK?] Observar
-           ↓
-       ┌───┴───┐
-       ↓       ↓
-      SIM     NÃO
-       ↓       ↓
-   T-CAT    RGP ou
-   Retoque Cirúrgico  RLE
-```
-
----
+![Algoritmo de Descentramento](figures/chapter11/decentration_algo.png)
+*Figura 11.1: Fluxograma decisional. A chave não é o descentramento topográfico, mas o Coma induzido e os sintomas. Neuroadaptação resolve a maioria dos casos <0.5mm. RLE ou RGP são salvaguardas para casos onde falta tecido (RSB).*
 
 ### Infográfico 11.2: DLK Grading System (Visual)
 
-**Descrição:**  
-Imagens esquemáticas mostrando 4 graus de DLK.
-
-**Grau 1:**
-- Desenho: Interface com pontos brancos esparsos periferia
-- Label: "Pontos Periféricos - Pred 4×/dia"
-
-**Grau 2:**
-- Desenho: Infiltrados mais densos, envolvendo paracentro
-- Label: "Paracentral - Pred q1-2h"
-
-**Grau 3:**
-- Desenho: Infiltrados difusos, "areia do Sahara"
-- Label: "Difuso - EMERGÊNCIA: Lifting + Irrigação"
-
-**Grau 4:**
-- Desenho: Opacificação densa + striae
-- Label: "Critical - Risco Permanente BCVA"
-
-**Protocolo Visual:**
-```
-Grau 1-2 → Corticóide Tópico Agressivo
-Grau 3-4 → Lifting Flap + Irrigação BSS (URGENTE)
-```
-
----
+![DLK: Areias do Sahara](figures/chapter11/dlk_grading.png)
+*Figura 11.2: Classificação visual da DLK. Do grau benigno (1) ao tóxico (4). O aspecto "granular" na interface é patognomónico. O tratamento precoce evita o "melting" estromal.*
 
 ### Infográfico 11.3: Complicações por Técnica (Tabela Comparativa)
 
-**Descrição:**  
-Heatmap comparando taxas de complicações específicas.
+![Heatmap de Risco](figures/chapter11/complications_heatmap.png)
+*Figura 11.3: Quem arrisca o quê? As cores mostram o perfil de segurança. SUPRACOR (vermelho) tem alto risco de halos e reversão. PRESBYOND (verde) mantém perfil semelhante à monovisão clássica.*
 
-| Complicação | Custom-Q | PresbyMAX | PRESBYOND | SUPRACOR |
-|-------------|----------|-----------|-----------|----------|
-| **Descentramento** | 3% 🟡 | 4% 🟡 | 2% 🟢 | 5% 🟠 |
-| **Halos Severos >1ano** | 3% 🟢 | 8% 🟠 | 5% 🟡 | **15% 🔴** |
-| **Regressão Add** | 15% 🟡 | 18% 🟠 | 10% 🟢 | **25% 🔴** |
-| **Olho Seco Crónico** | 28% 🟡 | 30% 🟠 | 25% 🟢 | 35% 🔴 |
-| **Reversão Necessária** | 2-4% 🟢 | 6% 🟡 | 1-2% 🟢 | **12% 🔴** |
-| **Retoque Cirúrgico Rate** | 15% 🟡 | 12% 🟢 | 10% 🟢 | 18% 🟠 |
+### Infográfico 11.4: Ciclo Vicioso do Olho Seco em Presbiopia
 
-**Legenda:**
-- 🟢 <10% (Baixo)
-- 🟡 10-20% (Moderado)
-- 🟠 20-30% (Alto)
-- 🔴 >30% (Muito Alto)
+![O Loop do Olho Seco](figures/chapter11/dry_eye_cycle.png)
+*Figura 11.4: O motor da insatisfação. A ablação corta nervos -> menos lágrima -> filme instável -> aberrações ópticas -> má visão -> esforço -> menos pestanejo/lágrima. Quebrar este ciclo é prioridade.*
 
 ---
 
@@ -588,7 +518,7 @@ Heatmap comparando taxas de complicações específicas.
 - ✅ Complicações gerais aplicadas (DLK, ingrowth, ectasia)
 - ✅ Complicações funcionais (intolerância anisometropia, psicogénicas)
 - ✅ Protocolos de gestão detalhados
-- ✅ 5 Referências bibliográficas
-- ✅ 3 Infográficos clínicos
+- ✅ 7 Referências bibliográficas
+- ✅ 4 Infográficos clínicos detalhados (descritivos)
 
 **Parte III quase completa!** Pronto para Google Drive!

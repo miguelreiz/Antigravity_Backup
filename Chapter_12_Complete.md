@@ -470,7 +470,8 @@ CORNEANA    RLE
 
 4. Gatinel D, Loicq J. Clinically relevant optical properties of bifocal, trifocal, and extended depth of focus intraocular lenses. *Journal of Ophthalmology*. 2016;2016:1-16.
 
-5. Charman WN. Developments in the correction of presbyopia II: surgical approaches. *Ophthalmic and Physiological Optics*. 2014;34(4):397-426.
+6. Schallhorn SC, Schallhorn JM. History of refractive surgery. *Current Opinion in Ophthalmology*. 2011;22(4):249-254.
+7. Vilades D, Montés-Micó R. Dysfunctional lens syndrome: Review of the literature. *Journal of Ophthalmology and Clinical Research*. 2017;4:1-6.
 
 ---
 
@@ -478,78 +479,18 @@ CORNEANA    RLE
 
 ### Infográfico 12.1: Algoritmo Master Decisional (Visual Completo)
 
-[Já descrito no texto Secção 12.4]
-
----
+![O Algoritmo Mestre](figures/chapter12/master_decision_algo.png)
+*Figura 12.1: O mapa mental definitivo. A idade é a primeira triagem, mas o status funcional do cristalino (DLS) é o juiz final. "Preservar se transparente, substituir se disfuncional".*
 
 ### Infográfico 12.2: Zona de Idade vs DLS (Heatmap Decisional)
 
-**Descrição:**  
-Mapa de calor 2D orientando decisão.
-
-**Eixo X:** Idade (45, 50, 55, 60, 65 anos)  
-**Eixo Y:** DLS (1, 2, 3, 4)
-
-**Células:**
-
-| DLS \\ Idade | 45 | 50 | 55 | 60 | 65 |
-|--------------|----|----|----|----|-----|
-| **DLS 1** | 🟢 Corn | 🟢 Corn | 🟡 Corn* | 🟠 RLE* | 🟠 RLE |
-| **DLS 2** | 🟢 Corn | 🟡 Ambos | 🟡 Ambos | 🟠 RLE | 🔴 RLE |
-| **DLS 3** | 🟡 Ambos | 🟠 RLE* | 🔴 RLE | 🔴 RLE | 🔴 RLE |
-| **DLS 4** | 🔴 RLE | 🔴 RLE | 🔴 RLE | 🔴 RLE | 🔴 RLE |
-
-**Legenda:**
-- 🟢 Corneana Preferível
-- 🟡 Análise Individualizada
-- 🟠 RLE Preferível
-- 🔴 RLE Mandatório
-- (*) = Considerar factores adicionais (erro refr, RSB, add)
-
----
+![Heatmap de Decisão](figures/chapter12/decision_heatmap.png)
+*Figura 12.2: Navegando a Zona Cinzenta. O Heatmap visualiza onde está o risco. Tentar LASIK em zona Vermelha (60+ anos) é erro estratégico. RLE em zona Verde (<48 anos) é agressão desnecessária.*
 
 ### Infográfico 12.3: Comparação Visual Outcomes (Radar Chart)
 
-**Descrição:**  
-Radar chart hexagonal comparando 6 dimensões.
-
-**Dimensões (0-10 scale):**
-
-1. **Visão Longe (UCDVA)**
-2. **Visão Perto (UCNVA)**
-3. **Visão Intermediária**
-4. **Estabilidade Refrativa**
-5. **Baixos Fenómenos Fóticos**
-6. **Segurança (sem complicações)**
-
-**Técnicas Comparadas:**
-
-**Custom-Q (Linha Azul):**
-- UCDVA: 8/10
-- UCNVA: 7/10
-- Intermediária: 7/10
-- Estabilidade: 7/10
-- Halos Baixos: 9/10
-- Segurança: 9/10
-
-**RLE Trifocal (Linha Vermelha):**
-- UCDVA: 8/10
-- UCNVA: 10/10
-- Intermediária: 9/10
-- Estabilidade: 10/10
-- Halos Baixos: 6/10
-- Segurança: 8/10
-
-**RLE EDOF (Linha Verde):**
-- UCDVA: 9/10
-- UCNVA: 7/10
-- Intermediária: 10/10
-- Estabilidade: 10/10
-- Halos Baixos: 8/10
-- Segurança: 8/10
-
-**Conclusão Visual:**  
-Nenhuma técnica é "perfeita" em todas dimensões. Decisão depende de prioridades paciente.
+![Radar de Trade-offs](figures/chapter12/outcomes_radar.png)
+*Figura 12.3: Não há almoços grátis. A área coberta por cada linha mostra o "footprint" de benefícios. Córnea (Azul) ganha em segurança e qualidade noturna. RLE Trifocal (Vermelho) ganha em visão de perto e estabilidade, mas perde em halos e risco.*
 
 ---
 

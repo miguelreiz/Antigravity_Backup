@@ -402,177 +402,28 @@ Informar paciente repetidamente:
 
 ### Infográfico 8.1: Perfil Geométrico SUPRACOR vs. Outras Técnicas
 
-**Descrição:**  
-Gráfico mostrando perfis de ablação/potência lado a lado.
-
-**Eixo X:** Distância Radial do Centro (0-4 mm)  
-**Eixo Y:** Potência Dióptrica Relativa (D), baseline a +6 D
-
-**Quatro Curvas Sobrepostas:**
-
-**Curva Custom-Q (Azul):**
-- Centro: +1.0 D acima baseline
-- Declínio suave contínuo
-- Label: "Custom-Q: Moderado"
-
-**Curva PresbyMAX (Verde):**
-- Centro: +2.0 D (pico discreto)
-- Plateau, depois queda
-- Label: "PresbyMAX: Bi-Asférico"
-
-**Curva PRESBYOND (Laranja Tracejada):**
-- Dois olhos mostrados separadamente
-- OD: +0.5 D, OE: -1.25 D baseline (monovisão)
-- Label: "PRESBYOND: Blend Monovisão"
-
-**Curva SUPRACOR (Vermelho Intenso):**
-- Centro: **+5.5 D** (pico extremo, "montanha")
-- Queda muito abrupta 1.5-3 mm
-- Periferia: Plana
-- Label: "**SUPRACOR: EXTREMO**"
-
-**Zona Sombreada Vermelha:**
-- Área sob curva SUPRACOR além das outras
-- Label: "Tecido Adicional Removido = Agressividade"
-
-**Caixa de Alerta:**
-"⚠ SUPRACOR: Modificação corneana mais agressiva disponível em cirurgia refrativa presbiópica. Trade-off severo inevitável."
-
----
+![A Montanha Central](figures/chapter8/supracor_geometric_profile.png)
+*Figura 8.1: A geometria da agressividade. Note a "montanha" central vermelha do SUPRACOR (+6.00D) elevando-se muito acima das curvas suaves do Custom-Q ou PresbyMAX. É esta elevação extrema que garante a leitura, mas causa os halos.*
 
 ### Infográfico 8.2: Trade-Off Matrix - SUPRACOR
 
-**Descrição:**  
-Gráfico de barras comparando ganhos vs. perdas.
-
-**Painel Esquerdo: GANHOS (+)**
-
-Barras verdes horizontais:
-- **Visão de Perto (UCNVA):** 98% ≥J2 ████████████ (10/10)
-- **Add Efetiva:** +3.00-3.50 D ███████████ (9.5/10)
-- **Independence Óculos Perto:** 95% ██████████ (10/10)
-
-**Painel Direito: PERDAS (-)**
-
-Barras vermelhas horizontais:
-- **Visão de Longe (UCDVA):** Perda 1.8 linhas ████████ (8/10 severidade)
-- **Sensibilidade Contraste:** -0.45 log ██████████ (10/10 severidade)
-- **Halos Noturnos:** Score 7.2/10 █████████ (9/10 severidade)
-- **Taxa Insatisfação:** 8% ████ (4/10)
-
-**Balança Visual (Centro):**
-- Lado esquerdo (ganhos): Pesa para baixo
-- Lado direito (perdas): Pesa mais (⚖ desequilibrada)
-- Label: "Trade-Off desfavorável para maioria dos pacientes"
-
----
+![Balança de Ganhos e Perdas](figures/chapter8/supracor_tradeoff_scale.png)
+*Figura 8.2: O preço da independência. O SUPRACOR oferece a melhor visão de perto do mercado (Lado Verde), mas o custo em qualidade de longe e contraste (Lado Vermelho) desequilibra a balança para muitos pacientes.*
 
 ### Infográfico 8.3: Algoritmo de Decisão - SUPRACOR vs. RLE
 
-**Descrição:**  
-Árvore de decisão para pacientes com add elevada.
-
-**Nó Inicial:**
-"Paciente Add ≥+2.50 D, deseja independence óculos perto"
-
-**Decisão 1: Idade?**
-- **≥60 anos** → Avaliar Cristalino
-  - LOCS ≥2 ou OSI >1.5 → **RLE 1ª Escolha** (Fim Verde)
-  - LOCS <2 e OSI <1.2 → Continuar
-- **55-59 anos** → Continuar
-- **<55 anos** → Custom-Q ou PresbyMAX (add não tão alta ainda)
-
-**Decisão 2: Prioridade Visual?**
-- **Perto >70% tempo (joalheiro, bordadeira)** → Continuar SUPRACOR
-- **Longe importante (condução, atividades outdoor)** → **RLE preferível**
-
-**Decisão 3: Teste de LC?**
-- **Tolerou bem simul ação multifocal agressiva** → Continuar
-- **Não tolerou ou não quis testar** → **RLE** ou Contraindicar
-
-**Decisão 4: Compreensão Trade-Off?**
-- **"Aceito perder 2 linhas longe para ganhar perto"** → **SUPRACOR viável** (Amarelo - Cautela)
-- **"Quero longe E perto perfeitos"** → **RLE + IOL Premium** (Verde)
-
-**Caixa Final:**
-"SUPRACOR é técnica de nicho para <5% candidatos presbiópicos. RLE é alternativa superior para add elevada em >60 anos."
-
----
+![O Nicho Estreito](figures/chapter8/supracor_decision_algorithm.png)
+*Figura 8.3: Onde o SUPRACOR ainda faz sentido? O algoritmo mostra que o espaço para esta técnica é um "buraco de agulha" entre os 55-58 anos. Acima dos 60, a RLE (Lente Intraocular) é quase sempre superior.*
 
 ### Infográfico 8.4: Curva de Neuroadaptação SUPRACOR
 
-**Descrição:**  
-Gráfico temporal mostrando evolução de satisfação e sintomas.
-
-**Eixo X:** Tempo Pós-Op (Semana 1, Mês 1, Mês 3, Mês 6, Mês 12)  
-**Eixo Y Esquerdo:** Satisfação (0-10)  
-**Eixo Y Direito:** Severidade Halos (0-10)
-
-**Curva A (Verde - Satisfação):**
-- Semana 1: 3/10 (baixa, "semana do arrependimento")
-- Mês 1: 4.5/10 (melhora ligeira)
-- Mês 3: 6.5/10 (platô inicial neuroadaptação)
-- Mês 6: 7.0/10
-- Mês 12: 7.2/10 (estabilização, mas não excelente)
-
-**Curva B (Vermelha - Halos):**
-- Semana 1: 9/10 (severos)
-- Mês 1: 8/10 (persistem)
-- Mês 3: 7/10 (redução ligeira)
-- Mês 6-12: **7.0/10** (persistem permanentemente altos)
-
-**Zona Sombreada Amarela (Semana 1-Mês 3):**
-- Label: "Período de Máximo Desconforto - Suporte Psicológico Crítico"
-
-**Linha Tracejada Horizontal (Satisfação = 8/10):**
-- Label: "Threshold 'Satisfação Boa'"
-- **SUPRACOR nunca atinge consistentemente**
-
-**Comparação (Canto Superior):**
-
-Mini-gráfico comparativo:
-- PRESBYOND: Satisfação final 9.3/10
-- Custom-Q: 8.5/10
-- **SUPRACOR: 7.2/10** (inferior)
-
----
+![O Vale do Arrependimento](figures/chapter8/supracor_neuroadaptation_curve.png)
+*Figura 8.4: Gestão de expectativas. A curva de satisfação (verde) sofre um mergulho profundo na primeira semana ("Semana do Arrependimento") devido ao blur de longe. A recuperação é lenta e os halos (vermelho) persistem.*
 
 ### Infográfico 8.5: Caso Clínico - Reversão de SUPRACOR
 
-**Descrição:**  
-Sequência de 4 painéis mostrando evolução de caso com reversão.
-
-**Painel 1: Pré-Op**
-- Paciente: 57 anos, add +2.75 D
-- Expectativa: "Quero ler sem óculos"
-- Topografia: Normal
-
-**Painel 2: 3 Meses Pós-SUPRACOR**
-- **Topografia:** Elevação central extrema (vermelho intenso)
-- **Resultados:**
-  - UCNVA: J1 ✓ (excelente)
-  - UCDVA: 20/40 ✗ (pobre)
-  - Halos: 8/10 (severos)
-- **Queixa:** "Não consigo conduzir à noite, visão longe terrível"
-- **Satisfação:** 3/10
-
-**Painel 3: Decisão de Reversão (Mês 6)**
-- **Critérios Cumpridos:**
-  - ☑ Insatisfação persistente >6 meses
-  - ☑ UCDVA <20/40
-  - ☑ Halos incapacitantes
-- **Decisão:** Topography-Guided Ablation para reversão
-
-**Painel 4: 3 Meses Pós-Reversão**
-- **Topografia:** Zona central aplanada (laranja-amarelo)
-- **Resultados:**
-  - BCVA: 20/25 com correção (recuperação parcial)
-  - Halos: 4/10 (reduzidos mas não eliminados)
-  - **UCNVA: J6** (perto perdido - precisa óculos +2.50 D)
-- **Satisfação:** 6/10 ("Pelo menos consigo conduzir, mas perdi o perto")
-
-**Lição Final:**
-"Reversão de SUPRACOR não restaura visão pré-op 100%. Paciente troca perto excelente por longe moderado. Seleção rigorosa previne esta situação."
+![Sequelas da Reversão](figures/chapter8/supracor_reversal_triptych.png)
+*Figura 8.5: Reverter não é apagar. A sequência mostra que, mesmo após a ablação de resgate ter aplanado a "montanha" central, a córnea retém irregularidades que limitam a qualidade óptica perfeita.*
 
 ---
 

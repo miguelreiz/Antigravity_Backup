@@ -593,211 +593,43 @@ Paciente sentado (refração) vs. deitado (cirurgia): Rotação do olho até 5-1
 
 ### Infográfico 4.1: O Efeito de Mascaramento Epitelial (Corte Transversal Dinâmico)
 
-**Descrição:**  
-Diagrama em três painéis mostrando a evolução temporal da resposta epitelial pós-ablação hipermetrópica.
-
-**Painel 1: Pós-Operatório Imediato (Dia 0)**
-
-- **Estroma:** Corte lateral mostrando perfil de ablação hipermetrópica
-  - Centro: Elevação/bossa (steep) com altura relativa +40 μm
-  - Periferia: Depressão profunda (ablação de -75 μm)
-- **Epitélio:** Camada uniforme (~50 μm) recém-aplicada (em PRK) ou intacta (em LASIK)
-- **Perfil Resultante:** Superfície anterior irregular matching o estroma
-- **Label:** "Perfil Óptico Planeado – Máxima Asfericidade"
-
-**Painel 2: 3 Meses Pós-Op (Remodelação em Curso)**
-
-- **Estroma:** Inalterado (sublinha a permanência da ablação)
-- **Epitélio:** Espessura diferencial visível
-  - Centro (sobre a elevação): **Adelgaçado para 40 μm** (colorir verde claro)
-  - Periferia (sobre a depressão): **Espessado para 60 μm** (colorir verde escuro)
-- **Perfil Resultante:** Superfície anterior parcialmente suavizada
-- **Setas:** Indicando migração celular centrífuga e proliferação diferencial
-- **Label:** "Resposta Epitelial Compensatória – Início do Mascaramento"
-
-**Painel 3: 12 Meses Pós-Op (Estabilização)**
-
-- **Estroma:** Inalterado
-- **Epitélio:** Padrão de espessura estabelecido
-  - Centro: 38-42 μm (mínimo biológico)
-  - Periferia: 58-62 μm (máximo fisiológico)
-- **Perfil Resultante:** Superfície anterior significativamente alisada
-- **Gráfico Sobreposto:** Curva de potência dióptrica
-  - Linha azul: Perfil planeado (incurvamento central acentuado)
-  - Linha vermelha: Perfil real aos 12 meses (incurvamento reduzido)
-  - Zona sombreada: "Perda de Add por Mascaramento" (~0.25-0.50 D)
-- **Label:** "Estabilização – Regressão Parcial do Efeito Presbiópico"
-
-**Caixa de Texto Inferior:**  
-"**Implicação Cirúrgica:** Sobrecorrigir Q-target em 0.10-0.15 para antecipar perda epitelial. Em PRK, considerar sempre MMC para modular esta resposta."
-
-**Objetivo:**  
-Demonstrar visualmente o processo dinâmico de remodelação epitelial e a sua consequência refrativa deletéria.
+![O Efeito de Mascaramento Epitelial](figures/chapter4/infographic_4_1_epithelial_masking.md)
+*Figura 4.1: Diagrama demonstrando como a hiperplasia epitelial preenche as zonas de ablação profunda ("smoothing"), reduzindo a asfericidade efetiva programada.*
 
 ---
 
 ### Infográfico 4.2: Centragem – Pupila vs. Purkinje vs. Ponto Médio
 
-**Descrição:**  
-Vista frontal do olho com três cenários de centragem sobrepostos.
-
-**Anatomia Base:**
-
-- Limbo (círculo exterior): 12 mm diâmetro
-- Íris (círculo médio): Castanho
-- Pupila (círculo interior): 3.5 mm diâmetro, preto
-- Reflexo de Purkinje (cruz verde): Deslocado 0.50 mm nasal-superior em relação ao centro da pupila
-- Centro geométrico da pupila (ponto vermelho)
-
-**Três Zonas de Ablação Sobrepostas (Círculos Transparentes Coloridos):**
-
-**Cenário A (Vermelho – Centração Pupilar):**
-- Zona de ablação (6.5 mm Ø): Centrada no ponto vermelho (centro pupilar)
-- **Problema Visível:** Zona de ablação desloca-se 0.50 mm do Purkinje
-- **Cálculo de Coma Induzido (Anotação):**
-  $$\Delta Z_3^1 = 0.12 \times 0.5 \times \sqrt{2.0} \approx 0.08 \, \mu m$$
-- **Label:** "Risco de Coma – Não Recomendado em Kappa >0.30 mm"
-
-**Cenário B (Verde – Centragem no Purkinje):**
-- Zona de ablação: Centrada na cruz verde (eixo visual)
-- **Vantagem:** Zero coma induzido (opticamente ideal)
-- **Potencial Problema:** Se pupila mesópica >6.5 mm, pode não cobrir toda a pupila dilatada
-- **Label:** "Óptimo Óptico – Ideal para Kappa Alto"
-
-**Cenário C (Amarelo – Ponto Médio Híbrido - RECOMENDADO):**
-- Zona de ablação: Centrada no ponto médio (halfway entre pupila e Purkinje)
-- Linha tracejada conectando vermelho → amarelo → verde
-- **Cálculo:**
-  $$\text{Ponto de Centragem} = \text{Pupila} + 0.5 \times \text{(Purkinje - Pupila)}$$
-  Deslocamento efetivo: 0.25 mm
-  $$\Delta Z_3^1 = 0.12 \times 0.25 \times \sqrt{2.0} \approx 0.04 \, \mu m$$
-- **Vantagem:** Coma mínimo (<0.05 μm, tolerável) + Cobertura pupilar garantida
-- **Label:** "**Compromisso Ideal – Regra Clínica Recomendada**"
-
-**Legenda Inferior (Tabela de Decisão Rápida):**
-
-| Kappa (mm) | Estratégia de Centragem |
-|------------|------------------------|
-| <0.30 | Pupilar (Cenário A) aceitável |
-| 0.30-0.60 | **Ponto Médio (Cenário C) – RECOMENDADO** |
-| >0.60 | Purkinje estrito (Cenário B) ou contraindicar multifocalidade |
-
-**Objetivo:**  
-Fornecer uma ferramenta visual clara para decisão de centragem intra-operatória baseada no ângulo Kappa.
+![A Trindade da Centragem](figures/chapter4/infographic_4_2_centration_strategy.md)
+*Figura 4.2: Comparativo de estratégias de centragem. A estratégia do "Ponto Médio" (Halfway Point) oferece o melhor compromisso entre qualidade óptica (Purkinje) e cobertura anatómica (Pupila).*
 
 ---
 
 ### Infográfico 4.3: Linha Temporal de Recuperação Visual (PRK vs. LASIK)
 
-**Descrição:**  
-Gráfico de linha dupla mostrando acuidade visual ao longo do tempo.
-
-**Eixos:**
-- **Eixo X:** Tempo pós-operatório (escala logarítmica: Dia 1, Dia 3, Semana 1, Semana 2, Mês 1, Mês 3, Mês 6)
-- **Eixo Y:** UCVA (Uncorrected Visual Acuity) em notação decimal (0.1 = 20/200 a 1.0 = 20/20)
-
-**Duas Curvas:**
-
-**Curva Azul (LASIK):**
-- Dia 1: 0.6-0.7 (20/30-20/25)
-- Dia 3: 0.8 (20/25)
-- Semana 1: 0.9-1.0 (20/20)
-- **Plateau** mantém-se
-- Zona sombreada azul claro: "Período de Neuroadaptação LASIK (0-3 meses)"
-- Label final: "Estabilização: 3 meses"
-
-**Curva Laranja (PRK):**
-- Dia 1: 0.1 (20/200) – **Vale profundo** (dor, blur severo)
-- Dia 3: 0.2 (20/100)
-- Semana 1: 0.3-0.4 (20/60-20/50)
-- Semana 2: 0.5 (20/40)
-- Mês 1: 0.7 (20/30)
-- Mês 3: 0.9 (20/20) – Cruza com curva LASIK
-- Zona sombreada laranja: "Período de Neuroadaptação PRK (0-6 meses)"
-- Label final: "Estabilização: 6 meses"
-
-**Anotações Temporais:**
-
-- **Dia 5 (PRK):** Ícone de lente de contacto com label "Remoção de LCT (Reepitelização completa)"
-- **Semana 1 (PRK):** Ícone de olho com raios (fotofobia) + símbolo de dor
-- **Mês 1 (PRK):** Possível pico de haze (pequeno dip secundário na curva)
-
-**Caixas de Texto:**
-
-**Superior Esquerdo (LASIK):**  
-"✓ Visão funcional imediata  
-✓ Retorno ao trabalho: 1-3 dias  
-✓ Neuroadaptação acelerada (exposição consistente ao padrão óptico)"
-
-**Inferior Direito (PRK):**  
-"✗ "Semana cega" inicial  
-✗ Retorno ao trabalho: 7-10 dias  
-✗ Neuroadaptação atrasada (flutuação visual prolongada impede adaptação cortical)"
-
-**Objetivo:**  
-Demonstrar graficamente a diferença dramática em recuperação visual e o impacto na neuroadaptação, justificando a preferência por LASIK em presbiopia (exceto contraindicações específicas).
+![Recuperação Visual PRK vs LASIK](figures/chapter4/infographic_4_3_recovery_timeline.md)
+*Figura 4.3: Gráfico comparativo de acuidade visual (LogMAR e Qualidade Subjetiva) ao longo do tempo. Note o "vale" inicial do PRK vs. o "platô" imediato do LASIK.*
 
 ---
 
-### Infográfico 4.4: Protocolo MMC Step-by-Step (Ilustração Cirúrgica)
+### Infográfico 4.4: Protocolo MMC Step-by-Step
 
-**Descrição:**  
-Sequência de 6 painéis ilustrados mostrando a técnica correta de aplicação de Mitomicina C.
-
-**Painel 1: Preparação**
-- **Imagem:** Frasco de MMC 0.02% em gelo (proteger da luz)
-- **Esponja Merocel:** 3-4 mm diâmetro, embebida em solução
-- **Timer:** Preparar cronómetro
-- **Label:** "Preparar MMC 0.02% fresca, refrigerada, protegida da luz"
-
-**Painel 2: Aplicação**
-- **Imagem:** Microscópio cirúrgico com olho do paciente
-- **Esponja MMC:** Sobre leito estromal (pós-ablação PRK)
-- **Pinça:** Segurando esponja com pressão ligeira e uniforme
-- **Área de Contacto:** Circular, cobrindo toda a zona de ablação + 0.5 mm margem
-- **Timer Visível:** "20-60 seg" (baseado em ablação)
-- **Label:** "Aplicar com pressão ligeira, cobrir toda zona ablacionada"
-
-**Painel 3: Duração (Tabela de Referência Sobreposta)**
-
-| Profundidade Ablação | Tempo MMC |
-|----------------------|-----------|
-| <50 μm | 20 seg |
-| 50-70 μm | 30 seg |
-| 70-90 μm | 40-45 seg |
-| >90 μm | 60 seg (máximo) |
-
-**Painel 4: Remoção**
-- **Imagem:** Esponja sendo removida (puxar verticalmente, sem arrastar)
-- **Seta Vermelha:** "NUNCA arrastar horizontalmente (induz irregularidade)"
-- **Label:** "Remover verticalmente após tempo estabelecido"
-
-**Painel 5: Lavagem Copiosa**
-- **Imagem:** Cânula de irrigação com BSS a jorrar copiosamente
-- **Volume:** "20-30 mL BSS"
-- **Duração:** "Mínimo 30 segundos de irrigação ativa"
-- **Direção:** Setas mostrando irrigação centrífuga (centro → periferia)
-- **Label:** "CRÍTICO: Lavagem abundante para remover resíduo (previne toxicidade endotelial)"
-
-**Painel 6: Secagem e LCT**
-- **Imagem:** Weck-Cel a secar delicadamente
-- **Seguido por:** Lente de contacto terapêutica sendo posicionada
-- **Label:** "Secar gentilmente → Aplicar LCT (alta Dk/t)"
-
-**Caixa de Alerta Vermelha (Inferior):**  
-"⚠ **CONTRAINDICAÇÕES MMC:** Glaucoma não controlado, defeito epitelial crónico, córnea <400 μm residual"
-
-**Objetivo:**  
-Servir como guia visual rápido e preciso para aplicação segura de MMC intra-operatória.
+![Protocolo de Segurança Mitomicina C](figures/chapter4/infographic_4_4_mmc_protocol.md)
+*Figura 4.4: Guia visual de segurança para aplicação de MMC, destacando os tempos de exposição baseados na profundidade de ablação e a importância da lavagem copiosa.*
 
 ---
 
 ### Infográfico 4.5: Complicação – Epithelial Ingrowth (Classificação e Gestão)
 
-**Descrição:**  
-Três fotografias clínicas simuladas (ou desenhos esquemáticos de alta fidelidade) mostrando graus de epithelial ingrowth.
+![Classificação de Ingrowth Epitelial](figures/chapter4/infographic_4_5_epithelial_ingrowth.md)
+*Figura 4.5: Sistema de semáforo para gestão de invasão epitelial na interface LASIK. A distorção visual ou o melting do flap (Grau 3) exigem intervenção cirúrgica imediata.*
 
-**Painel A: Grau 1 (Observar)**
+---
+
+### Infográfico 4.6: O Mapa de Risco de Haze (Zona de Perigo UV)
+
+![Heatmap de Risco de Haze](figures/chapter4/infographic_4_6_haze_hazard_map.md)
+*Figura 4.6: Matriz de risco correlacionando a profundidade de ablação estromal com a probabilidade de ativação miofibroblástica (Haze), justificando o uso mandatório de MMC em perfis presbiópicos profundos.*
 
 **Imagem:**  
 - Vista através de lâmpada de fenda

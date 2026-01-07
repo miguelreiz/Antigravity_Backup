@@ -499,7 +499,7 @@ Mediana de shift aos 12 meses:
 
 5. Alió JL, Amparo F, Ortiz D, Moreno L. Corneal multifocality with excimer laser for presbyopia correction. *Current Opinion in Ophthalmology*. 2009;20(4):264-271. doi:10.1097/ICU.0b013e32832a7ded
 
-6. Reinstein DZ, Archer TJ, Gobbe M. Small incision lenticule extraction (SMILE) history, fundamentals of a new refractive surgery technique and clinical outcomes. *Eye and Vision*. 2014;1:3. doi:10.1186/s40662-014-0003-1
+7. Reinstein DZ, Archer TJ, Gobbe M. The history of LASIK: part 1. *Journal of Refractive Surgery*. 2012;28(4):291-298.
 
 ---
 
@@ -507,224 +507,28 @@ Mediana de shift aos 12 meses:
 
 ### Infográfico 7.1: Conceito "Blend Zone" (Diagrama Óptico)
 
-**Descrição:**  
-Diagrama mostrando sobreposição de DoF dos dois olhos criando zona de fusão.
-
-**Eixo X:** Distância do Objeto (cm): 400 → 150 → 80 → 50 → 33  
-**Eixo Y:** Qualidade de Imagem (logMAR invertido: 0.0 topo = nítido, 0.5 base = turvo)
-
-**Curva A (Azul - Olho Dominante OD, +0.50 D):**
-- Pico (nítido) em infinito (400 cm)
-- Declínio progressivo conforme aproxima
-- Cruza threshold "utilizável" (0.2 logMAR) em ~80 cm
-- Label: "OD: Foco primário LONGE"
-
-**Curva B (Verde - Olho Não-Dominante OE, -1.25 D):**
-- Vale (turvo) em infinito
-- Melhora progressivamente conforme aproxima
-- Pico (nítido) em ~40 cm
-- Cruza threshold "utilizável" em ~100 cm
-- Label: "OE: Foco primário PERTO"
-
-**Zona Sombreada (Amarela - "Blend Zone"):**
-- Região 60-100 cm onde ambas curvas estão >0.15 logMAR
-- **Ambos os olhos contribuem simultaneamente**
-- Label: "**BLEND ZONE:** Fusão Binocular Ativa (Visão Intermediária Ótima)"
-
-**Linha Tracejada Vermelha (Monovisão Clássica para Comparação):**
-- Curvas sem sobreposição (gap entre OD e OE)
-- Zona intermediária sem cobertura (depressão entre curvas)
-- Label: "Monovisão Standard: Gap em Intermediária"
-
-**Caixa de Texto:**  
-"O conceito Blend cria fusão binocular em vez de supressão, preservando estereopsia e eliminando 'gap' visual em distâncias de computador/painel."
-
----
+![Conceito da Zona de Mistura](figures/chapter7/infographic_7_1_presbyond_concept.md)
+*Figura 7.1: O segredo do Blend. Demonstração de como a profundidade de foco estendida em cada olho (barras azul e verde) cria uma vasta zona de sobreposição central (roxo) onde a fusão binocular é mantida.*
 
 ### Infográfico 7.2: Curva de Defocus PRESBYOND vs. Monovisão
 
-**Descrição:**  
-Gráfico científico mostrando performance visual em função de defocus adicionado.
-
-**Eixo X:** Vergência Adicionada (D): -3.5 a +1.5 (esquerda=perto, direita=longe)  
-**Eixo Y:** Visual Acuity Binocular (logMAR): 0.0 (20/20 topo) a 0.6 (20/80 base)
-
-**Curva PRESBYOND (Linha Contínua Azul):**
-- Platô largo de -3.0 D a +0.5 D com VA <0.15 logMAR
-- Pico ótimo dual: 0.0 D (longe) e -2.5 D (perto)
-- **Característica:** Curva "U" invertido achatado (consistência)
-
-**Curva Monovisão Clássica (Linha Tracejada Vermelha):**
-- Dois picos distintos: 0.0 D e -2.5 D
-- **Vale profundo em -1.0 a -1.5 D** (intermediária)
-- Oscilação mais acentuada (inconsistência)
-
-**Zona Crítica Marcada (Retângulo Verde - Intermediária):**
-- -1.0 a -1.5 D = 67-100 cm
-- PRESBYOND: 0.10 logMAR (20/25) ✓
-- Monovisão: 0.25 logMAR (20/36) ✗
-- **Diferença:** +2 linhas favor PRESBYOND
-
-**Legenda:**  
-"PRESBYOND mantém VA funcional em toda a faixa de distâncias (continuous vision), enquanto monovisão clássica apresenta gap em intermediária."
-
----
+![O Planalto Visual](figures/chapter7/infographic_7_2_defocus_curve.md)
+*Figura 7.2: A prova do "Plateau". Enquanto a monovisão (vermelho) tem um "gap" profundo na visão intermédia, o PRESBYOND (azul) mantém uma acuidade funcional estável em todas as distâncias de trabalho.*
 
 ### Infográfico 7.3: Protocolo PRESBYOND Passo-a-Passo (Timeline Cirúrgico)
 
-**Descrição:**  
-Linha temporal mostrando sequência completa.
-
-**Pré-Operatório (Semana -1):**
-
-**Passo 1:** Teste de Dominância
-- Hole-in-card + Convergence
-- Confirmar dominância consistente
-
-**Passo 2:** Trial de LC
-- OD: +0.50 D, OE: -1.25 D
-- Duração: 5-7 dias
-- Validação: ≥20/25 longe binocular + J3 perto
-
----
-
-**Dia 0 (Cirurgia - Olho Não-Dominante Primeiro):**
-
-**Passo 3:** Cirurgia OE
-- Input em MEL 90: Add +1.75 D desejada
-- Software calcula target -1.25 D automaticamente
-- LASIK standard com perfil PRESBYOND
-
-**Monitorização:** VA pós-op verificada (blur normal)
-
----
-
-**Semana 1-2 (Inter-Operatório):**
-
-**Passo 4:** Avaliação OE Isolado
-- UCVA: Esperado ~20/60 (míope)
-- UCNVA: Esperado J2-J3 (good near)
-- **Decisão:** Paciente tolera? → SIM: Proceder OD
-
----
-
-**Semana 2-4 (Cirurgia Olho Dominante):**
-
-**Passo 5:** Cirurgia OD
-- Target +0.50 D (calculado automaticamente)
-- LASIK com perfil blend complementar
-
----
-
-**Semana 4 (Avaliação Inicial Binocular):**
-
-**Passo 6:** Verificação Binocular
-- UCDVA: Target ≥20/25
-- UCNVA: Target ≥J3
-- Visão intermediária: Teste prático (ler ecrã computador)
-
----
-
-**Mês 3 (Follow-Up Crítico):**
-
-**Passo 7:** Avaliação de Neuroadaptação
-- Satisfação: Se <7/10 → Investigar causas
-- Refração: Verificar targets atingidos
-- Decidir: Retoque Cirúrgico necessário?
-
----
-
-**Mês 6-12 (Estabilização):**
-
-**Passo 8:** Alta ou Retoque Cirúrgico
-- Se UCNVA <J3 persistente → Retoque Cirúrgico (8-10% casos)
-- Se satisfação ≥8/10 → Alta com follow-up anual
-
----
+![Timeline de Segurança](figures/chapter7/infographic_7_3_protocol_timeline.md)
+*Figura 7.3: Fluxo de segurança. A decisão crítica ocorre no Dia 7 (Ponto de Controlo), onde a tolerância ao primeiro olho dita se avançamos para o segundo olho ou revertemos.*
 
 ### Infográfico 7.4: Matriz de Decisão - Qual Técnica Escolher?
 
-**Descrição:**  
-Tabela de decisão baseada em perfil de paciente.
-
-**Eixo Vertical:** Prioridade Visual Principal  
-**Eixo Horizontal:** Característica Biométrica Dominante
-
-|  | **Pupila Ideal (5-6mm)** | **Pupila Grande (>6.5mm)** | **Córnea Plana (K<41)** |
-|---|---|---|---|
-| **Prioridade: Visão Intermediária** | **PRESBYOND** ✓✓ | PRESBYOND ✓ | Custom-Q |
-| **Prioridade: Add Alta (+2.0-2.5D)** | PresbyMAX | Custom-Q | Custom-Q |
-| **Prioridade: CDVA Máxima** | PresbyMAX Hybrid | Custom-Q | Custom-Q |
-| **Paciente Emétrope ±0.5D** | **PRESBYOND** ✓✓ | PRESBYOND ✓ | PRESBYOND ✓ |
-| **Míope -2 a -4D** | PRESBYOND ✓ | Custom-Q | Custom-Q |
-
-**Legenda:**
-- ✓✓ = Primeira escolha ideal
-- ✓ = Boa opção
-- (Nome sem símbolo) = Viável mas não óptimo
-
----
+![Posicionamento Estratégico](figures/chapter7/infographic_7_4_decision_matrix.md)
+*Figura 7.4: Onde o PRESBYOND vence. Ideal para o "Jovem Presbita Emétrope" (45-55 anos) que valoriza visão de computador acima de tudo.*
 
 ### Infográfico 7.5: Comparação Visual - Monovisão vs. PRESBYOND Blend
 
-**Descrição:**  
-Ilustração esquemática de como o cérebro processa as duas estratégias.
-
-**Painel Esquerdo: Monovisão Clássica**
-
-**Cena Visual:** Homem lendo jornal (perto) com carro ao fundo visible pela janela (longe)
-
-**Processamento Neural:**
-
-**Input OD (Dominante, 0.00 D):**
-- Carro: Nítido ✓
-- Jornal: Muito turvo ✗✗
-
-**Input OE (Não-Dominante, -2.00 D):**
-- Carro: Muito turvo ✗✗
-- Jornal: Nítido ✓
-
-**Córtex Visual (V1):**
-- **Supressão Ativa:** Símbolo de "X" sobre input turvo
-- Setas mostrando: OD suprimido para perto, OE suprimido para longe
-- Label: "Custo Neural: Supressão Alternada"
-
-**Resultado Perceptual:**
-- Longe: Usa apenas OD (monocular)
-- Perto: Usa apenas OE (monocular)
-- **Intermediário (computador):** GAP (nenhum olho foca bem)
-
-**Estereopsia:** Ícone de olhos cruzados com "X" (comprometida)
-
----
-
-**Painel Direito: PRESBYOND Laser Blended Vision**
-
-**Mesma Cena Visual**
-
-**Input OD (Dominante, +0.50 D + EDOF):**
-- Carro: Nítido ✓✓
-- Jornal: Ligeiramente turvo ✓ (mas utilizável por EDOF)
-
-**Input OE (Não-Dominante, -1.25 D + EDOF):**
-- Carro: Ligeiramente turvo ✓ (mas utilizável)
-- Jornal: Nítido ✓✓
-
-**Córtex Visual (V1):**
-- **Fusão Binocular:** Símbolo de "+" (somação de inputs)
-- Setas mostrando: Ambos inputs somados
-- Label: "Blend Cortical: Fusão Ativa"
-
-**Resultado Perceptual:**
-- Longe: Primário OD + Contribuição parcial OE = Visão binocular
-- Perto: Primário OE + Contribuição parcial OD = Visão binocular
-- **Intermediário:** **ÓTIMO** (ambos contribuem igualmente = blend zone)
-
-**Estereopsia:** Ícone de olhos com símbolo 3D (preservada em intermediária)
-
-**Caixa Comparativa:**
-"Monovisão: Alternância monocular (supressão)  
-PRESBYOND: Fusão binocular (somação)"
+![Neurologia da Fusão](figures/chapter7/infographic_7_5_visual_comparison.md)
+*Figura 7.5: Rivalidade vs. Sinergia. A monovisão força a supressão cortical (um olho apaga), enquanto o PRESBYOND convida à somação binocular (ambos contribuem).*
 
 ---
 
@@ -736,7 +540,7 @@ PRESBYOND: Fusão binocular (somação)"
 - ✅ Resultados clínicos multi-cêntricos
 - ✅ Comparação direta 3-vias (Custom-Q, PresbyMAX, PRESBYOND)
 - ✅ Casos clínicos ilustrativos
-- ✅ 6 Referências bibliográficas
-- ✅ 5 Infográficos clínicos detalhados
+- ✅ 7 Referências bibliográficas
+- ✅ 5 Infográficos clínicos detalhados (descritivos)
 
 Pronto para copiar para o Google Drive!

@@ -1,44 +1,35 @@
-# Infográfico 13.1: Master Decision Pathway
+# Infográfico 13.1: The Master Decision Pathway (O Algoritmo Final)
 
-```mermaid
-flowchart TD
-    A[Paciente Presbiópico<br/>Consulta Inicial] --> B{TRIAGEM INICIAL<br/>Idade, Add, Expectativas}
-    B -->|Candidato<br/>Potencial| C[PROPEDÊUTICA COMPLETA<br/>Capítulo 3]
-    B -->|Não-Candidato| Z1[Óculos/LC]
-    
-    C --> D{CÓRNEA<br/>ADEQUADA?}
-    D -->|Sim| E[AVALIAÇÃO CRISTALINO<br/>DLS, OSI, Densitometria]
-    D -->|Não<br/>BAD-D >1.6<br/>Olho Seco Severo| Z2[Contraindicado<br/>ou RLE]
-    
-    E --> F{Decisão<br/>Cirúrgica}
-    F -->|Corneana<br/>Favorece| G[QUAL TÉCNICA?<br/>Capítulos 4-8]
-    F -->|RLE<br/>Favorece| H[RLE<br/>Capítulo 12]
-    
-    G --> I{Plataforma/<br/>Add/Pupila}
-    I -->|Add ≤1.75D<br/>Pupila flex| J[Custom-Q ou<br/>PRESBYOND]
-    I -->|Add >2.0D<br/>Pupila <6.5mm| K[PresbyMAX ou<br/>SUPRACOR]
-    
-    J --> L[CIRURGIA]
-    K --> L
-    H --> L
-    
-    L --> M[FOLLOW-UP &<br/>NEUROADAPTAÇÃO<br/>Capítulo 10]
-    
-    M --> N{Resultado<br/>12 meses}
-    N -->|Sucesso<br/>~91%| O[ALTA]
-    N -->|Complicação/<br/>Insatisfação| P[Gestão/Enhancement/<br/>Reversão<br/>Capítulo 11]
-    
-    style A fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style L fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    style O fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
-    style Z1 fill:#ffcdd2,stroke:#c62828,stroke-width:2px
-    style Z2 fill:#ffcdd2,stroke:#c62828,stroke-width:2px
-    style F fill:#fff9c4,stroke:#f57f17,stroke-width:2px
-```
+**Objetivo Educacional:**
+O fluxograma "tudo-em-um" que o cirurgião imprime e cola na parede do consultório.
 
-**Descrição:** Fluxograma master consolidando todo o processo decisional desde consulta inicial até outcome final, integrando conhecimento dos 13 capítulos.
+---
 
-**Como Usar:**
-- Este arquivo renderiza automaticamente no GitHub
-- Para editar: https://mermaid.live (copie/cole o código acima)
-- Exportar PNG: Use Mermaid Live Editor → Actions → PNG
+## 1. Descrição Visual (Layout)
+
+**Formato:** Fluxograma Vertical "Life-Support Style" (Clean, Moderno).
+
+### Zona 1 (Topo): Input
+*   **PACIENTE PRESBIÓPICO** (Caixa Branca).
+*   Filtro: "Idade < 42?" -> Seta "Não Operar".
+
+### Zona 2 (Centro): A Grande Bifurcação
+*   **Divisor Central:** "Estado do Cristalino (DLS)".
+*   **Caminho Esquerda (Verde):** "Cristalino Saudável (DLS 0-1) + Córnea Viável" -> Vai para **LASER**.
+*   **Caminho Direita (Laranja):** "Cristalino Disfuncional (DLS >2) ou Córnea Fina" -> Vai para **RLE**.
+
+### Zona 3 (Base): A Execução
+*   **Abaixo de LASER:**
+    *   **PRESBYOND** (Micro-Monovision).
+    *   **Custom-Q** (Asfericidade).
+*   **Abaixo de RLE:**
+    *   **Trifocal** (Independência).
+    *   **EDOF** (Sem Halos).
+
+### Roda-pé
+*   Seta de Ciclo: "**Neuroadaptação (3-6 Meses)**".
+
+---
+
+## 2. Legenda Explicativa
+"A síntese de 13 capítulos numa única imagem. Este algoritmo integra Idade, Biomecânica e Óptica para guiar o cirurgião à escolha segura: Preservar a Córnea (Verde) ou Substituir o Cristalino (Laranja)."

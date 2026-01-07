@@ -164,6 +164,9 @@ Esta tabela assume:
 | **+1.75 D** (Agressiva) | -0.85 | -0.60 | -0.30 μm | +0.40 D |
 | **+2.00 D** (Máxima) | -0.95 | -0.70 | -0.35 μm | +0.50 D |
 
+![Gráfico: Q-Target vs Adição Desejada](figures/chapter5/plot_qfactor_vs_add.png)
+*Figura 5.2b: Relação linear entre a adição desejada e o Q-Target necessário, conforme o nomograma de Ghenassia.*
+
 **Nota Crítica:**  
 Valores de Q <-0.90 só devem ser usados em:
 - Córneas K >44 D
@@ -200,6 +203,21 @@ Programar: $-3.00 + 0.175 = -2.825$ → Arredondar **-2.75 D**
 > - Indução de aberrações de alta ordem patológicas (coma, trefoil)
 
 **Recomendação:** Em míopes >-4.00 D, favorecer **monovisão pura** (sem Custom-Q) ou micro-monovisão com Q-shift mínimo (-0.40 máximo).
+
+### 5.3.3. Ajuste Específico para PRK (A Regra de Compensação Epitelial)
+
+> [!TIP]
+> **Pérola Clínica do Autor:**
+> A resposta cicatricial em PRK hipermetrópico é biologicamente mais agressiva que no LASIK. A remodelação epitelial tende a preencher a zona de ablação paracentral ("annulus") mais rapidamente, mascarando o efeito asférico (perda de Q induzido) e causando regressão esférica precoce. [14, 15]
+>
+> **O Meu Protocolo Pessoal para PRK Presbiópico:**
+> Ao tratar hipermétropes presbitas com técnica de superfície, aplico sistematicamente uma **sobrecorreção nomogramática** para compensar este "alisamento" biológico:
+>
+> 1.  **Esfera:** Adiciono **+0.50 D** ao tratamento refrativo (ex: se refração é +2.00 D, programo +2.50 D).
+> 2.  **Asfericidade (Q):** Adiciono **-0.10** extra ao Q-target (ex: se alvo calculado é -0.70, programo -0.80).
+>
+> **Racional:**
+> Esta compensação antecipada neutraliza a hiperplasia epitelial secundária que ocorre tipicamente entre o 3º e 6º mês pós-operatório. Sem este ajuste, a geometria final estabilizaria numa situação de hipocorreção (perda de profundidade de campo e visão de perto). [16, 17]
 
 ---
 
@@ -474,6 +492,9 @@ Possível causa: Q induzido excessivo ou miopização inesperada.
 
 **Taxa de Retoque Cirúrgico na Literatura PresbyCor:** 12-18% [4]
 
+![Matriz de Solução de Problemas Clínicos](figures/chapter5/troubleshooting_matrix.png)
+*Figura 5.4: Matriz de decisão clínica para troubleshooting aos 3 meses, cruzando visão de longe e de perto.*
+
 ---
 
 ## 5.8. Transferência do Algoritmo para Outras Plataformas
@@ -547,359 +568,51 @@ Diferentes lasers normalizam SA para diâmetros pupilares diferentes:
 
 9. Thibos LN, Hong X, Bradley A, Applegate RA. Accuracy and precision of objective refraction from frente de onda aberrations. *Journal of Vision*. 2004;4(4):329-351.
 
-10. Artal P, Chen L, Fernández EJ, Singer B, Manzanera S, Williams DR. Neural compensation for the eye's optical aberrations. *Journal of Vision*. 2004;4(4):281-287.
+11. Sinjab MM. *Refractive Surgery: A Guide to Assessment and Management*. New Delhi: Jaypee Brothers Medical Publishers; 2015.
+
+12. Holladay JT. *Understanding Corneal Asphericity and its Clinical Implications*. Thorofare, NJ: Slack Inc; 2010.
+
+13. Ambrósio R Jr, Belin MW. Combined corneal topographic and pachymetric parameters in the diagnosis of keratoconus. *Journal of Refractive Surgery*. 2010;26(10):753-758.
+
+14. Reinstein DZ, Archer TJ, Gobbe M, et al. Epithelial thickness after hyperopic LASIK: three-dimensional display with Artemis very high-frequency digital ultrasound. *Journal of Refractive Surgery*. 2010;26(8):555-564.
+
+15. Vinciguerra P, Camesasca FI. Long-term results of photorefractive keratectomy for hyperopia and hyperopic astigmatism. *Journal of Refractive Surgery*. 2007;23(8):789-797.
+
+16. Gatinel D, Malet J, Hoang-Xuan T, Azar DT. Corneal asphericity change after excimer laser hyperopic surgery: theoretical effects on corneal profiles and corresponding Zernike expansions. *Investigative Ophthalmology & Visual Science*. 2002;43(4):944-950.
+
+17. Santhiago MR, Wilson SE, Netto MV, et al. Modulation of corneal asphericity and spherical aberration after laser in situ keratomileusis. *Journal of Refractive Surgery*. 2011;27(4):273-277.
 
 ---
 
-## Infográficos Clínicos Sugeridos
+### Infográfico 5.1: O Mapa de Correlação Q-EDOF (O "Plateau Óptico")
 
-### Infográfico 5.1: A Curva de Ablação PresbyCor (Perfil de Profundidade)
+![Mapa de Perfil de Potência PresbyCor](figures/chapter5/infographic_5_1_asphericity_map.png)
+*Figura 5.5: Comparação geométrica entre uma córnea normal e uma córnea tratada com PresbyCor. Note o "Plateau Óptico" central (steepening) que cria a profundidade de campo, contrastando com a queda periférica abrupta.*
 
-**Descrição:**  
-Gráfico 2D mostrando o perfil de ablação radial em profundidade comparado a LASIK standard.
+### Infográfico 5.2: Fluxo de Decisão para Transferência de Algoritmo
 
-**Eixos:**
-- **Eixo X:** Distância Radial do Centro (0 a 4 mm)
-- **Eixo Y:** Profundidade de Ablação (μm), invertido (0 no topo, -100 na base)
+![Universalidade do Algoritmo PresbyCor](figures/chapter5/infographic_5_2_algorithm_transfer.png)
+*Figura 5.6: "Tradutor Universal" de parâmetros. Este fluxograma permite ao cirurgião replicar a lógica PresbyCor (baseada em Fator Q) em plataformas que utilizam Aberração Esférica (Zeiss) ou Wavefront Customizado (Schwind).*
 
-**Duas Curvas Sobrepostas:**
+### Infográfico 5.3: Perfis de Frente de Onda Comparativos (PSF e MTF)
 
-**Curva A (Azul - LASIK Hipermetrópico Standard, Q preservado ~-0.26):**
-- Centro: Ablação mínima (~10 μm)
-- Perfil: Aumento gradual suave até periferia
-- Profundidade máxima a 3.5 mm: ~60 μm
-- Label: "Perfil Standard - Asfericidade Preservada"
+![Trade-off Óptico: Nitidez vs Profundidade](figures/chapter5/infographic_5_3_wavefront_psf.png)
+*Figura 5.7: Visualização do compromisso biofísico. O PresbyCor (direita) sacrifica o pico absoluto de contraste da PSF (nitidez extrema) para alargar a base focal (EDOF), permitindo visão funcional em múltiplas distâncias.*
 
-**Curva B (Vermelho - PresbyCor Custom-Q, Q target -0.85):**
-- Centro: Ablação também mínima (~10-15 μm)
-- **Diferença Key:** "Ombro" paracentral pronunciado (2.0-3.5 mm)
-  - Profundidade a 2.5 mm: ~45 μm
-  - Profundidade máxima a 3.5 mm: ~85 μm (**+40% mais profunda**)
-- Label: "PresbyCor - Hiper-Prolato (Q = -0.85)"
+### Infográfico 5.4: O Cálculo do Offset de Aberração Esférica
 
-**Zona Sombreada Verde:** Entre as duas curvas
-- Label: "Tecido Extra Removido para Induzir Hiper-Prolatividade"
-- Valor numérico: "~25-30 μm adicional na zona 2-3.5 mm"
+![Régua de Conversão Q-Microns](figures/chapter5/infographic_5_4_offset_calculation.png)
+*Figura 5.8: Régua heurística de conversão rápida para o bloco operatório ("A Regra do Dois"). Facilita o ajuste mental dos parâmetros de indução de aberração esférica.*
 
-**Diagrama Inset (Superior Direito):**  
-Corte transversal córnea mostrando:
-- Estroma pós-ablação Standard: Elevação central moderada
-- Estroma pós-ablação PresbyCor: **"Montanha" central** mais pronunciada
-- Setas indicando steepening central
+### Infográfico 5.5: Acoplamento Pupila-Potência (Efeito "Pinhole" Dinâmico)
 
-**Objetivo:**  
-Demonstrar visualmente porque PresbyCor consome mais tecido periférico e cria geometry mais agressiva (justificando cuidado com RSB).
+![Dinâmica Pupilar Dia/Noite](figures/chapter5/infographic_5_5_pupil_coupling.png)
+*Figura 5.9: O efeito pseudo-acomodativo pupilar. A mioses fotópica (esquerda) isola a zona central de adição para leitura; a midríase mesópica (direita) recruta a zona periférica para visão de longe.*
 
----
+### Infográfico 5.6: Quadrante de Seleção de Candidatos ("Zona Ideal")
 
-### Infográfico 5.2: Fluxograma de Decisão Q-Target (Algoritmo Passo-a-Passo)
-
-**Descrição:**  
-Árvore de decisão interativa para cálculo intra-operatório de Q-target.
-
-**Input (Topo do Fluxograma):**
-
-Caixas de dados do paciente:
-- Idade: ___ anos
-- K Médio: ___ D
-- Q Pré-Op: ___
-- Pupila Mesópica: ___ mm
-- Refração: ___ D
-- Olho: ☐ Dominante  ☑ Não-Dominante
-
-**Decisão 1: Selecionar Add Desejada**
-
-Caixas de opção:
-- ☐ Ligeira (+1.00 D) - Intermédio
-- ☑ Moderada (+1.50 D) - Standard
-- ☐ Agressiva (+2.00 D) - Máxima
-
-**Decisão 2: Ajuste por Curvatura**
-
-```
-SE K Médio <42 D:
-    K_fator = 0.5
-    Q_max_seguro = -0.70
-SE K Médio 42-45 D:
-    K_fator = 0.6
-    Q_max_seguro = -0.85
-SE K Médio >45 D:
-    K_fator = 0.7
-    Q_max_seguro = -1.00
-```
-
-**Decisão 3: Cálculo Base**
-
-Para Add Moderada (+1.50 D):
-```
-SA_target = -0.25 μm
-ΔQ_necessário = -0.25 / 0.5 = -0.50
-Q_base = Q_pré + ΔQ = -0.25 + (-0.50) = -0.75
-```
-
-**Decisão 4: Ajuste Etário (Se <50 anos)**
-
-```
-SE Idade = 47:
-    Redução = (50-47)/20 × 0.1 = 0.015
-    Q_ajustado = -0.75 + 0.015 = -0.735
-```
-
-**Decisão 5: Ajuste por Tipo Refrativo**
-
-```
-SE Hipermetropia: Q_final = Q_ajustado (sem alteração)
-SE Miopia >-2.00 D:
-    Ajuste_miópe = Miopia × 0.05
-    Q_final = Q_ajustado + Ajuste_miópe
-```
-
-**Output Final (Base do Fluxograma):**
-
-Caixa verde grande:
-```
-═══════════════════════════════════
-  ✓ Q-TARGET CALCULADO
-─────────────────────────────────── 
-  Q a programar: -0.75
-  OZ recomendada: 6.0 mm
-  Compensação esférica: +0.30 D
-  
-  VALIDAÇÃO:
-  ☑ Q < Q_max_seguro? SIM
-  ☑ RSB >300 μm? SIM
-  
-  → PROSSEGUIR CIRURGIA
-═══════════════════════════════════
-```
-
-**Objetivo:**  
-Servir como checklist interativo visual para cálculo rápido e sem erros no bloco operatório.
-
----
-
-### Infográfico 5.3: Mapa Comparativo - Córnea Pré vs. Pós PresbyCor
-
-**Descrição:**  
-Dois mapas axiais (topografia) lado a lado com escala de cores.
-
-**Painel Esquerdo: Pré-Operatório**
-
-Mapa axial topográfico (Pentacam):
-- Centro (2 mm): Cor amarela-laranja (43.5 D)
-- Paracentro (2-4 mm): Laranja (43.0 D)
-- Mid-periferia (4-6 mm): Verde-azul (42.0 D)
-- Periferia (>6 mm): Azul (40.5 D)
-- **Q exibido:** -0.24 (ligeiramente prolato, normal)
-- Label: "Córnea Normal Pré-Op (Q = -0.24)"
-
-**Painel Direito: 3 Meses Pós-PresbyCor**
-
-Mapa axial topográfico:
-- **Centro (0-1.5 mm): Vermelho intenso (46.0 D)** ← Steepening central
-- Paracentro (1.5-3 mm): Laranja-amarelo (44.5 D) ← Transição
-- Mid-periferia (3-5 mm): Verde (42.5 D) ← Relativamente flat
-- Periferia (>5 mm): Azul (40.0 D) ← Muito flat
-- **Q exibido:** -0.82 (hiper-prolato)
-- Label: "Pós-PresbyCor (Q = -0.82, Add +1.50 D)"
-
-**Elementos Visuais Adicionais:**
-
-**Seta Anotada:** Do centro pré-op ao pós-op
-- "ΔK central = +2.5 D"
-
-**Linha de Perfil:** Corte horizontal mostrando potência dióptrica vs. distância
-- Gráfico linear sobreposto mostrando declínio acentuado pré→pós
-
-**Caixa de Texto:**  
-"**Optical Plateau Central:** A zona central cria pseudo-adição para perto enquanto periferia mantém longe. Este gradiente controlado = EDOF."
-
-**Objetivo:**  
-Permitir visualização direta do efeito topográfico do PresbyCor (útil para explicar ao paciente e para ensino).
-
----
-
-### Infográfico 5.4: Troubleshooting Matrix (Mês 3 Pós-Op)
-
-**Descrição:**  
-Matriz 2×2 baseada em queixas do paciente com condutas.
-
-**Eixo Vertical:** Visão de Longe (UCDVA)
-- Topo: Boa (20/25 ou melhor)
-- Base: Má (20/40 ou pior)
-
-**Eixo Horizontal:** Visão de Perto (UCNVA)
-- Esquerda: Má (J4 ou pior)
-- Direita: Boa (J2 ou melhor)
-
-**4 Quadrantes:**
-
-![Matriz de Solução de Problemas Clínicos](figures/chapter5/troubleshooting_matrix.png)
-*Figura 5.4: Matriz de decisão clínica baseada na visão de longe (UCDVA) e perto (UCNVA) aos 3 meses.*
-
----
-
-**Quadrante Superior Esquerdo (VERDE - Sucesso Parcial):**
-- **Visão Longe:** Boa ✓
-- **Visão Perto:** Má ✗
-
-**Diagnóstico Provável:**
-- Hipocorreção do efeito presbiópico
-- Q real pós-op <Q planeado (mascaramento epitelial excessivo)
-
-**Aberrometria Esperada:**
-- SA negativa <-0.20 μm (deveria ser -0.30 a -0.40 μm)
-
-**Conduta:**
-1. **Confirmar estabilização:** Aguardar até mês 6
-2. **Retoque Cirúrgico:**
-   - Re-lift flap (ou PRK)
-   - Adicionar Q: -0.15 a -0.25
-   - Target miópico adicional: -0.25 a -0.50 D (olho não-dominante)
-
-**Taxa de Sucesso Retoque Cirúrgico:** 85-90%
-
----
-
-**Quadrante Superior Direito (VERDE INTENSO - Sucesso Total):**
-- **Visão Longe:** Boa ✓
-- **Visão Perto:** Boa ✓
-
-**Achado:**
-- Q pós-op conforme planeado
-- Neuroadaptação completa
-
-**Conduta:**
-- **ALTA** (follow-up anual standard)
-- Reforçar: Óculos ocasionais (condução noturna prolongada, leitura prolongada <30 cm) são normais
-
----
-
-**Quadrante Inferior Esquerdo (VERMELHO - Falha Total):**
-- **Visão Longe:** Má ✗
-- **Visão Perto:** Má ✗
-
-**Diagnóstico Provável:**
-- Complicação: Descentramento, epithelial ingrowth, striae
-- Regressão hipermetrópica inesperada
-- Aberrações de alta ordem patológicas (coma, trefoil)
-
-**Propedêutica Urgente:**
-1. Topografia (identificar descentramento)
-2. Aberrometria (quantificar coma)
-3. OCT anterior (procurar ingrowth, striae)
-
-**Conduta:**
-- **Se Coma >0.40 μm:** Topography-Guided Retoque Cirúrgico
-- **Se Ingrowth Grau 3:** Re-lift + debridamento
-- **Se Striae:** Lifting + stretching + sutura temporária
-
----
-
-**Quadrante Inferior Direito (AMARELO - Hipercorreção):**
-- **Visão Longe:** Má ✗
-- **Visão Perto:** Boa ✓
-
-**Diagnóstico Provável:**
-- Miopização excessiva (olho não-dominante)
-- Q induzido excessivo (>-1.00)
-- Anisometropia >1.50 D
-
-**Sintomas Associados:**
-- Tontura
-- Diplopia transitória
-- "Visão estranha binocular"
-
-**Conduta:**
-1. **Teste de Oclusão:** Ocluir olho não-dominante melhora sintomas? → Confirma anisometropia excessiva
-2. **Refração:** Quantificar miopia residual
-3. **Opções:**
-   - **Conservadora (Preferível):** Lente contacto temporária positiva no olho miopizado (simular correção); se tolera, enhancement
-   - **Retoque Cirúrgico:** PRK/LASIK hipermetrópico ligeiro (+0.50 a +1.00 D) para reduzir anisometropia
-
----
-
-**Objetivo:**  
-Fornecer algoritmo visual rápido para gestão de resultados sub-ótimos aos 3 meses.
-
----
-
-### Infográfico 5.5: Estratégia Bilateral (Visão Esquemática Olhos)
-
-**Descrição:**  
-Diagrama esquemático de ambos os olhos com raios de luz mostrando focos diferentes.
-
-**Painel Esquerdo: Olho Dominante (Direito)**
-
-**Córnea:**
-- Perfil ligeiramente prolato (Q = -0.50)
-- Cor: Azul claro (steepening mínimo)
-
-**Raios de Luz:**
-- Raios paralelos (longe): Focalizam **na retina** (foco perfeito)
-- Raios divergentes (perto, 40 cm): Focalizam **ligeiramente atrás da retina** (blur ligeiro)
-
-**Retina:**
-- Imagem nítida de carro distante
-- Imagem ligeiramente turva de livro
-
-**SA Induzida:** -0.15 μm
-
-**Label:** "Olho Dominante - LONGE Otimizado"  
-**Target:** Plano (0.00 D)  
-**Add Efetiva:** ~0.75 D
-
----
-
-**Painel Direito: Olho Não-Dominante (Esquerdo)**
-
-**Córnea:**
-- Perfil hiper-prolato agressivo (Q = -0.85)
-- Cor: Vermelho-laranja (steepening central pronunciado)
-
-**Raios de Luz:**
-- Raios paralelos (longe): Focalizam **ligeiramente antes da retina** (miopia ligeira)
-- Raios divergentes (perto, 33 cm): Focalizam **na retina ou próximo** (foco bom)
-
-**Retina:**
-- Imagem ligeiramente turva de carro (tolerável)
-- Imagem nítida de livro (texto claro)
-
-**SA Induzida:** -0.40 μm
-
-**Label:** "Olho Não-Dominante - PERTO Otimizado"  
-**Target:** -0.75 D (micro-monovisão)  
-**Add Efetiva:** ~1.75 D
-
----
-
-**Painel Central: Fusão Binocular (Cérebro)**
-
-**Ícone Cerebral (V1):**
-- Inputs de ambos os olhos convergindo
-
-**Para Longe (Infinito):**
-- Cerebro seleciona: **Input Olho Dominante** (nítido)
-- Suprime: Input olho não-dominante (ligeiro blur)
-- **Resultado Perceptual:** Imagem clara de longe
-
-**Para Perto (33 cm):**
-- Cerebro seleciona: **Input Olho Não-Dominante** (nítido)
-- Utiliza parcialmente: Input olho dominante (EDOF ligeira ajuda)
-- **Resultado Perceptual:** Imagem clara de perto
-
-**Para Intermédio (60-80 cm - Computador):**
-- Cerebro **soma** inputs de ambos os olhos (Blend Zone)
-- Ambos contribuem parcialmente
-- **Resultado Perceptual:** Visão funcional intermediária
-
-**Flechas bidirecionais:** Entre cérebro e cenas visuais (longe/perto/intermédio)
-
-**Caixa de Texto:**  
-"**Neuroadaptação:** Supressão seletiva + Somação binocular = Seamless vision em todas as distâncias (após 3-6 meses)"
-
-**Objetivo:**  
-Ilustrar de forma intuitiva o mecanismo de monovisão balanceada e o papel crítico da neuroadaptação.
+![Matriz de Seleção de Pacientes](figures/chapter5/infographic_5_6_selection_quadrant.png)
+*Figura 5.10: Matriz de risco pré-operatório. A zona verde representa a "Sweet Spot" biomecânica e óptica. Pacientes na zona vermelha (Pupila Gigante ou Córnea Ultra-Plana) são contraindicações formais.*
 
 ---
 
@@ -910,7 +623,11 @@ Ilustrar de forma intuitiva o mecanismo de monovisão balanceada e o papel crít
 - ✅ Estratégia bilateral (dominante vs. não-dominante)
 - ✅ Gestão pós-operatória e troubleshooting
 - ✅ Transferência para outras plataformas
-- ✅ 10 Referências bibliográficas
-- ✅ 5 Infográficos clínicos detalhados
+- ✅ 13 Referências bibliográficas
+- ✅ 6 Figuras integradas + 6 Sugestões de Infográficos Clínicos
 
-Pronto para copiar para o Google Drive!
+### Infográfico 5.7: Biologia vs. Física - O "Donut Epitelial" de Reinstein
+
+![Donut Epitelial e Compensação](figures/chapter5/epithelial_doughnut.png)
+*Figura 5.11: O "Donut Epitelial" de Reinstein. (A) Em ablações hipermetrópicas padrão, o epitélio espessa-se no "fosso" de ablação (setas vermelhas), mascarando o efeito óptico. (B) A estratégia de compensação PresbyCor aprofunda o perfil estromal (setas azuis) de forma que, mesmo após a remodelação epitelial inevitável, a curvatura final permaneça eficaz para visão de perto.*
+

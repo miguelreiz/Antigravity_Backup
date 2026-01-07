@@ -1,37 +1,35 @@
-# Infográfico 11.2: DLK Grading & Management
+# Infográfico 11.2: DLK Grading System (Areias do Sahara)
 
-```mermaid
-flowchart LR
-    A[DLK Suspeita<br/>Interface turva] --> B{Grading<br/>Linebarger}
-    
-    B -->|GRAU 1<br/>Pontos periféricos<br/>dispersos| C[Pred 1% 4×/dia<br/>Reavaliação 24h]
-    
-    B -->|GRAU 2<br/>Infiltrados paracentro<br/>mais densos| D[Pred 1% q1-2h<br/>AGRESSIVO<br/>Reavaliação 24h]
-    
-    B -->|GRAU 3<br/>Difuso todo flap<br/>'Sahara sand'| E[🚨 EMERGÊNCIA<br/>Lifting flap<br/>+ Irrigação BSS]
-    
-    B -->|GRAU 4<br/>Opacificação densa<br/>+ Striae| F[🚨🚨 CRÍTICO<br/>Lifting URGENTE<br/>Córtico interface<br/>Risco BCVA]
-    
-    C --> G{Melhoria<br/>24h?}
-    G -->|SIM| H[Continue Pred<br/>Taper 1 semana]
-    G -->|NÃO<br/>Progressão| D
-    
-    D --> I{Melhoria<br/>24h?}
-    I -->|SIM| H
-    I -->|NÃO<br/>Progressão| E
-    
-    E --> J[Pós-Irrigação:<br/>Pred tópica horária<br/>Follow-up diário]
-    F --> J
-    
-    J --> K{Outcome?}
-    K -->|Resolução<br/>Grau 1-2| L[✅ Sem sequelas<br/>95%]
-    K -->|Resolução<br/>Grau 3| M[⚠️ Haze ligeiro<br/>possível<br/>80%]
-    K -->|Grau 4<br/>Falha| N[❌ Risco perda BCVA<br/>20-30%]
-    
-    style E fill:#ff9800,stroke:#e65100,stroke-width:3px
-    style F fill:#f44336,stroke:#b71c1c,stroke-width:4px
-    style L fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
-    style N fill:#ffcdd2,stroke:#c62828,stroke-width:3px
-```
+**Objetivo Educacional:**
+Visualizar a progressão da inflamação estéril na interface.
 
-**Regra:** Grau 3-4 = **EMERGÊNCIA OFTALMOLÓGICA** (chamar paciente IMEDIATAMENTE)
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Painel Quádruplo (2x2) de lâmpada de fenda (Slit Lamp View).
+
+### Painel 1: Grau 1 (Focal)
+*   Interface transparente no centro.
+*   Pontos brancos ténues apenas na periferia do flap.
+*   Label: "**Grau 1: Periférico**".
+
+### Painel 2: Grau 2 (Difuso Ligeiro)
+*   Pontos espalham-se para o centro.
+*   Ainda é possível ver a iris claramente através da córnea.
+*   Label: "**Grau 2: Paracentral**".
+
+### Painel 3: Grau 3 (Denso - "Sahara")
+*   Toda a interface está coberta de material granular branco.
+*   Aspeto de "areia molhada". Visão da iris está turva.
+*   Label: "**Grau 3: Agregado (Perigo!)**".
+
+### Painel 4: Grau 4 (Severo - Toxicidade)
+*   Opacidade central intensa.
+*   Dobras estromais (striae) visíveis.
+*   Label: "**Grau 4: Striae + Melting**".
+
+---
+
+## 2. Legenda Explicativa
+"A DLK (Diffuse Lamellar Keratitis) deve ser tratada agressivamente. Graus 1 e 2 respondem a esteróides tópicos. Grau 3 exige lavagem imediata da interface para remover as citocinas tóxicas e prevenir perda visual permanente (Grau 4)."

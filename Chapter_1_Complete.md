@@ -952,3 +952,20 @@ Relação inversa quadrática: \( \text{DoF} \propto \frac{1}{d^2} \)
 
 **Objetivo:**  
 Demonstrar a interação crítica entre tamanho pupilar, idade, e profundidade de campo natural, e como isto influencia planeamento cirúrgico de PresbyLASIK.
+
+---
+
+---
+
+### Infográfico 1.7: "O Modelo de Cebola" – A Biomecânica da Esclerose Nuclear
+
+![Modelo de Cebola da Esclerose Nuclear](figures/chapter1/infographic_1_7_onion_model.md)
+*Figura 1.7: Diagrama evolutivo demonstrando o mecanismo físico de compactação nuclear ("crowding") como causa primária da perda de moldabilidade do cristalino.*
+
+---
+
+### Infográfico 1.8: O Paradoxo do Esforço Neural
+
+![Paradoxo do Esforço Neural](figures/chapter1/infographic_1_8_neural_paradox.md)
+*Figura 1.8: Gráfico correlacionando o aumento exponencial do drive neural (esforço) com o declínio linear da resposta mecânica, ilustrando a etiologia da astenopia presbiópica.*
+

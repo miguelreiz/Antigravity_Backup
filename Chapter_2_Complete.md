@@ -533,3 +533,20 @@ Gestão de expectativas. Permite ao paciente decidir se o trade-off (halos vs. l
 ---
 
 Este Capítulo 2 está agora completo e pronto para ser copiado para o seu documento no Google Drive. Mantém a mesma profundidade técnica, rigor científico, e abordagem cirurgião-para-cirurgião do Capítulo 1.
+
+## Infográficos Adicionais (Conceitos Avançados)
+
+---
+
+### Infográfico 2.9: A "Zona de Cachinhos Dourados" da Aberração Esférica
+
+![Zona de Cachinhos Dourados (Sweet Spot)](figures/chapter2/infographic_2_9_goldilocks_zone.md)
+*Figura 2.9: Gráfico de trade-off clínico definindo a janela terapêutica estreita entre ganho de leitura e perda de contraste.*
+
+---
+
+### Infográfico 2.10: O Filtro Neural (Cérebro vs. Blur)
+
+![O Filtro Neural](figures/chapter2/infographic_2_10_neural_filter.md)
+*Figura 2.10: Representação do processo ativo de neuroadaptação como um mecanismo de cancelamento de ruído óptico pelo córtex visual.*
+

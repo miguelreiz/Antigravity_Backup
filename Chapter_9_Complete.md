@@ -418,7 +418,8 @@ Mesmo com técnica adequada e result ados objetivamente bons, a **memória de vi
 
 4. Randleman JB, Russell B, Ward MA, Thompson KP, Stulting RD. Risk factors and prognosis for corneal ectasia after LASIK. *Ophthalmology*. 2003;110(2):267-275.
 
-5. Santhiago MR, Wilson SE, Netto MV, et al. Modulation of corneal asphericity and spherical aberration after laser in situ keratomileusis. *Journal of Refractive Surgery*. 2011;27(4):273-277.
+6. Wilson SE. Corneal wound healing. *Experimental Eye Research*. 2020;197:108089. doi:10.1016/j.exer.2020.108089
+7. Spadea L, Giovannetti F. Main complications of photorefractive keratectomy and their management. *Clinical Ophthalmology*. 2019;13:2305-2315.
 
 ---
 
@@ -426,122 +427,23 @@ Mesmo com técnica adequada e result ados objetivamente bons, a **memória de vi
 
 ### Infográfico 9.1: Estimação de RSB sem Dados Históricos (OCT Measurement)
 
-**Descrição:**  
-Imagem OCT de segmento anterior mostrando medição de RSB.
-
-**Painel Esquerdo: Imagem OCT Real (Simulada)**
-
-Vista de corte sagital:
-- Epitélio (layer fino azul claro topo)
-- **Flap LASIK** (layer amarelo, delimitado por linha brilhante = interface)
-  - Medição automática: "Flap Thickness: 105 μm"
-- **Leito Estromal Residual (RSB)** (layer verde)
-  - Medição: "RSB: 335 μm" (marcado com caliper)
-- Estroma posterior + Descemet + Endotélio (layer cinzento base)
-
-**Cálculo Visual:**
-
-```
-Paquimetria Total (OCT): 540 μm
-- Epitélio: ~50 μm
-- Flap: 105 μm
-- Interface: <1 μm
-────────────────────────
-= Estroma Ablacionado Original + RSB: 385 μm
-
-RSB Atual: 335 μm
-→ Ablação Primária Estimada: 385 - 335 = 50 μm
-```
-
-**Painel Direito: Zona de Segurança**
-
-Diagrama tipo "gauge meter":
-- Zona Vermelha (0-300 μm): "RISCO ALTO - Contraindicar"
-- Zona Amarela (300-330 μm): "LIMITE - Apenas Técnicas Conservadoras"
-- **Zona Verde (>330 μm): "SEGURO - Técnicas Moderadas Viáveis"**
-- Agulha apontando: 335 μm (início zona verde)
-
-**Label:** "Este paciente TEM margem para Custom-Q conservador"
-
----
+![O Check-Up de Segurança](figures/chapter9/oct_safety.png)
+*Figura 9.1: Quando a história clínica se perdeu. O uso de OCT permite medir diretamente o Flap e o RSB (Leito Residual). Se o RSB for <300 μm (zona vermelha), qualquer cirurgia corneana adicional é perigosa.*
 
 ### Infográfico 9.2: Shift de Q Necessário (Pós-LASIK vs. Virgem)
 
-**Descrição:**  
-Gráfico de barras comparando esforço de modificação corneana.
-
-**Eixo X:** Tipo de Córnea  
-**Eixo Y:** $\Delta Q$ Necessário (valor absoluto)
-
-**Barra A (Verde - Córnea Virgem):**
-- Q inicial: -0.25
-- Q target presbiópico: -0.75
-- $\Delta Q$: **0.50** (moderado)
-- Altura barra: Média
-- Label: "Virgem: Shift Normal"
-
-**Barra B (Laranja - Pós-LASIK Miopia Baixa):**
-- Q inicial: +0.30
-- Q target: -0.75
-- $\Delta Q$: **1.05** (2× virgem)
-- Altura barra: Dupla de A
-- Label: "Pós-LASIK -3D: Shift Dobro"
-
-**Barra C (Vermelho - Pós-LASIK Miopia Alta):**
-- Q inicial: +0.70
-- Q target: -0.75
-- $\Delta Q$: **1.45** (3× virgem!)
-- Altura barra: Tripla de A
-- Label: "Pós-LASIK -6D: Shift TRIPLO ⚠"
-
-**Linha Tracejada Horizontal:** "Thresholds de Risco"
-- 0.80: "Moderado" (verde)
-- 1.20: "Alto" (amarelo)
-- >1.40: "**Muito Alto - Considerar RLE**" (vermelho)
-
-**Caixa de Texto:**
-"Quanto maior o $\Delta Q$, maior o risco de regressão, aberrações induzidas, e consumo de tecido. Pós-LASIK miopia alta frequentemente inviabiliza cirurgia corneana presbiópica segura."
-
----
+![O Desafio do Delta Q](figures/chapter9/delta_q_challenge.png)
+*Figura 9.2: A luta contra a geometria. Olhos pós-LASIK são "chatos" (oblatos). Para os tornar multifocais (prolatos), o laser tem de trabalhar o dobro ou o triplo (Barra Vermelha) em comparação com um olho virgem (Barra Verde).*
 
 ### Infográfico 9.3: Algoritmo Decisional Pós-LASIK
 
-**Descrição:**  
-Flowchart simplificado para decisão rápida.
+![O Labirinto de Decisão](figures/chapter9/decision_flowchart.png)
+*Figura 9.3: Navegando o risco. O algoritmo prioriza a segurança biomecânica (RSB) e a qualidade óptica (Coma). A RLE (Lente Intraocular) aparece frequentemente como a "saída de emergência" mais segura.*
 
-```
-Paciente Pós-LASIK + Presbiopia
-         ↓
-   [RSB OCT?]
-         ↓
-   ┌──────┴──────┐
-   ↓             ↓
-<320 μm      >320 μm
-   ↓             ↓
-  RLE        [Q-factor?]
- (Fim)          ↓
-         ┌──────┴──────┐
-         ↓             ↓
-      Q >+0.60      Q <+0.40
-         ↓             ↓
-    Muito Oblato    Moderado
-         ↓             ↓
-   Custom-Q       PRESBYOND ou
-   Conservador    Custom-Q Standard
-   (Q = -0.50)    (Q = -0.70)
-         └──────┬──────┘
-                ↓
-         [Aberrometria?]
-                ↓
-         Coma >0.40 μm?
-                ↓
-           ┌────┴────┐
-           ↓         ↓
-          SIM       NÃO
-           ↓         ↓
-       Topoguiado  Prosseguir
-       Primeiro    Presbiópico
-```
+### Infográfico 9.4: Comparação de Consumo de Tecido (Tissue Impact)
+
+![Risco de Ectasia](figures/chapter9/tissue_impact.png)
+*Figura 9.4: A armadilha do tecido. Algoritmos agressivos (Cenário B - Vermelho) removem demasiado estroma numa córnea já fina, violando o limite de segurança. Técnicas conservadoras (Cenário A - Verde) são preferíveis.*
 
 ---
 
@@ -553,7 +455,7 @@ Paciente Pós-LASIK + Presbiopia
 - ✅ Gestão de complicações (ectasia, ingrowth)
 - ✅ Algoritmo de decisão completo
 - ✅ Caso clínico ilustrativo
-- ✅ 5 Referências bibliográficas
-- ✅ 3 Infográficos clínicos
+- ✅ 7 Referências bibliográficas
+- ✅ 4 Infográficos clínicos detalhados (descritivos)
 
 **Parte III iniciada!** Pronto para copiar para o Google Drive!
