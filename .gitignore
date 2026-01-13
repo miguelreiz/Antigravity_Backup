@@ -39,3 +39,7 @@ Temporary Items
 
 # Excluir arquivos muito grandes ou temporários
 # (ajuste conforme necessário)
+pandoc-*/
+*.exe
+*.dmg
+*.pkg
