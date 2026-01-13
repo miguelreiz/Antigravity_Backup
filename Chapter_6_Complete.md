@@ -263,6 +263,38 @@ Advertir paciente sobre maior probabilidade de retoque ou considerar RLE.
 - Corvis TBI/CBI
 - Se ectasia confirmada ou suspeita: **Contraindicação absoluta**
 
+### 6.4.3. Workflow Clínico Completo: Da Consulta à Cirurgia
+
+O sucesso do PresbyMAX depende de um **protocolo estruturado e rigoroso** que minimiza variabilidade e error humano.
+
+![PresbyMAX Clinical Workflow](figures/chapter6/clinical_workflow.png)
+*Figura 6.6: Protocolo clínico PresbyMAX em 4 fases. FASE 1 (Azul): Avaliação pré-operatória semanas-2 a -1 com pupilometria mandatória (gateway crítico: mesópica 5.0-6.5mm verde, fora disto vermelho), teste dominância e tomografia completa. FASE 2 (Laranja): Seleção estratégia dia -7 com algoritmo Symmetric vs Hybrid (90% casos Hybrid recomendado). FASE 3 (Verde): Execução cirúrgica bilateral SEQUENCIAL nunca simultânea - Dia 1 olho dominante WFO, intervalo 7-14 dias com checkpoint tolerância, Dia 2 olho não-dominante PresbyMAX com centragem crítica Purkinje <0.3mm. FASE 4 (Roxo): Neuroadaptação semana 1 a mês 6 com fases previsíveis (confusion→valley→stabilization), pathway reversão disponível se problemático. Fatores-chave sucesso: pupilometria preditor mais importante, timing sequencial, centragem precisa, counseling realista.*
+
+**O Protocolo em 4 Fases:**
+
+**Fase 1 - Avaliação Pré-Operatória (Crítica):**
+- Pupilometria fotópica e mesópica (mesópica 5.0-6.5mm = ideal)
+- Teste de dominância (hole-in-card + convergência)
+- Tomografia completa + BAD-D screening
+
+**Fase 2 - Seleção Estratégia:**
+- Decisão Symmetric vs. Hybrid baseada em idade/pupila/estilo vida
+- **90% casos → Hybrid** (dominante WFO, não-dominante PresbyMAX)
+- Input parâmetros em software PresbyCALC
+
+**Fase 3 - Execução Cirúrgica SEQUENCIAL:**
+- **Dia 1:** Olho dominante (LASIK/PRK standard, target plano)
+- **Intervalo 7-14 dias:** Checkpoint tolerância mandatório
+- **Dia 2:** Olho não-dominante (PresbyMAX, centragem Purkinje <0.3mm crítica)
+
+**Fase 4 - Neuroadaptação (3-6 meses):**
+- Semana 1: "Confusion phase" (esperado)
+- Mês 1: "Valley assessment" (decisão enhancement se necessário)
+- Mês 3-6: "Stabilization" (resultado final)
+
+**Por que o intervalo entre olhos é mandatório?**  
+Permite neuroadaptação parcial ao primeiro olho. Se o paciente não tolera o olho dominante monofocal no Day 7, não tolerará a estratégia completa → **ABORT segundo olho** (safety checkpoint).
+
 ---
 
 ## 6.5. Protocolo Cirúrgico: Plataforma Schwind Amaris
@@ -565,28 +597,28 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 
 ### Infográfico 6.1: Perfil Bi-Asférico PresbyMAX (Corte Transversal Anatómico)
 
-![Perfil Bi-Asférico em Detalhe](figures/chapter6/infographic_6_1_biaspheric_profile.md)
-*Figura 6.1: A arquitetura da "Ilha Óptica". Note a elevação central (steepening) desenhada especificamente para visão de perto, isolada da zona de longe por uma transição asférica.*
+![Perfil Bi-Asférico PresbyMAX: Anatomia da "Ilha Óptica"](figures/chapter6/presbymax_profile_schematic.png)
+*Figura 6.1: Arquitetura do perfil bi-asférico PresbyMAX em corte transversal. Zona 1 Central (1.8-2.3mm, vermelho): "Ilha" steep hiper-convexa com +1.50 a +2.50D de add para visão de perto. Zona 2 de Transição (0.8-1.2mm, amarelo): Blend asférico progressivo crítico para qualidade - transições <0.8mm causam perda >0.4 log units em sensibilidade ao contraste. Zona 3 Periférica (3.5-7.0mm, azul): Ligeiramente prolata para visão de longe. Difere do Custom-Q por criar zonas discretas ("degraus funcionais") em vez de curva contínua.*
 
 ### Infográfico 6.2: Estratégia Híbrida vs. Simétrica (Esquema Binocular)
 
-![Estratégia Híbrida](figures/chapter6/infographic_6_2_hybrid_vs_symmetric.md)
-*Figura 6.2: A vitória da assimetria. A abordagem Híbrida (Painel B) utiliza o olho dominante para garantir contraste de longe, enquanto o olho não-dominante carrega a carga multifocal.*
+![Estratégia Híbrida vs. Simétrica: Comparação Binocular](figures/chapter6/presbymax_hybrid_vs_symmetric.png)
+*Figura 6.2: Comparação da estratégia Simétrica (Painel A: ambos olhos multifocais completos) vs. Híbrida (Painel B: olho dominante distance otimizado + não-dominante multifocal). Híbrida demonstra superioridade: UCDVA 92% vs 75% (≥20/25), halos severos 18% vs 35%, satisfação 89% vs 78%, taxa de retratamento 9% vs 18%. A "vitória da assimetria" - olho dominante garante contraste de longe enquanto não-dominante carrega carga multifocal, permitindo fusão binocular seletiva.*
 
 ### Infográfico 6.3: Dinâmica Pupilar e Performance (Gráfico Temporal Dia/Noite)
 
-![Gráfico de Dependência Pupilar](figures/chapter6/infographic_6_3_pupil_dynamics.md)
-*Figura 6.3: O "Sweet Spot" do PresbyMAX. O gráfico demonstra como a qualidade visual oscila com a luz. A zona mesópica (4.5-6.0mm) é o alvo ideal.*
+![Dinâmica Pupilar e Performance: O "Sweet Spot" do PresbyMAX](figures/chapter6/presbymax_pupil_dynamics_graph.png)
+*Figura 6.3: Gráfico temporal demonstrando desempenho visual em função do diâmetro pupilar ao longo do dia. Eixo X: Tempo (manhã→tarde→noite). Eixo Y superior: Diâmetro pupilar (2-7mm). Eixo Y inferior: Qualidade visual (perto/longe). Condições fotópicas (pupila ~2.5mm): 100% luz passa por zona central → Excelente perto, longe comprometido. Condições mesópicas (pupila ~5.5mm): Zona ideal → Balanço perto+longe. Condições escotópicas (pupila >7mm): Halos severos por sobreposição múltiplas imagens focais. Zonas de risco destacadas: pupila fotópica <2mm (aprisionamento central) e mesópica >7mm (contraindicação).*
 
 ### Infográfico 6.4: PresbyMAX vs. Custom-Q (Decisão Algorítmica)
 
-![Árvore de Decisão Clínica](figures/chapter6/infographic_6_4_decision_tree.md)
-*Figura 6.4: Fluxograma de seleção. O tamanho da pupila é o "gatekeeper". Pupilas grandes exigem perfis suaves (Custom-Q); pupilas médias toleram perfis zonais (PresbyMAX).*
+![Árvore de Decisão: PresbyMAX vs. Custom-Q](figures/chapter6/presbymax_vs_customq_flowchart.png)
+*Figura 6.4: Fluxograma de seleção algoritmica baseado em pupilometria. Nó inicial: Paciente candidato a cirurgia presbiópica. Decisão 1 (Pupila Mesópica): <5.5mm → PresbyMAX viável; 5.5-6.5mm → Ambos viáveis (preferência cirurgião); >6.5mm → Custom-Q obrigatório (PresbyMAX contraindicação por risco halos severos). Decisão 2 (Add Desejada): >+2.00D → PresbyMAX; +1.50D → Ambos; <+1.50D → Custom-Q. Decisão 3 (Curvatura K): <40D → Custom-Q (melhor estabilidade); >44D → PresbyMAX (maior margem). O tamanho pupilar é o "gatekeeper" principal.*
 
 ### Infográfico 6.5: Reversão de PresbyMAX (Protocolo Step-by-Step)
 
-![Protocolo de Reversão](figures/chapter6/infographic_6_5_reversal_protocol.md)
-*Figura 6.5: A rede de segurança. Demonstração de como uma ablação guiada por topografia pode "apagar" a ilha multifocal central, revertendo a córnea para a monofocalidade.*
+![Protocolo de Reversão PresbyMAX: A Rede de Segurança](figures/chapter6/presbymax_reversal_protocol.png)
+*Figura 6.5: Protocolo step-by-step para reversão de PresbyMAX intolerável. Etapa 1: Captura topografia pós-PresbyMAX (Pentacam) mostrando ilha central multifocal elevada. Etapa 2: Software T-CAT/Contoura calcula ablação para "aplanar" elevação central (remoção ~20-30μm zona steep). Etapa 3: Topography-Guided Ablation executada. Etapa 4: Resultado final - córnea mais próxima de monofocal. Limitações destacadas: Reversão nunca 100% (Q-factor residual alterado, aberraturas podem persistir), consumo tecidual total alto (primária 60-80μm + reversão 20-30μm → RSB muito reduzido), taxa sucesso 70-80% recuperam CDVA 20/20. Taxa de reversão na literatura: 2-5% casos.*
 
 ---
 

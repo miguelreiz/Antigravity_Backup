@@ -1,0 +1,206 @@
+# CHECKLIST EDITORIAL - ESPAÑOL (ES_ES)
+# Libro: PRESBICIA & LÁSER - Estrategias Modernas en Cirugía Refractiva
+# Fecha: 2026-01-13
+# Total de Infográficos: 104+
+
+---
+
+## ESTADO GENERAL
+
+- [x] Estructura de carpetas creada
+- [/] Imágenes organizadas (en progreso)
+- [ ] Leyendas extraídas y traducidas
+- [ ] Terminología revisada  
+- [ ] Listo para diagramación
+
+---
+
+## ESTRATEGIA DE IMPLEMENTACIÓN
+
+### Fase 3A: Imágenes Visuales Puras (Tipo A) ✅
+- **Acción:** Copiar directamente de PT_BR/EN_US
+- **Cantidad:** ~45 imágenes
+- **Estado:** COMPLETADO
+
+### Fase 3B: Infográficos Críticos (Top 20) ⏳
+- **Acción:** Regenerar con texto en español
+- **Prioridad:** ALTA
+- **Estado:** EN PROGRESO
+
+### Fase 3C: Infográficos Secundarios (~35) 📋
+- **Acción:** Documentar para edición futura
+- **Prioridad:** MEDIA-BAJA
+- **Estado:** DOCUMENTADO
+
+---
+
+## TOP 20 INFOGRÁFICOS CRÍTICOS PARA REGENERACIÓN
+
+### Prioridad MÁXIMA (completar primero):
+
+1. **FIG_51_08 - InnovEyes AI Dashboard** (Cap 5+ READ)
+   - [x] Interfaz compleja con texto extenso
+   - [ ] Versión ES generada
+   
+2. **FIG_51_06 - Filosofía READ (Águila/Lupa)** (Cap 5+ READ)
+   - [x] Diagrama conceptual binocular
+   - [ ] Versión ES generada
+
+3. **FIG_06_06 - Workflow Clínico PresbyMAX** (Cap 6)
+   - [x] Protocolo 4 fases con texto extenso
+   - [ ] Versión ES generada
+
+4. **FIG_03_01 - Algoritmo Triaje** (Cap 3)
+   - [x] Flowchart decisión clínica
+   - [ ] Versión ES generada
+
+5. **FIG_03_05 - Calculadora RSB** (Cap 3)
+   - [x] UI calculadora interactiva
+   - [ ] Versión ES generada
+
+### Prioridad ALTA (segunda tanda):
+
+6. FIG_13_01 - Master Pathway (Cap 13)
+7. FIG_13_02 - Guía 4 Perfiles (Cap 13)  
+8. FIG_07_03 - Timeline PRESBYOND (Cap 7)
+9. FIG_07_04 - Matriz Decisión (Cap 7)
+10. FIG_08_03 - Algoritmo SUPRACOR (Cap 8)
+
+### Prioridad MEDIA (tercera tanda):
+
+11. FIG_04_01 - Cascata Cicatrización (Cap 4)
+12. FIG_04_03 - Timeline Recuperación (Cap 4)
+13. FIG_05_02 - Árvore Decisión Q-Target (Cap 5)
+14. FIG_12_01 - Mapa Mental Decisión (Cap 12)
+15. FIG_09_03 - Algoritmo Riesgo (Cap 9)
+16. FIG_10_02 - Troubleshooting (Cap 10)
+17. FIG_11_01 - Flowchart Descentramiento (Cap 11)
+18. FIG_06_05 - Protocolo Reversión (Cap 6)
+19. FIG_02_09 - Goldilocks Zone (Cap 2)
+20. FIG_02_10 - Filtro Neural (Cap 2)
+
+---
+
+## INVENTARIO POR CAPÍTULO
+
+### Capítulo 1: Fundamentos de la Presbicia (7 imágenes)
+- [x] FIG_01_01_anatomy_accommodation.es.png (Tipo A - copiado)
+- [x] FIG_01_03_duane_curve.es.png (Tipo A - copiado)
+- [x] FIG_01_04_neural_effort_paradox.es.png (Tipo A - copiado)
+- [x] FIG_01_05_onion_model_sclerosis.es.png (Tipo A - copiado)
+- [ ] FIG_01_06_pathophysiology_theories.es.png (Tipo B - regenerar)
+- [x] FIG_01_07_pupil_dynamics.es.png (Tipo A - copiado)
+- [ ] FIG_01_02_dls_classification.es.png (Tipo C - evaluar)
+
+**Estado Cap 1:** 5/7 completas
+
+### Capítulo 2: Aberrometría y Factor-Q (16 imágenes)
+- [x] ~12 imágenes Tipo A copiadas
+- [ ] 2 infográficos Tipo B pendientes (FIG_02_09, FIG_02_10)
+- [ ] 2 Tipo C a evaluar
+
+**Estado Cap 2:** 12/16 completas
+
+### Capítulo 3: Selección de Pacientes (6 imágenes)
+- [x] 2 Tipo A copiadas
+- [ ] 4 infográficos críticos Tipo B (TOP prioridad)
+
+**Estado Cap 3:** 2/6 completas
+
+### Capítulo 4: Cicatrización y PRK (10 imágenes)
+- [x] ~3 Tipo A copiadas
+- [ ] 7 Tipo B pendientes (prioridad media)
+
+**Estado Cap 4:** 3/10 completas
+
+### Capítulo 5: PresbyCor (13 imágenes)
+- [x] ~9 Tipo A copiadas
+- [ ] 3 Tipo B pendientes
+
+**Estado Cap 5:** 9/13 completas
+
+### Capítulo 5+: READ (8 imágenes)
+- [x] 2 Tipo A copiadas
+- [ ] 6 infográficos críticos Tipo B (TOP prioridad)
+
+**Estado Cap 5+:** 2/8 completas
+
+### Capítulo 6: PresbyMAX (6 imágenes)
+- [x] 2 Tipo A copiadas
+- [ ] 4 Tipo B pendientes (1 crítico)
+
+**Estado Cap 6:** 2/6 completas
+
+### Capítulos 7-13: 
+- [x] ~15 Tipo A copiadas
+- [ ] ~20 Tipo B pendientes
+
+---
+
+## VERIFICACIÓN DE CALIDAD
+
+### Nomenclatura ✅
+- [x] Patrón FIG_XX_YY_descripcion.es.png aplicado
+- [x] Numeración secuencial por capítulo
+- [x] Sufijo .es.png presente
+
+### Terminología Médica ES_ES
+
+**Traducciones Clave:**
+- Presbyopia → **Presbicia** (o Presbiopía - neutro LatAm+ESP)
+- Ablation → **Ablación**
+- Asphericity → **Asfericidad**
+- Q-value → **Factor Q** (o **Valor Q**)
+- Dominant eye → **Ojo dominante**
+- Depth of focus → **Profundidad de foco**
+- Extended DOF (EDOF) → **EDOF** (mantener sigla, aclarar en texto)
+- Custom-Q → **Custom-Q** (mantener nombre comercial)
+- Wavefront → **Frente de onda**
+- Ray tracing → **Trazado de rayos**
+
+**Estilo:**
+- Español técnico neutro (LatAm + España)
+- Terminología SECOIR/ALACCSA/ESCRS
+- NO regionalisms
+
+---
+
+## PRÓXIMOS PASOS
+
+### Inmediatos:
+1. [x] Copiar imágenes Tipo A (~45)
+2. [ ] Regenerar Top 5 infográficos críticos
+3. [ ] Crear leyendas en español (traducción médica)
+
+### Corto plazo:
+4. [ ] Completar Top 20 regeneraciones
+5. [ ] Documentar restantes 35 para edición futura
+6. [ ] Crear glossario ES_ES oficial
+
+### Largo plazo:
+7. [ ] Versiones vectoriales editables (SVG/AI)
+8. [ ] Revisión por oftalmólogo hispanohablante
+
+---
+
+## NOTAS EDITORIALES
+
+**Fecha de Organización:** 2026-01-13  
+**Sistema:** Arquitectura Editorial Multilingüe
+**Responsable:** Estudio Editorial IA  
+**Estado Actual:** FASE 3 EN PROGRESO - Organización ES_ES
+
+**Observaciones:**
+- Enfoque optimizado: priorizar infográficos críticos
+- ~45 imágenes visuales puras copiadas directamente
+- Top 20 infográficos con texto a regenerar en español
+- Restantes 35 documentados para edición profesional futura
+
+**Tiempo Estimado:**
+- Regeneración Top 20: ~2-3 horas
+- Documentación restantes: ~30 min
+- Total FASE 3: ~3 horas
+
+---
+
+ÚLTIMA ACTUALIZACIÓN: 2026-01-13 08:34 BRT

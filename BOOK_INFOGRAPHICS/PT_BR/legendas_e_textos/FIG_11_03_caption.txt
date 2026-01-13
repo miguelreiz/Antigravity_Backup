@@ -1,0 +1,1 @@
+Figura 11.3: Quem arrisca o quê? As cores mostram o perfil de segurança. SUPRACOR (vermelho) tem alto risco de halos e reversão. PRESBYOND (verde) mantém perfil semelhante à monovisão clássica.

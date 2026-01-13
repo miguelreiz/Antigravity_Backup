@@ -13,7 +13,7 @@ A resposta cicatricial após ablação excimer segue um padrão temporal bem car
 
 #### Fase Aguda (0-7 dias)
 
-![Processo de Cicatrização da Córnea (Pós-Laser)](figures/chapter4/healing_cascade.png)
+![Processo de Cicatrização da Córnea (Pós-Laser)](figures/chapter4/healing_cascade_pt.png)
 *Figura 4.1: Cascata biológica de cicatrização pós-excimer. Note a libertação de citoquinas (IL-1, TNF-α) pelo epitélio lesado, induzindo apoptose de queratócitos e subsequente transformação em miofibroblastos (Haze).*
 
 **Eventos Celulares:**
@@ -593,43 +593,43 @@ Paciente sentado (refração) vs. deitado (cirurgia): Rotação do olho até 5-1
 
 ### Infográfico 4.1: O Efeito de Mascaramento Epitelial (Corte Transversal Dinâmico)
 
-![O Efeito de Mascaramento Epitelial](figures/chapter4/infographic_4_1_epithelial_masking.md)
-*Figura 4.1: Diagrama demonstrando como a hiperplasia epitelial preenche as zonas de ablação profunda ("smoothing"), reduzindo a asfericidade efetiva programada.*
+![O Efeito de Mascaramento Epitelial: O Inimigo Oculto](figures/chapter4/epithelial_masking_effect_pt.png)
+*Figura 4.1: Sequência temporal do efeito de mascaramento epitelial em ablação presbiópica. Painel 1 (Dia 0): Perfil hiper-prolato planeado (Q=-0.80) com geometria abrupta mostrando "bossa" central íngreme e "fosso" periférico profundo. Painel 2 (Semanas 2-12): Remodelamento compensatório ativo - o epitélio adelgaça sobre o pico central (42μm) e espessa no fosso periférico (62μm), preenchendo irregularidades. Painel 3 (Ano 1): Resultado final estabilizado mostrando superfície anterior lisa que mascara o perfil estromal subjacente, reduzindo a asfericidade efetiva de Q=-0.80 para Q=-0.40 (perda de 50% do efeito presbiópico planeado). Demonstra porque a sobrecorreção nomogramática é necessária.*
 
 ---
 
 ### Infográfico 4.2: Centragem – Pupila vs. Purkinje vs. Ponto Médio
 
-![A Trindade da Centragem](figures/chapter4/infographic_4_2_centration_strategy.md)
-*Figura 4.2: Comparativo de estratégias de centragem. A estratégia do "Ponto Médio" (Halfway Point) oferece o melhor compromisso entre qualidade óptica (Purkinje) e cobertura anatómica (Pupila).*
+![A Trindade da Centragem: Pupila vs. Purkinje vs. Ponto Médio](figures/chapter4/centration_strategy_pt.png)
+*Figura 4.2: Estratégia de centragem em cirurgia presbiópica mostrando os três alvos possíveis. Centro Pupilar (ponto vermelho): risco de coma se Kappa alto. Reflexo de Purkinje/Eixo Visual (cruz verde): risco de cobertura pupilar inadequada. Ponto Médio/Halfway Point (estrela dourada): estratégia de compromisso ótimo posicionada a 50% entre pupila e Purkinje. Zona de ablação (círculo azul 6.5mm) centrada no Ponto Médio demonstra cobertura pupilar adequada mantendo proximidade ao eixo visual. Tabela de decisão: Kappa <0.3mm → centrar na pupila; Kappa 0.3-0.6mm → centrar no Ponto Médio (⭐ gold standard); Kappa >0.6mm → centrar no Purkinje ou contraindicar. Ilustra o balanço crítico entre qualidade óptica e funcionalidade anatómica.*
 
 ---
 
 ### Infográfico 4.3: Linha Temporal de Recuperação Visual (PRK vs. LASIK)
 
-![Recuperação Visual PRK vs LASIK](figures/chapter4/infographic_4_3_recovery_timeline.md)
-*Figura 4.3: Gráfico comparativo de acuidade visual (LogMAR e Qualidade Subjetiva) ao longo do tempo. Note o "vale" inicial do PRK vs. o "platô" imediato do LASIK.*
+![A Corrida da Recuperação: PRK vs. LASIK](figures/chapter4/recovery_timeline_pt.png)
+*Figura 4.3: Comparação temporal de recuperação visual entre PRK e LASIK em cirurgia presbiópica. Curva LASIK ("A Lebre", azul): início alto aos 80% (Dia 1), rápida ascensão a 95% (Semana 1), platô de 100% (Mês 1) com "Efeito Wow" e capacidade de condução no Dia 2-3. Curva PRK ("A Tartaruga", laranja): início baixo aos 20% (Dia 1), queda para "Poço do Desespero" aos 10% (Dia 3 - pico inflamatório com dor/fotofobia), recuperação lenta a 50% (Dia 5-7 com remoção de lente terapêutica), zona de flutuação 60-70% (Semanas 2-4 com ghosting/haze transiente), cruzamento das curvas aos 95% (Mês 3 - convergência), platô final 100% (Mês 6). Gap de Reabilitação sombreado demonstra período de resiliência necessária. Painéis laterais mostram jornadas do paciente: LASIK ("já lendo telefone Dia 1") vs PRK ("Semana Cega" e "maraton completa Mês 3").*
 
 ---
 
 ### Infográfico 4.4: Protocolo MMC Step-by-Step
 
-![Protocolo de Segurança Mitomicina C](figures/chapter4/infographic_4_4_mmc_protocol.md)
-*Figura 4.4: Guia visual de segurança para aplicação de MMC, destacando os tempos de exposição baseados na profundidade de ablação e a importância da lavagem copiosa.*
+![Protocolo de Segurança Mitomicina C: Guia Passo-a-Passo](figures/chapter4/mmc_protocol_pt.png)
+*Figura 4.4: Protocolo de segurança MMC em 4 etapas para PRK presbiópico. Etapa 1 (Preparação, azul): Concentração crítica 0.02% em esponja Merocel 6-8mm, NUNCA gotas líquidas diretas. Etapa 2 (Aplicação, amarelo): Cronómetro digital mostrando tempos baseados em profundidade de ablação (<50μm: 15-20seg; 50-80μm: 30-45seg; >80μm: 60seg MÁXIMO). Etapa 3 (Lavagem, azul): Irrigação vigorosa MÍNIMO 30ml BSS sobre leito estromal E fundos de saco conjuntivais (diluição mandatória). Etapa 4 (Proteção, verde): Lente de contacto terapêutica High-DK (Dk/t >100) cobrindo todo o limbo. Legenda inferior enfatiza: sucesso não é evitar MMC, mas garantir concentração correta e lavagem exaustiva para prevenir toxicidade endotelial e scleral melt.*
 
 ---
 
 ### Infográfico 4.5: Complicação – Epithelial Ingrowth (Classificação e Gestão)
 
-![Classificação de Ingrowth Epitelial](figures/chapter4/infographic_4_5_epithelial_ingrowth.md)
-*Figura 4.5: Sistema de semáforo para gestão de invasão epitelial na interface LASIK. A distorção visual ou o melting do flap (Grau 3) exigem intervenção cirúrgica imediata.*
+![Sistema de Semáforo: Classificação de Ingrowth Epitelial Pós-LASIK](figures/chapter4/epithelial_ingrowth_pt.png)
+*Figura 4.5: Sistema de classificação "Semáforo" para invasão epitelial na interface LASIK. Grau 1 (Verde - Benigno): Ilha perolada pequena <2mm da borda, BCVA 20/20, sem sintomas → Ação: Observação semestral. Grau 2 (Amarelo - Suspeito): Ninhos celulares espessos avançando >2mm, BCVA 20/25, halos ligeiros → Ação: Vigilância mensal, se avançar 1mm → Cirurgia. Grau 3 (Vermelho - Maligno): Invasão densa opaca perto do eixo visual, BCVA ≥20/40, sinal de "melting" (flap corroido por colagenases) → Ação: CIRURGIA IMEDIATA (re-lift + debridamento mecânico #15 blade + cauterização química Etanol 100% 15seg + sutura 10-0 Nylon se recorrente). Legenda inferior: epitélio na interface é "bomba-relógio biológica" que liberta colagenases derretendo o flap estromal.*
 
 ---
 
 ### Infográfico 4.6: O Mapa de Risco de Haze (Zona de Perigo UV)
 
-![Heatmap de Risco de Haze](figures/chapter4/infographic_4_6_haze_hazard_map.md)
-*Figura 4.6: Matriz de risco correlacionando a profundidade de ablação estromal com a probabilidade de ativação miofibroblástica (Haze), justificando o uso mandatório de MMC em perfis presbiópicos profundos.*
+![Mapa de Risco de Haze: Heatmap de Zona de Perigo UV](figures/chapter4/haze_hazard_map_pt.png)
+*Figura 4.6: Heatmap 2D de risco correlacionando profundidade de ablação estromal (eixo X: 20-150μm) com exposição UV pós-operatória (eixo Y: baixa/moderada/alta). Zona Verde (<50μm): Risco <1%, MMC opcional. Zona Amarela (50-80μm): Risco 5-10% sem MMC, MMC mandatória 30seg. Zona Vermelha (>100μm - "THE HAZE ZONE"): Risco >30% sem MMC, nuvem branca densa ilustrando opacidade do haze, MMC mandatória 60seg + Vitamina C oral + Oclusão UV estrita 6 meses. Seta grande destaca "ABLAÇÃO PRESBIÓPICA TÍPICA" (80-100μm): perfil hiper-prolato consome tecido periférico pesado → ALTO RISCO DE HAZE PERIFÉRICO. Inset microscópico mostra ativação de miofibroblastos. Curva de correlação demonstra aumento exponencial do risco. Legenda: Haze é resposta biológica previsível à profundidade do insulto estromal, não aleatória.*
 
 **Imagem:**  
 - Vista através de lâmpada de fenda

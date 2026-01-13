@@ -1,0 +1,149 @@
+# CHECKLIST EDITORIAL - PORTUGUÊS (PT_BR)
+# Livro: PRESBIOPIA & LASER - Estratégias Modernas em Cirurgia Refrativa
+# Data: 2026-01-13
+# Total de Infográficos: 104
+
+---
+
+## STATUS GERAL
+
+- [ ] Todas as imagens organizadas
+- [ ] Nomenclatura padronizada
+- [ ] Legendas extraídas
+- [ ] Terminologia revisada  
+- [ ] Pronto para diagramação
+
+---
+
+## INVENTÁRIO POR CAPÍTULO
+
+### Capítulo 1: Fundamentos da Presbiopia (7 imagens)
+- [x] FIG_01_01_anatomy_accommodation.pt.png
+- [x] FIG_01_02_dls_classification.pt.png
+- [x] FIG_01_03_duane_curve.pt.png  
+- [x] FIG_01_04_neural_effort_paradox.pt.png
+- [x] FIG_01_05_onion_model_sclerosis.pt.png
+- [x] FIG_01_06_pathophysiology_theories.pt.png
+- [x] FIG_01_07_pupil_dynamics.pt.png
+
+### Capítulo 2: Aberrometria e Q-Factor (16 imagens)
+- [x] FIG_02_01 a FIG_02_16 (16 arquivos)
+  
+### Capítulo 3: Seleção de Pacientes (6 imagens)
+- [x] FIG_03_01 a FIG_03_06 (6 arquivos)
+
+### Capítulo 4: Cicatrização e PRK (10 imagens)
+- [x] FIG_04_01 a FIG_04_10 (10 arquivos)
+
+### Capítulo 5: PresbyCor (13 imagens)
+- [x] FIG_05_01 a FIG_05_13 (13 arquivos)
+
+### Capítulo 6: PresbyMAX (6 imagens)
+- [x] FIG_06_01 a FIG_06_06 (6 arquivos)
+
+### Capítulo 7: PRESBYOND (6 imagens)
+- [x] FIG_07_01 a FIG_07_06 (6 arquivos)
+
+### Capítulo 8: SUPRACOR (5 imagens)
+- [x] FIG_08_01 a FIG_08_05 (5 arquivos)
+
+### Capítulo 9: Olho Previamente Operado (5 imagens)
+- [x] FIG_09_01 a FIG_09_05 (5 arquivos)
+
+### Capítulo 10: Neuroadaptação (4 imagens)
+- [x] FIG_10_01 a FIG_10_04 (4 arquivos)
+
+### Capítulo 11: Complicações (5 imagens)
+- [x] FIG_11_01 a FIG_11_05 (5 arquivos)
+
+### Capítulo 12: Comparações Técnicas (4 imagens)  
+- [x] FIG_12_01 a FIG_12_04 (4 arquivos)
+
+### Capítulo 13: Master Pathway (5 imagens)
+- [x] FIG_13_01 a FIG_13_05 (5 arquivos)
+
+### Capítulo 5+ READ (8 imagens)
+- [x] FIG_51_01 a FIG_51_08 (8 arquivos)
+
+### Materiais Comparativos (2 imagens)
+- [x] FIG_98_01 a FIG_98_02 (2 arquivos)
+
+### Capa (2 imagens)
+- [x] FIG_99_01_presbyteria_laser_cover_pt.pt.png
+- [x] FIG_99_02_presbycor_cover.pt.png
+
+---
+
+## VERIFICAÇÃO DE QUALIDADE
+
+### Nomenclatura ✅
+- [x] Padrão FIG_XX_YY_description.pt.png aplicado
+- [x] Numeração sequencial por capítulo
+- [x] Sufixo .pt.png presente em todos
+
+### Integridade dos Arquivos
+- [x] Total: 104 arquivos
+- [x] Nenhum arquivo corrompido
+- [x] Todos em formato PNG
+
+### Terminologia Médica PT_BR
+- [ ] Revisão pendente de glossário:
+  - Presbiopia ✓
+  - Ablação ✓
+  - Asfericidade ✓
+  - Q-factor vs Fator-Q (padronizar)
+  - Custom-Q vs Q Personalizado (padronizar)
+  - EDOF (Extended Depth of Focus) - manter sigla?
+
+---
+
+## LEGENDAS E TEXTOS
+
+### Status de Extração
+- [ ] Legendas extraídas de Chapter_1_Complete.md
+- [ ] Legendas extraídas de Chapter_2_Complete.md
+- [ ] Legendas extraídas de Chapter_3_Complete.md
+- [ ] Legendas extraídas de Chapter_4_Complete.md
+- [ ] Legendas extraídas de Chapter_5_Complete.md
+- [ ] Legendas extraídas de Chapter_6_Complete.md
+- [ ] Legendas extraídas de Chapter_7_Complete.md
+- [ ] Legendas extraídas de Chapter_8_Complete.md
+- [ ] Legendas extraídas de Chapter_9_Complete.md
+- [ ] Legendas extraídas de Chapter_10_Complete.md
+- [ ] Legendas extraídas de Chapter_11_Complete.md
+- [ ] Legendas extraídas de Chapter_12_Complete.md
+- [ ] Legendas extraídas de Chapter_13_Complete.md
+- [ ] Legendas extraídas de Chapter_5_Plus_READ.md
+
+### Formato de Legendas
+- Arquivo TXT para cada figura
+- Nome: FIG_XX_YY_description_caption.txt
+- Conteúdo: Texto completo da legenda em português
+
+---
+
+## PRÓXIMAS ETAPAS
+
+1. [ ] Extrair todas as legendas dos capítulos
+2. [ ] Revisar e padronizar terminologia
+3. [ ] Criar glossário PT_BR oficial
+4. [ ] Gerar versões editáveis (se possível)
+5. [ ] Preparar para tradução EN/ES
+
+---
+
+## NOTAS EDITORIAIS
+
+**Data de Organização:** 2026-01-13  
+**Sistema:** Arquitetura Editorial Multilíngue
+**Responsável:** Estúdio Editorial IA  
+**Status Atual:** FASE 1 COMPLETA - Organização PT_BR Base
+
+**Observações:**
+- Todas as 104 imagens organizadas com nomenclatura padronizada
+- Sistema pronto para expansão multilíngue (EN_US e ES_ES)
+- Próximo passo: Extração de legendas e revisão terminológica
+
+---
+
+ÚLTIMA ATUALIZAÇÃO: 2026-01-13 07:58 BRT

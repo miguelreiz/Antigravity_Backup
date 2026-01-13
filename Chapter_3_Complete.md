@@ -626,8 +626,8 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
 
 ### Infográfico 3.1: Fluxograma de Decisão "Go / No-Go" (Algoritmo de Triagem)
 
-![Fluxograma de Decisão Clinical UI](figures/chapter3/screening_algorithm_ui_1767558790318.png)
-*Figura 3.1: Algoritmo de decisão clínica para triagem de candidatos a cirurgia presbiópica corneana (Interface Clínica).*
+![Fluxograma de Decisão Clínica](figures/chapter3/screening_flow.png)
+*Figura 3.1: Algoritmo de decisão clínica para triagem de candidatos a cirurgia presbiópica corneana.*
 
 ---
 
@@ -640,22 +640,22 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
 
 ### Infográfico 3.5: Espessura Corneana e Cálculo de RSB (Visual Calculator)
 
-![Calculadora Visual de RSB](figures/chapter3/infographic_3_5_rsb_calculator.md)
-*Figura 3.5: Diagrama esquemático ilustrando a "regra de ouro" da segurança biomecânica, contrastando o consumo tecidual com o leito estromal preservado.*
+![Calculadora Visual de Leito Estromal Residual](figures/chapter3/rsb_calculator.png)
+*Figura 3.5: Calculadora Visual de RSB (Residual Stromal Bed). Painel Esquerdo: Anatomia em camadas mostrando consumo tecidual (Epítélio 50μm + Flap 110μm + Ablação 75μm) vs. preservação (LER verde). Painel Direito: Três cenários de cálculo demonstrando a "regra de ouro" da segurança biomecânica: LER mínimo >300μm. Caso A (verde, 365μm): seguro. Caso B (amarelo, 320μm): limiar. Caso C (vermelho, 285μm): contraindicação absoluta.*
 
 ---
 
 ### Infográfico 3.6: O Filtro Psicológico de Holland
 
-![O Filtro Psicológico de Holland](figures/chapter3/infographic_3_6_holland_filter.md)
-*Figura 3.6: Matriz de decisão psicofísica correlacionando traços de personalidade (Perfeccionista vs. Adaptativo) com a tolerância ao "blur" induzido cirurgicamente.*
+![O Filtro Psicológico de Holland: Personalidade vs. Óptica](figures/chapter3/holland_filter.png)
+*Figura 3.6: O Filtro Psicológico de Holland. Espectro de personalidade correlacionando perfil psicológico (Perfeccionista Tipo A vs. Adaptativo Tipo B) com tolerância ao blur pseudo-acomodativo induzido cirurgicamente. O "botão de sintonia" central representa o ajuste cirúrgico da agressividade do tratamento (Q-target de -0.30μm a -0.80μm) baseado na posição do paciente no espectro. Regra de Ouro: quanto mais à esquerda (Perfeccionista), MENOS asfericidade induzida. Demonstra que operação bem-sucedida depende tanto da personalidade quanto da dióptria.*
 
 ---
 
 ### Infográfico 3.7: As Janelas de Oportunidade Cirúrgica
 
-![Janelas de Oportunidade Cirúrgica](figures/chapter3/infographic_3_7_opportunity_windows.md)
-*Figura 3.7: Linha do tempo decisional baseada na idade e no estágio de disfunção do cristalino (DLS), definindo o "Gold Standard" para cada década de vida.*
+![As Janelas de Oportunidade Cirúrgica](figures/chapter3/opportunity_windows.png)
+*Figura 3.7: Linha do tempo decisional baseada na idade e no estágio de disfunção do cristalino (DLS). Zona 1 (20-40 anos, azul): LASIK/PRK monofocal tradicional. Zona 2 (40-55 anos, verde): JANELA ÓTIMA para PresbyLASIK/Custom-Q - cristalino muito bom para remover mas presbiopia incomoda. Zona 3 (55-65 anos, amarelo/laranja): "Zona Cinzenta" de batalha decisional PresbyLASIK vs. RLE baseada em erro refrativo e qualidade lenticular. Zona 4 (65+ anos, roxo): Era lenticular - RLE/Cirurgia de Catarata dominante. Sliders de sobreposição mostram que hiperétropes entram na Zona 4 mais cedo (55 anos) que míopes (65 anos).*
 
 ---
 

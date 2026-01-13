@@ -1,0 +1,1 @@
+Figura 5.1: Comparação 2D dos perfis de ablação. Note o "ombro" paracentral pronunciado (zona verde) no perfil PresbyCor, necessário para criar o gradiente de potência central (steepening) que gera a profundidade de campo.

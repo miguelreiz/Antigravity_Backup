@@ -507,27 +507,32 @@ Mediana de shift aos 12 meses:
 
 ### Infográfico 7.1: Conceito "Blend Zone" (Diagrama Óptico)
 
-![Conceito da Zona de Mistura](figures/chapter7/infographic_7_1_presbyond_concept.md)
+![PRESBYOND Laser Blended Vision: Conceito da Zona de Mistura](figures/chapter7/blend_zone_concept.png)
+*Figura 7.1: Arquitetura óptica do PRESBYOND Laser Blended Vision. Olho dominante (esquerda): Ablação asférica Q negativa moderada (-0.30 a -0.40) centrada no eixo visual para excelente visão de longe com EDOF ligeira. Olho não-dominante (direita): Combinação de Q hiper-prolato (-0.60 a -0.80) + micro-monvisão (-0.75 a -1.50D) para visão de perto. "Zona de Mistura" bilateral: Transição suave entre perfis que permite fusão binocular sem anisomet
 *Figura 7.1: O segredo do Blend. Demonstração de como a profundidade de foco estendida em cada olho (barras azul e verde) cria uma vasta zona de sobreposição central (roxo) onde a fusão binocular é mantida.*
 
 ### Infográfico 7.2: Curva de Defocus PRESBYOND vs. Monovisão
 
-![O Planalto Visual](figures/chapter7/infographic_7_2_defocus_curve.md)
+![Curva de Desfocagem: O "Planal to Visual" do PRESBYOND](figures/chapter7/presbyond_vs_monovision_curve.png)
+*Figura 7.2: Comparação de curvas de desfocagem demonstrando superioridade do PRESBYOND. Eixo X: Desfocação (-4.0D a +1.0D). Eixo Y: Acuidade visual (logMAR). Curva azul (Monovisão pura): Dois picos discretos (longe + perto) com "vale" profundo na zona intermediária (~-1.5D). Curva verde (PRESBYOND): Planal to contínuo de -1.0D a +0.5D (zona funcional 60-80cm) demonstrando EDOF superior. A zona de mistura elimina o vale, criando visão intermediária funcional sem óculos.*
 *Figura 7.2: A prova do "Plateau". Enquanto a monovisão (vermelho) tem um "gap" profundo na visão intermédia, o PRESBYOND (azul) mantém uma acuidade funcional estável em todas as distâncias de trabalho.*
 
 ### Infográfico 7.3: Protocolo PRESBYOND Passo-a-Passo (Timeline Cirúrgico)
 
-![Timeline de Segurança](figures/chapter7/infographic_7_3_protocol_timeline.md)
+![Timeline de Protocolo Cirúrgico PRESBYOND](figures/chapter7/protocol_timeline.png)
+*Figura 7.3: Linha do tempo do protocolo PRESBYOND bilateral. Etapa 1 (Preparação): Identificação de dominância ocular, pupilometria, topografia bilateral. Etapa 2 (Olho Dominante - Dia 1): LASIK/PRK com Q moderado negativo, target plano, eye-tracking centrado no eixo visual. Etapa 3 (Intervalo): 1-2 semanas para neuroadaptação parcial ao primeiro olho. Etapa 4 (Olho Não-Dominante - Dia 14): Custom-Q agressivo + target míope (-0.75 a -1.50D). Etapa 5 (Follow-up): Neuroadaptação completa 3-6 meses. Destaque: Seqüenciamento bilateral é mandatorito - nunca simultâneo.*
 *Figura 7.3: Fluxo de segurança. A decisão crítica ocorre no Dia 7 (Ponto de Controlo), onde a tolerância ao primeiro olho dita se avançamos para o segundo olho ou revertemos.*
 
 ### Infográfico 7.4: Matriz de Decisão - Qual Técnica Escolher?
 
-![Posicionamento Estratégico](figures/chapter7/infographic_7_4_decision_matrix.md)
+![Matriz de Decisão: PRESBYOND vs. Alternativas](figures/chapter7/decision_matrix.png)
+*Figura 7.4: Matriz 2×2 de posicionamento estratégico. Eixo X: Tolerância ao blur (baixa → alta). Eixo Y: Add necessária (+1.0D → +2.5D). Quadrante superior esquerdo (Alta Add + Baixa tolerância): RLE/Lens Exchange. Quadrante superior direito (Alta Add + Alta tolerância): PresbyMAX ou Monvisão agressiva. Quadrante inferior esquerdo (Baixa Add + Baixa tolerância): Custom-Q conservador. Quadrante inferior direito - ZONA DOURADA (Baixa-Média Add +1.25-1.75D + Tolerância média): **PRESBYOND é ideal**. Símbolos de tráfego indicam candidáncia (verde/amarelo/vermelho).*
 *Figura 7.4: Onde o PRESBYOND vence. Ideal para o "Jovem Presbita Emétrope" (45-55 anos) que valoriza visão de computador acima de tudo.*
 
 ### Infográfico 7.5: Comparação Visual - Monovisão vs. PRESBYOND Blend
 
-![Neurologia da Fusão](figures/chapter7/infographic_7_5_visual_comparison.md)
+![Neurologia da Fusão Binocular PRESBYOND](figures/chapter7/mechanism_comparison.png)
+*Figura 7.5: Comparação de mecanismos neurológicos. Painel A (Monvisão Tradicional): Cérebro suprime completamente input de um olho (linha vermelha cortada), causando percepção monocular com perda de estereopsia. Painel B (PRESBYOND): Fusão ativa - córtex visual processa inputs de AMBOS os olhos simultaneamente (setas bidirecionais verdes), selecionando zonas de melhor foco para construir imagem fusionada. Resultado: Estereopsia preservada (>80% pacientes mantêm ≥40 arc seconds) enquanto obtêm EDOF. Demonstra vantagem neurológica sobre monvisão pura.*
 *Figura 7.5: Rivalidade vs. Sinergia. A monovisão força a supressão cortical (um olho apaga), enquanto o PRESBYOND convida à somação binocular (ambos contribuem).*
 
 ---

@@ -129,6 +129,9 @@ Este crescimento contínuo tem dois efeitos:
 1. **Hipótese de Folga Zonular:** O diâmetro equatorial aumentado pode reduzir a tensão zonular basal, diminuindo a amplitude de movimento disponível durante a acomodação.
 2. **Restrição Geométrica:** O cristalino maior e mais esférico tem menos capacidade para mudança de forma adicional dentro do diâmetro fixo do anel ciliar.
 
+![O Modelo de Cebola: Biomecânica da Esclerose Nuclear](figures/chapter1/onion_model_sclerosis.png)
+*Figura 1.7: O "Modelo de Cebola" demonstrando a progressão da esclerose nuclear. Painel Esquerdo: Olho jovem (20 anos) com núcleo flexível e córtex amplo. Painel Central: Início da presbiopia (45 anos) com compactação nuclear progressiva. Painel Direito: Olho presbita (70 anos) com esclerose completa e rigidez aumentada em 3000×. A compactação física do cristalino dentro da cápsula de volume limitado é o mecanismo primário da presbiopia.*
+
 ### 1.3.2. A Teoria Geométrica (Contribuinte Secundário)
 
 Proposta por Coleman, esta teoria sugere que alterações relacionadas à idade no vítreo e coroide alteram as relações de pressão hidrostática que normalmente assistem a acomodação. Embora estudos de imagem não tenham validado totalmente isto como um mecanismo primário, pode contribuir como um fator menor. [10]
@@ -199,6 +202,9 @@ Ao operar um paciente de 45 anos (acomodação residual ~4.5 D), o cirurgião po
 **Planeamento de Retoque:**
 Para um paciente de PresbyLASIK tratado inicialmente aos 48 anos, que retorna aos 58 anos queixando-se de visão de perto reduzida, o alvo refrativo deve ser ajustado mais agressivamente (potencialmente -1.50 D a -1.75 D no olho não dominante) para compensar a perda completa da acomodação residual que ocorreu na década interveniente.
 
+![O Paradoxo do Esforço Neural: A Zona da Dor](figures/chapter1/neural_effort_paradox.png)
+*Figura 1.8: O Paradoxo do Esforço Neural na presbiopia. O gráfico mostra a divergência dramática entre a capacidade mecânica declinante do cristalino (curva azul) e o esforço neural crescente (curva vermelha), atingindo o pico aos 45 anos. A "Zona da Dor" (40-48 anos, área sombreada em vermelho) representa o período de alto esforço neural contra resistência mecânica invencível, explicando a astenopia e cefaleia características da presbiopia incipiente.*
+
 ---
 
 ## 1.5. Classificação da Síndrome do Cristalino Disfuncional (DLS)
@@ -264,7 +270,7 @@ A escolha entre correção corneana e troca de lente refrativa (RLE) depende de 
 **Racional:**
 O cristalino é a fonte primária de degradação óptica. A correção corneana não consegue superar a dispersão e aberrações lenticulares. A substituição do cristalino aborda cirurgicamente tanto a presbiopia quanto a catarata.
 
-![Classificação DLS e Árvore de Decisão Cirúrgica](figures/chapter1/infographic_1_4_dls_decision.md)
+![Classificação DLS e Árvore de Decisão Cirúrgica](figures/chapter1/dls_classification.png)
 *Figura 1.4: Árvore de decisão cirúrgica baseada no Estadiamento da Síndrome do Cristalino Disfuncional (DLS).*
 
 ### Ferramentas de Avaliação Objetiva para Estadiamento DLS
@@ -955,17 +961,79 @@ Demonstrar a interação crítica entre tamanho pupilar, idade, e profundidade d
 
 ---
 
----
-
 ### Infográfico 1.7: "O Modelo de Cebola" – A Biomecânica da Esclerose Nuclear
 
-![Modelo de Cebola da Esclerose Nuclear](figures/chapter1/infographic_1_7_onion_model.md)
-*Figura 1.7: Diagrama evolutivo demonstrando o mecanismo físico de compactação nuclear ("crowding") como causa primária da perda de moldabilidade do cristalino.*
+**Objetivo Educacional:**  
+Demonstrar que a presbiopia é um problema de "crowding" físico e engenharia de materiais, transformando o conceito abstrato de "perda de acomodação" numa visualização mecânica intuitiva (camadas de cebola vs. madeira compensada).
+
+**Formato:** Sequência evolutiva horizontal de três estágios (Corte Transversal)
+
+**Painel 1: O Olho Jovem (20 Anos) – "Espaço e Flexibilidade"**
+- **Visual Central:** Cristalino com núcleo pequeno e amarelo pálido
+- **Córtex:** Largo, com camadas bem definidas e "frouxas" (espaço entre elas)
+- **Microscopia (Zoom Bubble):** Células hexagonais com espaço intercelular preservado
+- **Analogia Visual (Ícone):** Uma cebola fresca cortada ao meio (camadas suculentas e separáveis)
+- **Label:** "Núcleo Flexível (Baixa Densidade Celular)"
+
+**Painel 2: O Início da Presbiopia (45 Anos) – "O Aperto"**
+- **Visual Central:** O cristalino aumentou de volume total ligeiramente, mas a estrutura interna mudou drasticamente
+- **Dinâmica:** Córtex expandido empurra o núcleo para o centro (vetores de força centrípeta → ←)
+- **Núcleo:** Mais denso, cor âmbar inicial. As células estão a começar a achatar
+- **Label:** "Compactação Nuclear (Perda de Viscoelasticidade)"
+
+**Painel 3: O Olho Presbita (70 Anos) – "O Bloco Sólido"**
+- **Visual Central:** Quase todo o cristalino é "Núcleo". Cor castanho-ambar profundo
+- **Córtex:** Reduzido a uma fina casca periférica
+- **Microscopia (Zoom Bubble):** Células fundidas, sem organelas, formando um bloco homogéneo e rígido
+- **Analogia Visual (Ícone):** Um bloco de madeira compensada (camadas coladas e prensadas)
+- **Label:** "Esclerose Completa (Módulo de Young >3000x o original)"
+
+**Elementos Críticos:**
+- **Código de Cores:** Amarelo Claro (Flexível) → Âmbar (Rígido) → Castanho (Pétreo)
+- **Vetores de Força:** Usar setas para mostrar a pressão das novas camadas corticais comprimindo as antigas camadas nucleares
+
+**Legenda Explicativa:**  
+"O crescimento contínuo do cristalino dentro de uma cápsula de volume limitado resulta em compactação física exponencial. A falha não é do músculo ciliar, mas do material da lente que se torna fisicamente impossível de moldar."
 
 ---
 
-### Infográfico 1.8: O Paradoxo do Esforço Neural
+### Infográfico 1.8: O Paradoxo do Esforço Neural (A Zona da Dor)
 
-![Paradoxo do Esforço Neural](figures/chapter1/infographic_1_8_neural_paradox.md)
-*Figura 1.8: Gráfico correlacionando o aumento exponencial do drive neural (esforço) com o declínio linear da resposta mecânica, ilustrando a etiologia da astenopia presbiópica.*
+**Objetivo Educacional:**  
+Explicar a origem da astenopia (dor de cabeça/fadiga) na presbiopia incipiente. Visualizar o descompasso (mismatch) entre o comando cerebral (máximo) e a resposta ocular (mínima).
+
+**Formato:** Gráfico de Linha Dupla (Eixo X = Idade)
+
+**Eixos:**
+- **Eixo X:** Idade (20, 30, 40, 45, 50, 60 anos)
+- **Eixo Y1 (Esquerdo - Azul):** Amplitude de Acomodação (Dioptrias)
+- **Eixo Y2 (Direito - Vermelho):** Esforço Neural / Drive Ciliar (%)
+
+**As Curvas:**
+
+**Curva 1: Capacidade Mecânica (Azul)**
+- **Trajetória:** Declínio linear ou levemente curvo
+- **Dados:** 10D (20 anos) → 6D (35 anos) → 3D (45 anos) → 0D (60 anos)
+- **Significado:** "O que o olho CONSEGUE fazer"
+
+**Curva 2: Comando Neural (Vermelho)**
+- **Trajetória:** Exponencial. Mantém-se baixo/moderado até os 35 anos, depois dispara verticalmente
+- **Pico:** Atinge 100% (esforço máximo) aos 45 anos
+- **Significado:** "O que o cérebro TENTA fazer"
+
+**A "Zona da Dor" (Highlight):**
+- **Localização:** Faixa etária de 40 a 48 anos
+- **Visual:** Área sombreada em vermelho vibrante entre as duas curvas onde elas divergem drasticamente
+- **Ícones:** Símbolos de "raio" (dor) ou "bateria fraca" (fadiga) nesta zona
+
+**Elementos Críticos:**
+- **Ponto de Ruptura (45 Anos):** Onde o Esforço é 100% e o Resultado é <3D (insuficiente para leitura sustentada)
+- **Anotação de Texto:** "High Effort, Low Yield" (Alto Custo, Baixo Retorno) | "Drive Parassimpático Máximo → Espasmo Ciliar → Cefaleia Frontal"
+
+**Legenda Explicativa:**  
+"A presbiopia dói não porque o sistema parou de funcionar, mas porque o sistema neural está a trabalhar em 'overdrive' contra uma resistência mecânica invencível. A dor de cabeça é o sintoma de um motor a funcionar no 'redline' sem sair do lugar."
+
+---
+
+---
 

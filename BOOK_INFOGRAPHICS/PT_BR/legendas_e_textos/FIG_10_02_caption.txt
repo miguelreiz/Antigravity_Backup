@@ -1,0 +1,1 @@
+Figura 10.2: Antes de re-operar, pense. O algoritmo distingue falha óptica (corrigível com laser) de falha neural (não tocável). Intervir cirurgicamente num problema neural agrava o quadro (visão fantasma).

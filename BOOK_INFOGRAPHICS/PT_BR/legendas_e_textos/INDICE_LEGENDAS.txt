@@ -1,0 +1,109 @@
+# ÍNDICE DE LEGENDAS - PORTUGUÊS (PT_BR)
+# Total de legendas extraídas: 39+ (em progresso)
+# Data: 2026-01-13
+
+---
+
+## LEGENDAS ORGANIZADAS POR CAPÍTULO
+
+### Capítulo 1: Fundamentos da Presbiopia
+- FIG_01_01_caption.txt - Mecanismo de Acomodação segundo Helmholtz
+- FIG_01_03_caption.txt - Comparação Teoria Lenticular vs Teoria Geométrica
+- FIG_01_07_caption.txt - Modelo de Cebola (esclerose nuclear)
+
+### Capítulo 2: Aberrometria e Q-Factor  
+- FIG_02_01_caption.txt - Pirâmide de Zernike simplificada
+- FIG_02_02_caption.txt - Comparação geométrica córneas (esférica/prolata/hiper-prolata)
+- FIG_02_03_caption.txt - Ray Tracing SA Positiva vs Negativa
+
+### Capítulo 3: Seleção de Pacientes
+- FIG_03_00_caption.txt - Visualização tomográfica Quad-Map
+- FIG_03_01_caption.txt - Algoritmo triagem candidatos
+- FIG_03_02_caption.txt - Comparativo visual perfis candidatos
+
+### Capítulo 4: Cicatrização e PRK
+- FIG_04_01_caption.txt - Cascata biológica cicatrização
+- FIG_04_02_caption.txt - Estratégia de centragem cirúrgica
+- [Legendas adicionais...]
+
+### Capítulo 5: PresbyCor
+- FIG_05_01_caption.txt - Comparação 2D perfis ablação
+- FIG_05_02_caption.txt - Árvore decisão Q-Target
+- FIG_05_03_caption.txt - Topografia diferencial
+- [11 legendas total]
+
+### Capítulo 6: PresbyMAX
+- FIG_06_01_caption.txt - Arquitetura perfil bi-asférico
+- FIG_06_02_caption.txt - Estratégia Simétrica vs Híbrida
+- FIG_06_06_caption.txt - Protocolo clínico 4 fases
+- [6 legendas total]
+
+### Capítulo 7: PRESBYOND
+- FIG_07_01_caption.txt - Conceito Blend Zone
+- FIG_07_02_caption.txt - Curvas desfocagem comparativas
+- [9 legendas total]
+
+### Capítulo 8: SUPRACOR
+- FIG_08_01_caption.txt - Geometria agressiva (montanha central)
+- FIG_08_02_caption.txt - Trade-off independência
+- FIG_08_03_caption.txt - Algoritmo nicho SUPRACOR
+- [5 legendas total]
+
+### Capítulo 9: Olho Previamente Operado
+- FIG_09_01_caption.txt - Uso OCT para medição RSB
+- FIG_09_02_caption.txt - Desafio correção olhos oblatos
+- FIG_09_03_caption.txt - Algoritmo navegação de risco
+- [4 legendas total]
+
+### Capítulo 10: Neuroadaptação
+- FIG_10_01_caption.txt - Jornada paciente (Vale do Desespero)
+- FIG_10_02_caption.txt - Diagnóstico falha óptica vs neural
+- FIG_10_03_caption.txt - Checklist expectativas realistas
+- [3 legendas total]
+
+### Capítulo 11: Complicações
+- FIG_11_01_caption.txt - Fluxograma descentramento
+- FIG_11_02_caption.txt - Classificação visual DLK
+- FIG_11_03_caption.txt - Heatmap perfil segurança técnicas
+- [4 legendas total]
+
+### Capítulo 12: Comparações Técnicas
+- FIG_12_01_caption.txt - Mapa mental algoritmo decisão
+- FIG_12_02_caption.txt - Heatmap zona cinzenta risco
+- FIG_12_03_caption.txt - Radar trade-offs (footprint técnicas)
+- [3 legendas total]
+
+### Capítulo 13: Master Pathway
+- FIG_13_01_caption.txt - Algoritmo suporte cirurgião
+- FIG_13_02_caption.txt - Guia 4 perfis pacientes comuns
+- FIG_13_03_caption.txt - Filtro inicial (expectativas irrealistas)
+- [5 legendas total]
+
+### Capítulo 5+: READ (Alcon)
+- [Legendas a extrair]
+
+---
+
+## ESTATÍSTICAS
+
+**Total extraído:** 39 legendas  
+**Total esperado:** ~104 figuras  
+**Pendente:** ~65 legendas
+
+**Motivo discrepância:**
+- Algumas figuras são tabelas/gráficos sem legenda textual
+- Capítulo 5+ READ ainda não processado
+- Alguns formatos de legenda não capturados pelo regex inicial
+
+---
+
+## PRÓXIMOS PASSOS
+
+1. [ ] Extrair legendas do Chapter_5_Plus_READ.md
+2. [ ] Refinar regex para capturar variações de formato
+3. [ ] Manual review de figuras sem legenda
+4. [ ] Padronizar terminologia em todas as legendas
+
+---
+
+ÚLTIMA ATUALIZAÇÃO: 2026-01-13 08:05 BRT

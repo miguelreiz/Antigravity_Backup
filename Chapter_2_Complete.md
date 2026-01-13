@@ -540,13 +540,13 @@ Este Capítulo 2 está agora completo e pronto para ser copiado para o seu docum
 
 ### Infográfico 2.9: A "Zona de Cachinhos Dourados" da Aberração Esférica
 
-![Zona de Cachinhos Dourados (Sweet Spot)](figures/chapter2/infographic_2_9_goldilocks_zone.md)
-*Figura 2.9: Gráfico de trade-off clínico definindo a janela terapêutica estreita entre ganho de leitura e perda de contraste.*
+![Zona de Cachinhos Dourados (Sweet Spot) da Aberração Esférica](figures/chapter2/goldilocks_zone_sa.png)
+*Figura 2.9: A "Zona de Cachinhos Dourados" da Aberração Esférica. O gráfico demonstra o trade-off entre ganho de profundidade de campo (curva verde) e perda de contraste (curva vermelha). A zona terapêutica segura (-0.40 a -0.60 μm) representa o equilíbrio ótimo onde benefícios excedem custos. Ultrapassar -0.70 μm resulta em "Waxy Vision" intolerável.*
 
 ---
 
 ### Infográfico 2.10: O Filtro Neural (Cérebro vs. Blur)
 
-![O Filtro Neural](figures/chapter2/infographic_2_10_neural_filter.md)
-*Figura 2.10: Representação do processo ativo de neuroadaptação como um mecanismo de cancelamento de ruído óptico pelo córtex visual.*
+![O Filtro Neural: Cérebro vs. Blur](figures/chapter2/neural_filter_adaptation.png)
+*Figura 2.10: O Filtro Neural visualizando neuroadaptação em cirurgia presbiópica. Painel A: Imagem retiniana bruta com halos (Dia 1 pós-op). Painel B: Processamento cortical ativo com supressão de baixa frequência (Meses 1-6). Painel C: Percepção consciente limpa (pós-adaptação). A óptica do olho permanece inalterada, mas a percepção cerebral é otimizada através da plasticidade neural.*
 

@@ -1,0 +1,1 @@
+Figura 13.1: O algoritmo de suporte à vida do cirurgião refrativo. Comece no topo (Triagem) e siga o fluxo. A integridade do cristalino (DLS) é o principal divisor de águas entre LASIK (Verde) e RLE (Laranja).

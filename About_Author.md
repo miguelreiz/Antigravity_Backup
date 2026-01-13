@@ -5,7 +5,7 @@ Médico Oftalmologista
 Especialista em Cirurgia Refrativa e Córnea  
 São Paulo, Brasil
 
----
+***
 
 ## Formação e Experiência Profissional
 
@@ -55,13 +55,13 @@ Para detalhes completos sobre metodologia editorial e rastreabilidade do process
 
 **Conversation ID (Rastreabilidade):** a2947515-a94f-45aa-9aad-3af9a5b1e1ad
 
----
+***
 
 ## Contacto Profissional
 
 Para questões relacionadas ao conteúdo deste livro ou discussões sobre aplicação clínica de técnicas presbiópicas, o autor pode ser contactado através de canais profissionais médicos apropriados.
 
----
+***
 
 **Data de Publicação:** Janeiro 2026  
 **Edição:** Primeira Edição  

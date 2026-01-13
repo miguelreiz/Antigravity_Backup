@@ -1,0 +1,1 @@
+Figura 2.3: Diagrama de Ray Tracing comparando SA Positiva (halos, foco antes da retina) vs SA Negativa (DoF estendido, foco através da retina).
