@@ -45,3 +45,5 @@ pandoc-*/
 *.pkg
 *.docx
 *.pdf
+pandoc_bin
+pandoc-3.8.3-x86_64/
