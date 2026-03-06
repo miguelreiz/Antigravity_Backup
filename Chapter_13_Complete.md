@@ -2,6 +2,8 @@
 
 > [!NOTE]
 > **Propósito deste Capítulo:** Este é o capítulo de **síntese operacional** do livro. Enquanto capítulos anteriores exploraram teoria, técnicas e algoritmos individuais em profundidade, este capítulo fornece **ferramentas de decisão rápida** para uso clínico prático. As árvores de decisão aqui apresentadas integram conhecimento de todos os 12 capítulos anteriores num formato visual e iterativo, permitindo ao cirurgião navegar desde a consulta inicial até a decisão cirúrgica final de forma sistemática. Este é o capítulo que o cirurgião deve **rever antes de cada consulta presbiópica** para garantir decisões baseadas em evidência e completas.
+>
+> **Metodologia Baseada em Sinjab:** A estrutura hierárquica de decisão deste capítulo — com avaliação passo-a-passo, sem saltar etapas — reflete a filosofia de análise sistemática preconizada pelo Prof. Mazen Sinjab [34]: "decisões cirúrgicas seguras vêm de protocolos rigorosos, não de intuição". Cada árvore de decisão funciona como um "checklist à prova de falhas", garantindo que nenhum critério crítico seja esquecido sob pressão clínica.
 
 ## 13.1. Framework Master de Decisão
 
@@ -50,6 +52,13 @@ SUCESSO         COMPLICAÇÃO/INSATISFAÇÃO
 ALTA           GESTÃO/ENHANCEMENT/REVERSÃO
 ```
 
+```
+
+### Infográfico 13.1: The Master Decision Pathway (O Algoritmo Final)
+
+![The Master Pathway](figures/chapter13/master_pathway.png)
+*Figura 13.1: O algoritmo de suporte à vida do cirurgião refrativo. Comece no topo (Triagem) e siga o fluxo. A integridade do cristalino (DLS) é o principal divisor de águas entre LASIK (Verde) e RLE (Laranja).*
+
 ---
 
 ## 13.2. Árvore de Decisão 1: Triagem Inicial
@@ -86,11 +95,16 @@ pia real)   ↓                 ↓
 **Critérios Exclusão na Triagem:**
 
 - ❌ Idade <40 anos (sem presbiopia real)
-- ❌ Expectativas: "Quero visão perfeita 20/15 longe E J1 perto sem trade-offs"
+- ❌ Expectativas: "Quero visão perfeita 20/15 longe E J1 perto sem compromissos"
 - ❌ Profissão absolutamente crítica (piloto comercial, cirurgião microcirurgia)
 - ❌ Depressão severa não-tratada / personalidade obsessivo-compulsiva severa
 
 **Se passa triagem → Avançar para Árvore 2**
+
+### Infográfico 13.3: Árvore de Decisão - Triagem Inicial
+
+![Triagem Inicial](figures/chapter13/triagem_decision.png)
+*Figura 13.3: Filtro inicial. Identificar expectativas irrealistas é tão importante quanto medir a adição. Se não passar aqui, não avance.*
 
 ---
 
@@ -98,51 +112,58 @@ pia real)   ↓                 ↓
 
 **Objetivo:** Determinar se córnea é adequada para cirurgia presbiópica.
 
-```
 CANDIDATO POTENCIAL (da Árvore 1)
          ↓
 [TOMOGRAFIA CORNEANA]
-Pentacam: BAD-D, RSB estimado, Q-fator
+Pentacam: BAD-D, Paquimetria, Q-fator
          ↓
     ┌────┴────┐
     ↓         ↓
 BAD-D >1.6  BAD-D ≤1.6
     ↓         ↓
-ECTASIA   [PAQUIMETRIA?]
-SUSPEITA      ↓
-    ↓     ┌───┴───┐
-CXL ou    ↓       ↓
-RECUSAR  <480μm  ≥480μm
-            ↓       ↓
-         CÓRNEA  [RSB PREVISTO?]
-         FINA        ↓
-            ↓    ┌───┴───┐
-         RLE    ↓       ↓
-         only  <300μm  ≥300μm
-                  ↓       ↓
-               RLE    [OLHO SECO?]
-               only       ↓
-                      ┌───┴───┐
-                      ↓       ↓
-                   SEVERO  LEVE/MOD
-                   (OSDI>40) (OSDI<40)
-                      ↓       ↓
-                   TRATAR  CÓRNEA
-                   primeiro VIÁVEL
-                      ↓       ↓
-              [Se não      [Avançar
-               melhora]    Árvore 3]
-                  ↓
-                 RLE
+ECTASIA   [CALCULAR PTA PREVISTO]
+SUSPEITA  PTA = (Flap + Ablação)/CCT × 100
+    ↓         ↓
+CXL ou    ┌───┴───┐
+RECUSAR   ↓       ↓
+         ≥40%   <40%
+          ↓       ↓
+      CONTRA-  [RSB PREVISTO?]
+      INDICAÇÃO    ↓
+      ABSOLUTA ┌───┴───┐
+               ↓       ↓
+            <280μm  ≥280μm
+               ↓       ↓
+              RLE   [OLHO SECO?]
+              only      ↓
+                    ┌───┴───┐
+                    ↓       ↓
+                 SEVERO  LEVE/MOD
+                 (OSDI>40) (OSDI<40)
+                    ↓       ↓
+                 TRATAR  CÓRNEA
+                 primeiro VIÁVEL
+                    ↓       ↓
+            [Se não      [Avançar
+             melhora]    Árvore 3]
+                ↓
+               RLE
 ```
 
 **Parâmetros Críticos:**
 
 - **BAD-D >1.6:** Suspeita ectasia (Pentacam)
-- **RSB <300 μm:** Insuficiente para presbiópico
+- **PTA previsto ≥40%:** Contraindicação absoluta (Santhiago 2014)
+- **RSB <280 μm:** Contraindicação absoluta (mesmo com PTA <40%)
+- **PTA 35-39%:** Zona limítrofe - prosseguir APENAS com tomografia absolutamente normal
 - **OSDI >40:** Olho seco severo (tratar 3-6 meses antes)
 
 **Se córnea viável → Avançar para Árvore 3**
+
+### Infográfico 13.5: Viabilidade Corneana (Propedêutica)
+
+![Viabilidade Corneana](figures/chapter13/propedeutica_viability.png)
+*Figura 13.5: Safety check. O algoritmo de segurança para evitar ectasia e complicações de olho seco.*
 
 ---
 
@@ -186,6 +207,11 @@ CORN    RLE AVALIAR RLE
 
 **Se CORNEANA → Avançar para Árvore 4**  
 **Se RLE → Referir para cirurgião catarata/IOL**
+
+### Infográfico 13.X: Decisão Corneana vs RLE
+
+![Decisão Corneana vs RLE](figures/chapter13/corneal_vs_rle_flowchart.png)
+*Figura 13.X: Fluxograma decisional crítico. A idade e o estado do cristalino (DLS + OSI) determinam a estratégia primária. Zonas verde (corneana), amarela (análise individual) e laranja (RLE preferível) facilitam decisão rápida.*
 
 ---
 
@@ -257,6 +283,11 @@ Custom    ↓
 3. **PresbyMAX** (se precisa add >+2.0 D)
 4. **SUPRACOR** (nicho: add muito alta, paciente <5% população)
 
+### Infográfico 13.4: Qual Técnica Corneana? (Matriz Comparativa Completa)
+
+![Matriz Comparativa Técnicas](figures/chapter13/technique_comparison_matrix.png)
+*Figura 13.4: Matriz comparativa completa. Parte superior: fluxograma de decisão por plataforma e parâmetros. Parte inferior: tabela de 8 critérios comparando Custom-Q, PresbyMAX, PRESBYOND e SUPRACOR. PRESBYOND destacado como gold standard (melhor balanço satisfação/halos).*
+
 ---
 
 ## 13.6. Checklist Pré-Operatória por Técnica
@@ -280,11 +311,20 @@ Custom    ↓
 
 **Centragem:** Purkinje-Pupil Blend (50% offset)
 
-**Validação Final:**
+**Validação Final (Segurança Biomecânica):**
 
-- ☑ RSB previsto >300 μm
+- ☑ **PTA previsto <40%** (critério primário - Santhiago)
+- ☑ **RSB previsto >280 μm** (critério secundário de backup)
 - ☑ Q-target <Q_max_seguro (por curvatura)
 - ☑ Consentimento específico presbiópico assinado
+
+> [!IMPORTANT]
+> **PTA vs RSB:** O PTA (Percent Tissue Altered) é o critério **primário** de segurança biomecânica, pois considera a **proporção** de tecido alterado em relação à espessura total, não apenas valores absolutos. Um paciente com CCT 560μm e RSB 320μm pode ter PTA 42.9% (contraindicado), enquanto CCT 540μm com RSB 315μm pode ter PTA 31.5% (seguro). **PTA ≥40% = contraindicação absoluta mesmo com RSB >300μm**.
+
+### Infográfico 13.6A: Checklist Pré-Operatória Comparativa
+
+![Checklist Pré-Op](figures/chapter13/preop_checklist_board.png)
+*Figura 13.6A: Comparação lado-a-lado dos requisitos pré-operatórios para Custom-Q, PRESBYOND e PresbyMAX. Cada coluna mostra dados obrigatórios, cálculos necessários, centragem específica e tempo de preparação. Tabela inferior compara complexidade, dependência de software e criticidade de centragem. Usar como checklist pré-cirurgia para garantir todos parâmetros coletados.*
 
 ---
 
@@ -436,6 +476,11 @@ Custom    ↓
 
 **Lição:** Em pós-LASIK com RSB limítrofe + cristalino borderline + add elevada, **RLE frequentemente é escolha mais segura e eficaz**.
 
+### Infográfico 13.7: Jornada Decisional do Caso Complexo
+
+![Caso Clínico Arquiteto](figures/chapter13/case_journey_architect.png)
+*Figura 13.7: Timeline visual do caso do arquiteto 57 anos. Mostra evolução desde apresentação inicial → triagem → propedêutica (zona cinzenta) → decisão crítica (RLE vs Corneana) → execução RLE → outcome 6 meses (satisfação 9/10). Demonstra raciocínio clínico em caso limítrofe onde múltiplos fatores favorecem RLE.*
+
 ---
 
 ## 13.8. Quick Reference Guide (Consulta Rápida)
@@ -453,18 +498,37 @@ Custom    ↓
 | **Hiperope +3 a +5D, <55 anos** | Custom-Q LASIK | RLE (olho pequeno risco) |
 | **Míope >-6D, >55 anos** | **RLE** | LASIK (consumo tecido) |
 
+### Infográfico 13.2: The PresbyCor Cheat Sheet (Consulta Rápida)
+
+![Cheat Sheet Clínico](figures/chapter13/cheat_sheet.png)
+*Figura 13.2: Guia de referência rápida para os 4 perfis de pacientes mais comuns. Use isto para uma validação mental rápida antes de confirmar a cirurgia.*
+
+### Infográfico 13.2B: Patient Matcher Grid (Matching Rápido)
+
+![Patient Matcher Grid](figures/chapter13/patient_matcher_grid.png)
+*Figura 13.2B: Matriz 2D de matching rápido. Eixo horizontal = idade (4 grupos), eixo vertical = add necessária (4 níveis). Cada célula mostra técnica recomendada com código de cores (verde=corneana, amarelo=análise individual, laranja=RLE). Painel lateral lista modificadores que podem alterar recomendação. Uso: localize célula (sua idade × add) → veja técnica → confirme com fatores modificadores.*
+
 ---
 
 ### Contraindicações Absolutas (STOP - Não Operar)
 
 - ❌ **Idade <42 anos** (sem presbiopia verdadeira)
 - ❌ **Ectasia confirmada ou suspeita** (BAD-D >1.6, Corvis TBI baixo)
-- ❌ **RSB previsto <280 μm** (risco ectasia crítico)
+- ❌ **PTA previsto ≥40%** (risco ectasia crítico - Santhiago 2014) ⭐
+- ❌ **RSB previsto <280μm** (risco ectasia crítico mesmo com PTA OK)
 - ❌ **Olho seco severo refratário** (OSDI >50, TBUT <3 seg)
 - ❌ **Ambliopia / Estrabismo** (fusão binocular impossível)
 - ❌ **Expectativas irrealistas persistentes** após educação
 - ❌ **Depressão severa não-tratada**
 - ❌ **Profissões absolutamente críticas** (piloto comercial ativo)
+
+> [!WARNING]
+> **NOTA CRÍTICA BIOMECÂNICA:** PTA ≥40% é contraindicação absoluta **independente** do RSB. Um RSB de 320μm NÃO garante segurança se PTA ≥40%. O PTA considera a **proporção** de tecido removido, que é mais crítico que valores absolutos. Sensibilidade 97%, Especificidade 89% (Santhiago et al., 2014).
+
+### Infográfico 13.8: Semáforo de Contraindicações
+
+![Semáforo Contraindicações](figures/chapter13/contraindications_traffic_light.png)
+*Figura 13.8: Sistema de alerta tipo semáforo. Zona VERMELHA = contraindicações absolutas (não operar). Zona AMARELA = contraindicações relativas (cautela + consentimento reforçado). Zona VERDE = candidato ideal (sucesso esperado >90%). Painel lateral mostra fluxograma de decisão rápida. Usar como filtro de segurança final antes de confirmar cirurgia.*
 
 ---
 
@@ -490,8 +554,18 @@ IMEDIATO     ↓         ↓    TRANQUILIZAR
           Avaliar  Normal   3-6 meses"
           Urgente  inicial     ↓
             ↓         ↓     Follow-up
-         [Causa?] Observar  Semana 2
+          [Causa?] Observar  Semana 2
 ```
+
+### Infográfico 13.9: Triagem de Emergência Pós-Operatória
+
+![Fluxograma Emergência](figures/chapter13/emergency_triage_flowchart.png)
+*Figura 13.9: Sistema de triagem por urgência (vermelho=emergência 0-6h, amarelo=urgente 24-48h, verde=neuroadaptação normal). Sintoma inicial (dor severa / visão turva / visão estranha) determina via de triagem. Inclui sinais de alerta absolutos (dor+fotofobia+hipópio → chamar imediatamente). Essencial para gestão de ligações pós-operatórias.*
+
+### Infográfico 13.10: Cronograma Follow-Up Pós-Operatório
+
+![Cronograma Follow-Up](figures/chapter13/followup_timeline.png)
+*Figura 13.10: Timeline horizontal mostrando todos checkpoints pós-operatórios críticos: Dia 0 (cirurgia) → Dia 1 (1ª consulta obrigatória) → Semana 1 (refração inicial) → Mês 1 (estabilização) → Mês 3 (refração estável) → Mês 6 (outcome final). Painel lateral lista gatilhos para retorno urgente (vermelho=emergência, amarelo=urgente, verde=normal). Barra inferior mostra fases de cura (azul=healing, amarelo=adaptação, laranja=neuroadaptação, verde=estabilização).*
 
 ---
 
@@ -501,66 +575,3 @@ IMEDIATO     ↓         ↓    TRANQUILIZAR
 
 2. Alió JL, Plaza-Puche AB, Férnandez-Buenaga R, Pikkel J, Maldonado M. Multifocal intraocular lenses: An overview. *Survey of Ophthalmology*. 2017;62(5):611-634.
 
-3. Ang M, Gatinel D, Reinstein DZ, Mertens E, Alió del Barrio JL, Alió JL. Refractive surgery beyond 2020. *Eye*. 2021;35(2):362-382.
-
-4. Kohnen T. Presbyopia correction with intraocular lenses. *Der Ophthalmologe*. 2018;115(8):636-642.
-5. Pallikaris IG, Kymionis GD, Panagopoulou SI. Induced optical aberrations following formation of a laser in situ keratomileusis flap. *Journal of Cataract and Refractive Surgery*. 2002;28(10):1737-1741.
-
----
-
-### Infográfico 13.1: The Master Decision Pathway (O Algoritmo Final)
-
-![The Master Pathway](figures/chapter13/master_pathway.png)
-*Figura 13.1: O algoritmo de suporte à vida do cirurgião refrativo. Comece no topo (Triagem) e siga o fluxo. A integridade do cristalino (DLS) é o principal divisor de águas entre LASIK (Verde) e RLE (Laranja).*
-
-### Infográfico 13.2: The PresbyCor Cheat Sheet (Consulta Rápida)
-
-![Cheat Sheet Clínico](figures/chapter13/cheat_sheet.png)
-*Figura 13.2: Guia de referência rápida para os 4 perfis de pacientes mais comuns. Use isto para uma validação mental rápida antes de confirmar a cirurgia.*
-
-### Infográfico 13.3: Árvore de Decisão - Triagem Inicial
-
-![Triagem Inicial](figures/chapter13/triagem_decision.png)
-*Figura 13.3: Filtro inicial. Identificar expectativas irrealistas é tão importante quanto medir a adição. Se não passar aqui, não avance.*
-
-### Infográfico 13.4: Qual Técnica Corneana?
-
-![Seleção de Técnica](figures/chapter13/technique_selection.png)
-*Figura 13.4: O seletor de plataforma. A pupila mesópica e a adição necessária ditam a escolha entre Custom-Q, PRESBYOND e PresbyMAX/SUPRACOR.*
-
-### Infográfico 13.5: Viabilidade Corneana (Propedêutica)
-
-![Viabilidade Corneana](figures/chapter13/propedeutica_viability.png)
-*Figura 13.5: Safety check. O algoritmo de segurança para evitar ectasia e complicações de olho seco.*
-
----
-
-**🎉 ESTE É O CAPÍTULO FINAL DO LIVRO 🎉**
-
-**Capítulo 13 está agora COMPLETO**, com:
-- ✅ Framework master de decisão (visão panorâmica)
-- ✅ 4 Árvores decisonais integradas (Triagem, Propedêutica, Corn vs RLE, Qual técnica)
-- ✅ Checklists pré-operatórias por técnica (Custom-Q, PRESBYOND, PresbyMAX)
-- ✅ Caso clínico complexo passo-a-passo (pós-LASIK 57 anos → RLE)
-- ✅ **Quick Reference Guide** (tabela síntese ultra-rápida)
-- ✅ Contraindicações absolutas (STOP list)
-- ✅ Fluxograma emergência pós-op
-- ✅ 3 Referências finais
-- ✅ Infográfico master pathway
-
----
-
-## 📚 **LIVRO COMPLETO - "PRESB YCOR: MODERN STRATEGIES FOR PRESBYOPIA AND LASER MECHANICS"**
-
-**Estrutura Final:**
-
-- ✅ **Preface** (com metodologia editorial sofisticada)
-- ✅ **Parte I - Fundamentals** (3 capítulos)
-- ✅ **Parte II - Surgical Techniques** (5 capítulos)
-- ✅ **Parte III - Advanced Applications** (3 capítulos)
-- ✅ **Parte IV - Decision Making** (2 capítulos)
-
-**TOTAL: 13 CAPÍTULOS COMPLETOS + PREFACE**  
-**~2100+ PÁGINAS DE CONTEÚDO TÉCNICO CIRURGIÃO-PARA-CIRURGIÃO**
-
-Pronto para Google Drive e publicação! 🎊

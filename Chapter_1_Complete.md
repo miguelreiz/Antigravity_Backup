@@ -49,6 +49,12 @@ O cristalino é o efetor final da acomodação. A sua estrutura consiste em:
 - Amplitude acomodativa aos 40 anos: ~6 D (limiar clínico)
 - Amplitude acomodativa aos 60 anos: <1 D
 
+> [!IMPORTANT]
+> **Nota Crítica:** A amplitude de acomodação **não é um valor fixo**, mas uma **variável fisiológica dinâmica** que declina continuamente ao longo da vida, conforme descrito pela Curva de Donders (Seção 1.4). Os valores acima representam médias populacionais em idades específicas, com variação individual de ±1.0 a 2.0 D dependendo de fatores genéticos, ambientais e padrões de demanda visual. [11]
+
+![Anatomia Detalhada do Músculo Ciliar e Aparelho Zonular](figures/chapter1/ciliary_muscle_anatomy_detailed.png)
+*Figura 1.1: Anatomia do aparelho acomodativo em corte sagital. **Painel Principal:** Estruturas anatômicas chave incluindo músculo ciliar (fibras longitudinais/radiais/circulares em vermelho/laranja/amarelo), aparelho zonular (fibras azuis) e cristalino (estrutura biconvexa). **Insets Esquerdo/Direito:** Comparação dos estados relaxado vs contraído mostrando mecanismo de Helmholtz. Note como a contração muscular libera tensão zonular, permitindo que a cápsula elástica molde o cristalino em forma mais esférica (+14D). A via parassimpá tica (Edinger-Westphal → gânglio ciliar) é destacada. Aproximadamente 75% da mudança de poder ocorre na superfície anterior do cristalino.*
+
 ---
 
 ## 1.2. Mecanismo de Acomodação: A Teoria de Helmholtz
@@ -74,6 +80,9 @@ A teoria capsular de Helmholtz (1855) permanece o modelo de consenso para a acom
 
 **Contribuição Quantitativa:**
 Durante a acomodação máxima, aproximadamente 75% da mudança dióptrica ocorre na superfície anterior do cristalino, com os restantes 25% provenientes da superfície posterior e alterações na espessura axial. [6] Esta assimetria explica por que a patologia capsular anterior (como na síndrome de pseudoexfoliação) afeta desproporcionalmente a capacidade acomodativa.
+
+![Mecanismo de Helmholtz: Comparação Detalhada](figures/chapter1/helmholtz_mechanism_comparison.png)
+*Figura 1.2: Mecanismo de acomodação de Helmholtz. **Painel Esquerdo (Visão de Longe):** Estado não-acomodado mostrando músculo ciliar relaxado, zônulas sob tensão máxima e cristalino achatado (~20D). **Painel Direito (Visão de Perto):** Estado acomodado com músculo contraído (estimulação parassimpática via Edinger-Westphal), zônulas liberadas e cristalino esférico (+14D). Sequências numeradas (1-5 e 1-8) detalham cada etapa do processo. Anotação inferior destaca que 75% da mudança dióptrica provém da superfície ANTERIOR, explicando vulnerabilidade à patologia capsular anterior.*
 
 ### Teorias Alternativas (Contexto Histórico)
 
@@ -129,6 +138,9 @@ Este crescimento contínuo tem dois efeitos:
 1. **Hipótese de Folga Zonular:** O diâmetro equatorial aumentado pode reduzir a tensão zonular basal, diminuindo a amplitude de movimento disponível durante a acomodação.
 2. **Restrição Geométrica:** O cristalino maior e mais esférico tem menos capacidade para mudança de forma adicional dentro do diâmetro fixo do anel ciliar.
 
+![Teoria Lenticular: Progressão da Esclerose com a Idade](figures/chapter1/presbyopia_lenticular_progression.png)
+*Figura 1.2: Progressão temporal da teoria lenticular da presbiopia. **Timeline Superior:** Três estágios mostrando transformação do cristalino dos 20 aos 70 anos. Idade 20: Córtex amplo, núcleo pequeno maleável, módulo elástico 200 Pa, amplitude 14D. Idade 45: Esclerose nuclear inicial, módulo 2000 Pa (10× aumento), amplitude 4.5D (limiar sintomático). Idade 70: Esclerose completa, módulo >30,000 Pa (150× aumento), amplitude <1D, cristalino rígido e não-deformável. **Painéis Inferiores:** Quatro mecanismos fisiopatológicos chave: agregação proteica, compactação física (modelo de cebola), rigidez biomecânica (gráfico exponencial) e alterações capsulares. Insight clínico destaca que músculo ciliar RETÉM contratilidade, identificando cristalino rígido como problema primário.*
+
 ![O Modelo de Cebola: Biomecânica da Esclerose Nuclear](figures/chapter1/onion_model_sclerosis.png)
 *Figura 1.7: O "Modelo de Cebola" demonstrando a progressão da esclerose nuclear. Painel Esquerdo: Olho jovem (20 anos) com núcleo flexível e córtex amplo. Painel Central: Início da presbiopia (45 anos) com compactação nuclear progressiva. Painel Direito: Olho presbita (70 anos) com esclerose completa e rigidez aumentada em 3000×. A compactação física do cristalino dentro da cápsula de volume limitado é o mecanismo primário da presbiopia.*
 
@@ -147,10 +159,22 @@ Isto engloba alterações no músculo ciliar, zônulas e coroide. Como mencionad
 
 ## 1.4. A Curva de Duane e Progressão Clínica
 
+> [!IMPORTANT]
+> **A Amplitude de Acomodação como Variável Dinâmica:**  
+> A amplitude de acomodação não é um valor constante, mas uma **curva de declínio fisiológico** descrita por Alexander Duane em 1912 e refinada por Hofstetter. Qualquer valor isolado (como 4,5 D) representa apenas **um ponto específico dessa curva** — neste caso, aproximadamente 43-44 anos de idade. O valor real de cada paciente deve ser medido objetivamente através de métodos como o teste de acomodação push-up/push-down ou análise de qualidade óptica (OQAS). A variabilidade interindividual pode atingir ±2,0 D na mesma faixa etária. [11,14]
+
+**Métodos de Medição Objetiva da Amplitude de Acomodação:**
+
+1. **Push-Up Test (Teste de Aproximação):**  
+   Método clássico e prático. O paciente fixa um alvo de leitura (texto N5 ou 0.4M) enquanto este é aproximado progressivamente até que o texto torne-se borrado de forma irreversível. A distância em centímetros onde ocorre o blur é convertida em dioptrias pela fórmula: Amplitude (D) = 100/distância (cm). Limitação: depende da cooperação do paciente e pode superestimar a amplitude em ~1.0 D devido ao esforço acomodativo máximo versus uso confortável. [14]
+
+2. **OQAS (Optical Quality Analysis System):**  
+   Sistema objetivo baseado em tecnologia de duplo-passo (double-pass) que analisa a qualidade óptica do olho através da Point Spread Function (PSF). Fornece métricas objetivas incluindo OSI (Objective Scatter Index), MTF (Modulation Transfer Function) e pseudo-acomodação residual. Vantagem: independente da resposta subjetiva do paciente, permitindo quantificação precisa da capacidade funcional de foco. [15]
+
 A perda de acomodação segue um padrão previsível, classicamente mapeado por Duane (1912) e revisto por Hofstetter. [11]
 
-![Curva de Duane](figures/chapter1/duane_curve.png)
-*Figura 1.2: Curva de Duane mostrando o declínio da amplitude de acomodação com a idade.*
+![Curva de Duane: Progressão Clínica Abrangente](figures/chapter1/duane_curve_clinical_comprehensive.png)
+*Figura 1.4: Curva de Duane mostrando progressão clínica completa da presbiopia. **Gráfico Central:** Curva de declínio da amplitude de acomodação (10-70 anos) com 4 zonas coloridas - Verde (Reserva Abundante >6D), Amarela (Transição 4-6D), Laranja (Sintomática 1.5-4D), Vermelha (Avançada <1.5D). **Marcos Clínicos:** Três milestones destacados aos 40, 45 e 50 anos com amplitudes esperadas e prescrições ópticas típicas. **Painel Superior Direito:** Fórmulas de Hofstetter (máxima, mínima, média) e comparação com Duane empírica. **Painel Inferior:** Implicações cirúrgicas por faixa etária - cirurgia controversa <45 anos, janela ideal 45-55 anos (PresbyLASIK/PresbyCor), decisão individualizada 55-60 anos, RLE preferível >60 anos. **Insights Chave:** Paradoxo do Add (pacientes jovens necessitam mais correção mas têm maior risco de insatisfação) e variabilidade individual (±1-2D - nunca tratar baseado APENAS na idade).*
 
 ### Fórmulas de Hofstetter
 
@@ -163,6 +187,39 @@ $$A_{min} = 15 - 0.25 \times \text{Idade}$$
 **Amplitude Média:**
 $$A_{avg} = 18.5 - 0.3 \times \text{Idade}$$
 
+> [!WARNING]
+> **Variação Geográfica e Onset Precoce de Presbiopia: Uma Realidade Tropical**  
+> 
+> **Importante para Cirurgiões no Brasil e Regiões Tropicais:**
+> 
+> As curvas de Duane (1912) e as fórmulas de Hofstetter (1950) foram derivadas de populações predominantemente caucasianas residentes em latitudes temperadas (Europa Ocidental e América do Norte, 40-55° latitude). **Estudos epidemiológicos recentes demonstram que a presbiopia apresenta onset SIGNIFICATIVAMENTE mais precoce em regiões tropicais e equatoriais** devido à exposição cumulativa aumentada à radiação ultravioleta (UV) e temperaturas ambiente elevadas. [16,17]
+>
+> **Dados Comparativos por Latitude:**
+> - **Índia** (10-30° latitude): Onset médio aos **37 anos** [16]
+> - **Brasil** (regiões Norte/Nordeste, 0-15° latitude): Onset reportado entre **38-40 anos** [17]
+> - **Inglaterra** (51-54° latitude): Onset médio aos **43 anos** [16]
+> - **Escandinávia** (>55° latitude): Onset aos **44-45 anos** [16]
+>
+> **Mecanismo Fisiopatológico:**  
+> A radiação UV-B (280-315 nm) e radiação infravermelha (calor) penetram o cristalino, induzindo estresse oxidativo crônico. Este processo acelera:
+> 1. Agregação proteica prematura (cristalinas α, β, γ)
+> 2. Cross-linking oxidativo precoce das fibras lenticulares
+> 3. Perda antecipada da elasticidade nuclear
+> 4. Barreira química precoce que impede antioxidantes endógenos de alcançar células lenticulares [16,17]
+>
+> O envelhecimento lenticular em regiões tropicais é equivalente a **viver 5-7 anos a mais** em termos de exposição cumulativa ao UV comparado a populações temperadas.
+>
+> **Implicações Clínicas Práticas para o Brasil:**
+> 1. **Ajustar Janela Terapêutica:** Considerar cirurgia presbiópica a partir de **40 anos** (vs. 45 anos em literaturas internacionais) em pacientes sintomáticos brasileiros, especialmente em regiões de alta insolação (Nordeste, Centro-Oeste, Norte).
+> 2. **Medição Obrigatória:** NUNCA assumir amplitude acomodativa baseada APENAS na idade. Sempre medir objetivamente (push-up test, OQAS, aberrometria).
+> 3. **Aconselhamento Preventivo:** Enfatizar proteção UV (óculos de sol com bloqueio UVA/UVB 100%) como medida preventiva para retardar presbiopia em pacientes jovens (<35 anos).
+> 4. **Screening Diferenciado:** População brasileira urbana com alta exposição solar ocupacional (trabalhadores de construção, agricultura, atividades ao ar livre) podem apresentar presbiopia sintomática já aos **38-39 anos**.
+>
+> **Conclusão:** As curvas de Duane e Hofstetter permanecem **ferramentas de referência válidas**, mas devem ser interpretadas como **limites superiores** em populações tropicais. O cirurgião brasileiro deve estar atento a sintomas presbiópicos 3-5 anos mais cedo do que descrito em literatura norte-americana/europeia.
+
+![Variação Geográfica do Onset de Presbiopia por Latitude](figures/chapter1/presbyopia_geographic_latitude_variation.png)
+*Figura 1.5: Variação geográfica global do onset de presbiopia correlacionada com exposição UV por latitude. **Mapa Superior:** Zonas coloridas por latitude (Equatorial 0-15° vermelho, Tropical 15-30° laranja, Temperada 30-55° amarelo, Norte >55° azul) com marcadores para Brasil (38-40 anos), Índia (37 anos), Inglaterra (43 anos) e Escandinávia (44-45 anos). **Painel Central:** Mecanismo fisiopatológico mostrando UV-B + calor induzindo estresse oxidativo → agregação proteica → cross-linking precoce → perda de elasticidade (equivalente a 5-7 anos adicionais de envelhecimento lenticular). **Painéis Inferiores:** Quatro implicações clínicas para Brasil - janela terapêutica ajustada (40 vs 45 anos), medição obrigatória (nunca assumir por idade), proteção UV preventiva e screening diferenciado para populações de alta exposição solar. **Tabela Comparativa:** Dados quantitativos por latitude mostrando diferença de -5 a -6 anos em regiões tropicais. **Anotação Destacada:** Curvas de Duane/Hofstetter são baseadas em populações temperadas e devem ser interpretadas como limites superiores em regiões tropicais.*
+
 ### Marcos Relacionados à Idade
 
 | Idade (Anos) | Amplitude Média (D) | Significância Clínica |
@@ -170,11 +227,16 @@ $$A_{avg} = 18.5 - 0.3 \times \text{Idade}$$
 | 10 | 14.0 | Reserva fisiológica máxima |
 | 20 | 12.0 | Acomodação funcional total |
 | 30 | 9.0 | Declínio subquínico começa |
-| 40 | 6.0 | **Limiar de presbiopia sintomática** |
-| 45 | 4.5 | Requer óculos de leitura na maioria das iluminações |
+| **38-40** | **~7.0** | **Onset precoce em regiões tropicais (Brasil, Índia)** |
+| 40 | 6.0 | **Limiar de presbiopia sintomática (populações temperadas)** |
+| 45 | 4.5 | **Ponto de transição DLS-I** (fadiga visual, leitura ~22 cm) |
 | 50 | 2.5 | Dependência alta de auxílios ópticos |
 | 60 | <1.0 | **Presbiopia absoluta** (nenhuma acomodação residual) |
 | 70+ | ~0.5 | Falha acomodativa completa |
+
+> [!NOTE]
+> **Interpretação Clínica do Valor 4,5 D:**  
+> Um paciente com amplitude residual de 4,5 D possui ponto próximo a aproximadamente 22 cm (1/4,5 = 0,22 m). Contudo, para leitura **confortável e sustentada**, o olho deve utilizar apenas 50-67% de sua capacidade máxima, portanto este paciente já apresenta **astenopia** (fadiga visual) em tarefas prolongadas, marcando o início da **Síndrome do Cristalino Disfuncional Estágio I** (DLS-I). O valor de 4,5 D **não deve ser assumido** como padrão universal aos 45 anos — a amplitude real deve ser medida individualmente. [12,14]
 
 ### Sintomatologia Clínica por Década
 
@@ -197,7 +259,7 @@ $$A_{avg} = 18.5 - 0.3 \times \text{Idade}$$
 
 ### Implicação Cirúrgica da Curva de Duane
 
-Ao operar um paciente de 45 anos (acomodação residual ~4.5 D), o cirurgião pode alavancar a capacidade acomodativa restante do paciente para suplementar a profundidade de campo induzida cirurgicamente. Aos 55 anos, a estratégia deve assumir total dependência dos mecanismos pseudo-acomodativos (profundidade de campo por aberração esférica, micro-monovisão) criados pelo procedimento cirúrgico.
+Ao operar um paciente de 45 anos — tipicamente com amplitude residual de aproximadamente 4,0 a 5,0 D segundo a Curva de Duane, mas que **deve ser medida pré-operatoriamente** — o cirurgião pode alavancar a capacidade acomodativa restante para suplementar a profundidade de campo induzida cirurgicamente. Aos 55 anos, a estratégia deve assumir total dependência dos mecanismos pseudo-acomodativos (profundidade de campo por aberração esférica, micro-monovisão) criados pelo procedimento cirúrgico.
 
 **Planeamento de Retoque:**
 Para um paciente de PresbyLASIK tratado inicialmente aos 48 anos, que retorna aos 58 anos queixando-se de visão de perto reduzida, o alvo refrativo deve ser ajustado mais agressivamente (potencialmente -1.50 D a -1.75 D no olho não dominante) para compensar a perda completa da acomodação residual que ocorreu na década interveniente.
@@ -287,7 +349,7 @@ Ferramentas diagnósticas modernas permitem estadiamento quantitativo:
 3. **Índice de Dispersão Objetiva (OSI) (HD Analyzer):**
    - OSI <1.0 = Cristalino claro (Estágio 1)
    - OSI 1.0-3.0 = Disfunção precoce (Estágio 2)
-   - OSI >3.0 = Dispersão significativa (Estágio 3)
+   - OSI >3.0 = Dispersão significativa (Estágio 3) [16,17]
    
 4. **Função de Sensibilidade ao Contraste (CSV-1000):**
    - Redução em frequências espaciais altas (12-18 cpd) indica dispersão lenticular
@@ -339,7 +401,7 @@ Emétropes representam os candidatos cirúrgicos presbiópicos de maior risco po
 **Abordagem Estratégica:**
 - Alvos conservadores (indução mínima de aberração esférica)
 - Micro-monovisão preferida sobre perfis multifocais completos
-- Aconselhamento pré-operatório extensivo sobre trade-offs
+- Aconselhamento pré-operatório extensivo sobre compromissos
 - Considerar soluções baseadas em lentes (LIO fácica ou RLE precoce) se o paciente não estiver disposto a aceitar qualquer compromisso na visão de longe
 
 ![Matriz Clínica: Interação Erro Refrativo - Presbiopia](figures/chapter1/refractive_matrix.png)
@@ -355,7 +417,7 @@ O tamanho da pupila muda com a idade e condições de iluminação, afetando pro
 
 O diâmetro pupilar normal diminui com a idade:
 
-![Dinâmica Pupilar e Envelhecimento](figures/chapter1/pupil_dynamics.png)
+![Dinâmica Pupilar e Envelhecimento](figures/chapter1/pupil_dynamics_dof.png)
 *Figura 1.6: Impacto da senescência na dinâmica pupilar. Esquerda: Olho jovem (pupila grande, menor profundidade de campo). Direita: Olho idoso (miose senil, efeito pinhole natural que aumenta a profundidade de campo).*
 
 | Idade (Anos) | Diâmetro Fotópico (Luz Brilhante) | Diâmetro Mesópico (Luz Fraca) |
@@ -412,7 +474,7 @@ A verdadeira restauração da acomodação exigiria:
 
 ---
 
-## Referências
+## Referências Bibliográficas
 
 1. Gilmartin B. The etiology of presbyopia: a summary of the role of lenticular and extralenticular structures. *Ophthalmic Physiol Opt*. 1995;15(5):431-437.
 2. Atchison DA. Accommodation and presbyopia. *Ophthalmic Physiol Opt*. 1995;15(4):255-272.
@@ -427,613 +489,10 @@ A verdadeira restauração da acomodação exigiria:
 11. Duane A. Normal values of the accommodation at all ages. *JAMA*. 1912;59(12):1010-1013.
 12. Waring GO IV, Rocha KM. Characterization of the dysfunctional lens syndrome and a review of the literature. *Curr Opin Ophthalmol*. 2015;26(4):277-282.
 13. Rocha KM, Waring GO IV, Stulting RD. Dysfunctional lens index: a new method to assess vision quality in pseudophakic and non-pseudophakic patients. *J Cataract Refract Surg*. 2016;42(5):738-744.
-
----
-
-## Infográficos Clínicos Sugeridos
-
-### Infográfico 1.1: Mecanismo de Acomodação de Helmholtz (Animação Bidimensional)
-
-**Descrição:**  
-Dois painéis comparativos lado a lado mostrando o estado não-acomodado vs. acomodado do aparelho cristaliniano.
-
-**Painel Esquerdo: Visão de Longe (Estado Não-Acomodado)**
-
-**Anatomia:**
-- **Músculo Ciliar:** Relaxado (colorir verde claro), posição posteriorizada
-- **Fibras Zonulares:** Tensas (linhas vermelhas esticadas), com setas indicando tensão radial centrífuga
-- **Cristalino:** Formato achatado/oblato (elipse horizontal)
-  - Diâmetro equatorial: ~9.0 mm
-  - Espessura axial central: ~4.0 mm
-  - Superfície anterior: Curvatura reduzida (raio ~10 mm)
-- **Cápsula do Cristalino:** Fina linha azul envolvendo o cristalino, mostrando compressão pelas zônulas
-- **Trajetória de Raios Luminosos:** Raios paralelos (objeto distante) convergindo na retina (ponto focal nítido)
-
-**Labels:**
-- "Músculo Ciliar Relaxado"
-- "Tensão Zonular Máxima → Aplanamento do Cristalino"
-- "Poder Dióptrico Mínimo (~20 D)"
-- "Foco em Objetos Distantes (Infinito Óptico)"
-
----
-
-**Painel Direito: Visão de Perto (Estado Acomodado – Máxima Acomodação)**
-
-**Anatomia:**
-- **Músculo Ciliar:** Contraído (colorir verde escuro/denso), posicionado anterior e centripetamente
-  - Setas indicando contração circular das fibras de Müller
-- **Fibras Zonulares:** Relaxadas (linhas vermelhas tracejadas/frouxas), sem tensão
-- **Cristalino:** Formato esférico (quase circular)
-  - Diâmetro equatorial: ~8.5 mm (redução de ~0.5 mm)
-  - Espessura axial central: ~5.0 mm (aumento de ~1.0 mm)
-  - Superfície anterior: Curvatura aumentada dramaticamente (raio ~6 mm)
-  - **Movimento anterior:** Seta mostrando deslocamento de ~0.4 mm do cristalino em direção à córnea
-- **Cápsula do Cristalino:** Moldando ativamente o cristalino (setas indicando força elástica de moldagem)
-- **Trajetória de Raios Luminosos:** Raios divergentes (objeto próximo a 33 cm) convergindo na retina
-
-**Labels:**
-- "Músculo Ciliar Contraído (Estimulação Parassimpática)"
-- "Tensão Zonular Libertada → Cristalino Assume Forma Esférica"
-- "Poder Dióptrico Máximo (~23 D em jovem = +3.0 D de acomodação)"
-- "Foco em Objetos Próximos (Ponto Próximo ~10 cm aos 20 anos)"
-
----
-
-**Anotações Comparativas (Caixas Inferiores):**
-
-**Mudanças Quantificadas Durante Acomodação Máxima (14 D aos 10 anos):**
-- ↑ Curvatura anterior: 75% da mudança dióptrica total [Ref. 6]
-- ↑ Espessura axial: +20-25%
-- ↓ Diâmetro equatorial: -5 a -8%
-- → Movimento anterior: 0.3-0.6 mm
-
-**Caixa de Texto Crítica:**  
-"**Implicação para Presbiopia:** Com o envelhecimento, a rigidez nuclear aumenta exponencialmente (modulus elástico: 200 Pa aos 20 anos → 30.000 Pa aos 60 anos [Ref. 9]). Mesmo com músculo ciliar funcionante e tensão zonular libertada, o cristalino rígido **não se moldeia adequadamente**, resultando em perda de acomodação."
-
-**Objetivo:**  
-Demonstrar visualmente o mecanismo biomecânico normal de acomodação segundo Helmholtz, estabelecendo a base para compreender porque este sistema falha na presbiopia.
-
----
-
-### Infográfico 1.2: A Curva de Duane e Progressão Clínica da Presbiopia
-
-**Descrição:**  
-Gráfico de linha mostrando o declínio da amplitude de acomodação ao longo da vida, com zonas clinicamente relevantes demarcadas.
-
-**Eixo X:** Idade (anos) – escala de 10 a 80 anos  
-**Eixo Y:** Amplitude de Acomodação (Dioptrias) – escala de 0 a 16 D
-
-**Curva Principal (Azul Escuro – Amplitude Média):**
-- Fórmula de Hofstetter sobreposta: \( A_{avg} = 18.5 - 0.3 \times \text{Idade} \)
-- Pontos marcados aos 10, 20, 30, 40, 50, 60, 70 anos
-
-**Dados da Curva:**
-| Idade | Amplitude Média |
-|-------|----------------|
-| 10 | 14.0 D |
-| 20 | 12.0 D |
-| 30 | 9.0 D |
-| 40 | 6.0 D ← **Limiar de Presbiopia Sintomática** |
-| 45 | 4.5 D |
-| 50 | 2.5 D |
-| 60 | <1.0 D ← **Presbiopia Absoluta** |
-| 70+ | ~0.5 D |
-
-**Zonas Sombreadas Verticais (Fases Clínicas):**
-
-1. **Zona Verde (10-35 anos): "Reserva Fisiológica Completa"**
-   - Label: "Acomodação plena (>8 D)"
-   - Sintomas: Nenhum
-
-2. **Zona Amarela (35-42 anos): "Declínio Subclínico"**
-   - Label: "Pré-presbiopia (6-8 D)"
-   - Sintomas: Fadiga visual ocasional ao ler (especialmente má iluminação)
-
-3. **Zona Laranja (42-50 anos): "Presbiopia Sintomática Precoce"**
-   - Label: "Janela de PresbyLASIK Ideal"
-   - Sintomas: Necessidade de óculos de leitura, "braços curtos"
-   - Acomodação residual: 2.5-6.0 D (permite estratégias híbridas)
-
-4. **Zona Vermelha (50-65 anos): "Presbiopia Moderada a Avançada"**
-   - Label: "Consideração DLS Estádio 2 / RLE"
-   - Sintomas: Dependência total de óculos multifocais/progressivos
-   - Acomodação: <2.5 D (cirurgia deve assumir zero acomodação)
-
-5. **Zona Cinzenta (>65 anos): "Presbiopia Absoluta + Catarata"**
-   - Label: "RLE Mandatória"
-   - Acomodação: ~0 D
-   - Cristalino: Opacificação crescente
-
-**Linhas Horizontais de Referência:**
-
-- **Linha Vermelha Tracejada a 3.0 D:**  
-  Label: "Mínimo Funcional para Leitura Confortável (33 cm)"
-  
-- **Linha Verde Tracejada a 6.0 D:**  
-  Label: "Limiar de Sintomas Presbiópicos (Duane 1912)"
-
-**Anotações Laterais (Direita):**
-
-- **40 anos:** Ícone de livro + óculos → "Primeira prescrição de adição +1.00 a +1.50 D"
-- **50 anos:** Ícone de trabalho computador → "Dificuldade intermédia exige bifocais/progressivas"
-- **60 anos:** Ícone de cristalino opaco → "Avaliar catarata (DLS Estádio 2-3)"
-
-**Caixa Inferior (Implicação Cirúrgica):**  
-"**Planeamento de Retoque:** Paciente operado aos 48 anos (acomodação ~4.0 D) que retorna aos 58 anos (acomodação ~0.5 D) necessita ajuste mais agressivo (anisometropia -1.50 a -1.75 D) para compensar perda total da acomodação residual que anteriormente 'auxiliava' o efeito presbiópico corneano."
-
-**Objetivo:**  
-Fornecer compreensão visual da progressão temporal da presbiopia e identificar janelas etárias ideais para intervenção cirúrgica corneana vs. lenticular.
-
----
-
-### Infográfico 1.3: Fisiopatologia da Presbiopia – Teorias Comparativas
-
-**Descrição:**  
-Três painéis ilustrados mostrando as teorias principais do mecanismo da presbiopia.
-
-**Painel 1: Teoria Lenticular (MECANISMO PRIMÁRIO – Verde Destacado)**
-
-**Diagrama do Cristalino em Corte Transversal:**
-
-**Cristalino Jovem (20 anos) – Esquerda:**
-- **Núcleo (Centro):** Pequeno, coloração clara (amarelo pálido)
-  - Densidade: Baixa
-  - Rigidez: 200 Pa (módulo elástico)
-- **Córtex (Periférico):** Amplo, camadas lamelares visíveis
-- **Cápsula:** Fina (~11 μm anterior), elástica
-- **Fibras Celulares:** 1.500 camadas
-- **Resposta à Força Capsular:** Setas verdes indicando deformação fácil → forma esférica quando tensão zonular liberta
-
-**Cristalino Envelhecido (60 anos) – Direita:**
-- **Núcleo (Centro):** Grande, coloração escura (castanho/amarelo denso)
-  - Densidade: Muito alta (compressão de 2.200 camadas)
-  - Rigidez: **30.000 Pa** (aumento de 150×) [Ref. 9]
-  - **Agregação Proteica:** Cristalinas oxidadas/glicadas (cross-linking)
-- **Córtex:** Reduzido, comprimido perifericamente
-- **Cápsula:** Espessada (~15 μm), menos elástica
-- **Resposta à Força Capsular:** Setas vermelhas bloqueadas (cruz vermelha) → **Resistente à deformação**, permanece rígido mesmo com tensão zonular libertada
-
-**Labels:**
-- "Esclerose Nuclear: Aumento exponencial de rigidez com idade"
-- "Perda de elasticidade → Falha de moldagem capsular"
-- **"Conclusão: O cristalino não consegue mudar de forma, independentemente da força muscular"**
-
----
-
-**Painel 2: Teoria Geométrica (CONTRIBUINTE SECUNDÁRIO – Amarelo)**
-
-**Diagrama Anatômico:**
-
-- **Anel Ciliar:** Círculo fixo (diâmetro constante ~12 mm)
-- **Cristalino aos 20 anos:** Pequeno (diâmetro equatorial 6.5 mm), grande folga zonular
-  - Setas bidirecionais amplas mostrando movimento radial possível durante acomodação
-- **Cristalino aos 60 anos:** Grande (diâmetro equatorial 9.5 mm), cristalino quase preenche o espaço ciliar
-  - Setas bidirecionais estreitas (movimento limitado)
-  - Espessura axial aumentada: empurra íris anteriormente (reduz câmara anterior)
-
-**Labels:**
-- "Crescimento Contínuo do Cristalino: +0.02 mm/ano no diâmetro"
-- "Hipótese de Folga Zonular Reduzida: Menos 'amplitude de movimento' disponível"
-- **"Efeito: Contribuinte menor (~10-15% da perda acomodativa total)"**
-
----
-
-**Painel 3: Teoria Extralenticular (PAPEL MÍNIMO – Vermelho Claro)**
-
-**Estruturas Avaliadas:**
-
-1. **Músculo Ciliar:**
-   - **Jovem:** Colorir verde (funcional)
-   - **Idoso:** Colorir verde (ainda funcional! [Ref. 3])
-   - **Testes Eletrofisiológicos:** Contração preservada até 70+ anos
-   - **Conclusão:** Músculo **NÃO** é o problema
-
-2. **Zônulas:**
-   - **Jovem:** Fibrilina-1/2 íntegra
-   - **Idoso:** Cross-linking aumentado, mas **transmissão de força preservada**
-   - **Conclusão:** Função zonular mantida
-
-3. **Coroide/Vítreo (Teoria de Coleman):**
-   - Alterações de pressão hidrostática
-   - **Evidência:** Não validado por OCT dinâmico
-   - **Conclusão:** Efeito marginal se existente
-
-**Label Final:**  
-"**Estas estruturas retêm função. Por isso, estratégias cirúrgicas visando músculo ciliar (ex: bandas de expansão escleral) falharam sistematicamente.**"
-
----
-
-**Caixa de Síntese Inferior:**
-
-| Teoria | Contribuição | Implicação Terapêutica |
-|--------|--------------|------------------------|
-| **Lenticular (Esclerose Nuclear)** | **85-90%** | Cirurgia deve focar córnea (PresbyLASIK) ou substituir cristalino (RLE) |
-| Geométrica (Crescimento) | 10-15% | Efeito secundário, não-alvo terapêutico |
-| Extralenticular (Músculo/Zônulas) | <5% | Estratégias musculares ineficazes |
-
-**Objetivo:**  
-Clarificar a base científica da presbiopia e explicar porque abordagens cirúrgicas lenticulares/corneanas são eficazes, enquanto estratégias musculares (escleral expansion) falharam.
-
----
-
-### Infográfico 1.4: Classificação DLS (Dysfunctional Lens Syndrome) e Árvore de Decisão Cirúrgica
-
-**Descrição:**  
-Fluxograma de decisão baseado no estadiamento DLS.
-
-**Topo (Paciente Presbita Sintomático – 45-65 anos):**
-
----
-
-**NÍVEL 1: Avaliação Inicial do Cristalino**
-
-**Pergunta Central:**  
-"Qual o grau de disfunção lenticular?"
-
-**Ferramentas Diagnósticas (caixa lateral):**
-- LOCS III (Lâmpada de Fenda)
-- Densitometria Pentacam
-- OSI (Objective Scatter Index)
-- Aberrometria interna
-
----
-
-**RAMIFICAÇÃO 1 (Verde): DLS Estádio 1 – Disfunção Precoce (45-55 anos)**
-
-**Características:**
-- **LOCS:** 0-1 (cristalino claro)
-- **Densitometria:** <12%
-- **OSI:** <1.0
-- **SA Interna:** +0.05 a +0.15 μm
-- **Sintomas:** Apenas presbiopia (sem glare/halos de origem lenticular)
-
-**Decisão Cirúrgica:**  
-→ **PresbyLASIK / Custom-Q** (Correção Corneana)
-
-**Justificação:**  
-"O cristalino retém excelente qualidade óptica. Modificação corneana fornece visão funcional sem riscos de cirurgia intraocular."
-
-**Taxa de Satisfação Literatura:** 85-92% [Alió 2006]
-
----
-
-**RAMIFICAÇÃO 2 (Amarelo): DLS Estádio 2 – Disfunção Moderada (50-65 anos)**
-
-**Características:**
-- **LOCS:** 2 (nuclear opalescence leve, cor nuclear NC2)
-- **Densitometria:** 12-18%
-- **OSI:** 1.0-2.5
-- **SA Interna:** +0.15 a +0.30 μm
-- **Sintomas:** Presbiopia + glare noturno ligeiro + sensibilidade ao contraste reduzida
-
-**Decisão Cirúrgica (Zona Cinzenta):**  
-→ **Análise Multifatorial**
-
-**Sub-Ramificação A (Favorecer PresbyLASIK):**
-- Idade <55 anos
-- Hipermetropia baixa (+1.00 a +3.00 D)
-- Paciente deseja evitar cirurgia intraocular
-- Leito Estromal Residual (RSB) e biomecânica corneana adequados
-
-**Sub-Ramificação B (Favorecer RLE):**
-- Idade >55 anos
-- Hipermetropia alta (>+3.50 D)
-- Queixas de glare impactando qualidade de vida
-- Paciente aceita cirurgia intraocular e deseja solução "definitiva"
-
-**Taxa de Satisfação:** 70-85% (PresbyLASIK) vs. 85-95% (RLE com IOL multifocal)
-
----
-
-**RAMIFICAÇÃO 3 (Vermelho): DLS Estádio 3 – Catarata (>55 anos típico)**
-
-**Características:**
-- **LOCS:** ≥3 em qualquer parâmetro
-- **Densitometria:** >18%
-- **OSI:** >2.5
-- **BCVA:** Reduzida pela opacidade (não corrigível apenas com refração)
-- **Sintomas:** Presbiopia + perda visual objetiva + glare severo
-
-**Decisão Cirúrgica:**  
-→ **RLE com IOL Multifocal/EDOF**  
-(ou Extração de Catarata se já clinicamente indicada)
-
-**Justificação:**  
-"O cristalino é a fonte primária de degradação óptica. PresbyLASIK não pode superar scatter lenticular. Substituição do cristalino aborda simultaneamente catarata e presbiopia."
-
-**Taxa de Satisfação:** 90-95%
-
----
-
-**Caixa Inferior (Regra de Ouro):**  
-"**Nunca operar PresbyLASIK em DLS Estádio 3.** Adicionar aberração esférica negativa corneana num olho com scatter lenticular severo resulta em degradação visual catastrófica sem ganho de profundidade de campo."
-
-**Objetivo:**  
-Fornecer algoritmo claro e baseado em evidência para decidir entre correção corneana vs. lenticular baseado no estadiamento funcional do cristalino.
-
----
-
-### Infográfico 1.5: Interação Erro Refrativo - Presbiopia (Matriz Clínica)
-
-**Descrição:**  
-Comparação visual de como hipermétropes, míopes e emétropes experimentam presbiopia diferentemente.
-
-**Estrutura: Três Colunas Comparativas**
-
----
-
-**COLUNA 1 (Verde): HIPERMÉTROPE (+2.00 D, Idade 45)**
-
-**Cenário Pré-Cirúrgico:**
-- **Visão de Longe Não Corrigida:** Turva (necessita óculos sempre)
-- **Visão de Perto Não Corrigida:** Muito turva (hipermetropia + presbiopia = duplo déficit)
-- **Requisito Dióptrico para Leitura:** +2.00 D (longe) + +1.50 D (perto) = **+3.50 D total**
-
-**Experiência Subjetiva:**
-- "Nunca vi bem sem óculos em minha vida"
-- Dependência total de correção óptica
-
-**Estratégia PresbyLASIK:**
-- **Alvo:** Corrigir hipermetropia + adicionar profundidade de campo
-- **Perfil de Ablação:** Hiperópico naturalmente cria Q hiper-prolato (sinergismo!)
-- **Q-target:** -0.80 a -1.00
-- **Anisometropia (Micro-Monovisão):** Opcional (não-dominante -0.50 D)
-
-**Resultado Típico:**
-- UCDVA: 20/25
-- UCNVA: J2-J3
-- **Taxa de Satisfação:** 90-95% [Ref. 4]
-
-**Razão do Sucesso:**
-- Todo ganho visual (longe E perto)
-- Nenhuma "perda" percebida
-- Expectativas fáceis de superar
-
-**Label:** "**CANDIDATO IDEAL – Máxima Satisfação**"
-
----
-
-**COLUNA 2 (Amarelo): MÍOPE (-3.00 D, Idade 45)**
-
-**Cenário Pré-Cirúrgico:**
-- **Visão de Longe Não Corrigida:** Turva (necessita óculos para condução, TV)
-- **Visão de Perto Não Corrigida:** **Excelente!** (Ponto próximo a ~33 cm)
-- **"Vantagem Natural":** Pode ler sem óculos removendo correção de longe
-
-**Experiência Subjetiva:**
-- "Vejo bem de perto sem óculos. Não quero perder isto!"
-- Ambivalência sobre cirurgia
-
-**Desafio Cirúrgico:**
-- LASIK miópico convencional induz Q positivo (oblato) → Halos
-- Para criar presbiopia, precisa **reverter oblatividade** + induzir **prolatividade** → Consumo de tecido elevado
-
-**Estratégia Adaptada:**
-- **Opção A – Monovisão Modificada (Mais Comum):**
-  - Dominante: 0.00 D
-  - Não-dominante: -1.25 a -1.75 D (preserva vantagem natural de perto)
-  - Q-modification mínimo
-- **Opção B – PresbyLASIK Bilateral:**
-  - Q-target moderado (-0.60 μm SA)
-  - Micro-monovisão ligeira
-  - **Atenção:** Halos noturnos mais proeminentes (pupila míope geralmente >6 mm)
-
-**Resultado Típico:**
-- UCDVA: 20/20 (dominante)
-- UCNVA: J3-J4
-- **Taxa de Satisfação:** 75-85% (inferior a hipermétropes)
-
-**Razão da Menor Satisfação:**
-- Perda da vantagem natural de perto
-- Trade-off mais evidente (halos noturnos)
-
-**Label:** "**CANDIDATO COMPLEXO – Gestão de Expectativas Crucial**"
-
----
-
-**COLUNA 3 (Vermelho): EMÉTROPE (±0.50 D, Idade 45)**
-
-**Cenário Pré-Cirúrgico:**
-- **Visão de Longe Não Corrigida:** **Perfeita 20/15-20/20**
-- **Visão de Perto Não Corrigida:** Turva (apenas presbiopia)
-
-**Experiência Subjetiva:**
-- "Sempre tive visão perfeita. Agora só preciso de óculos para ler."
-- **Expectativas Máximas**
-- Zero tolerância a perda de qualidade visual de longe
-
-**Maior Risco:**
-- **Nenhum ganho objetivo em distância**
-- Qualquer perda de linhas de CDVA (mesmo 1 linha) é altamente perceptível
-- Todo benefício é em perto, mas com "custo" em longe (halos, contraste)
-
-**Estratégia (Extremamente Conservadora):**
-- **Teste de LC Obrigatório:** 7-10 dias de monovisão simulada
-  - **Se falha:** Contraindicar cirurgia
-- **Se tolerado:**
-  - Q-target reduzido (-0.30 a -0.40 μm, menos agressivo)
-  - Micro-monovisão mínima (-0.75 D não-dominante)
-  - Zona óptica generosa (6.5-7.0 mm para reduzir halos)
-
-**Resultado Típico:**
-- UCDVA: 20/20 a 20/25 (possível perda de 1 linha)
-- UCNVA: J3-J4 (leitura funcional mas não perfeita)
-- **Taxa de Satisfação:** 65-80% (mais baixa)
-
-**Razão da Baixa Satisfação:**
-- Perda de "perfeição" de longe
-- Halos noturnos menos tolerados
-- Arrependimento pós-cirúrgico mais comum
-
-**Label:** "**MAIOR RISCO – Seleção Rigorosa + Consentimento Exaustivo**"
-
----
-
-**Tabela de Síntese Inferior:**
-
-| Erro Refrativo | Satisfação Pós-PresbyLASIK | Razão Principal | Recomendação |
-|----------------|---------------------------|-----------------|--------------|
-| Hipermetropia (+1 a +4 D) | ★★★★★ (90-95%) | Duplo benefício (longe + perto) | **Proceder com confiança** |
-| Miopia (-1 a -6 D) | ★★★★☆ (75-85%) | Perda de vantagem natural de perto | Monovisão preferível |
-| Emetropia (±0.5 D) | ★★★☆☆ (65-80%) | Nenhum ganho em distância | **Seleção extremamente rigorosa** |
-
-**Objetivo:**  
-Demonstrar que o erro refrativo de base modifica profundamente a experiência da presbiopia e o resultado cirúrgico esperado, permitindo aconselhamento realista e seleção adequada.
-
----
-
-### Infográfico 1.6: Dinâmica Pupilar e Envelhecimento – Impacto na Profundidade de Campo
-
-**Descrição:**  
-Gráfico duplo mostrando alteração pupilar com idade e efeito na DoF natural.
-
-**Painel Superior: Diâmetro Pupilar vs. Idade**
-
-**Eixo X:** Idade (20-80 anos)  
-**Eixo Y:** Diâmetro Pupilar (mm)
-
-**Duas Curvas:**
-
-1. **Curva Superior (Amarela): Pupila Mesópica (Condições Escotópicas)**
-   - 20 anos: 6.5-7.0 mm
-   - 40 anos: 5.0-6.0 mm
-   - 60 anos: 4.0-5.0 mm
-   - 80 anos: 3.0-4.0 mm
-   - Label: "Pupila Noturna (Condução, Ambientes Escuros)"
-
-2. **Curva Inferior (Azul): Pupila Fotópica (Luz Brilhante)**
-   - 20 anos: 3.0-4.0 mm
-   - 40 anos: 2.5-3.5 mm
-   - 60 anos: 2.0-3.0 mm
-   - 80 anos: 1.5-2.5 mm
-   - Label: "Pupila Diurna (Leitura, Iluminação Interna)"
-
-**Zona Sombreada Entre as Curvas:**  
-"Amplitude de Variação Pupilar (Reduz com Idade → Miose Senil)"
-
----
-
-**Painel Inferior: Profundidade de Campo (DoF) Natural vs. Diâmetro Pupilar**
-
-**Eixo X:** Diâmetro Pupilar (2-7 mm)  
-**Eixo Y:** DoF (Dioptrias)
-
-**Curva Hiperbólica (Vermelha):**  
-Relação inversa quadrática: \( \text{DoF} \propto \frac{1}{d^2} \)
-
-**Dados Marcados:**
-| Diâmetro Pupilar | DoF Natural | Contexto |
-|------------------|-------------|----------|
-| 2.0 mm | ~2.50 D | Idoso em luz brilhante → Leitura fácil (efeito pinhole extremo) |
-| 3.0 mm | ~1.10 D | Adulto médio lendo |
-| 4.0 mm | ~0.60 D | Adulto em iluminação moderada |
-| 6.0 mm | ~0.30 D | Jovem à noite → Sem DoF útil (necessita acomodação plena) |
-
-**Anotações:**
-
-**Ponto 1 (3 mm – Zona Verde):**  
-"Presbitas idosos beneficiam-se de miose senil: pupila pequena cria pinhole natural que melhora leitura em luz brilhante."
-
-**Ponto 2 (6 mm – Zona Vermelha):**  
-"Jovens com pupila grande dependem totalmente de acomodação ativa. Perda de acomodação (presbiopia) é devastadora sem DoF natural de compensação."
-
----
-
-**Implicação Cirúrgica (Caixa Inferior):**
-
-**Avaliação Pupilar Pré-Operatória Obrigatória:**
-
-1. **Pupila Fotópica Pequena (<2.5 mm):**
-   - DoF natural já elevada
-   - Risco: Pode não utilizar zona óptica completa de perfil multifocal
-   - **Conduta:** Reduzir target de SA ou considerar que paciente pode não necessitar cirurgia agressiva
-
-2. **Pupila Mesópica Grande (>6.5 mm):**
-   - Magnificação dramática de aberrações induzidas (\( Z_4^0 \propto d^5 \))
-   - Halos noturnos intoleráveis
-   - **Conduta:** Reduzir SA target, aumentar OZ, ou contraindicar PresbyLASIK multifocal
-
-**Regra de Seleção de Zona Óptica:**  
-\( \text{OZ}_{\text{ideal}} = \text{Pupila Mesópica} + 0.5 \text{ a } 1.0 \text{ mm} \)
-
-**Objetivo:**  
-Demonstrar a interação crítica entre tamanho pupilar, idade, e profundidade de campo natural, e como isto influencia planeamento cirúrgico de PresbyLASIK.
-
----
-
-### Infográfico 1.7: "O Modelo de Cebola" – A Biomecânica da Esclerose Nuclear
-
-**Objetivo Educacional:**  
-Demonstrar que a presbiopia é um problema de "crowding" físico e engenharia de materiais, transformando o conceito abstrato de "perda de acomodação" numa visualização mecânica intuitiva (camadas de cebola vs. madeira compensada).
-
-**Formato:** Sequência evolutiva horizontal de três estágios (Corte Transversal)
-
-**Painel 1: O Olho Jovem (20 Anos) – "Espaço e Flexibilidade"**
-- **Visual Central:** Cristalino com núcleo pequeno e amarelo pálido
-- **Córtex:** Largo, com camadas bem definidas e "frouxas" (espaço entre elas)
-- **Microscopia (Zoom Bubble):** Células hexagonais com espaço intercelular preservado
-- **Analogia Visual (Ícone):** Uma cebola fresca cortada ao meio (camadas suculentas e separáveis)
-- **Label:** "Núcleo Flexível (Baixa Densidade Celular)"
-
-**Painel 2: O Início da Presbiopia (45 Anos) – "O Aperto"**
-- **Visual Central:** O cristalino aumentou de volume total ligeiramente, mas a estrutura interna mudou drasticamente
-- **Dinâmica:** Córtex expandido empurra o núcleo para o centro (vetores de força centrípeta → ←)
-- **Núcleo:** Mais denso, cor âmbar inicial. As células estão a começar a achatar
-- **Label:** "Compactação Nuclear (Perda de Viscoelasticidade)"
-
-**Painel 3: O Olho Presbita (70 Anos) – "O Bloco Sólido"**
-- **Visual Central:** Quase todo o cristalino é "Núcleo". Cor castanho-ambar profundo
-- **Córtex:** Reduzido a uma fina casca periférica
-- **Microscopia (Zoom Bubble):** Células fundidas, sem organelas, formando um bloco homogéneo e rígido
-- **Analogia Visual (Ícone):** Um bloco de madeira compensada (camadas coladas e prensadas)
-- **Label:** "Esclerose Completa (Módulo de Young >3000x o original)"
-
-**Elementos Críticos:**
-- **Código de Cores:** Amarelo Claro (Flexível) → Âmbar (Rígido) → Castanho (Pétreo)
-- **Vetores de Força:** Usar setas para mostrar a pressão das novas camadas corticais comprimindo as antigas camadas nucleares
-
-**Legenda Explicativa:**  
-"O crescimento contínuo do cristalino dentro de uma cápsula de volume limitado resulta em compactação física exponencial. A falha não é do músculo ciliar, mas do material da lente que se torna fisicamente impossível de moldar."
-
----
-
-### Infográfico 1.8: O Paradoxo do Esforço Neural (A Zona da Dor)
-
-**Objetivo Educacional:**  
-Explicar a origem da astenopia (dor de cabeça/fadiga) na presbiopia incipiente. Visualizar o descompasso (mismatch) entre o comando cerebral (máximo) e a resposta ocular (mínima).
-
-**Formato:** Gráfico de Linha Dupla (Eixo X = Idade)
-
-**Eixos:**
-- **Eixo X:** Idade (20, 30, 40, 45, 50, 60 anos)
-- **Eixo Y1 (Esquerdo - Azul):** Amplitude de Acomodação (Dioptrias)
-- **Eixo Y2 (Direito - Vermelho):** Esforço Neural / Drive Ciliar (%)
-
-**As Curvas:**
-
-**Curva 1: Capacidade Mecânica (Azul)**
-- **Trajetória:** Declínio linear ou levemente curvo
-- **Dados:** 10D (20 anos) → 6D (35 anos) → 3D (45 anos) → 0D (60 anos)
-- **Significado:** "O que o olho CONSEGUE fazer"
-
-**Curva 2: Comando Neural (Vermelho)**
-- **Trajetória:** Exponencial. Mantém-se baixo/moderado até os 35 anos, depois dispara verticalmente
-- **Pico:** Atinge 100% (esforço máximo) aos 45 anos
-- **Significado:** "O que o cérebro TENTA fazer"
-
-**A "Zona da Dor" (Highlight):**
-- **Localização:** Faixa etária de 40 a 48 anos
-- **Visual:** Área sombreada em vermelho vibrante entre as duas curvas onde elas divergem drasticamente
-- **Ícones:** Símbolos de "raio" (dor) ou "bateria fraca" (fadiga) nesta zona
-
-**Elementos Críticos:**
-- **Ponto de Ruptura (45 Anos):** Onde o Esforço é 100% e o Resultado é <3D (insuficiente para leitura sustentada)
-- **Anotação de Texto:** "High Effort, Low Yield" (Alto Custo, Baixo Retorno) | "Drive Parassimpático Máximo → Espasmo Ciliar → Cefaleia Frontal"
-
-**Legenda Explicativa:**  
-"A presbiopia dói não porque o sistema parou de funcionar, mas porque o sistema neural está a trabalhar em 'overdrive' contra uma resistência mecânica invencível. A dor de cabeça é o sintoma de um motor a funcionar no 'redline' sem sair do lugar."
-
----
+14. Ostrin LA, Glasser A. Accommodation measurements in a prepresbyopic and presbyopic population. *J Cataract Refract Surg*. 2004;30(7):1435-1444.
+15. Charman WN. Developments in the correction of presbyopia I: spectacle and contact lenses. *Ophthalmic Physiol Opt*. 2014;34(1):8-29.
+16. Vilaseca M, Padilla A, Ondategui JC, et al. Optical quality one month after verisyse and Veriflex phakic IOL implantation and Zeiss MEL 80 LASIK for myopia from 5.00 to 16.50 diopters. *J Refract Surg*. 2009;25(8):689-698.
+17. Artal P, Benito A, Pérez GM, et al. An objective scatter index based on double-pass retinal images of a point source to classify cataracts. *PLoS One*. 2011;6(2):e16823.
 
 ---
 

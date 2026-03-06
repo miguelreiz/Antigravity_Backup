@@ -12,49 +12,73 @@ def generate_master_book(output_dir="_Export_To_Drive", master_filename="PresbyC
     if not os.path.exists(output_dir):
         os.makedirs(output_dir, exist_ok=True)
 
-    # 2. Find Chapter Files in Order (Chapter_1, Chapter_2...)
-    # Sorting alphabetically works for Chapter_1, Chapter_10... so we need natsort logic or manual key
+    # 2. Define File Sequence (Strict Order)
+    # Front Matter
+    files_to_combine = [
+        "PDF_Frontmatter.md",
+        "Preface_Methodology.md",
+        "About_Author.md"
+    ]
+
+    # Chapters (Dynamic Sort)
     chapter_files = glob.glob("Chapter_*_Complete.md")
     
-    # Custom sort key to handle 1, 2, 10 correctly
     def sort_key(filename):
-        # Extract number between "Chapter_" and "_Complete"
         try:
             parts = filename.split('_')
-            num_part = parts[1] # "1", "10", "5"
-            # Handle "5_Plus" special case if it exists or just numbers
-            if "Plus" in num_part:
-                 return 5.5 # Place it after 5
+            num_part = parts[1]
+            if "Plus" in num_part: return 5.5
             return float(num_part)
-        except:
-            return 999 
+        except: return 999 
 
     chapter_files = sorted(chapter_files, key=sort_key)
+    files_to_combine.extend(chapter_files)
 
-    if not chapter_files:
-        print("No chapter files found.")
-        return
+    # Back Matter
+    files_to_combine.extend([
+        "Glossary_Abbreviations.md",
+        "Bibliography_Consolidated.md"
+    ])
 
-    print(f"Found {len(chapter_files)} chapters to combine.")
+    print(f"DEBUG: Found {len(chapter_files)} chapters.")
+    print(f"DEBUG: Total files to combine: {len(files_to_combine)}")
 
-    # 3. Concatenate Markdown
+    # 3. Concatenate Markdown (With Sanitization)
     master_md_path = os.path.join(output_dir, "Temporary_Master.md")
     
+    import re
+    # Regex to find YAML header at start of file
+    yaml_pattern = re.compile(r'^---\s*\n.*?\n---\s*\n', re.DOTALL)
+    
     with open(master_md_path, "w", encoding="utf-8") as master_file:
-        # Add Title Page
-        master_file.write(f"% PresbyCor: Modern Strategies for Presbyopia and Laser Mechanics\n")
-        master_file.write(f"% Dr. Miguel Reis\n")
-        master_file.write(f"% 2024 Research Edition\n\n")
-        master_file.write("\\newpage\n\n")
+        
+        for i, md_file in enumerate(files_to_combine):
+            if os.path.exists(md_file):
+                print(f"  Adding {md_file}...")
+                with open(md_file, "r", encoding="utf-8") as f:
+                    content = f.read()
+                    
+                    # Special handling for PDF_Frontmatter.md (Keep YAML)
+                    if i == 0 and "Frontmatter" in md_file:
+                        # Write as is, just ensure newline at end
+                        master_file.write(content.strip())
+                        master_file.write("\n\n")
+                        continue
 
-        for md_file in chapter_files:
-            print(f"  Adding {md_file}...")
-            with open(md_file, "r", encoding="utf-8") as f:
-                content = f.read()
-                # Ensure each chapter starts on a new page (Pandoc feature)
-                master_file.write(f"\n\\newpage\n\n") 
-                master_file.write(content)
-                master_file.write("\n\n")
+                    # For all other files:
+                    # 1. Strip YAML header if it exists
+                    content = yaml_pattern.sub('', content)
+                    
+                    # 2. Replace horizontal rules '---' with '***' to avoid Pandoc confusion
+                    # Match '---' on a line by itself, potentially surrounded by whitespace
+                    content = re.sub(r'^\s*---\s*$', '***', content, flags=re.MULTILINE)
+                    
+                    # 3. Append with Page Break
+                    master_file.write(f"\n\\newpage\n\n") 
+                    master_file.write(content)
+                    master_file.write("\n\n")
+            else:
+                print(f"WARNING: File {md_file} not found. Skipping.")
 
     # 4. Convert Master MD to DOCX
     output_docx_path = os.path.join(output_dir, master_filename)

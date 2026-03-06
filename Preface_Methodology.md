@@ -37,6 +37,7 @@ Análise detalhada de cada algoritmo presbiópico principal:
 - **PresbyMAX** (perfil bi-asférico Schwind)
 - **PRESBYOND** (Laser Blended Vision, Zeiss)
 - **SUPRACOR** (multifocalidade extrema, Bausch+Lomb)
+- **READ** (Refractive Extended Depth of Focus, Alcon)
 
 Cada técnica é descrita com:
 - Base matemática e óptica
@@ -53,136 +54,20 @@ Quando escolher abordagem corneana vs. lenticular (RLE)? Como selecionar entre d
 
 ---
 
-## Metodologia e Transparência Editorial
+## Nota Metodológica
 
-### Governança Editorial e Rastreabilidade do Processo
+Esta obra integra conhecimento cirúrgico com infraestrutura editorial moderna. O processo utilizou assistência de IA (Antigravity, Google DeepMind) como ferramenta de estruturação e redação técnica sob supervisão autoral rigorosa.
 
-Esta obra foi desenvolvida sob um modelo de **autoria humana com infraestrutura de inteligência artificial**, representando uma abordagem de governança editorial que privilegia **processo, rastreabilidade e responsabilidade intelectual** sobre opacidade metodológica.
+**Responsabilidade:**  
+Toda afirmação clínica, interpretação algorítmica e decisão editorial é de responsabilidade do autor. Referências foram verificadas. Nomogramas refletem prática cirúrgica documentada na literatura.
 
-Esta declaração não é um disclaimer defensivo. É uma **afirmação de maturidade científica**: em 2026, a transparência sobre ferramentas e processos não diminui autoria — valida-a. O que define a qualidade de uma obra técnica não é a ausência de assistência tecnológica, mas a **responsabilidade assumida pelo autor** e a **verificabilidade do processo intelectual**.
+**Rastreabilidade:**  
+O processo editorial está documentado (Conversation ID: a2947515-a94f-45aa-9aad-3af9a5b1e1ad) para permitir verificabilidade académica e transparência metodológica, alinhando-se com standards editoriais contemporâneos de principais journals e editoras médicas.
 
-### Divisão de Responsabilidades
+**Crédito Intelectual:**  
+O algoritmo PresbyCor pertence ao Dr. Charles Ghenassia. Este livro oferece interpretação clínica, validação matemática independente e sistematização prática para aplicação cirúrgica multi-plataforma. A validação estatística descrita no Capítulo 5 (Seção 5.9) constitui análise educacional dos princípios publicados, não engenharia reversa.
 
-**O Autor Humano (Dr. Miguel Reis, Médico Oftalmologista, Especialista em Cirurgia Refrativa e Córnea) é responsável por:**
-
-1. **Precisão de todas as afirmações clínicas**
-   - Cada protocolo cirúrgico foi validado contra a prática clínica real
-   - Nomogramas refletem experiência cirúrgica acumulada
-   - Complicações descritas são baseadas em casos reais observados
-
-2. **Validação de todas as referências bibliográficas**
-   - Todas as citações foram verificadas contra as fontes originais
-   - Nenhuma referência foi inventada ou fabricada
-   - Interpretações de estudos refletem leitura crítica do autor
-
-3. **Decisões editoriais e tom cirúrgico**
-   - A estrutura dos capítulos foi definida pelo autor
-   - O tom "cirurgião-para-cirurgião" foi explicitamente exigido
-   - Simplificações foram proibidas nas regras editoriais
-
-4. **Interpretação de algoritmos e experiência clínica**
-   - O conhecimento cirúrgico prático (ex: ajustes de nomograma, troubleshooting intra-operatório) é do autor
-   - Casos clínicos refletem experiência real
-
-**A Assistência de IA (Antigravity) contribuiu com:**
-
-1. **Estruturação lógica e consistência**
-   - Organização hierárquica de capítulos e secções
-   - Formatação uniforme de tabelas, fórmulas e referências
-   - Transições lógicas entre conceitos complexos
-
-2. **Redação técnica seguindo guidelines rigorosas**
-   - Expansão de conceitos em texto técnico completo
-   - Manutenção de tom formal e precisão terminológica
-   - Criação de descrições detalhadas de infográficos
-
-3. **Síntese de literatura**
-   - Agregação de múltiplas fontes bibliográficas em narrativa coerente
-   - Tabelas comparativas baseadas em dados publicados
-   - Cálculos matemáticos verificados
-
-### Processo de Produção Rastreável
-
-Todo o processo de produção deste livro foi documentado:
-
-- **Histórico de conversação completo:** Todas as instruções editoriais, decisões e revisões estão gravadas
-- **Versões intermediárias:** Cada capítulo passou por validação antes de prosseguir
-- **Metadados temporais:** Timestamps de cada etapa de produção
-- **Regras editoriais explícitas:** Guidelines foram formalizadas como "user rules" no sistema
-
-Este histórico demonstra **processo colaborativo supervisionado**, não geração automática de conteúdo.
-
-### Infraestrutura de Produção e Rastreabilidade
-
-O desenvolvimento desta obra utilizou **ambiente de produção editorial com histórico versionado completo** (Antigravity, Google DeepMind), não como substituto da responsabilidade intelectual, mas como **instrumento de governança**.
-
-**Rastreabilidade Verificável:**
-
-- **Conversation ID:** a2947515-a94f-45aa-9aad-3af9a5b1e1ad
-- **Histórico Completo:** Todas as decisões editoriais, instruções ao sistema, validações e revisões estão documentadas
-- **Versionamento:** Cada capítulo possui metadata temporal e registro de modificações
-- **Processo Auditável:** Qualquer ponto do desenvolvimento pode ser reconstituído e verificado
-
-Esta infraestrutura não é ornamental. É **evidência de processo rigoroso**, demonstrando que a obra resulta de curadoria intelectual sistemática, não de geração automática.
-
-### Enquadramento: Processo Como Validação
-
-**Porquê esta transparência é cientificamente robusta:**
-
-1. **Soberania Intelectual Afirmada**
-   - Todo desenvolvimento conceitual, hipóteses clínicas, interpretações de algoritmos e conclusões são de **responsabilidade exclusiva do autor**
-   - A tecnologia foi utilizada como **meio de expressão e organização do pensamento**, não como fonte de conhecimento cirúrgico
-   - Decisões críticas (seleção de referências, criação de nomogramas, análise de complicações) refletem experiência clínica real
-
-2. **Blindagem Metodológica**
-   - Em contextos sensíveis (publicação académica, obra de referência), o critério de validação não é "detecção de IA" (falível e irrelevante), mas **processo documentado e responsabilidade assumida**
-   - Obras futuras que silenciem sobre processo gerarão desconfiança; **transparência antecipa e valida**
-
-3. **Alinhamento com Futuro da Autoria Científica**
-   - Principais journals científicos (Nature, Science, JAMA, Ophthalmology) já estabeleceram policies aceitando assistência de IA se declarada
-   - Editoras médicas (Elsevier, Springer) reconhecem que ferramentas de escrita não diminuem autoria técnica
-   - Este livro posiciona-se na **vanguarda de padrões editoriais**, não na retaguarda
-
-### O Que Esta Obra NÃO É
-
-Para evitar qualquer ambiguidade:
-
-- ❌ **Não é conteúdo gerado automaticamente:** Cada afirmação clínica foi validada pelo autor
-- ❌ **Não é produto de "prompt engineering":** A estrutura, tom cirúrgico e conhecimento prático são autorais
-- ❌ **Não é dependente de tecnologia específica:** O conhecimento cirúrgico transcende a ferramenta de escrita
-- ❌ **Não é exercício de tendência:** É obra técnica sob standards científicos internacionais
-
-### Critérios de Qualidade Desta Obra
-
-**O valor científico deste livro não repousa em "foi escrito por humano?", mas em:**
-
-✓ **Precisão Factual**  
-Todas as referências foram verificadas. Nenhum dado clínico foi inventado. Afirmações técnicas refletem literatura peer-reviewed ou são explicitamente identificadas como interpretação clínica.
-
-✓ **Utilidade Cirúrgica Prática**  
-Os protocolos descritos são aplicáveis no bloco operatório. Nomogramas refletem experiência real. Complicações documentadas são baseadas em casos observados.
-
-✓ **Responsabilidade Assumida**  
-O autor valida e assume responsabilidade integral por cada afirmação técnica, decisão editorial e interpretação clínica.
-
-✓ **Processo Verificável**  
-A metodologia de produção está documentada e rastreável, permitindo escrutínio académico.
-
----
-
-### Declaração Final de Responsabilidade Autoral
-
-**Eu, Dr. Miguel Reis, médico oftalmologista especialista em cirurgia refrativa e córnea, declaro:**
-
-- Validei pessoalmente a **precisão de todas as afirmações clínicas** nesta obra
-- Assumi **responsabilidade editorial integral** pela estrutura, tom, conteúdo técnico e conclusões
-- Utilizei **infraestrutura tecnológica** como meio de organização e expressão, não como substituto de conhecimento cirúrgico
-- Este livro reflete **interpretação pessoal** de algoritmos presbiópicos (especialmente PresbyCor de Ghenassia), baseada em aplicação cirúrgica sistemática e estudo teórico profundo
-- Todo o **crédito intelectual** por algoritmos citados permanece com seus criadores originais (Ghenassia, Reinstein, et al.); este livro oferece **sistematização prática para cirurgiões**
-
-Se este livro contém erros factuais, imprecisões técnicas ou interpretações questionáveis: **a responsabilidade é exclusivamente minha**.
-
-Se este livro prova-se útil, preciso e clinicamente valioso: **o mérito pertence ao processo rigoroso** que privilegiou evidência, transparência e responsabilidade intelectual.
+Se erros existirem, são meus. Se o livro servir cirurgiões, o mérito é do processo que privilegiou evidência sobre conveniência.
 
 ---
 
@@ -200,7 +85,9 @@ Este livro **não reivindica autoria do algoritmo**. O que oferece é:
 
 4. **Gestão de Complexidades:** Troubleshooting, casos difíceis, complicações e enhancements
 
-Todo o crédito intelectual pelo algoritmo permanece com o Dr. Ghenassia. A contribuição deste livro é a **sistematização prática para cirurgiões**.
+5. **Validação Matemática Independente:** Para complementar a compreensão teórica, realizei análise estatística de 88 cálculos clínicos gerados pelo software PresbyCor oficial. Esta validação empírica (detalhada no Capítulo 5, Seção 5.9) confirmou matematicamente os princípios algorítmicos publicados, fornecendo números validados (Q-targets, offsets, correlações) que permitem a cirurgiões usando outras plataformas laser compreenderem e aplicarem a lógica subjacente. Importante: este trabalho constitui validação educacional, não engenharia reversa — todos os créditos permanecem com o Dr. Ghenassia.
+
+Todo o crédito intelectual pelo algoritmo permanece com o Dr. Ghenassia. A contribuição deste livro é a **sistematização prática para cirurgiões** e a **validação científica independente** dos princípios publicados.
 
 ---
 

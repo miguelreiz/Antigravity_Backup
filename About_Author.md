@@ -13,7 +13,7 @@ Dr. Miguel Reis é médico oftalmologista com especialização em cirurgia refra
 
 Sua prática clínica concentra-se em cirurgia refrativa e gestão de patologias corneanas, com particular interesse em estratégias cirúrgicas para presbiopia e ceratocone. Ao longo de sua carreira, desenvolveu profundo interesse teórico e prático no algoritmo PresbyCor de Dr. Charles Ghenassia, aplicando sistematicamente os princípios de modificação de Q-factor e personalização de perfis asféricos em casos presbiópicos complexos.
 
-Sua formação técnica foi profundamente influenciada pela tutoria de mestres internacionais. Aprimorou sua propedêutica corneana e análise tomográfica sob a orientação do **Prof. Mazen Sinjab**, e consolidou seus fundamentos em cirurgia refrativa complexa através da formação especializada com o **Prof. Jorge Alió**, referências que moldaram sua abordagem analítica e baseada em evidência.
+Sua formação técnica foi profundamente influenciada pela tutoria de mestres internacionais. Aprimorou sua propedêutica corneana e análise tomográfica sob a orientação direta do **Prof. Mazen Sinjab**, cujo protocolo sistemático de interpretação de Scheimpflug ("Five Steps to Start") moldou sua abordagem metódica à triagem pré-operatória. A filosofia de Sinjab — "sistematização rigorosa sobre intuição clínica" — permeia toda a estrutura decisional deste livro, particularmente visível no Capítulo 3 (Propedêutica) e Capítulo 13 (Árvores de Decisão). Consolidou seus fundamentos em cirurgia refrativa complexa através da formação especializada com o **Prof. Jorge Alió**, referências que moldaram sua abordagem analítica e baseada em evidência.
 
 ## Filosofia de Prática
 

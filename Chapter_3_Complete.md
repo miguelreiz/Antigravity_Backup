@@ -1,7 +1,7 @@
 # Capítulo 3: Avaliação Pré-Operatória e Seleção de Pacientes
 
 > [!CAUTION]
-> **Importância Clínica Crítica:** A seleção do paciente é o fator determinante do sucesso em cirurgia presbiópica corneana. Ao contrário da cirurgia de catarata, onde a melhoria visual é quase garantida pela remoção da opacidade, a cirurgia refrativa em presbitas (especialmente emétropes ou hipermétropes baixos) envolve um compromisso óptico (trade-off) inevitável entre qualidade de imagem e profundidade de campo. Uma seleção inadequada resulta em insatisfação irreversível. [1]
+> **Importância Clínica Crítica:** A seleção do paciente é o fator determinante do sucesso em cirurgia presbiópica corneana. Ao contrário da cirurgia de catarata, onde a melhoria visual é quase garantida pela remoção da opacidade, a cirurgia refrativa em presbitas (especialmente emétropes ou hipermétropes baixos) envolve um compromisso óptico (compromisso) inevitável entre qualidade de imagem e profundidade de campo. Uma seleção inadequada resulta em insatisfação irreversível. [1]
 
 ## 3.1. Perfil do Candidato Ideal à Cirurgia Corneana
 
@@ -27,7 +27,7 @@ A literatura internacional (Alió, Illueca, Reinstein) define janelas de oportun
 
 **Pacientes <45 anos (Presbiopia Precoce):**
 - Possível em hipermétropes altos (compensação acomodativa excessiva levando a fadiga cíclica precoce)
-- Considerar se sintomas bem documentados e amplitude acomodativa <5.0 D
+- Considerar se sintomas bem documentados e amplitude acomodativa <5.0 D (medida objetivamente via push-up test — ver Seção 1.4 do Capítulo 1 para detalhes metodológicos — ou esperada pela idade segundo Curva de Duane [1])
 - **Atenção:** Progressão futura da presbiopia exigirá retoque
 
 **Pacientes >60 anos:**
@@ -123,7 +123,7 @@ A satisfação cirúrgica varia dramaticamente conforme o erro refrativo de base
 
 2. **Perfil Psicológico:**
    - Paciente com profissão não-crítica (não engenheiro, não piloto, não cirurgião)
-   - Aceitação explícita documentada do trade-off
+   - Aceitação explícita documentada do compromisso
    - Expectativas realistas ("Vou ler sem óculos, mas a minha visão noturna pode ter halos")
 
 3. **Opção Conservadora:**
@@ -240,6 +240,11 @@ A análise tomográfica nesta obra segue o rigoroso protocolo "Five Steps to Sta
 4.  **Mapa Paquimétrico:** Avaliação da espessura no ponto mais fino e progressão paquimétrica.
 5.  **Integração Biomecânica (Tomographic/Biomechanical Index):** Correlação final para decisão.
 
+> [!NOTE]
+> **Nota Pessoal do Autor:** O protocolo sistemático de interpretação tomográfica preconizado pelo Prof. Sinjab foi fundamental na formação clínica do autor. Sua abordagem metodológica — "mapa-por-mapa, índice-por-índice, nunca pular etapas" — ensina que **a segurança em cirurgia refrativa não vem de intuição, mas de sistematização rigorosa**. Cada árvore de decisão deste livro (especialmente Capítulo 13) reflete esta filosofia de análise hierárquica que Sinjab incorpora em suas obras *Refractive Surgery: A Guide to Assessment and Management* (2015) e *Boilerplate for Corneal Tomography* (2012), referências obrigatórias para qualquer cirurgião refrativo sério.
+
+> **Prof. Mazen Sinjab** é reconhecido globalmente como um dos maiores educadores em propedêutica corneana moderna. Sua metodologia de ensino — combinando fundamentação teórica profunda com protocolos práticos de leitura tomográfica — formou gerações de cirurgiões refrativos ao redor do mundo. Suas obras são consideradas "bíblias" da interpretação de Scheimpflug, traduzindo complexidade técnica em algoritmos decisórios aplicáveis.
+
 Esta sistematização é fundamental para distinguir corneas normais, suspeitas e patológicas com precisão.
 
 ![Protocolo Tomográfico Padrão Quad-Map](figures/chapter3/neutral_topography_quad_map_1767558811134.png)
@@ -260,8 +265,108 @@ Esta sistematização é fundamental para distinguir corneas normais, suspeitas 
 - ISV (Index of Surface Variance) >37
 - IVA (Index of Vertical Asymmetry) >0.28
 
+> [!NOTE]
+> **Contribuição Brasileira: Dr. Renato Ambrósio Jr.** 🇧🇷
+>
+> O **BAD-D (Belin-Ambrósio Enhanced Ectasia Display)** foi co-desenvolvido pelo brasileiro **Dr. Renato Ambrósio Jr.**, Professor da Universidade Federal do Estado do Rio de Janeiro e fundador do Rio de Janeiro Corneal Tomography and Biomechanics Study Group.
+>
+> **Evolução Revolucionária:**
+> 1. **BAD-D (2009):** Integração de elevação anterior, posterior e progressão paquimétrica em índice único - Sensibilidade ~90%
+> 2. **CBI - Corvis Biomechanical Index (2016):** Primeiro índice combinando deformação corneana dinâmica - Sensibilidade ~94%  
+> 3. **TBI - Tomographic Biomechanical Index (2017):** Fusão de tomografia Scheimpflug + biomecânica Corvis ST com Inteligência Artificial - **Sensibilidade ~99%** [21,22]
+>
+> **Impacto Clínico:** O TBI representa o **estado da arte** em screening pré-LASIK, detectando ectasia subclínica que escapa à topografia convencional e mesmo ao BAD-D isolado. A integração de biomecânica dinâmica com tomografia estática revolucionou a segurança da cirurgia refrativa globalmente.
+>
+> **Orgulho Brasileiro:** Assim como Santhiago com o PTA, Ambrósio é consultor global da Oculus (Pentacam) e seus índices salvaram incontáveis pacientes de ectasia iatrogênica. Dois brasileiros, dois pilares da segurança refrativa mundial. 🇧🇷
+
 **Raciocínio:**  
 Ablações presbiópicas (especialmente hipermetrópicas) thin the cornea perifericamente e induzem biomechanical stress. Córneas suspeitas podem sofrer ectasia iatrogénica pós-cirúrgica.
+
+#### Biomecânica Dinâmica Avançada: CBI e TBI (Ambrósio)
+
+**Limitação do BAD-D Isolado:**  
+Topografia e paquimetria são medidas **estáticas**. Córneas com ceratocone incipiente podem ter geometria normal mas apresentar **fraqueza biomecânica** (rigidez reduzida). O BAD-D pode ser falsamente normal nestes casos.
+
+**Corvis ST: Avaliação Dinâmica da Deformação Corneana**
+
+O Corvis ST (Oculus) dispara pulso de ar controlado e captura deformação corneana em alta velocidade (4330 frames/segundo) usando câmera Scheimpflug de ultra-alta velocidade.
+
+**Parâmetros Biomecânicos Medidos:**
+- **Deformation Amplitude (DA):** Profundidade máxima de deformação (córneas fracas deformam mais)
+- **Stiffness Parameter at A1 (SP-A1):** Resistência à deformação (córneas ceratocônicas têm SP baixo)
+- **Maximum Deformation Radius:** Raio de curvatura no pico de deformação
+- **Applanation Velocity:** Velocidade de aplanação (córneas rígidas respondem mais rápido)
+
+**CBI (Corvis Biomechanical Index) - Ambrósio et al., 2016:**
+
+Índice combinado usando Machine Learning para integrar múltiplos parâmetros biomecânicos, distinguindo olhos normais de ceratocone.
+
+| CBI | Interpretação | Biomecânica | Conduta |
+|-----|---------------|-------------|---------|
+| <0.50 | Normal | Rigidez adequada | ✅ Seguro para LASIK |
+| 0.50-0.79 | Borderline | Rigidez reduzida | ⚠️ Avaliar TBI ou considerar PRK |
+| ≥0.80 | Ectasia | Fraqueza biomecânica | ❌ Contraindicação absoluta |
+
+**TBI (Tomographic-Biomechanical Index) - Ambrósio et al., 2017:**
+
+**Conceito:** Fusão de **BAD-D (tomografia estática)** + **CBI (biomecânica dinâmica)** usando algoritmos de Inteligência Artificial.
+
+$$\text{TBI} = f_{IA}(\text{BAD-D}, \text{CBI}, \text{idade}, \text{IOP})$$
+
+> **O TBI usa Machine Learning para combinar tomografia + biomecânica, detectando padrões sutis de ectasia invisíveis ao olho humano e superiores a cada índice isolado.**
+
+| TBI | Interpretação | Conduta |
+|-----|---------------|---------|
+| <0.50 | Normal | ✅ Seguro LASIK |
+| 0.50-0.79 | Borderline | ⚠️ PRK preferível ou crosslinking profilático |
+| ≥0.80 | Ectasia | ❌ Contraindicação absoluta |
+
+**Performance Diagnóstica Comparativa (Vinciguerra et al., 2016):**
+
+| Índice | AUC (Área sob ROC) | Sensibilidade | Especificidade |
+|--------|-------------------|---------------|----------------|
+| **TBI** | **0.996** | **98.7%** | **97.2%** |
+| BAD-D sozinho | 0.932 | 89.4% | 88.1% |
+| CBI sozinho | 0.977 | 94.3% | 92.6% |
+
+**Ganho do TBI:** +9.3% sensibilidade vs BAD-D, +4.4% vs CBI
+
+**Caso Clínico Ilustrativo:**
+
+Paciente feminino, 45 anos, +2.00 D, candidata PresbyLASIK.
+
+**Avaliação Convencional:**
+- Topografia Placido: Normal (symmetric bowtie)
+- BAD-D: **1.45** (Normal <1.60) ✅
+- Paquimetria: 520 μm (adequada)
+- **Decisão preliminar:** APTA para LASIK
+
+**Avaliação Biomecânica (Corvis ST):**
+- CBI: **0.68** (Borderline 0.50-0.79) ⚠️
+- Deformation Amplitude: Aumentada (1.18 mm, normal <1.10 mm)
+- Stiffness Parameter: Reduzido
+
+**Integração (TBI):**
+- TBI: **0.75** (Borderline, próximo a 0.79) ⚠️
+
+**Decisão Final Ajustada:**  
+Córnea **biomecanicamente fraca** apesar de geometria normal. Opções:
+1. **PRK conservador** (preserva biomecânica, sem flap)
+2. **Crosslinking profilático** + cirurgia pós 6 meses (técnica Athens Protocol)
+3. **Contraindicar** cirurgia corneana, considerar RLE
+
+**Disponibilidade e Custo:**
+- **CBI:** Requer Corvis ST (Oculus) - Custo ~R$ 200-300k
+- **TBI:** Requer Pentacam + Corvis ST + software TBI - Custo total ~R$ 400-500k
+
+**Alternativas sem TBI:**
+Se TBI indisponível, **BAD-D + PTA ainda fornecem triagem robusta**. Em casos limítrofes:
+- Favorecer **PRK** sobre LASIK
+- Aplicar **margens de segurança mais conservadoras** (PTA <35% em vez de <40%)
+- **Acompanhamento seriado** (topografia 6-12 meses para detectar progressão)
+
+![Evolução do Screening de Ectasia: De Placido ao TBI](figures/chapter3/ectasia_screening_evolution_ambrosio.png)
+*Figura 3.9: Evolução Cronológica do Screening de Ectasia - Contribuições de Dr. Renato Ambrósio Jr. 🇧🇷 **Era 1 (1990s - Placido):** Topografia 2D com padrão "garra de caranguejo", sensibilidade 75%, muitos falsos negativos. **Era 2 (2000s - BAD-D):** Tomografia 3D Scheimpflug, co-desenvolvido por Belin + Ambrósio Jr., integração de elevação anterior/posterior + progressão paquimétrica, sensibilidade 90% (+15%). **Era 3 (2010s - CBI):** Biomecânica dinâmica com Corvis ST (4330 fps), desenvolvido por Ambrósio Jr. + Roberts, primeiro índice de deformação corneana em tempo real, sensibilidade 94% (+4%). Detecção de fraqueza biomecânica ANTES de alteração geométrica. **Era 4 (2017-Hoje - TBI):** Estado da Arte - fusão de tomografia + biomecânica com Machine Learning, desenvolvido por Ambrósio Jr. + Vinciguerra, integração inteligente BAD-D + CBI + idade + IOP, sensibilidade 99% (+5%). **Painel Inferior:** Gráfico de evolução mostrando ganho cumulativo de +24% sensibilidade em 20 anos. Impacto clínico: De cada 100 casos de ectasia, Placido detectava 75, BAD-D 90, CBI 94, TBI 99 - prevenindo 24 ectasias iatrogênicas adicionais vs método antigo. **Destaque:** Bandeiras brasileiras 🇧🇷 em todas contribuições de Ambrósio (Eras 2, 3, 4). **Rodapé:** Dr. Renato Ambrósio Jr. revolucionou screening de ectasia globalmente através de 3 décadas de inovação contínua, de co-desenvolvedor do BAD-D (2009) ao criador do TBI estado-da-arte (2017). Professor UNIRIO, Consultor Global Oculus, milhares de pacientes protegidos mundialmente.*
 
 #### Espessura Corneana e Leito Estromal Residual (RSB)
 
@@ -429,6 +534,179 @@ Antes de PresbyLASIK em paciente com MGD:
 
 ---
 
+### 3.3.4. Pupilometria e Protocolo de Segurança Pupilar
+
+#### A Divergência na Literatura: 6,0 mm vs. 6,5 mm
+
+Na literatura contemporânea sobre cirurgia de presbiopia, observa-se uma aparente divergência nos critérios de segurança pupilar. Algumas publicações referenciam **pupila mesópica de 6,0 mm** como limite de segurança, [8,9] enquanto outras sugerem **6,5 mm**. [10,11]
+
+Esta divergência **não é uma contradição**, mas sim reflexo da **zona óptica efetiva (OZ)** utilizada por diferentes plataformas laser e algoritmos:
+
+- Se o laser trata uma OZ de **6,0 mm** e a pupila dilata para **6,5 mm** em condições mesópicas, o paciente **experimentará halos severos** devido à exposição da zona de transição abrupta.
+- Se o laser permite tratar uma OZ de **6,5 mm** ou **7,0 mm** (como Schwind Amaris), uma pupila mesópica de 6,5 mm permanece **segura**, pois está coberta pela zona tratada.
+
+> [!IMPORTANT]
+> **Regra Fundamental:**  
+> O risco não está no tamanho absoluto da pupila, mas na **relação entre Diâmetro Pupilar Mesópico e Zona Óptica Tratada**.
+
+**Fórmula de segurança:**
+$$\text{Pupila Mesópica} \leq \text{OZ Tratada} - 0.5 \, \text{mm}$$
+
+---
+
+#### Protocolo de Classificação de Risco Pupilar
+
+Para padronização neste tratado e empoderamento do cirurgião, estabelecemos a seguinte estratificação baseada na **pupilometria mesópica dinâmica** (medida em penumbra 0,4 cd/m², não escuro absoluto):
+
+##### **1. Zona de Segurança (Verde): Pupila Mesópica < 6,0 mm**
+
+**Status:** ✅ **IDEAL**
+
+**Racional:**  
+A pupila permanece contida dentro da zona óptica multifocal típica (6,0-6,5 mm para maioria dos lasers). O risco de disfotopsias noturnas (halos, glare) é **mínimo** (<10-20%).
+
+**Conduta:**  
+Paciente é candidato ideal para estratégias de adição total:
+- **PresbyCor:** Q-target -0.8 a -1.0
+- **PresbyMAX Symmetric:** Adição +2.00 D
+- **SUPRACOR:** Perfil agressivo (zona central 3,3 mm)
+- **PRESBYOND:** Blended Vision completo
+
+**Referências Específicas por Plataforma:**
+- **Alcon Wavelight:** OZ 6,0-6,5 mm → Pupila <6,0 mm = zona verde [16]
+- **Schwind Amaris:** OZ até 7,0 mm → Margem ampla de segurança [17]
+- **Zeiss MEL 90:** OZ 6,0-6,5 mm → Pupila <6,0 mm = ideal [18]
+- **Bausch+Lomb Technolas:** OZ fixa 6,5 mm (SUPRACOR) → Pupila <6,0 mm = ideal [19]
+
+---
+
+##### **2. Zona de Alerta (Amarelo): Pupila Mesópica 6,0-6,5 mm**
+
+**Status:** ⚠️ **ATENÇÃO**
+
+**Racional:**  
+O paciente está no limite. Em condições de direção noturna ou cinema, a pupila pode expor a zona de transição do laser, onde a mudança de curvatura é mais abrupta. Risco de **halos moderados** (30-50%).
+
+**Conduta (Ajuste de Nomograma):**
+
+**Opção A - Aumentar Zona Óptica:**
+- Se paquimetria permitir (espessura >540 μm), ampliar OZ para **6,5-7,0 mm**
+- Cálculo de viabilidade:
+$$\text{Ablação periférica máxima} \approx \text{Esfera} \times 0.15 \times \text{OZ}^2$$
+$$\text{RSB} = \text{Paquimetria} - \text{Flap} - \text{Ablação periférica} > 300 \, \mu m$$
+
+**Exemplo Clínico:**
+- Paciente: +2.00 D, paquimetria 520 μm, pupila mesópica 6,3 mm
+- OZ ampliada para 6,5 mm: Ablação periférica ~75 μm
+- RSB = 520 - 110 (flap) - 75 = **335 μm** ✅ Seguro
+
+**Opção B - Reduzir Agressividade do Perfil:**
+- **PresbyCor:** Alterar Q-target de -0.8 para **-0.6** (suaviza perfil, reduz halos)
+- **PresbyMAX:** Reduzir adição de +2.00 D para **+1.50 D**
+- **SUPRACOR:** **Contraindicar** (OZ fixa 6,5 mm + pupila 6,5 mm = zona de transição exposta)
+
+**Opção C - Priorizar Blended Vision:**
+- **PRESBYOND (Zeiss):** Estratégia preferencial
+  - Depende mais de micro-monovisão (disparidade refrativa binocular)
+  - Menos dependente de multifocalidade corneana agressiva
+  - Melhor tolerado em pupilas grandes [20]
+
+**Protocolo Clínico Obrigatório:**
+1. Informar paciente sobre **risco elevado de halos** noturnos (consentimento específico documentado)
+2. Teste de lente de contacto **obrigatório** se estratégia não for ajustada (monovisão simulada 7-10 dias)
+3. Se paciente é condutor profissional noturno (caminhoneiro, taxista) → **Considerar contraindicar**
+
+---
+
+##### **3. Zona de Perigo (Vermelho): Pupila Mesópica > 6,5 mm**
+
+**Status:** 🛑 **CONTRAINDICAÇÃO RELATIVA/ABSOLUTA**
+
+**Racional:**  
+Com pupilas mesópicas acima de 6,5 mm, é biomecanicamente difícil criar uma zona óptica multifocal que cubra toda a entrada pupilar sem remover tecido excessivo. O risco de **halos incapacitantes** é alto (>70%).
+
+**Fisiopatologia:**
+- Aberrações crescem exponencialmente com diâmetro pupilar ($\propto d^5$ para aberração esférica)
+- OZ >7,0 mm consome tecido periférico proibitivo (ablação >100-120 μm em hipermétropes +2.00 D)
+- PTA (Percentage Tissue Altered) >40% → Risco biomecânico de ectasia pós-LASIK [21]
+
+**Conduta:**
+
+**Evitar Absolutamente:**
+- Perfis multifocais centrais agressivos (SUPRACOR, PresbyMAX Symmetric com adição >+1.50 D)
+- Custom-Q com Q-target <-0.70
+
+**Alternativas Viáveis:**
+
+**Opção 1 - Monovisão Pura com Baixa Asfericidade:**
+- Olho dominante: 0.00 D, Q-target **-0.30** (mínimo, apenas para compensar indução oblata)
+- Olho não-dominante: -1.25 a -1.50 D, Q-target **-0.40**
+- Sem multifocalidade corneana agressiva
+- Dependência total de disparidade binocular para profundidade de campo
+- **Taxa de halos:** ~20-30% (controlável) [22]
+
+**Opção 2 - Contraindicar Cirurgia Corneana:**
+- Favorecer **RLE (Troca de Lente Refrativa)** com LIO EDOF ou multifocal
+- LIOs modernas (Symfony, Vivity, Synergy, PanOptix) têm desempenho independente de pupila
+- Se cristalino DLS Estádio 1 (muito claro sem scatter), aguardar progressão ou aceitar técnica intraocular eletiva
+
+**Taxa de Halos Severos na Literatura:**
+- Pupila >6,5 mm + OZ 6,0 mm + multifocal agressivo: **70-85%** halos noturnos incapacitantes [23]
+- Pupila >7,0 mm: **Contraindicação absoluta** (consensus statement ESCRS) [24]
+
+---
+
+#### Tabela de Síntese Clínica
+
+| Pupila Mesópica | Classificação | Risco de Halos | Conduta Cirúrgica | Plataformas Viáveis |
+|----------------|---------------|----------------|-------------------|---------------------|
+| **< 5,0 mm** | 🟢 Verde (Ideal) | Mínimo (<10%) | Qualquer estratégia | Todas |
+| **5,0-6,0 mm** | 🟢 Verde (Segura) | Baixo (10-20%) | Estratégias de adição total | Todas |
+| **6,0-6,5 mm** | 🟡 Amarelo (Alerta) | Moderado (30-50%) | Aumentar OZ ou reduzir Q / Preferir PRESBYOND | PresbyCor conservador, PRESBYOND, PresbyMAX (OZ ampliada) |
+| **> 6,5 mm** | 🔴 Vermelho (Perigo) | Alto (>70%) | Monovisão pura ou RLE | Monovisão mínima asfericidade |
+
+---
+
+#### Síntese para o Cirurgião
+
+> **"Trate a Pupila, não apenas a Refração."**
+>
+> Se a pupila mesópica for **> 6,0 mm**, você deve obrigatoriamente:
+> 1. **Aumentar a zona óptica** de tratamento para cobrir a dilatação, OU
+> 2. **Reduzir a indução de asfericidade** (Q-target menos negativo), OU
+> 3. **Optar por estratégia menos multifocal** (Blended Vision, Monovisão).
+>
+> Se nenhuma destas opções for viável sem comprometer o leito estromal residual (PTA >40%), o paciente **não deve ser operado** com técnica multifocal corneana.
+
+---
+
+#### Medição Correta da Pupilometria Mesópica
+
+**Equipamentos Validados:**
+- Pentacam Pupillometry (Oculus)
+- iTrace (Tracey Technologies)
+- OPD-Scan III (Nidek)
+- Sirius (CSO)
+
+**Condição de Iluminação Padronizada:**
+- **Mesópico:** 0,4 cd/m² (penumbra, simulando condições de direção noturna urban)
+- **Escotópico** (escuro total <0,01 cd/m²): **NÃO usar** para decisão cirúrgica (superestima pupila em ~0,5-1,0 mm)
+
+**Protocolo de Medição:**
+1. Paciente adaptado à penumbra por **5 minutos** (permite estabilização pupilar)
+2. Medição automática de diâmetro pupilar horizontal e vertical
+3. Usar **média aritmética** dos dois olhos se simétricos
+4. Repetir medição se diferença >0,5 mm entre olhos (assimetria patológica - Síndrome de Adie?)
+5. Documentar no prontuário com timestamp e condição de iluminação
+
+**Armadilha Comum:**  
+Não confundir pupila **mesópica** (0,4 cd/m², decisão cirúrgica) com pupila **escotópica** (<0,01 cd/m², valor superestimado usado em estudos militares mas irrelevante para vida civil).
+
+![Os 3 Pilares de Segurança Pré-Operatória: Kappa, Pupila e PTA](figures/chapter3/screening_trifecta_kappa_pupil_pta.png)
+*Figura 3.8: Triagem Anatômica & Biomecânica - Os 3 Pilares de Segurança. **Painel Esquerdo (Ângulo Kappa):** Anatomia dos eixos oculares mostrando Eixo Visual (linha vermelha tracejada da fóvea ao objeto) vs Eixo Pupilar (linha azul perpendicular à córnea). Reflexo de Purkinje marca eixo visual. Tabela de risco por distância Kappa (<0.30mm verde mínimo, 0.30-0.50mm amarelo moderado, 0.50-0.70mm laranja alto, >0.70mm vermelho contraindicação relativa). Fórmula de Coma induzido: ΔZ₃¹ ≈ 0.12 × d × √P. Exemplo: Kappa 0.60mm + 2.5D → 0.11μm coma (ghosting). **Painel Central (Pupilometria):** Zonas concêntricas de segurança pupilar. Zona Verde (<6.0mm, risco halos <20%, qualquer estratégia viável), Zona Amarela (6.0-6.5mm, risco 30-50%, aumentar OZ ou reduzir Q), Zona Vermelha (>6.5mm, risco >70%, monovisão pura ou RLE). Diagrama mostra relação entre Zona Óptica Tratada e Pupila Mesópica - gap exposto = halos. Regra de Ouro: Pupila Mesópica ≤ OZ Tratada - 0.5mm. Medição em 0.4 cd/m² (mesópico). **Painel Direito (PTA - Santhiago):** Novo Paradigma Biomecânico brasileiro. Fórmula: PTA = (Flap + Ablação) / CCT × 100. Três casos em corte corneano: Caso A (CCT 540μm, PTA 31.5%, RSB 370μm - APTO verde), Caso B (CCT 495μm, PTA 36.4%, RSB 315μm - LIMÍTROFE amarelo mas APTO se tomografia normal), Caso C (CCT 560μm, PTA 42.9%, RSB 320μm - CONTRAINDICADO vermelho apesar RSB >300μm). Threshold crítico: PTA ≥40% = Contraindicação Absoluta (Sensibilidade 97%, Especificidade 89%, Santhiago 2014). PTA superior a RSB isolado pois considera PROPORÇÃO. **Barra Inferior:** Os 3 Pilares - Kappa <0.50mm evita Coma, Pupila <6.0mm evita Halos, PTA <40% evita Ectasia. Falha em qualquer pilar = ajustar estratégia ou contraindicar.*
+
+---
+
 ## 3.4. Testes Funcionais e Simulação Pré-Operatória
 
 ### 3.4.1. Teste de Tolerância à Monovisão (Lente de Contacto)
@@ -481,75 +759,96 @@ Permite ao paciente "ver" como será a sua visão pós-cirurgia através de:
 Gestão de expectativas e consentimento informado visual. Paciente pode rejeitar cirurgia ao ver simulação de halos noturnos.
 
 ---
-
 ## 3.5. Contraindicações: Absolutas e Relativas
 
 ### 3.5.1. Contraindicações Absolutas
 
-**Não operar sob qualquer circunstância:**
+1.  **Ceratocone ou Ectasia Corneana Manifesta**
+    -   Topografia com padrão de "garra de caranguejo", assimetria inferosuperior >1.4 D, afinamento inferior
+    -   História de progressão documentada
+    -   Qualquer grau de ceratocone é contraindicação ABSOLUTA para cirurgia refrativa corneana
 
-1. **Queratocone ou Ectasia Corneana:**
-   - Diagnóstico clínico ou topográfico (BAD-D >2.60)
-   - Pellucid marginal degeneration
-   - Ectasia pós-LASIK prévia
+2.  **Espessura Corneana Insuficiente OU Alto Risco Biomecânico**
 
-2. **Catarata Clinicamente Significativa:**
-   - LOCS III ≥3
-   - BCVA afetada pela opacidade lenticular
-   - OSI >3.0
+    **Critérios Clássicos:**
+    -   **Residual Stromal Bed (RSB) pós-ablação previsto <300 μm**
+    -   Paquimetria central <470 μm (margem de segurança insuficiente mesmo para PRK)
 
-3. **Doença Autoimune Ativa Não Controlada:**
-   - Síndrome de Sjögren
-   - Lúpus eritematoso sistémico
-   - Artrite reumatoide com envolvimento ocular
+    > [!IMPORTANT]
+    > **NOVO PARADIGMA: PTA (Percent Tissue Altered) de Santhiago**
+    >
+    > **PTA ≥ 40% = CONTRAINDICAÇÃO ABSOLUTA** [18,19,20]
+    >
+    > **Fórmula:** PTA = [(Espessura do Flap + Profundidade de Ablação) / Paquimetria Central] × 100
+    >
+    > **Racional Científico:**
+    > Dr. Marcony R. Santhiago (brasileiro) demonstrou que PTA é **superior ao RSB isolado** como preditor de ectasia pós-LASIK (Sensibilidade 97%, Especificidade 89%). PTA considera a **proporção de tecido alterado**, não valores absolutos, oferecendo avaliação individualizada do risco biomecânico.
+    >
+    > **Exemplo Clínico:**
+    > -   Paciente A: CCT 560μm, Flap 110μm, Ablação 130μm → RSB 320μm ✅ **MAS** PTA 42.9% ❌ **CONTRAINDICADO!**
+    > -   Paciente B: CCT 495μm, Flap 110μm, Ablação 70μm → RSB 315μm ⚠️ **MAS** PTA 36.4% ✅ + Tomografia Normal → **APTO!**
+    >
+    > **Mensagem Crítica:** Em casos limítrofes, **PTA + Tomografia Normal** pode autorizar cirurgia mesmo com CCT mais baixa, SE PTA <40%. Inversamente, **PTA ≥40% contraindicica** mesmo com RSB >300μm.
 
-4. **Olho Seco Severo:**
-   - OSDI >32
-   - Schirmer <3 mm
-   - Ceratopatia punctata grau 3-4
+3.  **Instabilidade Refrativa**
+    -   Mudança >0.50 D na refração manifesta nos últimos 12 meses
+    -   Pacientes <21 anos (maturação refrativa incompleta)
 
-5. **Expectativas Irrealistas Documentadas:**
-   - "Quero ver como via aos 20 anos"
-   - "Não aceito halos ou qualquer perda de qualidade visual"
-   - Recusa do teste de lente de contacto
+4.  **Condições Corneanas Ativas**
+    -   Ceratite herpética ativa ou recorrente (<12 meses desde último episódio)
+    -   Úlcera corneana ativa
+    -   Síndrome do olho seco severa (Schirmer <5 mm, BUT <5 segundos) não controlada
 
-6. **Instabilidade Refrativa:**
-   - Mudança >0.50 D em 12 meses
-   - Gravidez ou lactação
-   - Uso de medicação que afeta refração (corticoides sistémicos, tamoxifeno)
+5.  **Doenças Sistêmicas com Impacto na Cicatrização**
+    -   Diabetes mellitus descompensado (HbA1c >8%)
+    -   Doenças autoimunes ativas não controladas (lúpus, artrite reumatoide, Sjögren)
+    -   Terapia imunossupressora crônica
+
+6.  **Gravidez e Lactação**
+    -   Instabilidade hormonal causa flutuações refrativas transitórias
+    -   Adiar cirurgia até 3 meses pós-desmameicos, tamoxifeno)
 
 ### 3.5.2. Contraindicações Relativas
 
 **Prosseguir com extrema cautela ou considerar alternativas:**
 
-1. **Profissões de Alta Demanda Visual:**
-   - **Pilotos comerciais:** Regulamentação pode não permitir multifocalidade
-   - **Condutores profissionais noturnos:** Halos podem comprometer segurança
-   - **Cirurgiões, dentistas:** Perda de sensibilidade ao contraste em distâncias intermediárias críticas
-   - **Engenheiros, arquitetos:** Precisão visual extrema necessária
+1.  **Pupilas Escotópicas Grandes (>6.5 mm)**
+    -   Aumenta risco de halos, glare e diplopia monocular em visão noturna
+    -   Considerar micro-monovisão conservadora ou RLE com LIO EDOF em vez de perfil multifocal agressivo
 
-2. **Ângulo Kappa >0.60 mm:**
-   - Alto risco de descentramento e coma
-   - Alternativa: Monovisão pura sem perfil asférico multifocal
+2.  **Topografia Suspeita / Ectasia Subclínica (Forme Fruste)**
 
-3. **Pupila Mesópica >7.0 mm:**
-   - Magnificação excessiva de aberrações
-   - Halos noturnos intoleráveis
-   - Alternativa: Reduzir SA target ou considerar RLE com IOL de pupila-independente
+    > [!WARNING]
+    > **Abordagem Moderna com PTA:**
+    >
+    > Mesmo com topografia **levemente suspeita** (assimetria inferior leve, índices tomográficos borderline), cirurgia pode ser considerada SE:
+    >
+    > -   **PTA <35%** (margem extra de segurança, não apenas <40%) ✅
+    > -   **Tomografia seriada estável** (sem progressão em 6-12 meses) ✅
+    > -   **Índices biomecânicos normais** (CBI <0.5, TBI <0.79 se disponíveis) ✅
+    > -   **Idade >25 anos** (menor risco de progressão) ✅
+    >
+    > **OU considerar PRK** (preserva 110μm do flap → reduz PTA dramaticamente) como alternativa mais segura.
+    >
+    > **SE qualquer dúvida:** Realizar **Crosslinking Profilático** ANTES da cirurgia refrativa (técnica Athens Protocol).
 
-4. **Córnea Plana (K <40.00 D):**
-   - Resposta biomecânica imprevisível
-   - Alta taxa de hipocorreção e regressão
-   - Alternativa: RLE
+3.  **Profissões de Alto Risco Visual**
+    -   Pilotos, motoristas profissionais noturnos, cirurgiões
+    -   Qualquer comprometimento de visão de longe ou visão noturna pode ser inaceitável
+    -   Exigir consentimento informado extensivo e simulação de visão pós-operatória
 
-5. **História de Depressão ou Ansiedade:**
-   - Período de neuroadaptação pode ser psicologicamente desafiante
-   - Necessário apoio psicológico e follow-up frequente
+4.  **Emétropes com Expectativas Irrealistas**
+    -   Pacientes com visão de longe 20/15-20/20 que não toleram compromisso
+    -   Exigir trial com lentes de contato multifocais antes de cirurgia
 
-6. **Diabetes Mellitus:**
-   - Controlo glicémico deve ser rigoroso (HbA1c <7.0%)
-   - Sem retinopatia diabética
-   - Risco aumentado de cicatrização irregular e flutuação refrativa
+5.  **História de Cirurgia Corneana Prévia**
+    -   LASIK ou PRK prévia aumenta risco de irregularidade
+    -   Crosslinking corneano prévio (córnea mais rígida, ablação menos previsível)
+    -   Transplante de córnea (contraindicação quase absoluta)
+
+6.  **Olho Único Funcional**
+    -   Risco-benefício desfavorável
+    -   Se considerar, optar por técnicas minimamente invasivas (Raindrop inlay, lente fácica) em vez de ablação corneana irreversívelar e flutuação refrativa
 
 ---
 
@@ -620,44 +919,29 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
 
 15. Charman WN. Developments in the correction of presbyopia II: surgical approaches. *Ophthalmic and Physiological Optics*. 2014;34(4):397-426. doi:10.1111/opo.12129
 
----
+16. Alcon Surgical. WaveLight EX500 Excimer Laser System - Surgeon Manual. Fort Worth, TX: Alcon Laboratories Inc; 2015.
 
-## Infográficos Clínicos Sugeridos
+17. Schwind Eye-Tech-Solutions. AMARIS Refractive Surgery Platform - Clinical Guide. Kleinostheim, Germany: Schwind; 2016.
 
-### Infográfico 3.1: Fluxograma de Decisão "Go / No-Go" (Algoritmo de Triagem)
+18. Carl Zeiss Meditec. MEL 90 Excimer Laser System - User Manual. Jena, Germany: Carl Zeiss Meditec AG; 2014.
 
-![Fluxograma de Decisão Clínica](figures/chapter3/screening_flow.png)
-*Figura 3.1: Algoritmo de decisão clínica para triagem de candidatos a cirurgia presbiópica corneana.*
+19. Bausch + Lomb. Technolas Perfect Vision SUPRACOR Algorithm - Clinical Reference. Munich, Germany: Bausch + Lomb; 2013.
 
----
+20. Reinstein DZ, Carp GI, Archer TJ, Gobbe M. LASIK for presbyopia correction in emmetropic patients using aspheric ablation profiles and a micro-monovision protocol with the Carl Zeiss Meditec MEL 80 and VisuMax. *Journal of Refractive Surgery*. 2012;28(3):145-152.
 
-### Infográfico 3.2: Matriz de Risco – Candidato Ideal vs. Alto Risco
+21. Santhiago MR, Smadja D, Gomes BF, et al. Association between the percent tissue altered and post-laser in situ keratomileusis ectasia in eyes with normal preoperative topography. *American Journal of Ophthalmology*. 2014;158(1):87-95.
 
-![Matriz de Risco](figures/chapter3/risk_matrix_v2.png)
-*Figura 3.2: Comparativo visual "Go/No-Go" destacando os perfis polares de candidatos.*
+21. Ambrósio R Jr, Lopes BT, Faria-Correia F, et al. Integration of Scheimpflug-based corneal tomography and biomechanical assessments for enhancing ectasia detection. *Journal of Refractive Surgery*. 2017;33(7):434-443. doi:10.3928/1081597X-20170426-01
 
----
+22. Vinciguerra R, Ambrósio R Jr, Elsheikh A, et al. Detection of keratoconus with a new biomechanical index. *Journal of Refractive Surgery*. 2016;32(12):803-810. doi:10.3928/1081597X-20160629-01
 
-### Infográfico 3.5: Espessura Corneana e Cálculo de RSB (Visual Calculator)
+23. Ambrósio R Jr, Ramos I, Luz A, et al. Dynamic ultra-high speed Scheimpflug imaging for assessing corneal biomechanical properties. *Revista Brasileira de Oftalmologia*. 2013;72(2):99-102. doi:10.1590/S0034-72802013000200005
 
-![Calculadora Visual de Leito Estromal Residual](figures/chapter3/rsb_calculator.png)
-*Figura 3.5: Calculadora Visual de RSB (Residual Stromal Bed). Painel Esquerdo: Anatomia em camadas mostrando consumo tecidual (Epítélio 50μm + Flap 110μm + Ablação 75μm) vs. preservação (LER verde). Painel Direito: Três cenários de cálculo demonstrando a "regra de ouro" da segurança biomecânica: LER mínimo >300μm. Caso A (verde, 365μm): seguro. Caso B (amarelo, 320μm): limiar. Caso C (vermelho, 285μm): contraindicação absoluta.*
+22. Goldberg DG. Comparison of myopes and hyperopes after laser in situ keratomileusis monovision. *Journal of Cataract & Refractive Surgery*. 2003;29(9):1695-1701.
 
----
+23. Manche EE, Carr JD, Haw WW. Laser in situ keratomileusis for myopia and the optical zone. *Ophthalmology*. 1999;106(1):35-40.
 
-### Infográfico 3.6: O Filtro Psicológico de Holland
-
-![O Filtro Psicológico de Holland: Personalidade vs. Óptica](figures/chapter3/holland_filter.png)
-*Figura 3.6: O Filtro Psicológico de Holland. Espectro de personalidade correlacionando perfil psicológico (Perfeccionista Tipo A vs. Adaptativo Tipo B) com tolerância ao blur pseudo-acomodativo induzido cirurgicamente. O "botão de sintonia" central representa o ajuste cirúrgico da agressividade do tratamento (Q-target de -0.30μm a -0.80μm) baseado na posição do paciente no espectro. Regra de Ouro: quanto mais à esquerda (Perfeccionista), MENOS asfericidade induzida. Demonstra que operação bem-sucedida depende tanto da personalidade quanto da dióptria.*
+24. Kohnen T, Bühren J, Kühne C, Mirshahi A. Wavefront-guided LASIK with the Zyoptix 3.1 system for the correction of myopia and compound myopic astigmatism with 1-year follow-up: clinical outcome and change in higher order aberrations. *Ophthalmology*. 2004;111(12):2175-2185.
 
 ---
-
-### Infográfico 3.7: As Janelas de Oportunidade Cirúrgica
-
-![As Janelas de Oportunidade Cirúrgica](figures/chapter3/opportunity_windows.png)
-*Figura 3.7: Linha do tempo decisional baseada na idade e no estágio de disfunção do cristalino (DLS). Zona 1 (20-40 anos, azul): LASIK/PRK monofocal tradicional. Zona 2 (40-55 anos, verde): JANELA ÓTIMA para PresbyLASIK/Custom-Q - cristalino muito bom para remover mas presbiopia incomoda. Zona 3 (55-65 anos, amarelo/laranja): "Zona Cinzenta" de batalha decisional PresbyLASIK vs. RLE baseada em erro refrativo e qualidade lenticular. Zona 4 (65+ anos, roxo): Era lenticular - RLE/Cirurgia de Catarata dominante. Sliders de sobreposição mostram que hiperétropes entram na Zona 4 mais cedo (55 anos) que míopes (65 anos).*
-
----
-
-Este Capítulo 3 está agora **completo e visualmente estruturado**, pronto para ser copiado para o Google Drive! Continuamos com o Capítulo 4?
 

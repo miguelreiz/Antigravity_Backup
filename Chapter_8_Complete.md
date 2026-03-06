@@ -3,7 +3,7 @@
 > [!CAUTION]
 > **Advertência Clínica Inicial:** O SUPRACOR representa a abordagem mais **radical e agressiva** de todas as técnicas presbiópicas corneanas descritas neste livro. Ao contrário de Custom-Q (Q moderadamente negativo), PresbyMAX (bi-asférico) ou PRESBYOND (micro-monovisão blend), o SUPRACOR induz modificação corneana extrema: **Q-factor aproximando -1.5 a -2.0** (hiper-prolatividade severa) e adição central de **+3.00 a +3.50 D**. Esta agressividade resulta em taxas de satisfação **mais baixas** e fenómenos fóticos **mais severos** que outras técnicas, mas oferece, em contrapartida, a **maior adição efetiva** possível em cirurgia corneana. É uma técnica de nicho para pacientes muito específicos. [1]
 
-## 8.1. Filosofia e Conceito: "Maximum Add, Maximum Trade-Off"
+## 8.1. Filosofia e Conceito: "Maximum Add, Maximum Compromisso"
 
 ### 8.1.1. Origem e Desenvolvimento
 
@@ -15,12 +15,17 @@ O SUPRACOR foi desenvolvido pela Bausch + Lomb (plataforma Technolas Teneo) e in
 
 **Comparação de Agressividade:**
 
-| Técnica | Q Induzido | SA Negativa | Add Efetiva Máxima | Trade-Off CDVA |
+| Técnica | Q Induzido | SA Negativa | Add Efetiva Máxima | Compromisso CDVA |
 |---------|------------|-------------|-------------------|----------------|
 | Custom-Q | -0.70 a -0.90 | -0.35 a -0.45 μm | +1.50-1.75 D | Mínimo (-0 a -1 linha) |
 | PresbyMAX | -0.85 a -1.00 | -0.40 a -0.50 μm | +2.00-2.50 D | Ligeiro (-1 linha) |
 | PRESBYOND | -0.50 a -0.85 | -0.20 a -0.40 μm | +1.75-2.00 D | Mínimo (monovisão) |
 | **SUPRACOR** | **-1.50 a -2.00** | **-0.75 a -1.00 μm** | **+3.00-3.50 D** | **Severo (-2 a -3 linhas)** |
+
+### Infográfico 8.2: Compromisso Matrix - SUPRACOR
+
+![Balança de Ganhos e Perdas](figures/chapter8/supracor_tradeoff_scale.png)
+*Figura 8.2: O preço da independência. O SUPRACOR oferece a melhor visão de perto do mercado (Lado Verde), mas o custo em qualidade de longe e contraste (Lado Vermelho) desequilibra a balança para muitos pacientes.*
 
 ### 8.1.2. Geometria Óptica: A "Montanha Central"
 
@@ -46,6 +51,11 @@ A córnea torna-se funcionalmente **trifocal**:
 1. **Raios centrais** (pupila fotópica <2.5 mm): Focam a 33 cm (perto)
 2. **Raios paracentrales** (pupila mesópica 4-5 mm): Focam a 60-80 cm (intermédio)
 3. **Raios periféricos** (pupila >5.5 mm): Focam no infinito (longe)
+
+### Infográfico 8.1: Perfil Geométrico SUPRACOR vs. Outras Técnicas
+
+![A Montanha Central](figures/chapter8/supracor_geometric_profile.png)
+*Figura 8.1: A geometria da agressividade. Note a "montanha" central vermelha do SUPRACOR (+6.00D) elevando-se muito acima das curvas suaves do Custom-Q ou PresbyMAX. É esta elevação extrema que garante a leitura, mas causa os halos.*
 
 ---
 
@@ -154,7 +164,7 @@ Bilateral SUPRACOR foi **abandonado universalmente**. Todos os protocolos atuais
    - **Compreensão explícita:** "Vou ler perfeitamente mas minha visão de longe será inferior"
    - Teste de lente de contacto MANDATÓRIO
 
-### 8.4.2. Teste de Lente de Contacto: Simulação de Trade-Off
+### 8.4.2. Teste de Lente de Contacto: Simulação de Compromisso
 
 **Protocolo Específico SUPRACOR:**
 
@@ -179,16 +189,15 @@ Literatura: **25-35%** (muito superior a PRESBYOND 5-8% ou Custom-Q 10-15%)
 
 ### 8.4.3. Contraindicações Absolutas
 
-1. **Profissões que exigem CDVA excelente:**
-   - Pilotos (qualquer tipo)
-   - Condutores profissionais
-   - Cirurgiões
-   - Atiradores, militares
+1. **Córnea Fina ou Suspeita de Ectasia:**
+   - Paquimetria <500 μm
+   - BAD-D >1.60 ou qualquer índice de ectasia
 
-2. **Pupila Mesópica >6.5 mm:**
-   - Halos serão incapacitantes
+2. **Pupila Mesópica >6.5 mm:** CONTRAINDICAÇÃO
+   - **Justificativa:** SUPRACOR utiliza OZ fixa 6.5mm. Pupila maior expõe zona de transição abrupta → difração severa e halos incapacitantes.
+   - **Nota:** Esta é limitação específica SUPRACOR. Plataformas com OZ ajustável (Schwind Amaris 7.0mm) ou perfis contínuos (PresbyCor) toleram Zona de Alerta 6.0-6.5mm com ajustes. Ver **Cap. 3.3.4** para framework pupilar completo.
 
-3. **Paciente emétrope ou míope sem compreensão do trade-off:**
+3. **Erro Refrativo Extremo:**
    - Alto risco de arrependimento ("Eu via bem de longe antes!")
 
 4. **História de depressão ou ansiedade:**
@@ -224,7 +233,7 @@ Literatura: **25-35%** (muito superior a PRESBYOND 5-8% ou Custom-Q 10-15%)
 | PresbyMAX Hybrid | 90% | 0.4 linhas |
 | **SUPRACOR** | **68%** | **1.8 linhas** |
 
-### 8.5.2. Qualidade Visual: Trade-Offs Severos
+### 8.5.2. Qualidade Visual: Compromissos Severos
 
 **Sensibilidade ao Contraste:**
 
@@ -307,8 +316,13 @@ SUPRACOR só faz sentido se:
 | **Add +2.00-2.50 D, Pupila <6mm** | PresbyMAX Hybrid | Add elevada com CDVA boa |
 | **Add +2.50-3.00 D, >60 anos** | **RLE + IOL Multifocal** | Solução definitiva |
 | **Add +2.50-3.00 D, 55-58 anos, cristalino claro** | SUPRACOR (nicho) | Única indicação real SUPRACOR |
-| **Emétrope, Add +1.50 D** | PRESBYOND | Minimiza trade-off |
+| **Emétrope, Add +1.50 D** | PRESBYOND | Minimiza compromisso |
 | **Míope -4D, Add +2.00 D** | Monovisão Custom-Q | Preserva perto natural |
+
+### Infográfico 8.3: Algoritmo de Decisão - SUPRACOR vs. RLE
+
+![O Nicho Estreito](figures/chapter8/supracor_decision_algorithm.png)
+*Figura 8.3: Onde o SUPRACOR ainda faz sentido? O algoritmo mostra que o espaço para esta técnica é um "buraco de agulha" entre os 55-58 anos. Acima dos 60, a RLE (Lente Intraocular) é quase sempre superior.*
 
 ---
 
@@ -352,6 +366,11 @@ Informar paciente repetidamente:
 - "Halos noturnos serão proeminentes - evite condução noturna prolongada inicial"
 - "20-30% pacientes nunca ficam 100% confortáveis com visão de longe"
 
+### Infográfico 8.4: Curva de Neuroadaptação SUPRACOR
+
+![O Vale do Arrependimento](figures/chapter8/supracor_neuroadaptation_curve.png)
+*Figura 8.4: Gestão de expectativas. A curva de satisfação (verde) sofre um mergulho profundo na primeira semana ("Semana do Arrependimento") devido ao blur de longe. A recuperação é lenta e os halos (vermelho) persistem.*
+
 ---
 
 ## 8.8. Reversão de SUPRACOR
@@ -382,6 +401,11 @@ Informar paciente repetidamente:
 
 **Taxa de Sucesso Reversão:** 70-75% (inferior a PresbyMAX ~80%)
 
+### Infográfico 8.5: Caso Clínico - Reversão de SUPRACOR
+
+![Sequelas da Reversão](figures/chapter8/supracor_reversal_triptych.png)
+*Figura 8.5: Reverter não é apagar. A sequência mostra que, mesmo após a ablação de resgate ter aplanado a "montanha" central, a córnea retém irregularidades que limitam a qualidade óptica perfeita.*
+
 ---
 
 ## Referências Bibliográficas
@@ -395,48 +419,3 @@ Informar paciente repetidamente:
 4. Arbelaez MC. PresbyLASIK: an update. *Current Opinion in Ophthalmology*. 2020;31(4):257-262.doi:10.1097/ICU.0000000000000673
 
 5. Ang M, Gatinel D, Reinstein DZ, Mertens E, Alió del Barrio JL, Alió JL. Refractive surgery beyond 2020. *Eye*. 2021;35(2):362-382. doi:10.1038/s41433-020-1096-5
-
----
-
-## Infográficos Clínicos Sugeridos
-
-### Infográfico 8.1: Perfil Geométrico SUPRACOR vs. Outras Técnicas
-
-![A Montanha Central](figures/chapter8/supracor_geometric_profile.png)
-*Figura 8.1: A geometria da agressividade. Note a "montanha" central vermelha do SUPRACOR (+6.00D) elevando-se muito acima das curvas suaves do Custom-Q ou PresbyMAX. É esta elevação extrema que garante a leitura, mas causa os halos.*
-
-### Infográfico 8.2: Trade-Off Matrix - SUPRACOR
-
-![Balança de Ganhos e Perdas](figures/chapter8/supracor_tradeoff_scale.png)
-*Figura 8.2: O preço da independência. O SUPRACOR oferece a melhor visão de perto do mercado (Lado Verde), mas o custo em qualidade de longe e contraste (Lado Vermelho) desequilibra a balança para muitos pacientes.*
-
-### Infográfico 8.3: Algoritmo de Decisão - SUPRACOR vs. RLE
-
-![O Nicho Estreito](figures/chapter8/supracor_decision_algorithm.png)
-*Figura 8.3: Onde o SUPRACOR ainda faz sentido? O algoritmo mostra que o espaço para esta técnica é um "buraco de agulha" entre os 55-58 anos. Acima dos 60, a RLE (Lente Intraocular) é quase sempre superior.*
-
-### Infográfico 8.4: Curva de Neuroadaptação SUPRACOR
-
-![O Vale do Arrependimento](figures/chapter8/supracor_neuroadaptation_curve.png)
-*Figura 8.4: Gestão de expectativas. A curva de satisfação (verde) sofre um mergulho profundo na primeira semana ("Semana do Arrependimento") devido ao blur de longe. A recuperação é lenta e os halos (vermelho) persistem.*
-
-### Infográfico 8.5: Caso Clínico - Reversão de SUPRACOR
-
-![Sequelas da Reversão](figures/chapter8/supracor_reversal_triptych.png)
-*Figura 8.5: Reverter não é apagar. A sequência mostra que, mesmo após a ablação de resgate ter aplanado a "montanha" central, a córnea retém irregularidades que limitam a qualidade óptica perfeita.*
-
----
-
-**Este Capítulo 8 está agora COMPLETO**, com:
-- ✅ Filosofia e conceito de multifocalidade extrema
-- ✅ Geometria óptica detalhada ("montanha central")
-- ✅ Protocolo Technolas Teneo
-- ✅ Seleção de pacientes ultra-restrita
-- ✅ Resultados clínicos honestos (trade-offs severos)
-- ✅ Comparação SUPRACOR vs. RLE (alternativa superior em muitos casos)
-- ✅ Protocolo cirúrgico e reversão
-- ✅ 5 Referências bibliográficas
-- ✅ 5 Infográficos clínicos detalhados
-
-**PARTE II (SURGICAL TECHNIQUES) COMPLETA!**
-Pronto para copiar para o Google Drive!

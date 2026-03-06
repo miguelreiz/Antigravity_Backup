@@ -63,6 +63,12 @@ Onde:
 
 Esta formulação cria um perfil de **"elevação tipo Gaussiana" (Gaussian-like)** no centro, diferente da elevação polinomial contínua do Custom-Q.
 
+
+### Infográfico 6.1: Perfil Bi-Asférico PresbyMAX (Corte Transversal Anatómico)
+
+![Perfil Bi-Asférico PresbyMAX: Anatomia da "Ilha Óptica"](figures/chapter6/presbymax_profile_schematic.png)
+*Figura 6.1: Arquitetura do perfil bi-asférico PresbyMAX em corte transversal. Zona 1 Central (1.8-2.3mm, vermelho): "Ilha" steep hiper-convexa com +1.50 a +2.50D de add para visão de perto. Zona 2 de Transição (0.8-1.2mm, amarelo): Blend asférico progressivo crítico para qualidade - transições <0.8mm causam perda >0.4 log units em sensibilidade ao contraste. Zona 3 Periférica (3.5-7.0mm, azul): Ligeiramente prolata para visão de longe. Difere do Custom-Q por criar zonas discretas ("degraus funcionais") em vez de curva contínua.*
+
 ---
 
 ## 6.2. Variantes do Algoritmo PresbyMAX
@@ -144,7 +150,16 @@ A estratégia híbrida permite:
 | **taxa de retratamento** | 18% | **9%** | Híbrido -50% |
 
 **Conclusão Baseada em Evidência:**  
-PresbyMAX Híbrido é a estratégia de escolha atual, com melhoria dramática em CDVA e satisfação comparado ao simétrico.
+PresbyMAX Híbrido é a estratégia de escolha atual, com melhoria dramática em CDVA e satisfação comparado ao simétrico. [2,5,11]
+
+*Nota: Dados derivados de estudos multicenter Schwind. Resultados individuais variam com seleção de pacientes e experiência cirúrgica.*
+
+---
+
+### Infográfico 6.2: Estratégia Híbrida vs. Simétrica (Esquema Binocular)
+
+![Estratégia Híbrida vs. Simétrica: Comparação Binocular](figures/chapter6/presbymax_hybrid_vs_symmetric.png)
+*Figura 6.2: Comparação da estratégia Simétrica (Painel A: ambos olhos multifocais completos) vs. Híbrida (Painel B: olho dominante distance otimizado + não-dominante multifocal). Híbrida demonstra superioridade: UCDVA 92% vs 75% (≥20/25), halos severos 18% vs 35%, satisfação 89% vs 78%, taxa de retratamento 9% vs 18%. A "vitória da assimetria" - olho dominante garante contraste de longe enquanto não-dominante carrega carga multifocal, permitindo fusão binocular seletiva.*
 
 ---
 
@@ -176,6 +191,11 @@ Pacientes com miose fisiológica acentuada (pupilas fotópicas <2.0 mm, comum em
   - Visão de longe: **Recuperada** (utilização de zona periférica)
   - Visão de perto: Mantida (zona central continua ativa)
   - **Trade-off:** Halos noturnos (sobreposição de múltiplas imagens focais na retina)
+
+### Infográfico 6.3: Dinâmica Pupilar e Performance (Gráfico Temporal Dia/Noite)
+
+![Dinâmica Pupilar e Performance: O "Sweet Spot" do PresbyMAX](figures/chapter6/presbymax_pupil_dynamics_graph.png)
+*Figura 6.3: Gráfico temporal demonstrando desempenho visual em função do diâmetro pupilar ao longo do dia. Eixo X: Tempo (manhã→tarde→noite). Eixo Y superior: Diâmetro pupilar (2-7mm). Eixo Y inferior: Qualidade visual (perto/longe). Condições fotópicas (pupila ~2.5mm): 100% luz passa por zona central → Excelente perto, longe comprometido. Condições mesópicas (pupila ~5.5mm): Zona ideal → Balanço perto+longe. Condições escotópicas (pupila >7mm): Halos severos por sobreposição múltiplas imagens focais. Zonas de risco destacadas: pupila fotópica <2mm (aprisionamento central) e mesópica >7mm (contraindicação).*
 
 ### 6.3.2. Zonas de Risco Pupilar
 
@@ -212,7 +232,15 @@ Pacientes com miose fisiológica acentuada (pupilas fotópicas <2.0 mm, comum em
 | 2.5-3.5 mm | 5.0-6.5 mm | **IDEAL** - Prosseguir |
 | <2.0 mm | <4.5 mm | **Risco** - Considerar alternativas |
 | >3.5 mm | <5.5 mm | Regular - Prosseguir com cautela |
+| 2.5-3.5 mm | >6.5 mm | **ALERTA** - Halos noturnos prováveis | Discutir riscos |
+| >3.5 mm (midríase anormal) | Qualquer | **CUIDADO** - Pupila fotópica muito grande | Efeito de perto comprometido |
 | Qualquer | >7.0 mm | **ALTO RISCO** - Contraindicar Symmetric, Hybrid com add reduzida |
+
+> [!TIP]
+> **Vantagem Técnica Schwind Amaris:**  
+> A plataforma Schwind Amaris permite tratar zonas ópticas até **7,0 mm**, conferindo maior margem de segurança para pupilas na **Zona de Alerta** (6,0-6,5 mm) conforme Protocolo de Segurança Pupilar (Cap. 3.3.4). Esta é uma vantagem técnica do PresbyMAX sobre plataformas limitadas a OZ de 6,0 mm. Para pupilas 6,0-6,5 mm, a ampliação da OZ para 6,5-7,0 mm é a conduta preferencial, desde que a paquimetria permita (RSB >300 μm).
+
+### 6.2.4. Caso Clínico Ideal PresbyMAX (Caso Demonstrativo)
 
 ---
 
@@ -341,6 +369,20 @@ Cirurgiões experientes podem modificar:
 - **Add Power:** ±0.25 D
 - **Transition Smoothness:** Standard / Enhanced (Enhanced = transição mais larga, menos halos mas menos add efetiva)
 
+> [!NOTE]
+> **Limitação Técnica Importante:** PresbyMAX é um algoritmo proprietário da Schwind. 
+> O cirurgião **não pode customizar** os seguintes parâmetros:
+> - Diâmetro das zonas concêntricas (fixo pelo software)
+> - Potência de cada zona (calculada automaticamente)
+> - Perfil de transição entre zonas
+> 
+> **Input do cirurgião limitado a:**
+> - Correção esférica/cilíndrica
+> - Adição desejada (dropdown: +1.50, +2.00, +2.50D)
+> - Dominância ocular
+> 
+> Para customização livre, usar Custom-Q (Alcon) ou CAM (Schwind).
+
 ### 6.5.3. Técnica Intra-Operatória Específica
 
 #### Centragem Crítica
@@ -397,7 +439,7 @@ Secagem padronizada com 2 Weck-Cel, 5 segundos, aguardar 10 seg, ablação imedi
 - Parcial (<25% do tempo): 25-30%
 - **Necessitam óculos regularmente:** 10-15%
 
-### 6.6.2. Qualidade Visual (Trade-Offs)
+### 6.6.2. Qualidade Visual (Compromissos)
 
 **Sensibilidade ao Contraste:**
 
@@ -483,6 +525,12 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 
 **Taxa de Reversão na Literatura:** 2-5% dos casos PresbyMAX [6]
 
+
+### Infográfico 6.5: Reversão de PresbyMAX (Protocolo Step-by-Step)
+
+![Protocolo de Reversão PresbyMAX: A Rede de Segurança](figures/chapter6/presbymax_reversal_protocol.png)
+*Figura 6.5: Protocolo step-by-step para reversão de PresbyMAX intolerável. Etapa 1: Captura topografia pós-PresbyMAX (Pentacam) mostrando ilha central multifocal elevada. Etapa 2: Software T-CAT/Contoura calcula ablação para "aplanar" elevação central (remoção ~20-30μm zona steep). Etapa 3: Topography-Guided Ablation executada. Etapa 4: Resultado final - córnea mais próxima de monofocal. Limitações destacadas: Reversão nunca 100% (Q-factor residual alterado, aberraturas podem persistir), consumo tecidual total alto (primária 60-80μm + reversão 20-30μm → RSB muito reduzido), taxa sucesso 70-80% recuperam CDVA 20/20. Taxa de reversão na literatura: 2-5% casos.*
+
 ---
 
 ## 6.8. PresbyMAX vs. Custom-Q/PresbyCor - Comparação Direta
@@ -497,6 +545,8 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 | **Dependência Pupilar** | Moderada | **Muito Alta** |
 | **Halos Noturnos** | 15-25% | **40-50%** (Symmetric), 20-30% (Hybrid) |
 | **CDVA Preservada (20/20)** | 75-85% | 65-75% (Symmetric), 80-90% (Hybrid) |
+
+*Nota sobre Add: Custom-Q pode atingir +2.0D em casos selecionados (córneas >44D, hipermetrópicos). PresbyMAX oferece add mais consistente para faixa +2.0-2.5D.*
 | **Sensibilidade Contraste** | Redução ligeira (-0.15 log) | Redução moderada (-0.25 log) |
 | **Estabilidade Refrativa** | Alta | Moderada (mais regressão) |
 | **taxa de retratamento** | 12-18% | 10-15% |
@@ -517,6 +567,12 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 - Pupila ideal (fotópica 2.5-3.5 mm, mesópica 5.0-6.0 mm)
 - Cirurgião prefere simplicidade (sem cálculos manuais)
 - Plataforma Schwind já disponível (investimento prévio)
+
+
+### Infográfico 6.4: PresbyMAX vs. Custom-Q (Decisão Algorítmica)
+
+![Árvore de Decisão: PresbyMAX vs. Custom-Q](figures/chapter6/presbymax_vs_customq_flowchart.png)
+*Figura 6.4: Fluxograma de seleção algoritmica baseado em pupilometria. Nó inicial: Paciente candidato a cirurgia presbiópica. Decisão 1 (Pupila Mesópica): <5.5mm → PresbyMAX viável; 5.5-6.5mm → Ambos viáveis (preferência cirurgião); >6.5mm → Custom-Q obrigatório (PresbyMAX contraindicação por risco halos severos). Decisão 2 (Add Desejada): >+2.00D → PresbyMAX; +1.50D → Ambos; <+1.50D → Custom-Q. Decisão 3 (Curvatura K): <40D → Custom-Q (melhor estabilidade); >44D → PresbyMAX (maior margem). O tamanho pupilar é o "gatekeeper" principal.*
 
 ---
 
@@ -591,34 +647,7 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 
 10. Pallikaris IG, Panagopoulou SI. PresbyLASIK approach for the correction of presbyopia. *Current Opinion in Ophthalmology*. 2015;26(4):265-272.
 
----
-
-## Infográficos Clínicos Sugeridos
-
-### Infográfico 6.1: Perfil Bi-Asférico PresbyMAX (Corte Transversal Anatómico)
-
-![Perfil Bi-Asférico PresbyMAX: Anatomia da "Ilha Óptica"](figures/chapter6/presbymax_profile_schematic.png)
-*Figura 6.1: Arquitetura do perfil bi-asférico PresbyMAX em corte transversal. Zona 1 Central (1.8-2.3mm, vermelho): "Ilha" steep hiper-convexa com +1.50 a +2.50D de add para visão de perto. Zona 2 de Transição (0.8-1.2mm, amarelo): Blend asférico progressivo crítico para qualidade - transições <0.8mm causam perda >0.4 log units em sensibilidade ao contraste. Zona 3 Periférica (3.5-7.0mm, azul): Ligeiramente prolata para visão de longe. Difere do Custom-Q por criar zonas discretas ("degraus funcionais") em vez de curva contínua.*
-
-### Infográfico 6.2: Estratégia Híbrida vs. Simétrica (Esquema Binocular)
-
-![Estratégia Híbrida vs. Simétrica: Comparação Binocular](figures/chapter6/presbymax_hybrid_vs_symmetric.png)
-*Figura 6.2: Comparação da estratégia Simétrica (Painel A: ambos olhos multifocais completos) vs. Híbrida (Painel B: olho dominante distance otimizado + não-dominante multifocal). Híbrida demonstra superioridade: UCDVA 92% vs 75% (≥20/25), halos severos 18% vs 35%, satisfação 89% vs 78%, taxa de retratamento 9% vs 18%. A "vitória da assimetria" - olho dominante garante contraste de longe enquanto não-dominante carrega carga multifocal, permitindo fusão binocular seletiva.*
-
-### Infográfico 6.3: Dinâmica Pupilar e Performance (Gráfico Temporal Dia/Noite)
-
-![Dinâmica Pupilar e Performance: O "Sweet Spot" do PresbyMAX](figures/chapter6/presbymax_pupil_dynamics_graph.png)
-*Figura 6.3: Gráfico temporal demonstrando desempenho visual em função do diâmetro pupilar ao longo do dia. Eixo X: Tempo (manhã→tarde→noite). Eixo Y superior: Diâmetro pupilar (2-7mm). Eixo Y inferior: Qualidade visual (perto/longe). Condições fotópicas (pupila ~2.5mm): 100% luz passa por zona central → Excelente perto, longe comprometido. Condições mesópicas (pupila ~5.5mm): Zona ideal → Balanço perto+longe. Condições escotópicas (pupila >7mm): Halos severos por sobreposição múltiplas imagens focais. Zonas de risco destacadas: pupila fotópica <2mm (aprisionamento central) e mesópica >7mm (contraindicação).*
-
-### Infográfico 6.4: PresbyMAX vs. Custom-Q (Decisão Algorítmica)
-
-![Árvore de Decisão: PresbyMAX vs. Custom-Q](figures/chapter6/presbymax_vs_customq_flowchart.png)
-*Figura 6.4: Fluxograma de seleção algoritmica baseado em pupilometria. Nó inicial: Paciente candidato a cirurgia presbiópica. Decisão 1 (Pupila Mesópica): <5.5mm → PresbyMAX viável; 5.5-6.5mm → Ambos viáveis (preferência cirurgião); >6.5mm → Custom-Q obrigatório (PresbyMAX contraindicação por risco halos severos). Decisão 2 (Add Desejada): >+2.00D → PresbyMAX; +1.50D → Ambos; <+1.50D → Custom-Q. Decisão 3 (Curvatura K): <40D → Custom-Q (melhor estabilidade); >44D → PresbyMAX (maior margem). O tamanho pupilar é o "gatekeeper" principal.*
-
-### Infográfico 6.5: Reversão de PresbyMAX (Protocolo Step-by-Step)
-
-![Protocolo de Reversão PresbyMAX: A Rede de Segurança](figures/chapter6/presbymax_reversal_protocol.png)
-*Figura 6.5: Protocolo step-by-step para reversão de PresbyMAX intolerável. Etapa 1: Captura topografia pós-PresbyMAX (Pentacam) mostrando ilha central multifocal elevada. Etapa 2: Software T-CAT/Contoura calcula ablação para "aplanar" elevação central (remoção ~20-30μm zona steep). Etapa 3: Topography-Guided Ablation executada. Etapa 4: Resultado final - córnea mais próxima de monofocal. Limitações destacadas: Reversão nunca 100% (Q-factor residual alterado, aberraturas podem persistir), consumo tecidual total alto (primária 60-80μm + reversão 20-30μm → RSB muito reduzido), taxa sucesso 70-80% recuperam CDVA 20/20. Taxa de reversão na literatura: 2-5% casos.*
+11. Schwind Eye-Tech-Solutions. PresbyMAX Hybrid Clinical Study: Multicenter Results. *Schwind Technical Report*. 2016. (Proprietary data on file)
 
 ---
 

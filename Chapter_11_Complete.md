@@ -40,6 +40,13 @@
 - Pode requerer cirurgia adicional major
 - Exemplos: DLK grau 4, ectasia, descentramento severo
 
+- Exemplos: DLK grau 4, ectasia, descentramento severo
+
+### Infográfico 11.3: Complicações por Técnica (Tabela Comparativa)
+
+![Heatmap de Risco](figures/chapter11/complications_heatmap.png)
+*Figura 11.3: Quem arrisca o quê? As cores mostram o perfil de segurança. SUPRACOR (vermelho) tem alto risco de halos e reversão. PRESBYOND (verde) mantém perfil semelhante à monovisão clássica.*
+
 ---
 
 ## 11.2. Complicações Específicas da Cirurgia Presbiópica
@@ -98,6 +105,11 @@
 - Melhoria ≥2 linhas BCVA: 70-80%
 - Resolução completa sintomas: 60%
 - Alguns casos residual coma irremediável
+
+### Infográfico 11.1: Algoritmo Gestão Descentramento
+
+![Algoritmo de Descentramento](figures/chapter11/decentration_algo.png)
+*Figura 11.1: Fluxograma decisional. A chave não é o descentramento topográfico, mas o Coma induzido e os sintomas. Neuroadaptação resolve a maioria dos casos <0.5mm. RLE ou RGP são salvaguardas para casos onde falta tecido (RSB).*
 
 ### 11.2.2. Fenómenos Fóticos Incapacitantes Persistentes
 
@@ -201,6 +213,11 @@ Olho seco pós-LASIK já é comum (50-70% sintomas transitórios). **Em PresbyLA
 - **Tear Break-Up Time (TBUT):** Target >10 segundos
 - **Schirmer Test:** >10 mm/5 min (normal)
 
+### Infográfico 11.4: Ciclo Vicioso do Olho Seco em Presbiopia
+
+![O Loop do Olho Seco](figures/chapter11/dry_eye_cycle.png)
+*Figura 11.4: O motor da insatisfação. A ablação corta nervos -> menos lágrima -> filme instável -> aberrações ópticas -> má visão -> esforço -> menos pestanejo/lágrima. Quebrar este ciclo é prioridade.*
+
 ### 11.2.4. Regressão Refrativa e Perda de Add
 
 **Definição:**
@@ -299,6 +316,11 @@ Perfis asféricos com ablação paracentral profunda podem ter:
 - Grau 1-2: Resolução completa sem sequelas 95%
 - Grau 3: Resolução com possível haze ligeiro 80%
 - Grau 4: Risco perda BCVA permanente 20-30%
+
+### Infográfico 11.2: DLK Grading System (Visual)
+
+![DLK: Areias do Sahara](figures/chapter11/dlk_grading.png)
+*Figura 11.2: Classificação visual da DLK. Do grau benigno (1) ao tóxico (4). O aspecto "granular" na interface é patognomónico. O tratamento precoce evita o "melting" estromal.*
 
 ### 11.3.2. Epithelial Ingrowth
 
@@ -488,37 +510,3 @@ Paciente objetivamente com bom resultado (UCDVA ≥20/25, UCNVA ≥J3, topografi
 
 ---
 
-## Infográficos Clínicos Sugeridos
-
-### Infográfico 11.1: Algoritmo Gestão Descentramento
-
-![Algoritmo de Descentramento](figures/chapter11/decentration_algo.png)
-*Figura 11.1: Fluxograma decisional. A chave não é o descentramento topográfico, mas o Coma induzido e os sintomas. Neuroadaptação resolve a maioria dos casos <0.5mm. RLE ou RGP são salvaguardas para casos onde falta tecido (RSB).*
-
-### Infográfico 11.2: DLK Grading System (Visual)
-
-![DLK: Areias do Sahara](figures/chapter11/dlk_grading.png)
-*Figura 11.2: Classificação visual da DLK. Do grau benigno (1) ao tóxico (4). O aspecto "granular" na interface é patognomónico. O tratamento precoce evita o "melting" estromal.*
-
-### Infográfico 11.3: Complicações por Técnica (Tabela Comparativa)
-
-![Heatmap de Risco](figures/chapter11/complications_heatmap.png)
-*Figura 11.3: Quem arrisca o quê? As cores mostram o perfil de segurança. SUPRACOR (vermelho) tem alto risco de halos e reversão. PRESBYOND (verde) mantém perfil semelhante à monovisão clássica.*
-
-### Infográfico 11.4: Ciclo Vicioso do Olho Seco em Presbiopia
-
-![O Loop do Olho Seco](figures/chapter11/dry_eye_cycle.png)
-*Figura 11.4: O motor da insatisfação. A ablação corta nervos -> menos lágrima -> filme instável -> aberrações ópticas -> má visão -> esforço -> menos pestanejo/lágrima. Quebrar este ciclo é prioridade.*
-
----
-
-**Este Capítulo 11 está agora COMPLETO**, com:
-- ✅ Classificação taxonómica (temporal + gravidade)
-- ✅ Complicações específicas presbiópicas (descentramento, halos, olho seco, regressão)
-- ✅ Complicações gerais aplicadas (DLK, ingrowth, ectasia)
-- ✅ Complicações funcionais (intolerância anisometropia, psicogénicas)
-- ✅ Protocolos de gestão detalhados
-- ✅ 7 Referências bibliográficas
-- ✅ 4 Infográficos clínicos detalhados (descritivos)
-
-**Parte III quase completa!** Pronto para Google Drive!

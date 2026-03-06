@@ -150,6 +150,9 @@ Descreve geometria corneana. Q=0: esférica. Q<0: prolata (achata periferia). Q>
 **RLE (Refractive Lens Exchange)**  
 Cirurgia de troca do cristalino (mesmo se transparente) por IOL multifocal/EDOF para corrigir presbiopia + ametropia. Irreversível.
 
+**Ray-Tracing (Traçado de Raios)**  
+Tecnologia de medição óptica retina-a-retina (iTrace, Alcon InnovEyes). Diferente do Wavefront (que mede no plano pupilar), projeta 2000-4000 raios individuais e mede o desvio na retina. Ideal para olhos muito aberrados onde Hartmann-Shack falha.
+
 **RSB (Residual Stromal Bed)**  
 Espessura de estroma residual após ablação. Segurança mínima: 300 μm (presbiópico: 320 μm recomendado). Previne ectasia.
 

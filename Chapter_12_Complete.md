@@ -44,6 +44,11 @@
 - **Custo superior** (IOL premium cara)
 - **Perda acomodação residual** (se <50 anos, ainda tinha 2-3 D)
 
+### Infográfico 12.1: Comparação Sistemática Córnea vs RLE
+
+![Córnea vs RLE](figures/chapter12/corneal_vs_rle_comparison.png)
+*Figura 12.1: Comparação lado-a-lado Córnea (LASIK/PRK) vs RLE. Painel esquerdo azul: conceito corneano (Custom-Q, PresbyMAX, PRESBYOND), vantagens (menos invasiva, reversível, cristalino preservado), desvantagens (add limitada +2-2.5D, compromisso longe, regressão possível), complicações (perda ≥2 linhas 0.1-0.3%, infecção 0.01-0.02%), candidato ideal (45-55a, DLS1-2, -1 a +3D, PTA <35%). Painel direito laranja: conceito RLE (IOL multifocal/EDOF/trifocal), vantagens (add elevada +3-4D, estabilidade permanente, resolve catarata futura), desvantagens (irreversível, custo superior, perda acomodação residual), complicações (perda ≥2 linhas 0.5-1.0%, endoftalmite 0.02-0.1%, CME 1-2%, descolamento 0.3-0.7%), candidato ideal (>55a, DLS2-3, OSI >1.5, hiper >+4D ou miopia >-6D). Quick decision footer: idade <50+DLS1 → CÓRNEA 99%, idade >60+DLS3 → RLE 90%, idade 50-60+DLS2 → algoritmo completo 50/50.*
+
 ---
 
 ### 12.1.2. Dados Epidemiológicos Comparativos
@@ -110,7 +115,12 @@
 - BCVA comprometida (<20/40 com correção)
 - LOCS II ≥3
 
-**Decisão:** **RLE única opção** (catarata = indicação cirúrgica)
+**Decisão:** **RLE única opção** (catarata = indicação cirúrgica absoluta)
+
+### Infográfico 12.2: Escala Visual DLS (4 Estágios)
+
+![Classificação DLS](figures/chapter12/dls_visual_scale.png)
+*Figura 12.2: Timeline horizontal mostrando progressão DLS 1-4. Stage 1 (verde): cristalino funcional <50a, acomodação >2.5D, LOCS <1, OSI <1.0, decisão córnea preferível (preservar cristalino jovem). Stage 2 (amarelo-verde): disfunção precoce 50-58a, acomodação 1.0-2.5D, LOCS 1-2, OSI 1.0-2.0, decisão ZONA CINZENTA (avaliar erro refrativo + RSB/PTA, se OSI >1.5 tendência RLE). Stage 3 (laranja): disfunção avançada >58a, acomodação <1.0D, LOCS 2-3, OSI 2.0-3.0, decisão RLE preferível 80% (cristalino já comprometido, evita 2 cirurgias). Stage 4 (vermelho): catarata manifesta, acomodação 0D, LOCS >3, OSI >3.0, decisão RLE obrigatório. Painel inferior: PONTO DE INFLEXÃO CRÍTICO DLS 2 (50-58 anos) - se OSI >1.5 + idade >55 RLE previdencial, se OSI <1.2 + idade <52 corneana viável.*
 
 ---
 
@@ -143,6 +153,13 @@
 ## 12.3. Factores de Decisão Multivariável
 
 ### 12.3.1. Idade (Factor Peso Elevado)
+
+### Infográfico 12.2: Zona de Idade vs DLS (Heatmap Decisional)
+
+![Heatmap de Decisão](figures/chapter12/decision_heatmap.png)
+*Figura 12.2: Navegando a Zona Cinzenta. O Heatmap visualiza onde está o risco. Tentar LASIK em zona Vermelha (60+ anos) é erro estratégico. RLE em zona Verde (<48 anos) é agressão desnecessária.*
+
+**<48 Anos:**
 
 **<48 Anos:**
 
@@ -244,14 +261,19 @@
 **Add +2.00-2.25 D:**
 
 - **Zona cinzenta**
-- PresbyMAX pode atingir, mas trade-offs aumentam
+- PresbyMAX pode atingir, mas compromissos aumentam
 - RLE oferece add mais robusta
 
 **Add >+2.25 D:**
 
 - **RLE preferível**
-- Cirurgia corneana tem add máxima ~+2.50 D (SUPRACOR), com trade-offs severos
+- Cirurgia corneana tem add máxima ~+2.50 D (SUPRACOR), com compromissos severos
 - IOL trifocal oferece +4.00 D sem comprometer longe tanto
+
+### Infográfico 12.3: Matriz Idade × Erro Refrativo
+
+![Matriz Decisão](figures/chapter12/age_refractive_matrix.png)
+*Figura 12.3: Matriz 2D combinando idade (eixo X: <45a, 45-50a, 50-58a, 58-65a, >65a) vs erro refrativo (eixo Y: hipermetropia alta >+4D, hiper moderada +2 a +4D, emetropia -1 a +1D, miopia baixa -1 a -3D, miopia moderada -3 a -6D, miopia alta -6 a -10D, miopia extrema >-10D). Cada célula cor-codificada: verde = córnea preferível, amarelo = avaliar 50/50, laranja = RLE tendência, vermelho = RLE obrigatório. Exemplos críticos: Hiper >+4D + >50a → sempre RLE (vermelho), Miopia -1 a -3D + 45-58a → sempre córnea (verde), Miopia >-10D qualquer idade → RLE (vermelho). Painel inferior: fatores modificadores (DLS3 shift 1 categoria RLE, PTA >40% ou RSB <280µm RLE obrigatório). Painel lateral direito: exceções críticas (ceratocone RLE only, pós-LASIK RSB <320µm RLE only, add >+2.25D tendência RLE).*
 
 ---
 
@@ -297,9 +319,21 @@ CORNEANA    RLE
    CORNEANA    RLE
 ```
 
+```
+
+### Infográfico 12.1: Algoritmo Master Decisional (Visual Completo)
+
+![O Algoritmo Mestre](figures/chapter12/master_decision_algo.png)
+*Figura 12.1: O mapa mental definitivo. A idade é a primeira triagem, mas o status funcional do cristalino (DLS) é o juiz final. "Preservar se transparente, substituir se disfuncional".*
+
 ---
 
 ## 12.5. Comparação de Outcomes Clínicos
+
+### Infográfico 12.3: Comparação Visual Outcomes (Radar Chart)
+
+![Radar de Trade-offs](figures/chapter12/outcomes_radar.png)
+*Figura 12.3: Não há almoços grátis. A área coberta por cada linha mostra o "footprint" de benefícios. Córnea (Azul) ganha em segurança e qualidade noturna. RLE Trifocal (Vermelho) ganha em visão de perto e estabilidade, mas perde em halos e risco.*
 
 ### 12.5.1. Visão de Longe (UCDVA)
 
@@ -475,25 +509,6 @@ CORNEANA    RLE
 
 ---
 
-## Infográficos Clínicos Sugeridos
-
-### Infográfico 12.1: Algoritmo Master Decisional (Visual Completo)
-
-![O Algoritmo Mestre](figures/chapter12/master_decision_algo.png)
-*Figura 12.1: O mapa mental definitivo. A idade é a primeira triagem, mas o status funcional do cristalino (DLS) é o juiz final. "Preservar se transparente, substituir se disfuncional".*
-
-### Infográfico 12.2: Zona de Idade vs DLS (Heatmap Decisional)
-
-![Heatmap de Decisão](figures/chapter12/decision_heatmap.png)
-*Figura 12.2: Navegando a Zona Cinzenta. O Heatmap visualiza onde está o risco. Tentar LASIK em zona Vermelha (60+ anos) é erro estratégico. RLE em zona Verde (<48 anos) é agressão desnecessária.*
-
-### Infográfico 12.3: Comparação Visual Outcomes (Radar Chart)
-
-![Radar de Trade-offs](figures/chapter12/outcomes_radar.png)
-*Figura 12.3: Não há almoços grátis. A área coberta por cada linha mostra o "footprint" de benefícios. Córnea (Azul) ganha em segurança e qualidade noturna. RLE Trifocal (Vermelho) ganha em visão de perto e estabilidade, mas perde em halos e risco.*
-
----
-
 **Este Capítulo 12 está agora COMPLETO**, com:
 - ✅ Fundamentos comparação corneana vs lenticular
 - ✅ Avaliação cristalino (DLS, OSI, densitometria)
@@ -506,3 +521,4 @@ CORNEANA    RLE
 - ✅ 3 Infográficos clínicos
 
 **Parte IV quase completa!** Falta apenas Capítulo 13 (Clinical Decision Trees final)!
+```
