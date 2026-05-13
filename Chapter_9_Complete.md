@@ -29,18 +29,18 @@ Estimativas conservadoras (baseado em dados ASCRS/ESCRS):
 Pacientes que fizeram LASIK/PRK no passado têm expectativas **significativamente mais elevadas** que pacientes virgens:
 
 1. **Memória de "Cirurgia Perfeita":**
-   - "O meu LASIK foi perfeito, fiquei 20/15, vivi 20 anos sem óculos"
-   - Expectativa: "A cirurgia de presbiopia vai ser igualmente perfeita"
-   - **Realidade:** Presbiopia é intrinsecamente um **compromisso**, nunca "perfeito"
+  - "O meu LASIK foi perfeito, fiquei 20/15, vivi 20 anos sem óculos"
+  - Expectativa: "A cirurgia de presbiopia vai ser igualmente perfeita"
+  - **Realidade:** Presbiopia é intrinsecamente um **compromisso**, nunca "perfeito"
 
 2. **Intolerância a Compromissos:**
-   - Acostumados a visão excelente de longe (20/20 ou melhor pós-LASIK)
-   - Resistência a aceitar perda de qualidade de longe para ganhar perto
-   - Taxa de insatisfação: **15-25%** (vs. 5-10% em córneas virgens) [2]
+  - Acostumados a visão excelente de longe (20/20 ou melhor pós-LASIK)
+  - Resistência a aceitar perda de qualidade de longe para ganhar perto
+  - Taxa de insatisfação: **15-25%** (vs. 5-10% em córneas virgens) [2]
 
 3. **Exigência de Independência Total de Óculos:**
-   - "Nunca mais usei óculos desde o LASIK, não vou começar agora"
-   - Dificuldade em aceitar que óculos ocasionais (leitura prolongada, condução noturna) sejam normais
+  - "Nunca mais usei óculos desde o LASIK, não vou começar agora"
+  - Dificuldade em aceitar que óculos ocasionais (leitura prolongada, condução noturna) sejam normais
 
 **Gestão de Expectativas:**
 
@@ -89,6 +89,34 @@ Em córneas pós-LASIK, **Custom-Q ou PRESBYOND** (menos consumo de tecido) são
 ![Risco de Ectasia](figures/chapter9/tissue_impact.png)
 *Figura 9.4: A armadilha do tecido. Algoritmos agressivos (Cenário B - Vermelho) removem demasiado estroma numa córnea já fina, violando o limite de segurança. Técnicas conservadoras (Cenário A - Verde) são preferíveis.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Visualizar o perigo de usar algoritmos agressivos em córneas já finas.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Comparação de Corte Transversal (Risk Simulation).
+
+### Cenário A (Seguro): Custom-Q Mode
+*   Córnea Pós-LASIK.
+*   Nova Ablação (Verde): Fina e Periférica (30 μm).
+*   RSB Final: **310 μm** (Zona Segura).
+
+### Cenário B (Perigoso): PresbyMAX/SUPRACOR Mode
+*   Córnea Pós-LASIK (Mesmo olho).
+*   Nova Ablação (Vermelha): Profunda e Central (70 μm).
+*   RSB Final: **270 μm** (Zona de Ectasia).
+*   **Alerta:** Ícone de "Cracking" ou instabilidade estrutural.
+
+---
+
+## 2. Legenda Explicativa
+"Algoritmos multifocais complexos (PresbyMAX/SUPRACOR) 'comem' muito tecido para esculpir as suas curvas. Num olho que já perdeu 80-100 μm no primeiro LASIK, essa fome de tecido pode levar o leito residual abaixo do limite de segurança de 300 μm, causando ectasia." [4]
+
+
 ### 9.2.2. Perfil Asférico Pré-Existente (Q Oblato)
 
 **Consequência Óptica do LASIK Miópico:**
@@ -130,6 +158,41 @@ Isto é **2× maior** que em córnea virgem (onde Q baseline é tipicamente -0.2
 ![O Desafio do Delta Q](figures/chapter9/delta_q_challenge.png)
 *Figura 9.2: A luta contra a geometria. Olhos pós-LASIK são "chatos" (oblatos). Para os tornar multifocais (prolatos), o laser tem de trabalhar o dobro ou o triplo (Barra Vermelha) em comparação com um olho virgem (Barra Verde).*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Mostrar por que é biometricamente mais difícil tratar um olho pós-LASIK do que um olho virgem.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Barras Comparativo (Workload).
+
+### Eixo Y: Esforço de Remodelação (Delta Q)
+
+### Barra 1: Olho Virgem (Verde)
+*   Começa em Q -0.20 (Prolato normal).
+*   Vai para Q -0.60 (Target Presby).
+*   Tamanho do Salto: **Pequeno (0.4)**.
+*   Label: "Fácil".
+
+### Barra 2: Olho Pós-LASIK (Laranja)
+*   Começa em Q +0.40 (Oblato/Achatado pelo LASIK antigo).
+*   Vai para Q -0.60 (Target Presby).
+*   Tamanho do Salto: **ENORME (1.0)**.
+*   A barra é 2.5x maior que a verde.
+*   Label: "**Difícil (Consome muito tecido)**".
+
+### Seta de Consequência
+*   Seta a sair da Barra 2 para uma Ícone de "Tecido": "**+40% de Ablação Necessária**".
+
+---
+
+## 2. Legenda Explicativa
+"O LASIK prévio deixa a córnea achatada (oblata). Para criar a profundidade de campo (prolata), temos de lutar contra essa geometria, exigindo uma mudança de forma (Delta Q) muito mais radical, o que consome mais tecido e induz mais aberrações."
+
+
 ### 9.2.3. Aberrações de Alta Ordem Pré-Existentes
 
 **Problema:**
@@ -159,11 +222,11 @@ Adicionar **SA negativa** (técnica presbiópica) numa córnea que já tem **SA 
 **Informação Ideal (Raramente Disponível):**
 
 1. **Relatório cirúrgico original:**
-   - Refração pré-LASIK
-   - Paquimetria pré-LASIK
-   - Tecnologia laser utilizada
-   - Espessura de flap criado
-   - Ablação realizada (μm)
+  - Refração pré-LASIK
+  - Paquimetria pré-LASIK
+  - Tecnologia laser utilizada
+  - Espessura de flap criado
+  - Ablação realizada (μm)
 
 2. **Topografias pré e pós-LASIK imediatas**
 
@@ -203,6 +266,38 @@ Medição direta:
 ![O Check-Up de Segurança](figures/chapter9/oct_safety.png)
 *Figura 9.1: Quando a história clínica se perdeu. O uso de OCT permite medir diretamente o Flap e o RSB (Leito Residual). Se o RSB for <300 μm (zona vermelha), qualquer cirurgia corneana adicional é perigosa.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Ensinar o cirurgião a calcular a segurança (RSB) mesmo quando o paciente perdeu os relatórios da cirurgia de há 20 anos.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Corte Tomográfico (OCT de Segmento Anterior) Simulado.
+
+### A Imagem (Corte da Córnea)
+*   **Camada Superior (Amarelo Translucido):** O Flap Antigo.
+    *   Label: "Flap Antigo (120 μm)".
+*   **Linha Brilhante:** A Interface (Cicatriz do LASIK original).
+*   **Camada Inferior (Azul Sólido):** O Leito Residual (RSB).
+    *   Caliper digital medindo esta camada.
+    *   Label: "**RSB Atual (330 μm)**".
+
+### O Gauge de Risco (Lateral)
+*   Um ponteiro tipo velocímetro.
+*   **Zona Vermelha (<300):** "PERIGO (Ectasia)".
+*   **Zona Amarela (300-320):** "Cuidado Extremo".
+*   **Zona Verde (>320):** "Seguro".
+*   O ponteiro está no **Verde (330)**, mas perto do amarelo.
+
+---
+
+## 2. Legenda Explicativa
+"Sem dados antigos? Use o OCT. A espessura do leitoral residual (RSB) é o único número que importa para evitar a ectasia. Se o OCT mostrar <300 μm de leito abaixo do flap, a cirurgia corneana está contraindicada, independentemente da espessura total."
+
+
 ### 9.3.2. Aberrometria Comparativa
 
 **Protocolo:**
@@ -217,7 +312,7 @@ Isolar contribuição de aberrações **lenticulares** (cristalino) vs. **cornea
 
 **Decisão:**
 
-- Se SA positiva é predominantemente **corneana** (+0.50 μm corneana, +0.10 μm interna):
+- Se SA positiva é predominantemente **corneana** (+0.50 μm corneana, +0.10 μm interna): [6]
   - Induzir SA negativa corneana pode compensar eficazmente → **Viável**
   
 - Se SA positiva é predominantemente **interna** (+0.15 μm corneana, +0.45 μm interna):
@@ -233,12 +328,12 @@ Isolar contribuição de aberrações **lenticulares** (cristalino) vs. **cornea
 **Vantagens em Pós-LASIK:**
 
 1. **Consumo de Tecido Controlável:**
-   - Cirurgião calcula Q-target conservador (-0.60 em vez de -0.80)
-   - Reduz ablação necessária
+  - Cirurgião calcula Q-target conservador (-0.60 em vez de -0.80)
+  - Reduz ablação necessária
 
 2. **Personalização Total:**
-   - Pode ajustar para Q oblato pré-existente
-   - Nomogramas adaptáveis
+  - Pode ajustar para Q oblato pré-existente
+  - Nomogramas adaptáveis
 
 **Protocolo Adaptado:**
 
@@ -284,12 +379,12 @@ Paciente pós-LASIK miópico pode resistir a monovisão:
 **Razões:**
 
 1. **Consumo Tecido Excessivo:**
-   - PresbyMAX: 60-80 μm
-   - SUPRACOR: 70-90 μm
-   - RSB frequentemente insuficiente
+  - PresbyMAX: 60-80 μm
+  - SUPRACOR: 70-90 μm
+  - RSB frequentemente insuficiente
 
 2. **Perfil Muito Agressivo:**
-   - Shift de Q oblato para hiper-prolato extremo biomecânicamente instável
+  - Shift de Q oblato para hiper-prolato extremo biomecânicamente instável
 
 **Exceção Rara:**
 
@@ -323,12 +418,12 @@ Paciente:
 **Gestão:**
 
 1. **Cross-Linking Corneal (CXL):**
-   - Interromper progressão
-   - Epi-off ou Transepithelial CXL
+  - Interromper progressão
+  - Epi-off ou Transepithelial CXL
 
 2. **Óptica:**
-   - Lentes RGP para corrigir irregularidade
-   - Se intolerável: Considerar transplante (extremo)
+  - Lentes RGP para corrigir irregularidade
+  - Se intolerável: Considerar transplante (extremo)
 
 **Prevenção:**
 
@@ -375,33 +470,33 @@ Ver Capítulo 4, Secção 4.6.2 (protocolo de debridamento e cauterização).
 
 ```
 Paciente Pós-LASIK com Presbiopia
-    ↓
+  ↓
 [RSB Disponível?]
-    ↓
+  ↓
 Medir com OCT ou estimar
-    ↓
+  ↓
 <300 μm → **RLE** (não arriscar córnea)
 300-320 μm → **RLE preferível** ou Custom-Q ultra-conservador
 320-350 μm → Custom-Q ou PRESBYOND
 >350 μm → Qualquer técnica viável
-    ↓
+  ↓
 [Q Pós-LASIK?]
-    ↓
+  ↓
 Muito oblato (Q >+0.60) → Custom-Q conservador, evitar PresbyMAX/SUPRACOR
 Moderadamente oblato (Q +0.20 a +0.60) → Custom-Q ou PRESBYOND
 Prolato (Q <0) → Favorável (ex-LASIK hipermetrópico)
-    ↓
+  ↓
 [Aberrações Pré-Existentes?]
-    ↓
+  ↓
 Coma >0.40 μm → **Topoguiado primeiro** (regularizar), depois presbiópico
 SA interna >+0.40 μm → RLE preferível
 Aberrações baixas → Prosseguir técnica escolhida
-    ↓
+  ↓
 [Expectativas Paciente?]
-    ↓
+  ↓
 Irrealistas ("Quero 20/15 longe E J1 perto") → **Educar ou Recusar**
 Realistas ("Aceito compromissos") → Prosseguir
-    ↓
+  ↓
 **Decisão Final + Consentimento Informado Reforçado**
 ```
 
@@ -409,6 +504,38 @@ Realistas ("Aceito compromissos") → Prosseguir
 
 ![O Labirinto de Decisão](figures/chapter9/decision_flowchart.png)
 *Figura 9.3: Navegando o risco. O algoritmo prioriza a segurança biomecânica (RSB) e a qualidade óptica (Coma). A RLE (Lente Intraocular) aparece frequentemente como a "saída de emergência" mais segura.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Um guia passo-a-passo para navegar a complexidade.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Fluxograma Clínico.
+
+### Passo 1: O Gatekeeper (RSB)
+*   Losango: "RSB > 320 μm?"
+*   NÃO (Vermelho) -> Seta para "**RLE (Lente Intraocular)**".
+*   SIM (Verde) -> Continua.
+
+### Passo 2: A Geometria (Q-Factor)
+*   Losango: "Córnea muito Oblata (>+0.6)?"
+*   SIM -> "**Custom-Q Conservador**" (Não tentar multifocalidade agressiva).
+*   NÃO -> Continua.
+
+### Passo 3: A Qualidade (Coma)
+*   Losango: "Coma Elevado (>0.4)?"
+*   SIM -> "**Topoguiado Primeiro**" (Regularizar antes de multifocalizar).
+*   NÃO -> "**PRESBYOND / PresbyLASIK**".
+
+---
+
+## 2. Legenda Explicativa
+"Em córneas operadas, a segurança biomecânica (RSB) dita as regras. Se a córnea for muito fina ou irregular, não insista no laser. A troca de lente (RLE) é a saída de emergência segura."
+
 
 ---
 
@@ -435,15 +562,15 @@ Realistas ("Aceito compromissos") → Prosseguir
 **Gestão:**
 
 1. **Educação Expectativas:** 3 consultas pré-op explicando compromissos
-   - Impossível manter 20/15 longe + add to+2.00 D sem comprometer qualidade
+  - Impossível manter 20/15 longe + add to+2.00 D sem comprometer qualidade
 
 2. **Teste LC:** Monovisão simulada (OD +0.50, OE -1.25 D)
-   - Resultado: Tolerou mas "não adorou" (score 6/10)
+  - Resultado: Tolerou mas "não adorou" (score 6/10)
 
 3. **Decisão:** Custom-Q conservador
-   - OD (dominante): Q target -0.50 (moderado), target +0.25 D
-   - OE (não-dominante): Q target -0.70, target -0.75 D
-   - **PRK** (evitar re-lift de flap de 23 anos)
+  - OD (dominante): Q target -0.50 (moderado), target +0.25 D
+  - OE (não-dominante): Q target -0.70, target -0.75 D
+  - **PRK** (evitar re-lift de flap de 23 anos)
 
 **Resultado 6 Meses:**
 - UCDVA: OD 20/25, binocular 20/25 (perda de 1 linha vs. pré-op, aceitável)
@@ -470,5 +597,3 @@ Mesmo com técnica adequada e result ados objetivamente bons, a **memória de vi
 7. Spadea L, Giovannetti F. Main complications of photorefractive keratectomy and their management. *Clinical Ophthalmology*. 2019;13:2305-2315.
 
 ---
-
-

@@ -1,0 +1,124 @@
+{
+  "chapters": [
+    {
+      "id": 0,
+      "label": "Preface",
+      "file": "Preface_Methodology.md",
+      "title": "Prefácio e Metodologia Editorial",
+      "language": "pt-BR",
+      "output": "PresbyCor_Preface_Editorial.docx"
+    },
+    {
+      "id": 1,
+      "label": "Chapter 1",
+      "file": "Chapter_1_Complete.md",
+      "title": "Fundamentals of Presbyopia – Anatomy and Pathophysiology",
+      "language": "en-US",
+      "output": "PresbyCor_Chapter_01_Editorial.docx"
+    },
+    {
+      "id": 2,
+      "label": "Capítulo 2",
+      "file": "Chapter_2_Complete.md",
+      "title": "Princípios Ópticos e Ciência de Frente de Onda",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_02_Editorial.docx"
+    },
+    {
+      "id": 3,
+      "label": "Capítulo 3",
+      "file": "Chapter_3_Complete.md",
+      "title": "Avaliação Pré-Operatória e Seleção de Pacientes",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_03_Editorial.docx"
+    },
+    {
+      "id": 4,
+      "label": "Capítulo 4",
+      "file": "Chapter_4_Complete.md",
+      "title": "Bio-Óptica e Técnica Cirúrgica – LASIK vs PRK",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_04_Editorial.docx"
+    },
+    {
+      "id": 5,
+      "label": "Capítulo 5",
+      "file": "Chapter_5_Complete.md",
+      "title": "PresbyCor & Alcon Custom-Q",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_05_Editorial.docx"
+    },
+    {
+      "id": 51,
+      "label": "Capítulo 5+",
+      "file": "Chapter_5_Plus_READ.md",
+      "title": "READ (Alcon) — A Nova Fronteira Automatizada (2023-2025)",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_05Plus_Editorial.docx"
+    },
+    {
+      "id": 6,
+      "label": "Capítulo 6",
+      "file": "Chapter_6_Complete.md",
+      "title": "PresbyMAX (Schwind) – Abordagem Bi-Asférica",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_06_Editorial.docx"
+    },
+    {
+      "id": 7,
+      "label": "Capítulo 7",
+      "file": "Chapter_7_Complete.md",
+      "title": "PRESBYOND (Zeiss) – Laser Blended Vision",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_07_Editorial.docx"
+    },
+    {
+      "id": 8,
+      "label": "Capítulo 8",
+      "file": "Chapter_8_Complete.md",
+      "title": "SUPRACOR (Bausch+Lomb) – Multifocalidade Extrema",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_08_Editorial.docx"
+    },
+    {
+      "id": 9,
+      "label": "Capítulo 9",
+      "file": "Chapter_9_Complete.md",
+      "title": "O Desafio Pós-Refrativo",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_09_Editorial.docx"
+    },
+    {
+      "id": 10,
+      "label": "Capítulo 10",
+      "file": "Chapter_10_Complete.md",
+      "title": "Neuroadaptação e Gestão de Pacientes",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_10_Editorial.docx"
+    },
+    {
+      "id": 11,
+      "label": "Capítulo 11",
+      "file": "Chapter_11_Complete.md",
+      "title": "Complicações e Gestão",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_11_Editorial.docx"
+    },
+    {
+      "id": 12,
+      "label": "Capítulo 12",
+      "file": "Chapter_12_Complete.md",
+      "title": "Corneal vs Lenticular – O Algoritmo Decisional",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_12_Editorial.docx"
+    },
+    {
+      "id": 13,
+      "label": "Capítulo 13",
+      "file": "Chapter_13_Complete.md",
+      "title": "Árvores de Decisão Clínica – Integração Final",
+      "language": "pt-BR",
+      "output": "PresbyCor_Chapter_13_Editorial.docx"
+    }
+  ]
+}

@@ -1408,44 +1408,6 @@ Gestão de expectativas. Permite ao paciente decidir se o trade-off (halos vs. l
 
 ---
 
-## Infográficos Clínicos Sugeridos
-
-![Infográfico 2.1](/home/ubuntu/PresbyCor-Book/figures/chapter2/diagram_qfactor_profiles.png)
-
-### Infográfico 2.1: A Pirâmide de Zernike Clínica (Hierarquia Funcional)
-
-**Descrição:**  
-Uma representação visual hierárquica em formato piramidal, organizada por ordem radial e relevância clínica.
-
-**Estrutura da Pirâmide:**
-
-**Base (Ordem 2 - Baixa Ordem):**
-- **Cor:** Azul claro
-- **Termos:** $Z_2^0$ (Defocus), $Z_2^{-2}$, $Z_2^{+2}$ (Astigmatismo)
-- **Label:** "Corrigível com Óculos/Lentes de Contacto"
-- **Ícone:** Óculos
-
-**Camada Intermédia (Ordem 3 - HOA Patológicas):**
-- **Cor:** Vermelho
-- **Termos:** $Z_3^{-1}$, $Z_3^{+1}$ (Coma), $Z_3^{-3}$, $Z_3^{+3}$ (Trefoil)
-- **Label:** "Aberrações Indesejadas – Descentramento/Irregularidade"
-- **Ícone:** Símbolo de alerta (triângulo)
-- **Anotação:** "Coma vertical = Principal causa de perda de linhas pós-LASIK"
-
-**Topo (Ordem 4 - HOA Terapêuticas):**
-- **Cor:** Verde
-- **Termo Destacado:** $Z_4^0$ (Aberração Esférica)
-- **Label:** "Ferramenta Terapêutica para Presbiopia"
-- **Ícone:** Laser excimer
-- **Anotação:** "SA negativa (-0.40 a -0.60 μm) = Extensão de DoF"
-
-**Elementos Adicionais:**
-- Setas laterais indicando: "Ordem Crescente = Impacto Visual Crescente"
-- Caixa de texto: "Objetivo Cirúrgico: Minimizar Ordem 3, Maximizar Ordem 4 negativa"
-
-**Objetivo:**  
-Demonstrar que nem todas as HOA são deletérias; o $Z_4^0$ é deliberadamente manipulado como ferramenta terapêutica.
-
 ---
 
 ![Infográfico 2.2](/home/ubuntu/PresbyCor-Book/figures/chapter2/diagram_ray_tracing_edof.png)
@@ -2331,7 +2293,6 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 3.1: Fluxograma de Decisão "Go / No-Go" (Algoritmo de Triagem)
 
@@ -3207,7 +3168,6 @@ Paciente sentado (refração) vs. deitado (cirurgia): Rotação do olho até 5-1
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ![Infográfico 4.1](/home/ubuntu/PresbyCor-Book/figures/chapter4/diagram_lasik_vs_prk.png)
 
@@ -4109,7 +4069,6 @@ Diferentes lasers normalizam SA para diâmetros pupilares diferentes:
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ![Infográfico 5.1](/home/ubuntu/PresbyCor-Book/presbycor_ablation_profile_v2.png)
 
@@ -5038,7 +4997,6 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 6.1: Perfil Bi-Asférico PresbyMAX (Corte Transversal Anatómico)
 
@@ -5793,7 +5751,6 @@ Mediana de shift aos 12 meses:
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ![Infográfico 7.1](/home/ubuntu/PresbyCor-Book/figures/chapter7/ai_presbyond_blend_concept.png)
 
@@ -6438,7 +6395,6 @@ Informar paciente repetidamente:
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 8.1: Perfil Geométrico SUPRACOR vs. Outras Técnicas
 
@@ -7059,7 +7015,6 @@ Mesmo com técnica adequada e result ados objetivamente bons, a **memória de vi
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ![Infográfico 9.1](/home/ubuntu/PresbyCor-Book/figures/chapter9/ai_rsb_biomechanics.png)
 
@@ -7684,9 +7639,74 @@ Paciência + suporte = sucesso mesmo em caso com início difícil.
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ![Infográfico 10.1](/home/ubuntu/PresbyCor-Book/figures/chapter10/plot_neuroadaptation_curve.png)
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Preparar psicologicamente o cirurgião e o paciente para os primeiros meses difíceis.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Linha Temporal (Timeline Emocional).
+
+### Eixo X: Tempo
+*   Semana 1, Mês 1, Mês 3, Mês 12.
+
+### Eixo Y: Satisfação do Paciente (0-10)
+
+### A Curva (Vermelha - SUPRACOR)
+*   **Semana 1:** Mergulho profundo (Nível 3/10).
+    *   Label: "**Semana do Arrependimento (Blur de Longe)**".
+*   **Mês 1:** Recuperação lenta (Nível 5/10).
+*   **Mês 3:** Estabilização (Nível 7/10).
+*   **Mês 12:** Nunca atinge o topo (Máx 7.5/10).
+
+### Comparação Fantasma (Azul - PRESBYOND)
+*   Começa mais alta e atinge 9.5/10 no final.
+
+---
+
+## 2. Legenda Explicativa
+"O pós-operatório do SUPRACOR é psicologicamente exigente. A visão de longe fica turva ('foggy') nas primeiras semanas enquanto o cérebro luta para processar a multifocalidade extrema. É crucial avisar o paciente sobre a 'Semana do Arrependimento'."
+
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Ferramenta para mostrar ao paciente no consultório: "Você está aqui (no vale), mas vai subir".
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Linha Dupla (Evolução Temporal).
+
+### Eixo X (Tempo)
+*   Semana 1 -> Mês 1 -> Mês 3 -> Mês 6 -> Mês 12.
+
+### Curva Verde (Satisfação)
+*   **Início (Semana 1):** Ponto baixo (3/10). Label: "**Vale do Desespero**".
+*   **Subida:** Rápida entre Mês 1 e 3.
+*   **Fim (Mês 12):** Platô alto (9/10). Label: "**Normalização**".
+
+### Curva Vermelha (Sintomas/Halos)
+*   **Início:** Muito alta (9/10). Label: "**Halos Intensos**".
+*   **Queda:** Cruzamento com a curva verde no Mês 2.
+*   **Fim:** Baixa e estável (2/10).
+
+### Zona Sombreada Amarela
+*   Entre Semana 1 e Mês 1.
+*   Texto: "**Fase de Suporte Intensivo (Paciência)**".
+
+---
+
+## 2. Legenda Explicativa
+"A neuroadaptação não é linear. Existe um 'Vale do Desespero' inicial onde os sintomas superam a satisfação. Esta fase é fisiológica, não uma falha cirúrgica. A paciência (3-6 meses) é o tratamento."
+
 
 ### Infográfico 10.1: Curva Temporal de Neuroadaptação
 
@@ -8278,7 +8298,6 @@ Paciente objetivamente com bom resultado (UCDVA ≥20/25, UCNVA ≥J3, topografi
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 11.1: Algoritmo Gestão Descentramento
 
@@ -8867,7 +8886,6 @@ CORNEANA    RLE
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ![Infográfico 12.1](/home/ubuntu/PresbyCor-Book/figures/chapter12/plot_ucdva_ucnva_comparison.png)
 

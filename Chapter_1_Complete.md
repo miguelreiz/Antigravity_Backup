@@ -160,16 +160,16 @@ Isto engloba alterações no músculo ciliar, zônulas e coroide. Como mencionad
 ## 1.4. A Curva de Duane e Progressão Clínica
 
 > [!IMPORTANT]
-> **A Amplitude de Acomodação como Variável Dinâmica:**  
+> **A Amplitude de Acomodação como Variável Dinâmica:** 
 > A amplitude de acomodação não é um valor constante, mas uma **curva de declínio fisiológico** descrita por Alexander Duane em 1912 e refinada por Hofstetter. Qualquer valor isolado (como 4,5 D) representa apenas **um ponto específico dessa curva** — neste caso, aproximadamente 43-44 anos de idade. O valor real de cada paciente deve ser medido objetivamente através de métodos como o teste de acomodação push-up/push-down ou análise de qualidade óptica (OQAS). A variabilidade interindividual pode atingir ±2,0 D na mesma faixa etária. [11,14]
 
 **Métodos de Medição Objetiva da Amplitude de Acomodação:**
 
-1. **Push-Up Test (Teste de Aproximação):**  
-   Método clássico e prático. O paciente fixa um alvo de leitura (texto N5 ou 0.4M) enquanto este é aproximado progressivamente até que o texto torne-se borrado de forma irreversível. A distância em centímetros onde ocorre o blur é convertida em dioptrias pela fórmula: Amplitude (D) = 100/distância (cm). Limitação: depende da cooperação do paciente e pode superestimar a amplitude em ~1.0 D devido ao esforço acomodativo máximo versus uso confortável. [14]
+1. **Push-Up Test (Teste de Aproximação):** 
+  Método clássico e prático. O paciente fixa um alvo de leitura (texto N5 ou 0.4M) enquanto este é aproximado progressivamente até que o texto torne-se borrado de forma irreversível. A distância em centímetros onde ocorre o blur é convertida em dioptrias pela fórmula: Amplitude (D) = 100/distância (cm). Limitação: depende da cooperação do paciente e pode superestimar a amplitude em ~1.0 D devido ao esforço acomodativo máximo versus uso confortável. [14]
 
-2. **OQAS (Optical Quality Analysis System):**  
-   Sistema objetivo baseado em tecnologia de duplo-passo (double-pass) que analisa a qualidade óptica do olho através da Point Spread Function (PSF). Fornece métricas objetivas incluindo OSI (Objective Scatter Index), MTF (Modulation Transfer Function) e pseudo-acomodação residual. Vantagem: independente da resposta subjetiva do paciente, permitindo quantificação precisa da capacidade funcional de foco. [15]
+2. **OQAS (Optical Quality Analysis System):** 
+  Sistema objetivo baseado em tecnologia de duplo-passo (double-pass) que analisa a qualidade óptica do olho através da Point Spread Function (PSF). Fornece métricas objetivas incluindo OSI (Objective Scatter Index), MTF (Modulation Transfer Function) e pseudo-acomodação residual. Vantagem: independente da resposta subjetiva do paciente, permitindo quantificação precisa da capacidade funcional de foco. [15]
 
 A perda de acomodação segue um padrão previsível, classicamente mapeado por Duane (1912) e revisto por Hofstetter. [11]
 
@@ -188,7 +188,7 @@ $$A_{min} = 15 - 0.25 \times \text{Idade}$$
 $$A_{avg} = 18.5 - 0.3 \times \text{Idade}$$
 
 > [!WARNING]
-> **Variação Geográfica e Onset Precoce de Presbiopia: Uma Realidade Tropical**  
+> **Variação Geográfica e Onset Precoce de Presbiopia: Uma Realidade Tropical** 
 > 
 > **Importante para Cirurgiões no Brasil e Regiões Tropicais:**
 > 
@@ -200,7 +200,7 @@ $$A_{avg} = 18.5 - 0.3 \times \text{Idade}$$
 > - **Inglaterra** (51-54° latitude): Onset médio aos **43 anos** [16]
 > - **Escandinávia** (>55° latitude): Onset aos **44-45 anos** [16]
 >
-> **Mecanismo Fisiopatológico:**  
+> **Mecanismo Fisiopatológico:** 
 > A radiação UV-B (280-315 nm) e radiação infravermelha (calor) penetram o cristalino, induzindo estresse oxidativo crônico. Este processo acelera:
 > 1. Agregação proteica prematura (cristalinas α, β, γ)
 > 2. Cross-linking oxidativo precoce das fibras lenticulares
@@ -235,7 +235,7 @@ $$A_{avg} = 18.5 - 0.3 \times \text{Idade}$$
 | 70+ | ~0.5 | Falha acomodativa completa |
 
 > [!NOTE]
-> **Interpretação Clínica do Valor 4,5 D:**  
+> **Interpretação Clínica do Valor 4,5 D:** 
 > Um paciente com amplitude residual de 4,5 D possui ponto próximo a aproximadamente 22 cm (1/4,5 = 0,22 m). Contudo, para leitura **confortável e sustentada**, o olho deve utilizar apenas 50-67% de sua capacidade máxima, portanto este paciente já apresenta **astenopia** (fadiga visual) em tarefas prolongadas, marcando o início da **Síndrome do Cristalino Disfuncional Estágio I** (DLS-I). O valor de 4,5 D **não deve ser assumido** como padrão universal aos 45 anos — a amplitude real deve ser medida individualmente. [12,14]
 
 ### Sintomatologia Clínica por Década
@@ -340,19 +340,19 @@ O cristalino é a fonte primária de degradação óptica. A correção corneana
 Ferramentas diagnósticas modernas permitem estadiamento quantitativo:
 
 1. **Densitometria Scheimpflug (Pentacam):**
-   - Unidades de densidade do cristalino (densidade nuclear média >18% sugere Estágio 2-3)
-   
+  - Unidades de densidade do cristalino (densidade nuclear média >18% sugere Estágio 2-3)
+  
 2. **Aberrometria de Frente de Onda (iTrace):**
-   - Comparar aberrações totais oculares vs. aberrações corneanas
-   - Aberração interna >0.30 μm sugere contribuição lenticular
-   
+  - Comparar aberrações totais oculares vs. aberrações corneanas
+  - Aberração interna >0.30 μm sugere contribuição lenticular
+  
 3. **Índice de Dispersão Objetiva (OSI) (HD Analyzer):**
-   - OSI <1.0 = Cristalino claro (Estágio 1)
-   - OSI 1.0-3.0 = Disfunção precoce (Estágio 2)
-   - OSI >3.0 = Dispersão significativa (Estágio 3) [16,17]
-   
+  - OSI <1.0 = Cristalino claro (Estágio 1)
+  - OSI 1.0-3.0 = Disfunção precoce (Estágio 2)
+  - OSI >3.0 = Dispersão significativa (Estágio 3) [16,17]
+  
 4. **Função de Sensibilidade ao Contraste (CSV-1000):**
-   - Redução em frequências espaciais altas (12-18 cpd) indica dispersão lenticular
+  - Redução em frequências espaciais altas (12-18 cpd) indica dispersão lenticular
 
 ---
 
@@ -495,4 +495,3 @@ A verdadeira restauração da acomodação exigiria:
 17. Artal P, Benito A, Pérez GM, et al. An objective scatter index based on double-pass retinal images of a point source to classify cataracts. *PLoS One*. 2011;6(2):e16823.
 
 ---
-

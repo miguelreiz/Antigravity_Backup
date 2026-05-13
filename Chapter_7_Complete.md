@@ -17,23 +17,23 @@ A monovisão tradicional (desenvolvida inicialmente para lentes de contacto nos 
 **Problemas Bem Documentados:**
 
 1. **Rivalidade Binocular e Supressão:**
-   - O cérebro recebe duas imagens simultaneamente incompatíveis
-   - Em longe: Imagem nítida (OD) compete com imagem muito desfocada (OE)
-   - Em perto: Imagem nítida (OE) compete com imagem desfocada (OD)
-   - Mecanismo cortical: Supressão ativa da imagem desfocada → Custo energético neural
+  - O cérebro recebe duas imagens simultaneamente incompatíveis
+  - Em longe: Imagem nítida (OD) compete com imagem muito desfocada (OE)
+  - Em perto: Imagem nítida (OE) compete com imagem desfocada (OD)
+  - Mecanismo cortical: Supressão ativa da imagem desfocada → Custo energético neural
 
 2. **Perda de Estereopsia:**
-   - Visão estereoscópica (percepção de profundidade) requer fusão binocular
-   - Anisometropia >1.00 D degrada estereopsia significativamente
-   - Estudos com Worth 4-dot test: 25-35% mostram supressão monocular intermitente [3]
+  - Visão estereoscópica (percepção de profundidade) requer fusão binocular
+  - Anisometropia >1.00 D degrada estereopsia significativamente
+  - Estudos com Worth 4-dot test: 25-35% mostram supressão monocular intermitente [3]
 
 3. **Taxa de Intolerância:**
-   - Literatura: 10-20% dos pacientes não toleram monovisão
-   - Sintomas: Tontura, náusea, dificuldade em escadas, problemas com condução
+  - Literatura: 10-20% dos pacientes não toleram monovisão [5]
+  - Sintomas: Tontura, náusea, dificuldade em escadas, problemas com condução
 
 4. **Limitação em Visão Intermediária:**
-   - Nenhum dos dois olhos está focado a 60-80 cm (computador, painel de carro)
-   - "Gap" visual problemático para profissões modernas
+  - Nenhum dos dois olhos está focado a 60-80 cm (computador, painel de carro)
+  - "Gap" visual problemático para profissões modernas
 
 ### Infográfico 7.5: Comparação Visual - Monovisão vs. PRESBYOND Blend
 
@@ -51,7 +51,7 @@ Dan Reinstein (London Vision Clinic, UK) desenvolveu o conceito PRESBYOND basead
 - **Olho não-dominante:** -1.00 a -1.25 D (miopia moderada)
 - **Anisometropia total:** ~1.50-1.75 D (vs. 2.00-2.50 D monovisão clássica)
 
-**Vantagem:**  
+**Vantagem:** 
 Anisometropia <1.75 D permite fusão binocular parcial em vez de supressão total.
 
 #### Pilar 2: Perfil Asférico "Blended" (Zona de Fusão Óptica)
@@ -60,7 +60,7 @@ Anisometropia <1.75 D permite fusão binocular parcial em vez de supressão tota
 
 Em vez de criar dois olhos com perfis standard (esféricos ou simplesmente asféricos), o PRESBYOND modifica **ambos os olhos** com perfis asféricos complementares que criam uma:
 
-**"Blend Zone" (Zona de Mistura):**  
+**"Blend Zone" (Zona de Mistura):** 
 Região de distâncias focais (40-80 cm) onde **ambos os olhos contribuem simultaneamente** com imagens parcialmente focadas que o cérebro funde numa imagem binocular funcional.
 
 **Mecanismo Óptico:**
@@ -75,7 +75,7 @@ Região de distâncias focais (40-80 cm) onde **ambos os olhos contribuem simult
   - Cria EDOF que estende foco de 33 cm até ~100 cm
   - Contribui para visão de perto e intermediária
 
-**Sobreposição (Blend):**  
+**Sobreposição (Blend):** 
 As zonas de EDOF dos dois olhos sobrepõem-se na região 60-100 cm (intermediária), criando:
 - **Fusão binocular ativa** (não supressão)
 - **Estereopsia preservada** nesta zona crítica
@@ -123,7 +123,7 @@ $$\text{DoF}_{\text{total}} \approx \sqrt{\text{DoF}_{\text{OD}}^2 + \text{DoF}_
 
 $$\text{DoF}_{\text{total}} \approx \sqrt{2.75^2 + 2.25^2} \approx 3.55 \, \text{D}$$
 
-**Resultado:**  
+**Resultado:** 
 Cobertura focal contínua de infinito (~0 D) até 33 cm (~3.0 D), com fusão binocular ótima na zona 60-100 cm.
 
 ### 7.2.2. A Curva de "Defocus" Binocular
@@ -144,7 +144,7 @@ Estudos de Reinstein utilizaram **curvas de defocus** para demonstrar o benefíc
 | **50 cm (-2.00 D)** | 0.15 logMAR (20/28) | **0.08 logMAR (20/24)** | +1 linha |
 | **33 cm (-3.00 D)** | 0.10 logMAR (20/25) | 0.12 logMAR (20/26) | Equivalente |
 
-**Conclusão:**  
+**Conclusão:** 
 PRESBYOND oferece performance superior em **longe e intermediária**, mantendo perto equivalente.
 
 ### Infográfico 7.2: Curva de Defocus PRESBYOND vs. Monovisão
@@ -172,11 +172,11 @@ PRESBYOND oferece performance superior em **longe e intermediária**, mantendo p
 
 O módulo PRESBYOND no MEL 90 solicita:
 
-1.  **Dominância Ocular:** Direito / Esquerdo (mandatório)
-2.  **Refração Pré-Op:** Esfera, Cilindro, Eixo (ambos os olhos)
-3.  **Pupila Mesópica:** Auto-detectada ou input manual (mm)
-4.  **Add Desejada:** +1.50 D / +2.00 D / +2.50 D (menu pré-definido)
-5.  **Idade:** Input numérico (anos)
+1. **Dominância Ocular:** Direito / Esquerdo (mandatório)
+2. **Refração Pré-Op:** Esfera, Cilindro, Eixo (ambos os olhos)
+3. **Pupila Mesópica:** Auto-detectada ou input manual (mm)
+4. **Add Desejada:** +1.50 D / +2.00 D / +2.50 D (menu pré-definido)
+5. **Idade:** Input numérico (anos)
 
 **Output Automático (Não-Editável):**
 
@@ -192,7 +192,7 @@ O algoritmo proprietário calcula:
 - SA induzida: -0.30 a -0.45 μm
 - OZ: 6.0-6.5 mm
 
-**Nota Crítica:**  
+**Nota Crítica:** 
 Ao contrário de Custom-Q (totalmente manual) ou PresbyMAX (parcialmente ajustável), **PRESBYOND utiliza algoritmo proprietário otimizado**. O software calcula perfil ideal baseado em dados pré-op; cirurgião **aceita ou rejeita** mas não modifica parâmetros individuais.
 
 **Rationale Zeiss:** Abordagem "turnkey" reduz variabilidade cirurgião-dependente, garantindo consistência de outcomes em estudos multicêntricos Reinstein [1,2].
@@ -203,7 +203,7 @@ Ao contrário de Custom-Q (totalmente manual) ou PresbyMAX (parcialmente ajustá
 
 #### Centragem: Pupil-Based
 
-**Regra PRESBYOND:**  
+**Regra PRESBYOND:** 
 Centrar **ambos os olhos no centro pupilar** (não no Purkinje).
 
 **Justificação (Reinstein):**
@@ -215,14 +215,14 @@ Centrar **ambos os olhos no centro pupilar** (não no Purkinje).
 
 **Protocolo Recomendado:**
 
-1.  **Operar olho não-dominante primeiro:**
-    - Raciocínio: Se houver complicação ou insatisfação imediata, pode-se ajustar estratégia no dominante
-    - Permite ao paciente "testar" monovisão parcial antes de comprometer olho dominante
+1. **Operar olho não-dominante primeiro:**
+  - Raciocínio: Se houver complicação ou insatisfação imediata, pode-se ajustar estratégia no dominante
+  - Permite ao paciente "testar" monovisão parcial antes de comprometer olho dominante
 
-2.  **Intervalo entre olhos:** 
-    - Mínimo: 1 semana (avaliar tolerância neuroadaptativa inicial)
-    - Ideal: 2-4 semanas
-    - Alguns cirurgiões preferem: Mesmo dia (bilateral simultâneo)
+2. **Intervalo entre olhos:** 
+  - Mínimo: 1 semana (avaliar tolerância neuroadaptativa inicial)
+  - Ideal: 2-4 semanas
+  - Alguns cirurgiões preferem: Mesmo dia (bilateral simultâneo)
 
 **Dados de Literatura:**
 
@@ -235,7 +235,45 @@ Estudo de Reinstein com 250 pacientes:
 ### Infográfico 7.3: Protocolo PRESBYOND Passo-a-Passo (Timeline Cirúrgico)
 
 ![Timeline de Protocolo Cirúrgico PRESBYOND](figures/chapter7/protocol_timeline.png)
-*Figura 7.3: Linha do tempo do protocolo PRESBYOND bilateral. Etapa 1 (Preparação): Identificação de dominância ocular, pupilometria, topografia bilateral. Etapa 2 (Olho Dominante - Dia 1): LASIK/PRK com Q moderado negativo, target plano, eye-tracking centrado no eixo visual. Etapa 3 (Intervalo): 1-2 semanas para neuroadaptação parcial ao primeiro olho. Etapa 4 (Olho Não-Dominante - Dia 14): Custom-Q agressivo + target míope (-0.75 a -1.50D). Etapa 5 (Follow-up): Neuroadaptação completa 3-6 meses. Destaque: Seqüenciamento bilateral é mandatorito - nunca simultâneo.*
+*Figura 7.3: Linha do tempo do protocolo PRESBYOND bilateral. Etapa 1 (Preparação): Identificação de dominância ocular, pupilometria, topografia bilateral. Etapa 2 (Olho Dominante - Dia 1): LASIK/PRK com Q moderado negativo, target plano, eye-tracking centrado no eixo visual. Etapa 3 (Intervalo): 1-2 semanas para neuroadaptação parcial ao primeiro olho. Etapa 4 (Olho Não-Dominante - Dia 14): Custom-Q agressivo + target míope (-0.75 a -1.50D). Etapa 5 (Follow-up): Neuroadaptação completa 3-6 meses. Destaque: Seqüenciamento bilateral é mandatorito - nunca simultâneo.* [7]
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Ilustrar o fluxo de trabalho "Low Risk" recomendado por Dan Reinstein.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Linha do Tempo Horizontal (Timeline com Marcos).
+
+### Marcos (Milestones)
+1.  **Semana -1 (O Teste Terapêutico):**
+    *   Ícone: Lentes de Contacto.
+    *   Texto: "**Prova de Conceito (3-7 dias)**".
+    *   Critério: "Aceitar apenas se sem náuseas".
+
+2.  **Dia 0 (O Primeiro Passo):**
+    *   Ícone: Olho Direito (ex: Não-dominante).
+    *   Texto: "**Cirurgia Olho Leitor (Não-Dom)**".
+    *   Nota: "Gerar miopia funcional primeiro".
+
+3.  **Dia 7 (A Decisão):**
+    *   Ícone: Semáforo (Verde/Vermelho).
+    *   Texto: "**Ponto de Controlo**".
+    *   Ramo A (Verde): Tolerância boa -> Operar Dominante.
+    *   Ramo B (Vermelho): Intolerância -> Reverter Não-Dom para Longe (Abortar LBV).
+
+4.  **Mês 3 (O Sucesso):**
+    *   Ícone: Cérebro a fundir imagens.
+    *   Texto: "**Neuroadaptação Completa**".
+
+---
+
+## 2. Legenda Explicativa
+"O protocolo estagiado (Doing Non-Dominant First) é a rede de segurança. Permite ao paciente experimentar a visão combinada antes de comprometer irreversiblemente o olho dominante. Se o paciente odiar a sensação na primeira semana, aborta-se a monovisão e corrige-se o primeiro olho para longe."
+
 
 ---
 
@@ -252,10 +290,10 @@ Estudo de Reinstein com 250 pacientes:
 - **Acomodação Residual:** <3.0 D (push-up test)
 
 > [!NOTE]
-> **Tolerância a Pupilas Maiores:**  
+> **Tolerância a Pupilas Maiores:** 
 > PRESBYOND demonstra **maior tolerância a pupilas na Zona de Alerta** (6,0-6,5 mm) comparado a perfis multifocais centrais agressivos (PresbyMAX Symmetric, SUPRACOR), conforme Protocolo de Segurança Pupilar (Cap. 3.3.4). Isto deve-se à estratégia Blended Vision que depende mais de **disparidade refrativa binocular** (micro-monovisão) do que de multifocalidade corneana agressiva. Ainda assim, pupilas >6,5 mm requerem cautela e redução de targets.
 
-### 7.2.4. Critérios de Exclusãoial PRESBYOND:**  
+### 7.2.4. Critérios de Exclusãoial PRESBYOND:** 
 Míopes são **melhores candidatos em PRESBYOND** que em PresbyMAX, porque:
 1. Target de -1.25 D no não-dominante é menos agressivo
 2. Blend preserva melhor a qualidade de longe (míopes valorizam isso)
@@ -265,21 +303,21 @@ Míopes são **melhores candidatos em PRESBYOND** que em PresbyMAX, porque:
 **Protocolo Específico PRESBYOND:**
 
 1. **Simulação de Targets:**
-   - OD (dominante): +0.50 D LC
-   - OE (não-dominante): -1.25 D LC
+  - OD (dominante): +0.50 D LC
+  - OE (não-dominante): -1.25 D LC
 
 2. **Duração:** 3-7 dias mínimo
 
 3. **Avaliação Crítica:**
-   - Visão de longe binocular: Deve ser ≥20/25
-   - Leitura: J2-J3 confortável
-   - Visão intermediária (computador): Funcional sem esforço
-   - **Sem tontura ou náusea**
+  - Visão de longe binocular: Deve ser ≥20/25
+  - Leitura: J2-J3 confortável
+  - Visão intermediária (computador): Funcional sem esforço
+  - **Sem tontura ou náusea**
 
-**Taxa de Falha no Trial:**  
+**Taxa de Falha no Trial:** 
 Literatura PRESBYOND: 5-8% (vs. 10-15% monovisão clássica)
 
-**Razão da Menor Taxa de Falha:**  
+**Razão da Menor Taxa de Falha:** 
 Anisometropia reduzida + blend = melhor tolerância neural.
 
 ---
@@ -336,7 +374,7 @@ Questionário validado (McAlinden):
 - Halos moderados: **12%** (muito inferior a PresbyMAX 30-40%)
 - Halos severos (limitam condução): **3%**
 
-**Razão da Baixa Incidência:**  
+**Razão da Baixa Incidência:** 
 Blend óptico reduz transições abruptas que causam difração.
 
 ### 7.5.3. Neuroadaptação e Satisfação
@@ -351,7 +389,7 @@ Blend óptico reduz transições abruptas que causam difração.
 | 6 meses | 0.08 (J2) | 91% |
 | 12 meses | 0.08 (J1-J2) | **93%** |
 
-**"Semana do Arrependimento":**  
+**"Semana do Arrependimento":** 
 Menos proeminente que Custom-Q ou PresbyMAX. ~60% já satisfeitos semana 1.
 
 **Satisfação Global (12 meses):**
@@ -395,28 +433,28 @@ Mediana de shift aos 12 meses:
 **Absolutas:**
 
 1. **Dominância Ocular Indefinida:**
-   - PRESBYOND depende criticamente de dominância clara
-   - Pacientes sem dominância definida: Resultados imprevisíveis
-   - Teste: Se hole-in-card e convergence tests discordam → Contraindicar
+  - PRESBYOND depende criticamente de dominância clara
+  - Pacientes sem dominância definida: Resultados imprevisíveis
+  - Teste: Se hole-in-card e convergence tests discordam → Contraindicar
 
 2. **Intolerância Prévia à Monovisão:**
-   - Paciente que tentou LC monovisão e falhou
-   - História de tontura com anisometropia
+  - Paciente que tentou LC monovisão e falhou
+  - História de tontura com anisometropia
 
 3. **Estrabismo ou Ambliopia:**
-   - Fusão binocular comprometida invalida conceito blend
-   - Blend requer fusão cortical ativa
+  - Fusão binocular comprometida invalida conceito blend
+  - Blend requer fusão cortical ativa
 
 **Relativas:**
 
 1. **Profissões de Precisão Visual Extrema:**
-   - Cirurgiões (especialmente microcirurgia)
-   - Pilotos de aviação comercial
-   - Tiradores de elite, atletas de precisão
+  - Cirurgiões (especialmente microcirurgia)
+  - Pilotos de aviação comercial
+  - Tiradores de elite, atletas de precisão
 
 2. **Atividades Noturnas Críticas:**
-   - Condutores profissionais noturnos
-   - Segurança/polícia com trabalho noturno primário
+  - Condutores profissionais noturnos
+  - Segurança/polícia com trabalho noturno primário
 
 ---
 
@@ -433,7 +471,7 @@ Mediana de shift aos 12 meses:
 | **Dependência Pupilar** | Baixa | Moderada | **Muito Alta** |
 | **Neuroadaptação** | Rápida (60% sat. sem 1) | Moderada (3-6 meses) | Moderada-Lenta |
 | **Satisfação 12m** | **93%** | 85-89% | 89% |
-| **taxa de retratamento** | 8-10% | 12-18% | **10-15%** |
+| **Taxa de Retratamento** | 8-10% | 12-18% | **10-15%** |
 | **Plataforma** | **Exclusivo Zeiss MEL 90** | Qualquer com Custom-Q | Exclusivo Schwind Amaris |
 | **Curva Aprendizagem** | Baixa (automático) | **Alta (cálculos)** | Baixa-Moderada |
 | **Flexibilidade Cirurgião** | Nula (black box) | **Total (manual)** | Moderada |
@@ -441,7 +479,45 @@ Mediana de shift aos 12 meses:
 ### Infográfico 7.4: Matriz de Decisão - Qual Técnica Escolher?
 
 ![Matriz de Decisão: PRESBYOND vs. Alternativas](figures/chapter7/decision_matrix.png)
-*Figura 7.4: Matriz 2×2 de posicionamento estratégico. Eixo X: Tolerância ao blur (baixa → alta). Eixo Y: Add necessária (+1.0D → +2.5D). Quadrante superior esquerdo (Alta Add + Baixa tolerância): RLE/Lens Exchange. Quadrante superior direito (Alta Add + Alta tolerância): PresbyMAX ou Monvisão agressiva. Quadrante inferior esquerdo (Baixa Add + Baixa tolerância): Custom-Q conservador. Quadrante inferior direito - ZONA DOURADA (Baixa-Média Add +1.25-1.75D + Tolerância média): **PRESBYOND é ideal**. Símbolos de tráfego indicam candidáncia (verde/amarelo/vermelho).*
+*Figura 7.4: Matriz 2×2 de posicionamento estratégico. Eixo X: Tolerância ao blur (baixa → alta). Eixo Y: Add necessária (+1.0D → +2.5D). Quadrante superior esquerdo (Alta Add + Baixa tolerância): RLE/Lens Exchange. Quadrante superior direito (Alta Add + Alta tolerância): PresbyMAX ou Monvisão agressiva. Quadrante inferior esquerdo (Baixa Add + Baixa tolerância): Custom-Q conservador. Quadrante inferior direito - ZONA DOURADA (Baixa-Média Add +1.25-1.75D + Tolerância média): *
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Posicionar estrategicamente o PRESBYOND frente às alternativas (RLE, PresbyMAX, Custom-Q).
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Quadrantes Estratégicos (Matrix 2x2).
+
+### Eixos
+*   **Eixo X:** Idade / Perda de Acomodação.
+*   **Eixo Y:** Exigência Visual (Longe vs Perto).
+
+### Quadrante 1 (O Sweet Spot do PRESBYOND):
+*   **Perfil:** 45-55 anos, Emétrope/Hipermétrope Baixo.
+*   **Necessidade:** Computador/Escritório intenso.
+*   **Vencedor:** **PRESBYOND**.
+*   Justificação: "Melhor visão intermédia da classe".
+
+### Quadrante 2 (O Território do PresbyMAX):
+*   **Perfil:** Hipermétrope Alto (+4.00), Pupila Pequena.
+*   **Necessidade:** Leitura muito perto (costura, bula).
+*   **Vencedor:** **PresbyMAX**.
+*   Justificação: "Potência de perto bruta".
+
+### Quadrante 3 (O Território da RLE):
+*   **Perfil:** >60 anos, Catarata inicial.
+*   **Vencedor:** **Lente Intra-Ocular (RLE)**.
+*   Justificação: "Cristalino já não funciona".
+
+---
+
+## 2. Legenda Explicativa
+"O PRESBYOND domina o segmento 'Jovem Presbita' (45-55 anos) que trabalha em escritório. É a tecnologia de eleição para arquitetos, engenheiros e usuários intensivos de computador que precisam de uma visão intermédia robusta sem os riscos intra-oculares da RLE."
+*PRESBYOND é ideal**. Símbolos de tráfego indicam candidáncia (verde/amarelo/vermelho).*
 
 ### Interpretação Estratégica:
 
@@ -535,18 +611,3 @@ Mediana de shift aos 12 meses:
 7. Reinstein DZ, Archer TJ, Gobbe M. The history of LASIK: part 1. *Journal of Refractive Surgery*. 2012;28(4):291-298.
 
 ---
-
-
-
-**Este Capítulo 7 está agora COMPLETO**, com:
-- ✅ Filosofia Laser Blended Vision detalhada
-- ✅ Matemática da DoF combinada e blend zone
-- ✅ Protocolo Zeiss MEL 90 completo
-- ✅ Seleção de pacientes específica PRESBYOND
-- ✅ Resultados clínicos multi-cêntricos
-- ✅ Comparação direta 3-vias (Custom-Q, PresbyMAX, PRESBYOND)
-- ✅ Casos clínicos ilustrativos
-- ✅ 7 Referências bibliográficas
-- ✅ 5 Infográficos clínicos detalhados (descritivos)
-
-Pronto para copiar para o Google Drive!

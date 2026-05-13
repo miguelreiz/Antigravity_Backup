@@ -34,7 +34,7 @@ Contrariamente à crença antiga de que plasticidade neural era exclusiva de cri
 Estudos de RMN funcional (fMRI) em pacientes pós-LASIK multifocal mostram:
 - **Semana 1:** Ativação cortical caótica (V1 "confuso" com múltiplos focos)
 - **Mês 3:** Reorganização (padrões de ativação mais estruturados)
-- **Mês 6:** Otimização (ativação seletiva conforme tarefa visual — longe vs. perto) [1]
+- **Mês 6:** Otimização (ativação seletiva conforme tarefa visual — longe vs. perto) [1] [6]
 
 ### 10.1.2. Supressão Seletiva vs. Fusão Binocular
 
@@ -110,6 +110,72 @@ Fase mais crítica psicologicamente. Paciente experimenta:
 ![O Vale do Desespero](figures/chapter10/neuroadaptation_curve.png)
 *Figura 10.1: A jornada do paciente. O gráfico mostra o "Vale do Desespero" inicial (Semana 1-Mês 1) onde a satisfação (verde) é baixa e os sintomas (vermelho) são altos. A normalização ocorre tipicamente após o mês 3.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Preparar psicologicamente o cirurgião e o paciente para os primeiros meses difíceis.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Linha Temporal (Timeline Emocional).
+
+### Eixo X: Tempo
+*   Semana 1, Mês 1, Mês 3, Mês 12.
+
+### Eixo Y: Satisfação do Paciente (0-10)
+
+### A Curva (Vermelha - SUPRACOR)
+*   **Semana 1:** Mergulho profundo (Nível 3/10).
+    *   Label: "**Semana do Arrependimento (Blur de Longe)**".
+*   **Mês 1:** Recuperação lenta (Nível 5/10) [4].
+*   **Mês 3:** Estabilização (Nível 7/10).
+*   **Mês 12:** Nunca atinge o topo (Máx 7.5/10).
+
+### Comparação Fantasma (Azul - PRESBYOND)
+*   Começa mais alta e atinge 9.5/10 no final.
+
+---
+
+## 2. Legenda Explicativa
+"O pós-operatório do SUPRACOR é psicologicamente exigente. A visão de longe fica turva ('foggy') nas primeiras semanas enquanto o cérebro luta para processar a multifocalidade extrema. É crucial avisar o paciente sobre a 'Semana do Arrependimento'."
+
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Ferramenta para mostrar ao paciente no consultório: "Você está aqui (no vale), mas vai subir".
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Linha Dupla (Evolução Temporal).
+
+### Eixo X (Tempo)
+*   Semana 1 -> Mês 1 -> Mês 3 -> Mês 6 -> Mês 12.
+
+### Curva Verde (Satisfação)
+*   **Início (Semana 1):** Ponto baixo (3/10). Label: "**Vale do Desespero**".
+*   **Subida:** Rápida entre Mês 1 e 3.
+*   **Fim (Mês 12):** Platô alto (9/10). Label: "**Normalização**".
+
+### Curva Vermelha (Sintomas/Halos)
+*   **Início:** Muito alta (9/10). Label: "**Halos Intensos**".
+*   **Queda:** Cruzamento com a curva verde no Mês 2.
+*   **Fim:** Baixa e estável (2/10).
+
+### Zona Sombreada Amarela
+*   Entre Semana 1 e Mês 1.
+*   Texto: "**Fase de Suporte Intensivo (Paciência)**".
+
+---
+
+## 2. Legenda Explicativa
+"A neuroadaptação não é linear. Existe um 'Vale do Desespero' inicial onde os sintomas superam a satisfação. Esta fase é fisiológica, não uma falha cirúrgica. A paciência (3-6 meses) é o tratamento."
+
+
 ### 10.2.2. Fase Intermediária (Semana 2 - Mês 3): "Emergência do Padrão"
 
 **Caracterização:**
@@ -140,7 +206,7 @@ Gradual melhoria funcional. Paciente começa a notar:
 - Complicação objetiva (descentramento, ingrowth)
 - Intolerância severa documentada (score <2/10 persistente, teste LC falha)
 
-**Raciocínio:**  
+**Raciocínio:** 
 Neuroadaptação pode melhorar função visual sem intervenção adicional. Retoque Cirúrgico prematuro "desperdiça" potencial de adaptação natural.
 
 ### 10.2.3. Fase Tardia (Mês 3-12): "Otimização e Estabilização"
@@ -172,7 +238,7 @@ Maioria dos ganhos funcionais completam-se.
 | Mês 6 | 87% | 5% |
 | Mês 12 | **91%** | **3%** |
 
-**Implicação:**  
+**Implicação:** 
 Paciência é terapêutica. ~25% ganho de satisfação ocorre **apenas por neuroadaptação** (sem intervenção adicional).
 
 ---
@@ -182,50 +248,50 @@ Paciência é terapêutica. ~25% ganho de satisfação ocorre **apenas por neuro
 ### 10.3.1. Fatores Positivos (Facilitam Adaptação)
 
 1. **Idade 45-60 anos:**
-   - Sweet spot para plasticidade preservada
-   - <45: Acomodação residual confunde
-   - >65: Plasticidade reduzida (mas não ausente)
+  - Sweet spot para plasticidade preservada
+  - <45: Acomodação residual confunde
+  - >65: Plasticidade reduzida (mas não ausente)
 
 2. **Experiência Prévia com Monovisão:**
-   - LC monovisão prévia: Adaptação **2-3× mais rápida**
-   - Cérebro já "conhece" supressão seletiva
+  - LC monovisão prévia: Adaptação **2-3× mais rápida**
+  - Cérebro já "conhece" supressão seletiva
 
 3. **Motivação Intrínseca:**
-   - Paciente que **quer** eliminar óculos adapta melhor
-   - Pressão externa ("cônjuge insistiu") correlaciona com falha
+  - Paciente que **quer** eliminar óculos adapta melhor
+  - Pressão externa ("cônjuge insistiu") correlaciona com falha
 
 4. **Ausência de Comorbidades Neurológicas:**
-   - Sem enxaqueca severa
-   - Sem perturbações de equilíbrio (labirintite)
-   - Sem depressão/ansiedade clínica não-tratada
+  - Sem enxaqueca severa
+  - Sem perturbações de equilíbrio (labirintite)
+  - Sem depressão/ansiedade clínica não-tratada
 
 5. **Perfil Psicológico "Flexível":**
-   - Tolera incerteza
-   - Não-perfeccionista
-   - Aceita compromissos
+  - Tolera incerteza
+  - Não-perfeccionista
+  - Aceita compromissos
 
 ### 10.3.2. Fatores Negativos (Dificultam/Impedem Adaptação)
 
 1. **Anisometropia Excessiva (>2.00 D):**
-   - Supera capacidade de fusão cortical
-   - Taxa falha: 30-40%
+  - Supera capacidade de fusão cortical
+  - Taxa falha: 30-40%
 
 2. **Aberrações de Alta Ordem Severas:**
-   - Coma >0.50 μm: Cria diplopia monocular não-suprimível
-   - Trefoil >0.40 μm: "Ghost images"
+  - Coma >0.50 μm: Cria diplopia monocular não-suprimível
+  - Trefoil >0.40 μm: "Ghost images"
 
 3. **Ambliopia/Estrabismo Pré-Existente:**
-   - Fusão binocular já comprometida
-   - Monovisão/blend impossível
+  - Fusão binocular já comprometida
+  - Monovisão/blend impossível
 
 4. **Depressão/Ansiedade Não-Diagnosticada:**
-   - Amplifica percepção negativa de sintomas
-   - Reduz limiar de tolerância
+  - Amplifica percepção negativa de sintomas
+  - Reduz limiar de tolerância
 
 5. **Profissões de Alta Exigência Visual:**
-   - Cirurgiões (microscopia)
-   - Pilotos (certificação médica pode reprovar)
-   - Designers gráficos (sensibilidade contraste crítica)
+  - Cirurgiões (microscopia)
+  - Pilotos (certificação médica pode reprovar)
+  - Designers gráficos (sensibilidade contraste crítica)
 
 > [!WARNING]
 > **Profissões de Risco - Contraindicação Relativa a Cirurgia Presbiópica Multifocal:**
@@ -242,7 +308,7 @@ Paciência é terapêutica. ~25% ganho de satisfação ocorre **apenas por neuro
 > - Engenheiros precisão (CAD intensivo)
 > - Condutores profissionais noturnos (camionistas long-haul)
 > 
-> **Recomendação:**  
+> **Recomendação:** 
 > Oferecer **monovisão mínima** (anisometropia <1.00D) ou **RLE com IOL EDOF** em vez de multifocalidade corneana agressiva (PresbyMAX, SUPRACOR).
 
 ---
@@ -260,18 +326,18 @@ Forçar o cérebro a **usar o novo sistema** óptico acelera adaptação.
 **Semanas 1-4 Pós-Op:**
 
 1. **Banir óculos de leitura:**
-   - Mesmo que visão perto seja imperfeita, **não usar óculos**
-   - Força adaptação cortical a otimizar input disponível
-   - **Exceções de Segurança:** Ver abaixo
+  - Mesmo que visão perto seja imperfeita, **não usar óculos**
+  - Força adaptação cortical a otimizar input disponível
+  - **Exceções de Segurança:** Ver abaixo
 
 2. **Exercícios Visuais Ativos:**
-   - **Leitura Progressive:** 10-15 min/dia, forçar leitura mesmo com blur
-   - **Foco Alternado:** Olhar longe (10 seg) → perto (10 seg), repetir 20×
-   - **Treino Binocular:** Cobrir/descobrir olhos alternadamente enquanto lê
+  - **Leitura Progressive:** 10-15 min/dia, forçar leitura mesmo com blur
+  - **Foco Alternado:** Olhar longe (10 seg) → perto (10 seg), repetir 20×
+  - **Treino Binocular:** Cobrir/descobrir olhos alternadamente enquanto lê
 
 3. **Evitar "Escape" para Olho Dominante:**
-   - Não fechar olho não-dominante para "ver melhor"
-   - Isto reforça supressão patológica, não adaptativa
+  - Não fechar olho não-dominante para "ver melhor"
+  - Isto reforça supressão patológica, não adaptativa
 
 **Exceções de Segurança ao "Uso Forçado":**
 - ✅ **Permitir óculos:** Condução noturna prolongada (>30 min)
@@ -282,7 +348,7 @@ Forçar o cérebro a **usar o novo sistema** óptico acelera adaptação.
 **Evidência:**
 
 Estudo prospectivo randomizado (n=120):
-- **Grupo "Uso Forçado":** Satisfação 8.5/10 no mês 3
+- **Grupo "Uso Forçado":** Satisfação 8.5/10 no mês 3 [5]
 - **Grupo Controlo (uso óculos PRN):** Satisfação 7.2/10 no mês 3
 - **p<0.01** (evidência nível 2)
 
@@ -315,27 +381,60 @@ Supplementação 2000 mg/dia (EPA+DHA) melhora qualidade de filme lacrimal.
 
 ```
 Insatisfação Persistente (Mês 3)
-         ↓
+  ↓
   [Causa Principal?]
-         ↓
-   ┌─────┴─────┐
-   ↓           ↓
-Óptica      Neuroadaptação
-         ↓           ↓
-   ┌─────┴───┐       ↓
-   ↓         ↓   Falhou Adaptar
-Erro    Aberrações    ↓
-Refr    HOA     [Reversível?]
-   ↓         ↓        ↓
-Retoque Cirúrgico Topo-   Considerar
-            Guided  Reversão ou
-                    RLE
+  ↓
+  ┌─────┴─────┐
+  ↓ ↓
+Óptica Neuroadaptação
+  ↓ ↓
+  ┌─────┴───┐ ↓
+  ↓ ↓ Falhou Adaptar
+Erro Aberrações ↓
+Refr HOA [Reversível?]
+  ↓ ↓ ↓
+Retoque Cirúrgico Topo- Considerar
+  Guided Reversão ou
+  RLE
 ```
 
 ### Infográfico 10.2: Protocolo de Troubleshooting (Algoritmo Visual)
 
 ![Decisão: Óptico vs Neural](figures/chapter10/troubleshooting.png)
 *Figura 10.2: Antes de re-operar, pense. O algoritmo distingue falha óptica (corrigível com laser) de falha neural (não tocável). Intervir cirurgicamente num problema neural agrava o quadro (visão fantasma).*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Guia para o cirurgião distinguir "Erro de Laser" de "Cérebro Lento".
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Árvore de Decisão Binária.
+
+### O Tronco (Problema)
+*   Caixa Cinzenta: "**Insatisfação no Mês 3 (<6/10)**".
+
+### A Bifurcação (Diagnóstico)
+*   **Ramo Esquerdo (Azul - Óptico):**
+    *   Ícones: Olho com astigmatismo, Topografia descentrada.
+    *   Critério: "Refração Residual ou Aberrações".
+    *   Solução: "**RETOQUE (Laser)**".
+*   **Ramo Direito (Roxo - Neural):**
+    *   Ícones: Cérebro com ponto de interrogação.
+    *   Critério: "Exames Normais (20/20)".
+    *   Solução: "**COUNSELLING (Tempo)**".
+
+### A Zona de Perigo
+*   Seta Vermelha cruzada no Ramo Direito a dizer: "**NÃO TOCAR NA CÓRNEA**".
+
+---
+
+## 2. Legenda Explicativa
+"Antes de re-operar, diagnostique a causa. Se a topografia e a refração estão perfeitas, o problema é neural. Disparar o laser novamente num problema neural só vai piorar os sintomas (phantom vision)."
+
 
 **Diferenciação Crucial:**
 
@@ -358,12 +457,12 @@ Retoque Cirúrgico Topo-   Considerar
 
 1. **Intolerância severa >6 meses** (score <4/10)
 2. **Falha em teste de re-simulação:**
-   - Colocar LC que simula reversão (monofocal longe bilateral)
-   - Se paciente prefere dramaticamente: Reversão indicada
+  - Colocar LC que simula reversão (monofocal longe bilateral)
+  - Se paciente prefere dramaticamente: Reversão indicada
 3. **Impacto profissional/QoL severo:**
-   - Perdeu emprego
-   - Depressão clínica secundária
-   - Incapacidade de conduzir (profissional)
+  - Perdeu emprego
+  - Depressão clínica secundária
+  - Incapacidade de conduzir (profissional)
 
 **Taxa de Reversão na Literatura:**
 
@@ -383,24 +482,24 @@ Retoque Cirúrgico Topo-   Considerar
 **Tópicos Obrigatórios:**
 
 1. **"Presbiopia não tem cura perfeita":**
-   - Explicar que cirurgia cria **compromisso**, não "visão de 20 anos"
+  - Explicar que cirurgia cria **compromisso**, não "visão de 20 anos"
 
 2. **"Neuroadaptação é longa":**
-   - Mostrar gráfico temporal de satisfação
-   - Expectativa: 3-6 meses para otimização
+  - Mostrar gráfico temporal de satisfação
+  - Expectativa: 3-6 meses para otimização
 
 3. **"Halos são normais e temporários":**
-   - Todos têm halos inicialmente
-   - 80% deixam de incomodar (supressão neural)
+  - Todos têm halos inicialmente
+  - 80% deixam de incomodar (supressão neural)
 
 4. **"Óculos ocasionais são normais":**
-   - Leitura prolongada (<30 cm)
-   - Condução noturna prolongada
-   - **Não** é falha cirúrgica
+  - Leitura prolongada (<30 cm)
+  - Condução noturna prolongada
+  - **Não** é falha cirúrgica
 
 5. **"Taxa de retoque (enhancement): 10-15%":**
-   - Alguns precisam ajuste
-   - Não significa erro, mas variabilidade biológica
+  - Alguns precisam ajuste
+  - Não significa erro, mas variabilidade biológica
 
 **Documento de Consentimento Informado Específico:**
 
@@ -419,13 +518,42 @@ Eu compreendo e aceito que:
 ☐ 10-15% pacientes precisam de um "ajuste" (retoque/enhancement)
 ☐ Existe pequena possibilidade (2-5%) de não me adaptar e precisar reversão
 
-Assinatura: ________________  Data: __________
+Assinatura: ________________ Data: __________
 ```
 
 ### Infográfico 10.3: "Contrato de Expectativas" (Template Visual)
 
 ![O Acordo de Presbiopia](figures/chapter10/expectation_contract.png)
 *Figura 10.3: Vacina contra expectativas irreais. Um checklist visual para o consentimento informado, garantindo que o paciente aceita os 4 pilares: Compromisso, Tempo, Halos e Independência imperfeita.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Um documento visual que serve de "vacina" contra processos e reclamações irreais.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Folha de Papel "Oficial" com Checkboxes Gigantes.
+
+### Título: "Presbyopia Agreement"
+
+### As Cláusulas (Checkboxes Marcadas a Verde)
+1.  ☑ "**Sem Cura Perfeita**" (Aceito o compromisso).
+2.  ☑ "**Tempo de Adaptação**" (Prometo esperar 6 meses).
+3.  ☑ "**Halos Temporários**" (Sei que vou vê-los à noite).
+4.  ☑ "**Independência 90%**" (Aceito usar óculos para ler bulas).
+
+### A Assinatura
+*   Uma caneta pousada sobre uma linha de assinatura no fundo.
+*   Selo de "Consentimento Informado".
+
+---
+
+## 2. Legenda Explicativa
+"A gestão de expectativas não é apenas uma conversa, é um contrato. Visualizar este 'acordo' ajuda o paciente a interiorizar que a cirurgia de presbiopia exige um esforço ativo da parte dele (paciência e adaptação)."
+
 
 ### 10.6.2. Gestão Durante "Semana do Arrependimento"
 
@@ -434,17 +562,17 @@ Assinatura: ________________  Data: __________
 **Semana 1 Follow-Up (Presencial):**
 
 1. **Validação Emocional:**
-   - "Muitos pacientes sentem exatamente isso. É normal."
+  - "Muitos pacientes sentem exatamente isso. É normal."
 
 2. **Re-explicação Fisiológica:**
-   - "Seu cérebro está a aprender. Demora semanas."
+  - "Seu cérebro está a aprender. Demora semanas."
 
 3. **Evitar Falsas Promessas:**
-   - ❌ "Vai melhorar na próxima semana" (pode não melhorar)
-   - ✅ "Vai melhorar gradualmente ao longo de semanas/meses"
+  - ❌ "Vai melhorar na próxima semana" (pode não melhorar)
+  - ✅ "Vai melhorar gradualmente ao longo de semanas/meses"
 
 4. **Disponibilidade:**
-   - "Se piorar ou ficar muito ansioso, ligue-me diretamente."
+  - "Se piorar ou ficar muito ansioso, ligue-me diretamente."
 
 **Contacto Telefónico Semana 2:**
 
@@ -473,7 +601,7 @@ Assinatura: ________________  Data: __________
 - Mês 3: Score 8/10 ("Consigo trabalhar sem óculos, halos não incomodam mais")
 - Mês 6: Score 9/10 ("Melhor decisão que fiz")
 
-**Lição:**  
+**Lição:** 
 Paciência + suporte = sucesso mesmo em caso com início difícil.
 
 ---
@@ -502,7 +630,7 @@ Paciência + suporte = sucesso mesmo em caso com início difícil.
 - Mês 9: Topography-Guided bilateral para reverter multifocalidade
 - Resultado pós-reversão: BCVA 20/20, satisfação 8/10
 
-**Lição:**  
+**Lição:** 
 ~2-5% pacientes nunca adaptam neurologicamente. Reversão é válida em casos selecionados.
 
 ---
@@ -522,4 +650,3 @@ Paciência + suporte = sucesso mesmo em caso com início difícil.
 7. Alió JL. *Presbyopia: Origins, Effects, and Treatment*. Thorofare, NJ: Slack Inc; 2008.
 
 ---
-

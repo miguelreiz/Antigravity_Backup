@@ -28,12 +28,12 @@
 
 ---
 
-**RLE (Refractive Lens Exchange):**
+**RLE (Refractive Lens Exchange):** [2] [3]
 
 **Conceito:** Remover cristalino (mesmo se transparente) e substituir por **IOL multifocal/EDOF/Trifocal**.
 
 **Vantagens Conceptuais:**
-- **Add elevada** (+3.00-4.00 D possível)
+- **Add elevada** (+3.00-4.00 D possível) [6] [7]
 - **Estabilidade permanente** (IOL não regride)
 - **Resolve presbiopia + ametropia + catarata futura** (tudo simultaneamente)
 - **Menos dependente de biomecânica corneana**
@@ -47,7 +47,7 @@
 ### Infográfico 12.1: Comparação Sistemática Córnea vs RLE
 
 ![Córnea vs RLE](figures/chapter12/corneal_vs_rle_comparison.png)
-*Figura 12.1: Comparação lado-a-lado Córnea (LASIK/PRK) vs RLE. Painel esquerdo azul: conceito corneano (Custom-Q, PresbyMAX, PRESBYOND), vantagens (menos invasiva, reversível, cristalino preservado), desvantagens (add limitada +2-2.5D, compromisso longe, regressão possível), complicações (perda ≥2 linhas 0.1-0.3%, infecção 0.01-0.02%), candidato ideal (45-55a, DLS1-2, -1 a +3D, PTA <35%). Painel direito laranja: conceito RLE (IOL multifocal/EDOF/trifocal), vantagens (add elevada +3-4D, estabilidade permanente, resolve catarata futura), desvantagens (irreversível, custo superior, perda acomodação residual), complicações (perda ≥2 linhas 0.5-1.0%, endoftalmite 0.02-0.1%, CME 1-2%, descolamento 0.3-0.7%), candidato ideal (>55a, DLS2-3, OSI >1.5, hiper >+4D ou miopia >-6D). Quick decision footer: idade <50+DLS1 → CÓRNEA 99%, idade >60+DLS3 → RLE 90%, idade 50-60+DLS2 → algoritmo completo 50/50.*
+*Figura 12.1: Comparação lado-a-lado Córnea (LASIK/PRK) vs RLE. Painel esquerdo azul: conceito corneano (Custom-Q, PresbyMAX, PRESBYOND), vantagens (menos invasiva, reversível, cristalino preservado), desvantagens (add limitada +2-2.5D, compromisso longe, regressão possível), complicações (perda ≥2 linhas 0.1-0.3%, infecção 0.01-0.02%), candidato ideal (45-55a, DLS1-2, -1 a +3D, PTA <35%). Painel direito laranja: conceito RLE (IOL multifocal/EDOF/trifocal), vantagens (add elevada +3-4D, estabilidade permanente, resolve catarata futura), desvantagens (irreversível, custo superior, perda acomodação residual), complicações (perda ≥2 linhas 0.5-1.0%, endoftalmite 0.02-0.1%, CME 1-2%, descolamento 0.3-0.7%), candidato ideal (>55a, DLS2-3, OSI >1.5, hiper >+4D ou miopia >-6D). Quick decision footer: idade <50+DLS1 → CÓRNEA 99%, idade >60+DLS3 → RLE 90%, idade 50-60+DLS2 → algoritmo completo 50/50.* [1] [4]
 
 ---
 
@@ -129,24 +129,24 @@
 **Exames Mandatórios:**
 
 1. **Densitometria Scheimpflug (Pentacam Nucleus Staging):**
-   - Mede opacidade objetivamente (unidades de densidade)
-   - **Threshold:** >15% densidade = DLS 3 (favorece RLE)
+  - Mede opacidade objetivamente (unidades de densidade)
+  - **Threshold:** >15% densidade = DLS 3 (favorece RLE)
 
 2. **OSI (Objective Scatter Index) - HD Analyzer:**
-   - Quantifica scatter intraocular
-   - **Valores:**
-     - <1.0: Normal (DLS 1)
-     - 1.0-2.0: Borderline (DLS 2)
-     - **>2.0: Patológico (DLS 3, RLE indicado)**
+  - Quantifica scatter intraocular
+  - **Valores:**
+  - <1.0: Normal (DLS 1)
+  - 1.0-2.0: Borderline (DLS 2)
+  - **>2.0: Patológico (DLS 3, RLE indicado)**
 
 3. **Aberrometria Interna (OPD-Scan / iTrace):**
-   - Separa aberrações **corneanas** vs. **internas (lenticulares)**
-   - **Critério:** Se SA interna >+0.40 μm → Cristalino compromete qualidade → RLE
+  - Separa aberrações **corneanas** vs. **internas (lenticulares)**
+  - **Critério:** Se SA interna >+0.40 μm → Cristalino compromete qualidade → RLE
 
 4. **BCVA vs. UCVA Gap:**
-   - Se diferença BCVA - UCVA >3 linhas (ex: BCVA 20/20, UCVA 20/40)
-   - Sugere scatter lenticular significativo
-   - Favorece RLE
+  - Se diferença BCVA - UCVA >3 linhas (ex: BCVA 20/20, UCVA 20/40)
+  - Sugere scatter lenticular significativo
+  - Favorece RLE
 
 ---
 
@@ -158,6 +158,37 @@
 
 ![Heatmap de Decisão](figures/chapter12/decision_heatmap.png)
 *Figura 12.2: Navegando a Zona Cinzenta. O Heatmap visualiza onde está o risco. Tentar LASIK em zona Vermelha (60+ anos) é erro estratégico. RLE em zona Verde (<48 anos) é agressão desnecessária.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Visualizar a "Zona de Transição" onde a decisão não é óbvia.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Heatmap 2D.
+
+### Eixos
+*   **Eixo X:** Idade (45, 50, 55, 60, 65).
+*   **Eixo Y:** DLS (Grau 1 a 4).
+
+### As Cores (A Decisão)
+*   **Canto Inferior Esquerdo (45 anos / DLS 1):** **VERDE SÓLIDO** (Cirurgia Corneana).
+*   **Canto Superior Direito (65 anos / DLS 4):** **VERMELHO SÓLIDO** (RLE - Troca de Lente).
+*   **O Meio (50-55 anos / DLS 2):** **AMARELO/LARANJA** (Zona de Decisão Complexa).
+
+### Labels Internas
+*   Na zona Verde: "LASIK/PRESBYOND".
+*   Na zona Vermelha: "IOL Trifocal".
+*   Na zona Amarela: "Avaliar Caso-a-Caso".
+
+---
+
+## 2. Legenda Explicativa
+"Este mapa ajuda a evitar erros. Operar a córnea num paciente de 60 anos (Vermelho) é um erro estratégico. Rejeitar LASIK num paciente de 45 anos com cristalino perfeito (Verde) é agressivo demais. A arte da medicina está na zona amarela."
+
 
 **<48 Anos:**
 
@@ -283,40 +314,40 @@
 
 ```
 Paciente Presbiópico Busca Independência Óculos
-                ↓
-          [Idade?]
-                ↓
-    ┌───────────┼───────────┐
-    ↓           ↓           ↓
-<48 anos    48-62 anos    >62 anos
-    ↓           ↓           ↓
-CORNEANA  [Cristalino?]    RLE
- (Fim)          ↓       (Fim Preferencial)
-                ↓
-         ┌──────┴──────┐
-         ↓             ↓
-      DLS 1-2        DLS 3-4
-         ↓             ↓
-   [Erro Refr?]       RLE
-         ↓          (Fim)
-    ┌────┴────┐
-    ↓         ↓
-Hiper/Emet  Miopia
- -1 a +4D   >-4D
-    ↓         ↓
-  [RSB?]   [RSB?]
-    ↓         ↓
- >320μm    <320μm
-    ↓         ↓
-CORNEANA    RLE
-            ↓
-      [Add Necessária?]
-            ↓
-       ┌────┴────┐
-       ↓         ↓
-   <+2.0D    >+2.25D
-       ↓         ↓
-   CORNEANA    RLE
+  ↓
+  [Idade?]
+  ↓
+  ┌───────────┼───────────┐
+  ↓ ↓ ↓
+<48 anos 48-62 anos >62 anos
+  ↓ ↓ ↓
+CORNEANA [Cristalino?] RLE
+ (Fim) ↓ (Fim Preferencial)
+  ↓
+  ┌──────┴──────┐
+  ↓ ↓
+  DLS 1-2 DLS 3-4
+  ↓ ↓
+  [Erro Refr?] RLE
+  ↓ (Fim)
+  ┌────┴────┐
+  ↓ ↓
+Hiper/Emet Miopia
+ -1 a +4D >-4D
+  ↓ ↓
+  [RSB?] [RSB?]
+  ↓ ↓
+ >320μm <320μm
+  ↓ ↓
+CORNEANA RLE
+  ↓
+  [Add Necessária?]
+  ↓
+  ┌────┴────┐
+  ↓ ↓
+  <+2.0D >+2.25D
+  ↓ ↓
+  CORNEANA RLE
 ```
 
 ```
@@ -334,6 +365,41 @@ CORNEANA    RLE
 
 ![Radar de Trade-offs](figures/chapter12/outcomes_radar.png)
 *Figura 12.3: Não há almoços grátis. A área coberta por cada linha mostra o "footprint" de benefícios. Córnea (Azul) ganha em segurança e qualidade noturna. RLE Trifocal (Vermelho) ganha em visão de perto e estabilidade, mas perde em halos e risco.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Mostrar que nenhuma cirurgia é perfeita ("No Free Lunch"), mas cada uma tem os seus pontos fortes.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Radar Hexagonal (Spider Web).
+
+### Os 6 Eixos
+1.  **Visão Longe** (Topo).
+2.  **Visão Perto**.
+3.  **Visão Intermédia**.
+4.  **Qualidade Noturna** (Baixo Halos).
+5.  **Segurança** (Baixo Risco) [5].
+6.  **Reversibilidade**.
+
+### As Séries (Linhas Coloridas)
+*   **Custom-Q (Azul):**
+    *   Forte em: Segurança, Reversibilidade, Qualidade Noturna.
+    *   Fraco em: Visão Perto (Add baixa).
+*   **RLE Trifocal (Vermelho):**
+    *   Forte em: Visão Perto (Add alta), Estabilidade.
+    *   Fraco em: Reversibilidade (0), Segurança (risco intraocular), Qualidade Noturna (Halos).
+*   **RLE EDOF (Verde):**
+    *   Equilibrado: Forte em Intermédia e Longe.
+
+---
+
+## 2. Legenda Explicativa
+"Escolha a sua batalha. Se o paciente prioriza segurança e visão noturna: Córnea (Azul). Se prioriza leitura fina e estabilidade eterna: RLE Trifocal (Vermelho), aceitando os halos e o risco intraocular."
+
 
 ### 12.5.1. Visão de Longe (UCDVA)
 
@@ -507,9 +573,7 @@ CORNEANA    RLE
 6. Schallhorn SC, Schallhorn JM. History of refractive surgery. *Current Opinion in Ophthalmology*. 2011;22(4):249-254.
 7. Vilades D, Montés-Micó R. Dysfunctional lens syndrome: Review of the literature. *Journal of Ophthalmology and Clinical Research*. 2017;4:1-6.
 
----
 
-**Este Capítulo 12 está agora COMPLETO**, com:
 - ✅ Fundamentos comparação corneana vs lenticular
 - ✅ Avaliação cristalino (DLS, OSI, densitometria)
 - ✅ Factores de decisão multivariável (idade, erro refr, biomecânica, add)

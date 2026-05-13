@@ -44,7 +44,7 @@ A córnea humana normal é **ligeiramente prolata**, com valores médios bem est
 - **Variação normal:** Q = -0.10 a -0.50
 - **Faixa prolata ideal para cirurgia refrativa:** Q = -0.15 a -0.35
 
-**Importância Fisiológica:**  
+**Importância Fisiológica:** 
 A asfericidade prolata natural da córnea tem um propósito óptico crítico: **compensar parcialmente a aberração esférica positiva induzida pelo cristalino**. Esta compensação não é completa, resultando numa aberração esférica total ocular ligeiramente positiva (+0.10 a +0.15 μm para pupila de 6 mm), o que confere um pequeno grau de profundidade de campo natural. [3]
 
 ### 2.1.4. Modificação Cirúrgica do Fator Q e Implicações Ópticas
@@ -53,15 +53,15 @@ A cirurgia refrativa modifica dramaticamente a asfericidade corneana:
 
 #### LASIK/PRK Miópico Convencional
 
-**Efeito Geométrico:**  
+**Efeito Geométrico:** 
 A ablação miópica remove mais tecido central do que periférico, criando um aplanamento central relativo.
 
-**Resultado:**  
+**Resultado:** 
 - **Q pós-operatório:** +0.30 a +0.80 (oblato)
-- **Aberração esférica induzida:** Positiva (shift de ~+0.30 a +0.60 μm)
+- **Aberração esférica induzida:** Positiva (shift de ~+0.30 a +0.60 μm) [14]
 - **Consequência clínica:** Halos noturnos, perda de sensibilidade ao contraste, especialmente em pupilas grandes [4]
 
-**Magnitude da Mudança:**  
+**Magnitude da Mudança:** 
 Para cada dioptria de correção miópica, o fator Q aumenta (torna-se mais oblato) em aproximadamente:
 $$\Delta Q \approx +0.15 \text{ por dioptria}$$
 
@@ -69,10 +69,10 @@ Exemplo: Correção de -6.00 D pode transformar Q de -0.25 (prolato normal) para
 
 #### LASIK/PRK Hipermetrópico
 
-**Efeito Geométrico:**  
+**Efeito Geométrico:** 
 A ablação hipermetrópica remove tecido periférico, criando um incurvamento central (steepening).
 
-**Resultado:**  
+**Resultado:** 
 - **Q pós-operatório:** -0.60 a -1.20 (hiper-prolato)
 - **Aberração esférica induzida:** Negativa
 - **Consequência clínica:** Extensão da profundidade de campo (desejável para presbiopia)
@@ -92,7 +92,7 @@ A aberração esférica (Spherical Aberration - SA) é o termo de Zernike de 4ª
 
 ### 2.2.1. Definição Óptica e Física
 
-**Conceito:**  
+**Conceito:** 
 A aberração esférica ocorre quando raios de luz que atravessam diferentes zonas radiais de uma lente (ou córnea) focalizam em planos axiais diferentes, mesmo na ausência de erro refrativo de baixa ordem (defocus).
 
 **Manifestação Clínica:**
@@ -111,7 +111,7 @@ A aberração esférica é quantificada pelo coeficiente de Zernike $Z_4^0$, med
 | Condição | $Z_4^0$ (6 mm pupila) | Interpretação |
 |----------|----------------------|---------------|
 | Córnea normal jovem | -0.05 a +0.05 μm | SA mínima |
-| Olho total jovem | +0.10 a +0.15 μm | SA positiva ligeira (fisiológica) |
+| Olho total jovem | +0.10 a +0.15 μm | SA positiva ligeira (fisiológica) [15] |
 | Pós-LASIK miópico | +0.30 a +0.60 μm | SA positiva elevada (halos) |
 | **Alvo PresbyLASIK** | **-0.40 a -0.60 μm** | **SA negativa terapêutica (DoF)** |
 | Pós-PresbyMAX | -0.50 a -0.80 μm | SA negativa alta (multifocalidade) |
@@ -126,7 +126,7 @@ Esta equação pode ser simplificada para a prática clínica como:
 
 $$Z_4^0 \approx -0.5 \times \Delta Q \text{ (para pupila de 6 mm)}$$
 
-**Aplicação Clínica:**  
+**Aplicação Clínica:** 
 Se pretendemos induzir uma aberração esférica de **-0.50 μm** para criar profundidade de campo numa cirurgia presbiópica:
 
 - Q pré-operatório: -0.25 (normal)
@@ -142,29 +142,29 @@ A indução controlada de SA negativa tem consequências ópticas precisas e pre
 #### Vantagens (Efeito Terapêutico):
 
 1. **Extensão da Profundidade de Campo (DoF):**
-   - A caustica longitudinal de foco expande-se de um ponto focal único para uma "zona de foco"
-   - Permite visão funcional em múltiplas distâncias (longe, intermédio, perto)
-   - Magnitude: -0.50 μm de SA negativa pode expandir DoF em ~1.50 a 2.00 D
+  - A caustica longitudinal de foco expande-se de um ponto focal único para uma "zona de foco"
+  - Permite visão funcional em múltiplas distâncias (longe, intermédio, perto)
+  - Magnitude: -0.50 μm de SA negativa pode expandir DoF em ~1.50 a 2.00 D
 
 2. **Pseudo-Acomodação Óptica:**
-   - Múltiplos círculos de menor confusão ao longo do eixo óptico
-   - O cérebro seleciona a imagem de melhor contraste para a distância de interesse
+  - Múltiplos círculos de menor confusão ao longo do eixo óptico
+  - O cérebro seleciona a imagem de melhor contraste para a distância de interesse
 
 #### Desvantagens (Compromisso Inevitável):
 
 1. **Redução da Sensibilidade ao Contraste:**
-   - A sobreposição de múltiplas imagens retinianas (in-focus e out-of-focus) reduz o contraste espacial
-   - Perda típica: 0.1-0.3 log units em frequências médias (6-12 cycles/degree) [6]
+  - A sobreposição de múltiplas imagens retinianas (in-focus e out-of-focus) reduz o contraste espacial
+  - Perda típica: 0.1-0.3 log units em frequências médias (6-12 cycles/degree) [6]
 
 2. **Degradação da Função de Transferência de Modulação (MTF):**
-   - Redução da amplitude de pico da MTF
-   - Alargamento da base da curva MTF (correlaciona com a DoF aumentada)
+  - Redução da amplitude de pico da MTF
+  - Alargamento da base da curva MTF (correlaciona com a DoF aumentada)
 
 3. **Fenómenos Fóticos:**
-   - Halos noturnos (especialmente com pupilas >5.5 mm)
-   - Glare em condições de alto contraste (luzes de automóveis)
+  - Halos noturnos (especialmente com pupilas >5.5 mm)
+  - Glare em condições de alto contraste (luzes de automóveis)
 
-**Equação de Compromisso (Compromisso):**  
+**Equação de Compromisso (Compromisso):** 
 O cirurgião deve balancear:
 
 $$\text{Ganho de DoF} \propto |Z_4^0| \quad \text{mas} \quad \text{Perda de Contraste} \propto |Z_4^0|^2$$
@@ -284,13 +284,13 @@ Este é o fundamento matemático do algoritmo PresbyCor. [5]
 
 **Cutoff:**
 - **< 0.20 μm:** Normal
-- **> 0.30 μm:** Considerar topography-guided ablation antes de presbiopia
+- **> 0.30 μm:** Considerar topography-guided ablation antes de presbiopia [18]
 
 ---
 
 ### 2.3.3. Root Mean Square (RMS): A Métrica de Resumo
 
-O RMS é a "nota final" da qualidade óptica:
+O RMS é a "nota final" da qualidade óptica: [16]
 
 $$\text{RMS} = \sqrt{\sum_{i=1}^{n} c_i^2}$$
 
@@ -303,8 +303,6 @@ $$\text{RMS} = \sqrt{\sum_{i=1}^{n} c_i^2}$$
 | **0.35-0.50 μm** | Moderada | ⚠️ Avaliar Coma individual |
 | **> 0.50 μm** | Reduzida | ❌ Alto risco → Regularizar primeiro |
 
-
----
 
 
 ### 2.3.5. Aplicação Prática: "Qual Alavanca Eu Puxo?" (Q-Factor ou Aberração Esférica?)
@@ -319,22 +317,22 @@ Para tratar presbiopia, o seu objetivo óptico é sempre o mesmo: **Gerar "Aberr
 
 Mas como você diz isso ao laser?
 
-1.  **Se o seu laser fala "Linguagem de Wavefront" (ex: Zeiss, Schwind em modo custom):**
-    *   Você pede diretamente: *"Quero induzir -0.40 a -0.60 μm de $Z_4^0$"*.
-    *   O laser calcula a ablação necessária.
+1. **Se o seu laser fala "Linguagem de Wavefront" (ex: Zeiss, Schwind em modo custom):**
+  * Você pede diretamente: *"Quero induzir -0.40 a -0.60 μm de $Z_4^0$"*.
+  * O laser calcula a ablação necessária.
 
-2.  **Se o seu laser fala "Linguagem de Asfericidade" (ex: Alcon Wavelight, Schwind Custom-Q):**
-    *   O laser não aceita "μm de aberração". Ele pede um "Fator Q alvo".
-    *   Você precisa "traduzir" o desejo de SA negativa para uma geometria córnea (Fator Q).
-    *   **A Tradução:** Para ter SA Negativa, a córnea precisa ficar **Hiper-Prolata** (pontuda, Q muito negativo).
+2. **Se o seu laser fala "Linguagem de Asfericidade" (ex: Alcon Wavelight, Schwind Custom-Q):**
+  * O laser não aceita "μm de aberração". Ele pede um "Fator Q alvo".
+  * Você precisa "traduzir" o desejo de SA negativa para uma geometria córnea (Fator Q).
+  * **A Tradução:** Para ter SA Negativa, a córnea precisa ficar **Hiper-Prolata** (pontuda, Q muito negativo).
 
 > [!TIP]
 > **A Fórmula de Bolso do Cirurgião (Pupila 6mm):**
 > $$\Delta Q \approx -2.0 \times \text{Alvo de SA desejado}$$
 >
-> *   **Exemplo:** Quero induzir SA de **-0.50 μm**.
-> *   Conta: $-2.0 \times (-0.50) = +1.00$ (Esta é a *mudança* necessária, no sentido negativo/prolato).
-> *   Se o Q pré-op é -0.20 → O Q-Alvo será **-1.20**.
+> * **Exemplo:** Quero induzir SA de **-0.50 μm**.
+> * Conta: $-2.0 \times (-0.50) = +1.00$ (Esta é a *mudança* necessária, no sentido negativo/prolato).
+> * Se o Q pré-op é -0.20 → O Q-Alvo será **-1.20**.
 
 ---
 
@@ -343,40 +341,40 @@ Mas como você diz isso ao laser?
 Não complique. Siga este fluxo mental antes de cada caso:
 
 **PASSO 1: O "Terreno" é Seguro? (Check de Segurança)**
-*   Olhe o **RMS de Alta Ordem (HOA)** no pré-op.
-*   **< 0.30 μm:** ✅ Terreno limpo. Pode construir a óptica que quiser.
-*   **> 0.50 μm:** ❌ Terreno acidentado (irregular). Se você adicionar multifocalidade aqui, vai criar o caos visual. A prioridade muda para *regularizar a córnea* (T-CAT/Contoura), não tratar presbiopia.
+* Olhe o **RMS de Alta Ordem (HOA)** no pré-op.
+* **< 0.30 μm:** ✅ Terreno limpo. Pode construir a óptica que quiser.
+* **> 0.50 μm:** ❌ Terreno acidentado (irregular). Se você adicionar multifocalidade aqui, vai criar o caos visual. A prioridade muda para *regularizar a córnea* (T-CAT/Contoura), não tratar presbiopia.
 
 **PASSO 2: Existe "Veneno" Oculto? (Check do Coma)**
-*   Olhe especificamente o **Coma ($Z_3^{-1}, Z_3^{+1}$)**.
-*   **Coma > 0.30 μm:** ⚠️ PERIGO. O coma cria "fantasmas". A óptica multifocal (SA negativa) *aumenta* a percepção desses fantasmas.
-*   **Decisão:** Não faça PresbyLASIK. Vá para Monovisão simples ou RLE.
+* Olhe especificamente o **Coma ($Z_3^{-1}, Z_3^{+1}$)**.
+* **Coma > 0.30 μm:** ⚠️ PERIGO. O coma cria "fantasmas". A óptica multifocal (SA negativa) *aumenta* a percepção desses fantasmas.
+* **Decisão:** Não faça PresbyLASIK. Vá para Monovisão simples ou RLE.
 
 **PASSO 3: Qual a "Dose" do Remédio? (Ajuste da Asfericidade)**
-*   Se Passos 1 e 2 são OK, defina a dose de PROFUNDIDADE DE CAMPO.
-*   **Dose Padrão (Leitura Confortável):** Alvo de SA **-0.45 μm** (aprox. Q -0.90).
-*   **Dose Forte (Leitura Difícil/Míope):** Alvo de SA **-0.60 μm** (aprox. Q -1.20).
-*   **Nunca exceda:** SA -0.70 μm (gera "visão de cera" ou waxy vision).
+* Se Passos 1 e 2 são OK, defina a dose de PROFUNDIDADE DE CAMPO.
+* **Dose Padrão (Leitura Confortável):** Alvo de SA **-0.45 μm** (aprox. Q -0.90).
+* **Dose Forte (Leitura Difícil/Míope):** Alvo de SA **-0.60 μm** (aprox. Q -1.20).
+* **Nunca exceda:** SA -0.70 μm (gera "visão de cera" ou waxy vision).
 
 ---
 
 #### **Casos Clínicos "Direto ao Ponto"**
 
 **CASO A: O Candidato Ideal (Luz Verde)**
-*   **Paciente:** +2.00 D, quer ler sem óculos.
-*   **Exame:** Córnea regular, RMS 0.15 μm, Coma 0.08 μm.
-*   **Raciocínio:** O sistema óptico está "limpo". Posso "sujar" propositalmente com aberração esférica negativa para ganhar leitura.
-*   **Ação:**
-    *   Olho Dominante: Deixe neutro (Q normal -0.20) ou levemente prolato (Q -0.60).
-    *   Olho Não-Dominante: Abuse da asfericidade. **Q-Alvo -1.10** (para gerar SA -0.55 μm).
-*   **Resultado:** Vê longe (OD) e perto (OE) com fusão excelente.
+* **Paciente:** +2.00 D, quer ler sem óculos.
+* **Exame:** Córnea regular, RMS 0.15 μm, Coma 0.08 μm.
+* **Raciocínio:** O sistema óptico está "limpo". Posso "sujar" propositalmente com aberração esférica negativa para ganhar leitura.
+* **Ação:**
+  * Olho Dominante: Deixe neutro (Q normal -0.20) ou levemente prolato (Q -0.60).
+  * Olho Não-Dominante: Abuse da asfericidade. **Q-Alvo -1.10** (para gerar SA -0.55 μm).
+* **Resultado:** Vê longe (OD) e perto (OE) com fusão excelente.
 
 **CASO B: O Candidato "Armadilha" (Luz Vermelha)**
-*   **Paciente:** Plano, quer ler cardápio. LASIK prévio há 15 anos.
-*   **Exame:** Córnea oblata (pós-RK ou LASIK antigo), RMS 0.65 μm, Coma 0.45 μm.
-*   **Raciocínio:** Ele já tem muita aberração (RMS alto). O Coma está alto (decentramento antigo). Se eu induzir SA negativa (PresbyCor) em cima disso, vou somar aberrações.
-*   **Resultado provável se operar:** "Doutor, vejo três letras e tudo tem um halo gigante".
-*   **Ação Correta:** Contraindicar PresbyLASIK. Oferecer RLE ou óculos.
+* **Paciente:** Plano, quer ler cardápio. LASIK prévio há 15 anos.
+* **Exame:** Córnea oblata (pós-RK ou LASIK antigo), RMS 0.65 μm, Coma 0.45 μm.
+* **Raciocínio:** Ele já tem muita aberração (RMS alto). O Coma está alto (decentramento antigo). Se eu induzir SA negativa (PresbyCor) em cima disso, vou somar aberrações.
+* **Resultado provável se operar:** "Doutor, vejo três letras e tudo tem um halo gigante".
+* **Ação Correta:** Contraindicar PresbyLASIK. Oferecer RLE ou óculos.
 
 ---
 
@@ -396,9 +394,9 @@ Você alterou a física do olho. O paciente precisa saber o "preço" dessa mági
 
 > [!NOTE]
 > **O "Post-It" Mental do Cirurgião:**
-> 1.  **Q-Factor e SA são gêmeos:** Mexer no Q (tornar hiper-prolato/bico) é a forma biomecânica de gerar a SA Negativa óptica.
-> 2.  **O Inimigo é o Coma:** Nunca opere presbiopia em córneas com Coma alto (>0.30 μm).
-> 3.  **Respeite a "Zona de Cachinhos Dourados":** SA Alvo entre **-0.40 e -0.60 μm**. Menos não funciona para perto; mais destrói a qualidade de longe.
+> 1. **Q-Factor e SA são gêmeos:** Mexer no Q (tornar hiper-prolato/bico) é a forma biomecânica de gerar a SA Negativa óptica.
+> 2. **O Inimigo é o Coma:** Nunca opere presbiopia em córneas com Coma alto (>0.30 μm).
+> 3. **Respeite a "Zona de Cachinhos Dourados":** SA Alvo entre **-0.40 e -0.60 μm**. Menos não funciona para perto; mais destrói a qualidade de longe.
 
 ---
 
@@ -408,7 +406,7 @@ A cirurgia presbiópica corneana não restaura a acomodação mecânica. Em vez 
 
 ### 2.4.1. Definição e Quantificação
 
-**Profundidade de Campo:**  
+**Profundidade de Campo:** 
 A gama de distâncias objeto para as quais a imagem retiniana permanece "aceitavelmente focada", definida por um critério de qualidade (geralmente MTF >0.3 ou diâmetro de blur circle <20 μm).
 
 **Fórmula Simplificada:**
@@ -420,7 +418,7 @@ Onde:
 - **n:** Índice de refração (1.336)
 - **d:** Diâmetro pupilar em mm
 
-**Relação com o Diâmetro Pupilar:**  
+**Relação com o Diâmetro Pupilar:** 
 A DoF é **inversamente proporcional ao quadrado do diâmetro pupilar**:
 
 | Diâmetro Pupilar | DoF (Dioptrias) | Contexto Clínico |
@@ -430,7 +428,7 @@ A DoF é **inversamente proporcional ao quadrado do diâmetro pupilar**:
 | 4.0 mm | ~0.60 D | Iluminação moderada |
 | 6.0 mm | ~0.30 D | Mesópico (condução noturna) |
 
-**Implicação Clínica:**  
+**Implicação Clínica:** 
 Um presbita com pupila naturalmente pequena (miose senil, <3.0 mm) terá DoF natural elevada e pode não necessitar de cirurgia agressiva. Inversamente, pupilas grandes eliminam o efeito pinhole natural.
 
 ### 2.4.2. Mecanismos de Expansão da DoF em Cirurgia Presbiópica
@@ -442,44 +440,44 @@ A cirurgia presbiópica expande a DoF através de **três mecanismos complementa
 
 #### Mecanismo 1: Óptico Geométrico (Efeito Pinhole)
 
-**Princípio:**  
+**Princípio:** 
 Redução do diâmetro pupilar efetivo bloqueia raios periféricos aberrados, diminuindo o blur circle.
 
 **Aplicação Cirúrgica:**
 - **Implantes corneanos (Inlays) (Kamra, IC-8):** Criam um pinhole físico (1.6-2.1 mm)
 - **Gotas mióticas (Pilocarpina, Vuity™):** Induzem miose farmacológica
 
-**Limitação:**  
+**Limitação:** 
 Redução da luminosidade retiniana (proporcional à área pupilar). Visão mesópica muito comprometida.
 
 #### Mecanismo 2: Óptico por Aberração (Indução de SA Negativa)
 
-**Princípio:**  
+**Princípio:** 
 Criação de **múltiplos focos simultâneos** ao longo do eixo óptico através de SA negativa controlada.
 
 **Aplicação Cirúrgica:**
 - **Custom-Q / PresbyCor:** Indução de Q hiper-prolato (-0.80 a -1.20)
 - **PRESBYOND:** Modulação de SA bilateral com micro-monovisão
 
-**Vantagem:**  
+**Vantagem:** 
 Mantém luminância razoável; preserva visão mesópica melhor que pinhole puro.
 
-**Desvantagem:**  
+**Desvantagem:** 
 Redução de contraste; halos noturnos.
 
 #### Mecanismo 3: Neural (Neuroadaptação Cortical)
 
-**Princípio:**  
+**Princípio:** 
 O córtex visual suprime ativamente as imagens desfocadas (out-of-focus) e extrai a informação de alta frequência espacial da imagem focada, mesmo quando ambas estão simultaneamente presentes na retina. [8]
 
 **Base Neurofisiológica:**
 - **Facilitação sináptica:** Neurónios do córtex visual primário (V1) aumentam a sua resposta a estímulos repetitivos com o padrão específico de aberração
 - **Plasticidade cortical:** Remodelação de campos receptivos ao longo de 3-6 meses
 
-**Evidência Experimental:**  
+**Evidência Experimental:** 
 Estudos de RMN funcional demonstram que, após 6 meses de cirurgia presbiópica, há aumento da ativação de áreas visuais extra-estriadas (V2, V4) durante tarefas de leitura, sugerindo recrutamento de vias de processamento de alta ordem. [9]
 
-**Implicação Clínica:**  
+**Implicação Clínica:** 
 A neuroadaptação **não é instantânea**. O paciente deve ser avisado de que a visão ótima pode levar 3-6 meses a estabelecer-se.
 
 ---
@@ -490,7 +488,7 @@ Além do RMS, métricas mais sofisticadas de qualidade óptica são utilizadas p
 
 ### 2.5.1. Strehl Ratio
 
-**Definição:**  
+**Definição:** 
 Razão entre a intensidade de pico da Point Spread Function (PSF) do sistema óptico real e a intensidade de pico de um sistema óptico difração-limitado perfeito.
 
 $$\text{Strehl Ratio} = \frac{I_{\text{real}}}{I_{\text{perfeito}}}$$
@@ -507,7 +505,7 @@ $$\text{Strehl Ratio} \approx e^{-(2\pi \cdot \text{RMS}/\lambda)^2}$$
 
 Para λ = 555 nm (luz verde, pico de sensibilidade fotópica).
 
-**Aplicação em PresbyLASIK:**  
+**Aplicação em PresbyLASIK:** 
 A indução de SA negativa deliberadamente reduz o Strehl Ratio de ~0.90 (pré-op) para ~0.50-0.70 (pós-op), refletindo o compromisso entre qualidade de imagem de pico e profundidade de campo.
 
 ### 2.5.2. Modulation Transfer Function (MTF)
@@ -523,7 +521,7 @@ A **MTF** quantifica a capacidade do sistema óptico de transferir contraste em 
 | 12-18 cycles/degree | Leitura de texto pequeno (N6) | Reduzido significativamente |
 | >18 cycles/degree | Detalhes finos, condução noturna | Muito comprometido |
 
-**Critério de Sucesso Cirúrgico:**  
+**Critério de Sucesso Cirúrgico:** 
 Manter MTF >0.3 em frequências até 12 cpd garante leitura funcional.
 
 ![Curva MTF Comparativa](figures/chapter2/mtf_curve.png)
@@ -533,7 +531,7 @@ Manter MTF >0.3 em frequências até 12 cpd garante leitura funcional.
 
 ## 2.6. Interação Pupila-Aberração: A Dinâmica de Expansão
 
-A magnitude das aberrações varia **não-linearmente** com o diâmetro pupilar, seguindo a ordem radial do polinómio de Zernike.
+A magnitude das aberrações varia **não-linearmente** com o diâmetro pupilar, seguindo a ordem radial do polinómio de Zernike. [13]
 
 ### 2.6.1. Escalamento de Aberrações com a Pupila
 
@@ -545,17 +543,17 @@ Onde **d** é o diâmetro pupilar.
 
 **Exemplos Práticos:**
 
-**Defocus ($Z_2^0$, n=2):**  
+**Defocus ($Z_2^0$, n=2):** 
 $$Z_2^0 \propto d^3$$
 
 Se a pupila dobra de 3 mm para 6 mm, o defocus aumenta **8× (2³)**.
 
-**Aberração Esférica ($Z_4^0$, n=4):**  
+**Aberração Esférica ($Z_4^0$, n=4):** 
 $$Z_4^0 \propto d^5$$
 
 Se a pupila dobra de 3 mm para 6 mm, a SA aumenta **32× (2⁵)**.
 
-**Implicação Crítica:**  
+**Implicação Crítica:** 
 Pacientes com pupilas mesópicas >6.5 mm experimentarão magnificação dramática de aberrações induzidas cirurgicamente, resultando em halos e degradação visual noturna severos.
 
 ![Gráfico de Aberrações vs Diâmetro Pupilar](figures/chapter2/aberrations_pupil_scaling.png)
@@ -576,7 +574,7 @@ $$\text{OZ ideal} = \text{Pupila Mesópica} + 0.5 \text{ a } 1.0 \text{ mm}$$
 - Pupila mesópica: 5.5 mm
 - OZ recomendada: 6.0-6.5 mm
 
-**Justificação:**  
+**Justificação:** 
 Uma OZ demasiado pequena (<pupila mesópica) resulta em transição abrupta entre a zona tratada e não-tratada, gerando difração e halos. Uma OZ demasiado grande consome tecido estromal excessivo.
 
 ![Matriz de Decisão Zona Óptica vs Pupila](figures/chapter2/oz_pupil_matrix.png)
@@ -590,7 +588,7 @@ Uma OZ demasiado pequena (<pupila mesópica) resulta em transição abrupta entr
 
 A **Point Spread Function** é a distribuição bidimensional de intensidade luminosa na retina quando uma fonte pontual de luz (estrela, LED distante) passa pelo sistema óptico do olho.
 
-**PSF Ideal (Difração Limitada):**  
+**PSF Ideal (Difração Limitada):** 
 - Padrão de Airy: Disco central brilhante rodeado por anéis concêntricos de intensidade decrescente
 - Diâmetro do disco de Airy: ~2.5 μm (olho perfeito, pupila 3 mm)
 
@@ -606,7 +604,7 @@ A **Point Spread Function** é a distribuição bidimensional de intensidade lum
 
 Softwares de simulação (iTrace, OPD-Scan III) permitem ao cirurgião mostrar ao paciente **previamente à cirurgia** como será a sua visão:
 
-**Técnica:**  
+**Técnica:** 
 1. Captura de frente de onda pré-operatória
 2. Modelação matemática da ablação planeada
 3. Cálculo da frente de onda pós-operatória prevista
@@ -615,48 +613,9 @@ Softwares de simulação (iTrace, OPD-Scan III) permitem ao cirurgião mostrar a
 ![Simulação de Visão Pré vs Pós-PresbyLASIK](figures/chapter2/vision_simulation_presbylasik.png)
 *Figura 2.7: Simulação de visão pré-operatória vs. pós-PresbyLASIK aos 6 meses. **Painel Esquerdo (Pré-op):** Visão longe perfeita (20/20) mas dependência total de óculos para perto e intermédio. **Painel Direito (Pós-op):** Independência funcional para perto (J2-J3) e intermédio com contrapartida aceitável de halos noturnos moderados e discreta redução de contraste à distância (20/25). Esta ferramenta de simulação permite ao paciente tomar decisão INFORMADA sobre aceitabilidade do compromisso antes da cirurgia.*
 
-**Valor Clínico:**  
+**Valor Clínico:** 
 Gestão de expectativas. Permite ao paciente decidir se o compromisso (halos vs. leitura sem óculos) é aceitável.
 
----
-
-## Referências Bibliográficas
-
-1. Thibos LN, Hong X, Bradley A, Applegate RA. Accuracy and precision of objective refraction from wavefront aberrations. *Journal of Vision*. 2004;4(4):329-351. doi:10.1167/4.4.9
-
-2. Gatinel D, Malet J, Hoang-Xuan T, Azar DT. Analysis of customized corneal ablations: theoretical limitations of increasing negative asphericity. *Investigative Ophthalmology & Visual Science*. 2002;43(4):941-948.
-
-3. Artal P, Berrio E, Guirao A, Piers P. Contribution of the cornea and internal surfaces to the change of ocular aberrations with age. *Journal of the Optical Society of America A*. 2002;19(1):137-143.
-
-4. Applegate RA, Marsack JD, Ramos R, Sarver EJ. Interaction between aberrations to improve or reduce visual performance. *Journal of Cataract & Refractive Surgery*. 2003;29(8):1487-1495. doi:10.1016/S0886-3350(03)00334-1
-
-5. Ghenassia C. PresbyCor: Algorithme de traitement de la presbytie en LASIK et PKR. *Réalités Ophtalmologiques*. 2014;211:14-22.
-
-6. Rocha KM, Varela-Ramos J, Silvério R, et al. Spherical aberration and depth of focus in presbyopic eyes: theoretical evaluation for modified monovision and multifocal strategies. *Journal of Cataract & Refractive Surgery*. 2009;35(8):1410-1416. doi:10.1016/j.jcrs.2009.03.044
-
-7. American National Standards Institute. *ANSI Z80.28-2017: Ophthalmics – Methods for Reporting Optical Aberrations of Eyes*. Washington, DC: ANSI; 2017.
-
-8. Sawides L, Marcos S, Ravikumar S, Thibos L, Bradley A, Webster M. Adaptation to astigmatic blur. *Journal of Vision*. 2010;10(12):22. doi:10.1167/10.12.22
-
-9. Atchison DA, Pritchard N, Schmid KL. Peripheral refraction along the horizontal and vertical visual fields in myopia. *Vision Research*. 2006;46(8-9):1450-1458. doi:10.1016/j.visres.2005.10.023
-
-10. Holladay JT, Piers PA, Koranyi G, van der Mooren M, Norrby NE. A new intraocular lens design to reduce spherical aberration of pseudophakic eyes. *Journal of Refractive Surgery*. 2002;18(6):683-691.
-
-11. Santhiago MR, Wilson SE, Netto MV, et al. Modulation of the epithelial basement membrane and corneal biomechanics after LASIK with different ablation depths. *Journal of Refractive Surgery*. 2012;28(6):408-414. doi:10.3928/1081597X-20120518-02
-
-12. Ambrósio R Jr, Belin MW. Imaging of the cornea: topography vs tomography. *Journal of Refractive Surgery*. 2010;26(11):847-849. doi:10.3928/1081597X-20101006-01
-
-13. Applegate RA, Donnelly WJ III, Marsack JD, Koenig DE, Pesudovs K. Three-dimensional relationship between high-order root-mean-square wavefront error, pupil diameter, and aging. *Journal of the Optical Society of America A*. 2007;24(3):578-587.
-
-14. Marcos S, Barbero S, Llorente L, Merayo-Lloves J. Optical response to LASIK surgery for myopia from total and corneal aberration measurements. *Investigative Ophthalmology & Visual Science*. 2001;42(13):3349-3356.
-
-15. Porter J, Guirao A, Cox IG, Williams DR. Monochromatic aberrations of the human eye in a large population. *Journal of the Optical Society of America A*. 2001;18(8):1793-1803.
-
-16. Klyce SD, Karon MD, Smolek MK. Screening patients with the corneal navigator. *Journal of Refractive Surgery*. 2005;21(5):S617-622.
-
-17. Schwiegerling J, Greivenkamp JE. Using corneal height maps and polynomial decomposition to determine corneal aberrations. *Optometry and Vision Science*. 1997;74(11):906-916.
-
-18. Alió JL, Belda JI, Osman AA, Shalaby AM. Topography-guided laser in situ keratomileusis (TOPOLINK) to correct irregular astigmatism after previous refractive surgery. *Journal of Refractive Surgery*. 2003;19(5):516-527.
 
 ---
 
@@ -667,7 +626,7 @@ Gestão de expectativas. Permite ao paciente decidir se o compromisso (halos vs.
 
 ### 2.11.1. Multifocal TRUE (Zonas Concêntricas Discretas)
 
-**Definição:**  
+**Definição:** 
 Criação de **múltiplas zonas ópticas geometricamente distintas** com diferentes poderes refrativos, cada uma otimizada para uma distância focal específica.
 
 **Arquitetura Óptica:**
@@ -681,7 +640,7 @@ Criação de **múltiplas zonas ópticas geometricamente distintas** com diferen
 - Fenômeno de **imagens fantasma** (ghost images) potencial
 - **Splitting de energia** entre focos (redução de contraste severa)
 
-**Analogia Clínica:**  
+**Analogia Clínica:** 
 Funciona como uma **lente de contato multifocal** gravada permanentemente na córnea. O cérebro recebe **múltiplas imagens** simultaneamente (perto + longe + intermediário) e deve "escolher" qual suprimir.
 
 **Técnicas Representativas:**
@@ -693,7 +652,7 @@ Funciona como uma **lente de contato multifocal** gravada permanentemente na có
 
 ### 2.11.2. EDOF Asférico (Extended Depth of Focus por Modulação de Q-Factor)
 
-**Definição:**  
+**Definição:** 
 Indução controlada de **aberração esférica NEGATIVA** através da modificação da asfericidade corneana (Q-factor), criando um perfil **hyperprolate contínuo** (sem zonas discretas). O efeito óptico resultante é **Extended Depth of Field (EDOF)**, NÃO múltiplos focos.
 
 **Arquitetura Óptica:**
@@ -708,10 +667,10 @@ Indução controlada de **aberração esférica NEGATIVA** através da modifica�
 - **Menos ghost images**, mais "blur controlado e uniforme"
 - Redução de contraste **MODERADA** (menos severa que multifocal)
 
-**Mecanismo Físico:**  
+**Mecanismo Físico:** 
 A aberração esférica negativa causa **longitudinal chromatic spread** controlado. Raios periféricos focam ANTES do plano retiniano, raios centrais focam NO plano retiniano, criando uma "zona de tolerância focal" de ~1.5-2.0 D onde a imagem permanece "aceitavelmente sharp".
 
-**Analogia Clínica:**  
+**Analogia Clínica:** 
 NÃO funciona como multifocal. Funciona como **"blur intencional otimizado"** - o cérebro recebe UMA imagem ligeiramente desfocada mas tolerável em múltiplas distâncias, em vez de múltiplas imagens nítidas competindo.
 
 **Técnicas Representativas:**
@@ -798,8 +757,8 @@ Não existe "melhor" absoluto. Cada abordagem tem **contrapartidas fundamentais*
 
 #### A. **Multifocal TRUE (PresbyMAX, SUPRACOR): Por Que Zonas Discretas?**
 
-**Razão Histórica (2005-2010):**  
-Quando PresbyMAX e SUPRACOR foram desenvolvidos, a única **referência clínica bem-sucedida** para presbiopia eram **IOLs multifocais** (lentes intraoculares). Lentes como ReSTOR e Tecnis Multifocal já tinham 10+ anos de uso com zonas concêntricas comprovadas.
+**Razão Histórica (2005-2010):** 
+Quando PresbyMAX e SUPRACOR foram desenvolvidos, a única **referência clínica bem-sucedida** para presbiopia eram **IOLs multifocais** (lentes intraoculares). Lentes como ReSTOR e Tecnis Multifocal já tinham 10+ anos de uso com zonas concêntricas comprovadas. [10]
 
 **Lógica dos Criadores:**
 > *"Se zonas concêntricas funcionam em IOLs, por que não gravar o mesmo padrão na córnea?"*
@@ -807,20 +766,20 @@ Quando PresbyMAX e SUPRACOR foram desenvolvidos, a única **referência clínica
 **Vantagens Técnicas (na época):**
 1. **Software mais simples:** Criar 2-3 zonas discretas é matematicamente mais fácil que calcular Q-factor personalizado por biometria
 2. **Controle de add:** Zona central de 2mm com +2.5D é **previsível** - você sabe exatamente quanto "perto" está criando
-3. **Independência de nomograma:** Não precisa medir Q pré-operatório (muitos topógrafos 2005-2010 NÃO mediam Q confiável)
+3. **Independência de nomograma:** Não precisa medir Q pré-operatório (muitos topógrafos 2005-2010 NÃO mediam Q confiável) [12]
 
 **Desvantagem Descoberta Depois:**
 - **Contraste longe severamente afetado** (30-40% perda) porque 50% da energia luminosa é "desperdiçada" na zona de perto quando olha longe
 - **Neuroadaptação muito exigente** (paciente precisa "aprender" a suprimir uma das imagens)
 
-**Por Que Persistem?**  
+**Por Que Persistem?** 
 Porque funcionam **muito bem** para pacientes certos: add alta necessária (+2.5-3D), trabalho perto crítico, pacientes motivados que aceitam as contrapartidas. PresbyMAX/SUPRACOR têm **independência óculos superior** (80-85%).
 
 ---
 
 #### B. **EDOF Asférico (PresbyCor/Custom-Q): Por Que SEM Zonas?**
 
-**Razão Histórica (2012-2014):**  
+**Razão Histórica (2012-2014):** 
 Dr. Charles Ghenassia observou que **pacientes pós-LASIK hipermetrópico** (que ficavam com Q muito negativo acidentalmente) reportavam "visão boa de perto sem óculos" mesmo sendo hipér. Ele percebeu: **Q negativo SOZINHO já cria depth of field**.
 
 **Lógica do Criador:**
@@ -832,19 +791,19 @@ Dr. Charles Ghenassia observou que **pacientes pós-LASIK hipermetrópico** (que
 3. **Transferibilidade:** **QUALQUER laser** que permita custom Q pode fazer PresbyCor (WaveLight, Schwind, Technolas). É independente de fabricante
 
 **Desvantagem:**
-- **Add limitada** (+2.0-2.5D máximo) porque induzir Q < -0.8 causa instabilidade biomecânica (regressão epitelial severa)
+- **Add limitada** (+2.0-2.5D máximo) porque induzir Q < -0.8 causa instabilidade biomecânica (regressão epitelial severa) [11]
 
-**Por Que Ghenassia Escolheu Isso?**  
+**Por Que Ghenassia Escolheu Isso?** 
 Filosofia **conservadora e transferível**. Ghenassia queria que qualquer cirurgião, em qualquer laser, pudesse aplicar PresbyCor lendo suas fórmulas publicadas. Não queria criar algo "proprietário exclusivo".
 
 ---
 
 #### C. **Híbrido PRESBYOND (Zeiss): Por Que Blend + Monovisão?**
 
-**Razão Histórica (2009-2012):**  
+**Razão Histórica (2009-2012):** 
 Dr. Dan Reinstein (UK) estudou por que **monovisão tradicional** (olho dominante longe, não-dominante perto -1.5D) funcionava mas tinha **20-30% de intolerância**.
 
-**Descoberta-Chave:**  
+**Descoberta-Chave:** 
 A intolerância vinha da **transição ABRUPTA** entre os olhos. OD vê 20/20 longe + blur perto. OE vê blur longe + 20/20 perto. Cérebro luta para fundir imagens muito discrepantes.
 
 **Solução de Reinstein:**
@@ -863,7 +822,7 @@ A intolerância vinha da **transição ABRUPTA** entre os olhos. OD vê 20/20 lo
 2. **Marketing diferenciado:** Nem multifocal puro (como Schwind/Technolas) nem Q-factor puro (como Alcon Custom-Q). Posição única no mercado
 3. **Proprietário:** Só disponível em MEL 90 Zeiss = trava cirurgiões no ecossistema Zeiss
 
-**Desvantagem:**  
+**Desvantagem:** 
 **Zero transferibilidade**. Se cirurgião não tem MEL 90, não pode fazer PRESBYOND (sem "blend zone algorithm" automático).
 
 ---
@@ -878,7 +837,7 @@ A intolerância vinha da **transição ABRUPTA** entre os olhos. OD vê 20/20 lo
 | **READ** | "Protocolo Q-factor standardizado e simplificado" | Q-target fixos por faixa etária, fácil implementação | Alcon (WaveLight), mas replicável |
 | **PRESBYOND** | "Monovisão funciona, mas precisa blend" | Sobreposição binocular = tolerância | Zeiss exclusivo, trava cliente |
 
-**Moral da História:**  
+**Moral da História:** 
 Não existe "técnica superior absoluta". Cada uma resolve um **problema diferente**:
 - Quer **add alta** (+3D) e aceita perder contraste? → PresbyMAX/SUPRACOR
 - Quer **preservar contraste** e aceita add moderada? → PresbyCor/Custom-Q ou READ
@@ -892,11 +851,11 @@ Não existe "técnica superior absoluta". Cada uma resolve um **problema diferen
 
 **Referências para esta Seção:**
 
-19. Gatinel D, Hoang-Xuan T. Corneal asphericity modification and its implications in presbyLASIK. *J Cataract Refract Surg*. 2008;34(11):1843-1847.
+19. Gatinel D, Hoang-Xuan T. Corneal asphericity modification and its implications in presbyLASIK. *J Cataract Refract Surg*. 2008;34(11):1843-1847 [17] [19].
 
-20. Reinstein DZ, Couch DG, Archer TJ. LASIK for hyperopic astigmatism and presbyopia using micro-monovision with the Carl Zeiss Meditec MEL80 platform. *J Refract Surg*. 2009;25(1):37-58.
+20. Reinstein DZ, Couch DG, Archer TJ. LASIK for hyperopic astigmatism and presbyopia using micro-monovision with the Carl Zeiss Meditec MEL80 platform. *J Refract Surg*. 2009;25(1):37-58 [20].
 
-21. Uthoff D, Pölzl M, Hepper D, Holland D. A new method of corneal modulation with excimer laser for simultaneous correction of presbyopia and ametropia. *Graefes Arch Clin Exp Ophthalmol*. 2012;250(11):1649-1661.
+21. Uthoff D, Pölzl M, Hepper D, Holland D. A new method of corneal modulation with excimer laser for simultaneous correction of presbyopia and ametropia. *Graefes Arch Clin Exp Ophthalmol*. 2012;250(11):1649-1661 [21].
 
 ---
 
@@ -917,4 +876,45 @@ Este Capítulo 2 está agora completo e pronto para ser copiado para o seu docum
 
 ![O Filtro Neural: Cérebro vs. Blur](figures/chapter2/neural_filter_adaptation.png)
 *Figura 2.10: O Filtro Neural visualizando neuroadaptação em cirurgia presbiópica. Painel A: Imagem retiniana bruta com halos (Dia 1 pós-op). Painel B: Processamento cortical ativo com supressão de baixa frequência (Meses 1-6). Painel C: Percepção consciente limpa (pós-adaptação). A óptica do olho permanece inalterada, mas a percepção cerebral é otimizada através da plasticidade neural.*
+
+
+---
+
+## Referências Bibliográficas
+
+1. Thibos LN, Hong X, Bradley A, Applegate RA. Accuracy and precision of objective refraction from wavefront aberrations. *Journal of Vision*. 2004;4(4):329-351. doi:10.1167/4.4.9
+
+2. Gatinel D, Malet J, Hoang-Xuan T, Azar DT. Analysis of customized corneal ablations: theoretical limitations of increasing negative asphericity. *Investigative Ophthalmology & Visual Science*. 2002;43(4):941-948.
+
+3. Artal P, Berrio E, Guirao A, Piers P. Contribution of the cornea and internal surfaces to the change of ocular aberrations with age. *Journal of the Optical Society of America A*. 2002;19(1):137-143.
+
+4. Applegate RA, Marsack JD, Ramos R, Sarver EJ. Interaction between aberrations to improve or reduce visual performance. *Journal of Cataract & Refractive Surgery*. 2003;29(8):1487-1495. doi:10.1016/S0886-3350(03)00334-1
+
+5. Ghenassia C. PresbyCor: Algorithme de traitement de la presbytie en LASIK et PKR. *Réalités Ophtalmologiques*. 2014;211:14-22.
+
+6. Rocha KM, Varela-Ramos J, Silvério R, et al. Spherical aberration and depth of focus in presbyopic eyes: theoretical evaluation for modified monovision and multifocal strategies. *Journal of Cataract & Refractive Surgery*. 2009;35(8):1410-1416. doi:10.1016/j.jcrs.2009.03.044
+
+7. American National Standards Institute. *ANSI Z80.28-2017: Ophthalmics – Methods for Reporting Optical Aberrations of Eyes*. Washington, DC: ANSI; 2017.
+
+8. Sawides L, Marcos S, Ravikumar S, Thibos L, Bradley A, Webster M. Adaptation to astigmatic blur. *Journal of Vision*. 2010;10(12):22. doi:10.1167/10.12.22
+
+9. Atchison DA, Pritchard N, Schmid KL. Peripheral refraction along the horizontal and vertical visual fields in myopia. *Vision Research*. 2006;46(8-9):1450-1458. doi:10.1016/j.visres.2005.10.023
+
+10. Holladay JT, Piers PA, Koranyi G, van der Mooren M, Norrby NE. A new intraocular lens design to reduce spherical aberration of pseudophakic eyes. *Journal of Refractive Surgery*. 2002;18(6):683-691.
+
+11. Santhiago MR, Wilson SE, Netto MV, et al. Modulation of the epithelial basement membrane and corneal biomechanics after LASIK with different ablation depths. *Journal of Refractive Surgery*. 2012;28(6):408-414. doi:10.3928/1081597X-20120518-02
+
+12. Ambrósio R Jr, Belin MW. Imaging of the cornea: topography vs tomography. *Journal of Refractive Surgery*. 2010;26(11):847-849. doi:10.3928/1081597X-20101006-01
+
+13. Applegate RA, Donnelly WJ III, Marsack JD, Koenig DE, Pesudovs K. Three-dimensional relationship between high-order root-mean-square wavefront error, pupil diameter, and aging. *Journal of the Optical Society of America A*. 2007;24(3):578-587.
+
+14. Marcos S, Barbero S, Llorente L, Merayo-Lloves J. Optical response to LASIK surgery for myopia from total and corneal aberration measurements. *Investigative Ophthalmology & Visual Science*. 2001;42(13):3349-3356.
+
+15. Porter J, Guirao A, Cox IG, Williams DR. Monochromatic aberrations of the human eye in a large population. *Journal of the Optical Society of America A*. 2001;18(8):1793-1803.
+
+16. Klyce SD, Karon MD, Smolek MK. Screening patients with the corneal navigator. *Journal of Refractive Surgery*. 2005;21(5):S617-622.
+
+17. Schwiegerling J, Greivenkamp JE. Using corneal height maps and polynomial decomposition to determine corneal aberrations. *Optometry and Vision Science*. 1997;74(11):906-916.
+
+18. Alió JL, Belda JI, Osman AA, Shalaby AM. Topography-guided laser in situ keratomileusis (TOPOLINK) to correct irregular astigmatism after previous refractive surgery. *Journal of Refractive Surgery*. 2003;19(5):516-527.
 

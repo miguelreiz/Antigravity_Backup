@@ -8,12 +8,12 @@
 ### 11.1.1. Taxonomia Temporal
 
 **Complicações Intra-Operatórias (Durante Cirurgia):**
-- Flap-related (LASIK): Flap irregular, buttonhole, free cap
-- Ablação-related: Descentramento, eye-tracker loss
+- Flap-related (LASIK): Flap irregular, buttonhole, free cap [4] [7]
+- Ablação-related: Descentramento, eye-tracker loss [6]
 - Hidratação estromal inadequada
 
 **Complicações Pós-Operatórias Precoces (Dia 0 - Semana 4):**
-- Interface (LASIK): DLK, epithelial ingrowth precoce
+- Interface (LASIK): DLK, epithelial ingrowth precoce [2] [3]
 - Superfície (PRK): Haze, infecção
 - Ópticas: Hipercorreção/hipocorreção grosseira
 
@@ -47,6 +47,36 @@
 ![Heatmap de Risco](figures/chapter11/complications_heatmap.png)
 *Figura 11.3: Quem arrisca o quê? As cores mostram o perfil de segurança. SUPRACOR (vermelho) tem alto risco de halos e reversão. PRESBYOND (verde) mantém perfil semelhante à monovisão clássica.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Comparação honesta e baseada em dados sobre o perfil de risco de cada técnica.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Tabela Heatmap (Cores de Semáforo).
+
+### Colunas (Técnicas)
+*   **Custom-Q:** O "Standard".
+*   **PresbyMAX:** O "Agressivo".
+*   **PRESBYOND:** O "Fisiológico".
+*   **SUPRACOR:** O "Extremo".
+
+### Linhas (Complicações)
+*   **Descentramento:** SUPRACOR com cor Laranja (risco médio). Outros Verdes.
+*   **Halos Severos:** SUPRACOR a **Vermelho Vivo (>15%)**. PresbyMAX Laranja.
+*   **Olho Seco:** Todos Amarelos, mas SUPRACOR Vermelho.
+*   **Perda de Perto (Regressão):** PresbyMAX Laranja.
+*   **Reversão:** Custom-Q Verde. SUPRACOR **Vermelho (>10%)**.
+
+---
+
+## 2. Legenda Explicativa
+"Não existe cirurgia sem risco. O SUPRACOR oferece a melhor visão de perto inicial, mas paga o preço em Halos e Taxa de Reversão. O PRESBYOND oferece o perfil de segurança mais equilibrado, com taxas de complicação semelhantes à monovisão standard."
+
+
 ---
 
 ## 11.2. Complicações Específicas da Cirurgia Presbiópica
@@ -60,16 +90,16 @@
 **Etiologia Específica em PresbyLASIK:**
 
 1. **Ciclotorsão Intra-Operatória:**
-   - Paciente em decúbito dorsal vs. sentado (avaliação pré-op)
-   - Pode induzir rotação **até 15°** do eixo ocular
-   - Descentra ablação asférica complexa
+  - Paciente em decúbito dorsal vs. sentado (avaliação pré-op)
+  - Pode induzir rotação **até 15°** do eixo ocular
+  - Descentra ablação asférica complexa
 
 2. **Perda de Tracking Durante Ablação:**
-   - Perfis presbiópicos demoram 30-60 segundos (vs. 15-20 seg miopia simples)
-   - Maior janela temporal para perda de fixação
+  - Perfis presbiópicos demoram 30-60 segundos (vs. 15-20 seg miopia simples)
+  - Maior janela temporal para perda de fixação
 
 3. **Ângulo Kappa Não-Compensado:**
-   - Em Custom-Q/PresbyMAX, centragem incorreta (pupila vs. Purkinje) crítica
+  - Em Custom-Q/PresbyMAX, centragem incorreta (pupila vs. Purkinje) crítica
 
 **Manifestação Clínica:**
 
@@ -93,13 +123,13 @@
 **Se Descentramento >0.8 mm (Severo):**
 
 1. **Retoque Cirúrgico Topoguiado (T-CAT/Contoura):**
-   - Capturar topografia pós-op
-   - Software calcula ablação para "regularizar" e re-centrar
-   - **Limitação:** Consome tecido adicional (RSB crítico)
+  - Capturar topografia pós-op
+  - Software calcula ablação para "regularizar" e re-centrar
+  - **Limitação:** Consome tecido adicional (RSB crítico)
 
 2. **Alternativa se RSB Insuficiente:**
-   - Lentes RGP (corrigem irregularidade)
-   - RLE (se idade >60 e cristalino DLS ≥2)
+  - Lentes RGP (corrigem irregularidade)
+  - RLE (se idade >60 e cristalino DLS ≥2)
 
 **Taxa de Sucesso Retoque Cirúrgico Topoguiado:**
 - Melhoria ≥2 linhas BCVA: 70-80%
@@ -111,6 +141,38 @@
 ![Algoritmo de Descentramento](figures/chapter11/decentration_algo.png)
 *Figura 11.1: Fluxograma decisional. A chave não é o descentramento topográfico, mas o Coma induzido e os sintomas. Neuroadaptação resolve a maioria dos casos <0.5mm. RLE ou RGP são salvaguardas para casos onde falta tecido (RSB).*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Guia para decidir quando intervir num descentramento de ablação.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Fluxograma Clínico.
+
+### Topo: "Suspeita de Descentramento"
+*   Sintomas: Diplopia Monocular, Halos Assimétricos.
+
+### Nível 1: Quantificação (Topografia)
+*   **< 0.5 mm:** Observar (Neuroadaptação provável).
+*   **> 0.5 mm:** Medir Coma (Aberrometria).
+
+### Nível 2: Impacto Óptico (Coma)
+*   **Coma < 0.3 μm:** Sintomas ligeiros -> Aguardar 6 meses.
+*   **Coma > 0.4 μm:** Sintomas severos -> Verificar RSB.
+
+### Nível 3: Intervenção
+*   **Box Verde:** Retoque Topoguiado (Se RSB suficiente).
+*   **Box Vermelha:** RLE ou RGP (Se RSB insuficiente).
+
+---
+
+## 2. Legenda Explicativa
+"Nem todo o descentramento topográfico requer cirurgia. Se o coma induzido for baixo e o paciente tolerar, a neuroadaptação resolve. A re-intervenção só está indicada se houver sintomas visuais severos correlacionados com coma elevado."
+
+
 ### 11.2.2. Fenómenos Fóticos Incapacitantes Persistentes
 
 **Incidência:**
@@ -121,41 +183,41 @@
 **Etiologia Diferencial:**
 
 1. **Pupila Muito Grande (>7.0 mm Mesópica):**
-   - Expõe zonas de transição abruptas (especialmente PresbyMAX/SUPRACOR)
-   - **Irremediável** cirurgicamente (pupila é anatómica)
+  - Expõe zonas de transição abruptas (especialmente PresbyMAX/SUPRACOR)
+  - **Irremediável** cirurgicamente (pupila é anatómica)
 
 2. **Zona Óptica Pequena Relativa à Pupila:**
-   - OZ 6.0 mm vs. pupila 6.5 mm mesópica
-   - "Borda" da ablação dentro da pupila funcional
+  - OZ 6.0 mm vs. pupila 6.5 mm mesópica
+  - "Borda" da ablação dentro da pupila funcional
 
 3. **Aberrações de Alta Ordem Induzidas:**
-   - SA excessiva (>-0.60 μm)
-   - Coma from descentramento
+  - SA excessiva (>-0.60 μm)
+  - Coma from descentramento
 
 **Gestão:**
 
 **Conservadora (Preferível se Possível):**
 
 1. **Midriáticos Reversos (Off-Label):**
-   - **Brimonidina 0.2%** (agonista α2): Induz miose ligeira (~0.5 mm)
-   - Uso: 1 gota à noite antes de conduzir
-   - **Efeito colateral:** Pressão intraocular pode baixar
-   - **Evidência:** Relatos de caso, não trials controlados
+  - **Brimonidina 0.2%** (agonista α2): Induz miose ligeira (~0.5 mm)
+  - Uso: 1 gota à noite antes de conduzir
+  - **Efeito colateral:** Pressão intraocular pode baixar
+  - **Evidência:** Relatos de caso, não trials controlados
 
 2. **Lentes de Contacto "Mascaradoras":**
-   - LC plano com zona óptica central clara (simula OZ maior)
-   - **Problema:** Paciente fez cirurgia para evitar LC (baixa adesão)
+  - LC plano com zona óptica central clara (simula OZ maior)
+  - **Problema:** Paciente fez cirurgia para evitar LC (baixa adesão)
 
 **Cirúrgica:**
 
 3. **Re-Tratamento para Expandir OZ:**
-   - Ablação adicional periférica (suaviza transições)
-   - **Risco:** Shift hipermetrópico (pode perder visão perto)
+  - Ablação adicional periférica (suaviza transições)
+  - **Risco:** Shift hipermetrópico (pode perder visão perto)
 
 4. **Reversão Completa:**
-   - Indicação: Halos score >8/10, persistence >12 meses, impact profissional severo
-   - Topography-guided para remover multifocalidade
-   - **Trade-off:** Volta a precisar óculos leitura
+  - Indicação: Halos score >8/10, persistence >12 meses, impact profissional severo
+  - Topography-guided para remover multifocalidade
+  - **Trade-off:** Volta a precisar óculos leitura
 
 **Taxa de Reversão por Halos Incapacitantes:** 3-5% de todos os casos presbiópicos.
 
@@ -171,16 +233,16 @@ Olho seco pós-LASIK já é comum (50-70% sintomas transitórios). **Em PresbyLA
 **Hipótese Etiológica Específica:**
 
 1. **Ablação Mais Profunda Periférica:**
-   - Perfis asféricos (especialmente Q negativo) removem tecido paracentral/periférico
-   - **Mais nervos corneanos seccionados** (vs. ablação miópica central)
+  - Perfis asféricos (especialmente Q negativo) removem tecido paracentral/periférico
+  - **Mais nervos corneanos seccionados** (vs. ablação miópica central)
 
 2. **População Mais Velha:**
-   - Presbitas são naturalmente >45 anos
-   - Menopausa (mulheres): Disfunção glândulas de Meibomius baseline
+  - Presbitas são naturalmente >45 anos
+  - Menopausa (mulheres): Disfunção glândulas de Meibomius baseline
 
 3. **Mascaramento de Sintomas por Blur Multifocal:**
-   - Olho seco cria blur adicional que "confunde" com efeito presbiópico
-   - Paciente queixa-se de "visão ruim" sem identificar causa seca
+  - Olho seco cria blur adicional que "confunde" com efeito presbiópico
+  - Paciente queixa-se de "visão ruim" sem identificar causa seca
 
 **Manifestação Clínica em PresbyLASIK:**
 
@@ -218,11 +280,49 @@ Olho seco pós-LASIK já é comum (50-70% sintomas transitórios). **Em PresbyLA
 ![O Loop do Olho Seco](figures/chapter11/dry_eye_cycle.png)
 *Figura 11.4: O motor da insatisfação. A ablação corta nervos -> menos lágrima -> filme instável -> aberrações ópticas -> má visão -> esforço -> menos pestanejo/lágrima. Quebrar este ciclo é prioridade.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Mostrar que o olho seco não é apenas uma "sensação", mas uma causa de falha visual.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Diagrama Circular de Feedback (Loop).
+
+### Estágio 1: O Gatilho (Topo)
+*   Ícone: Laser a cortar nervos.
+*   Texto: "**Ablação Periférica (Hipoestesia)**".
+
+### Estágio 2: A Instabilidade (Direita)
+*   Ícone: Filme lacrimal a quebrar (TBUT baixo).
+*   Texto: "**Instabilidade Lacrimal**".
+*   *Seta curva para baixo.*
+
+### Estágio 3: O Ruído Óptico (Baixo)
+*   Ícone: Olho com aberrações (borrão).
+*   Texto: "**Aumento de Aberrações (Coma)**".
+*   *Seta curva para a esquerda.*
+
+### Estágio 4: O Sintoma (Esquerda)
+*   Ícone: Paciente a esfregar os olhos.
+*   Texto: "**Visão Flutuante + Burning**".
+
+### O Fecho do Ciclo
+*   Seta de volta ao topo: "**Menos Pestanejo (Esforço Visual)**".
+
+---
+
+## 2. Legenda Explicativa
+"Um ciclo de auto-alimentação: A cirurgia reduz a sensibilidade, o paciente pestaneja menos, o filme lacrimal quebra, a visão piora, o paciente esforça-se mais para ver (pestanejando menos ainda). Romper este ciclo (lubrificação, plugs) é essencial para a qualidade visual."
+
+
 ### 11.2.4. Regressão Refrativa e Perda de Add
 
 **Definição:**
 
-**Regressão Esférica:** Shift hipermetrópico >+0.50 D vs. target inicial  
+**Regressão Esférica:** Shift hipermetrópico >+0.50 D vs. target inicial 
 **Perda de Add:** Redução de profundidade de campo, UCNVA deteriora
 
 **Incidência:**
@@ -235,17 +335,17 @@ Olho seco pós-LASIK já é comum (50-70% sintomas transitórios). **Em PresbyLA
 **Mecanismo Fisiopatológico:**
 
 1. **Remodelação Epitelial (Masking Effect):**
-   - Epitélio hiperplasia diferencialmente para "suavizar" perfil steep
-   - Pode adicionar 10-20 μm na zona central (anula add induzida)
-   - **Tempo:** Ocorre 3-18 meses pós-op
+  - Epitélio hiperplasia diferencialmente para "suavizar" perfil steep
+  - Pode adicionar 10-20 μm na zona central (anula add induzida)
+  - **Tempo:** Ocorre 3-18 meses pós-op
 
 2. **Biomecânica (Regression Creep):**
-   - Córnea tenta "reverter" para perfil original (memória biomecânica)
-   - Mais comum em Q shifts extremos (SUPRACOR)
+  - Córnea tenta "reverter" para perfil original (memória biomecânica)
+  - Mais comum em Q shifts extremos (SUPRACOR)
 
 3. **Envelhecimento Contínuo do Cristalino:**
-   - Presbiopia natural progride (~0.5 D/5 anos)
-   - Add cirúrgica "estática" torna-se insuficiente
+  - Presbiopia natural progride (~0.5 D/5 anos)
+  - Add cirúrgica "estática" torna-se insuficiente
 
 **Diagnóstico:**
 
@@ -263,12 +363,12 @@ Olho seco pós-LASIK já é comum (50-70% sintomas transitórios). **Em PresbyLA
 **Técnica de Retoque Cirúrgico:**
 
 1. **Re-Tratamento Similar:**
-   - Repetir perfil presbiópico (Custom-Q, PresbyMAX etc.)
-   - Ajustar target baseado em regressa (adicionar "overcorrection" preventiva)
+  - Repetir perfil presbiópico (Custom-Q, PresbyMAX etc.)
+  - Ajustar target baseado em regressa (adicionar "overcorrection" preventiva)
 
 2. **Shift de Estratégia:**
-   - Se Custom-Q falhou: Considerar monovisão adicional (micro-miopia olho não-dominante)
-   - Se PresbyMAX/SUPRACOR falhou múltiplas vezes: **Considerar RLE**
+  - Se Custom-Q falhou: Considerar monovisão adicional (micro-miopia olho não-dominante)
+  - Se PresbyMAX/SUPRACOR falhou múltiplas vezes: **Considerar RLE**
 
 **Taxa de Sucesso Retoque Cirúrgico:**
 
@@ -320,7 +420,44 @@ Perfis asféricos com ablação paracentral profunda podem ter:
 ### Infográfico 11.2: DLK Grading System (Visual)
 
 ![DLK: Areias do Sahara](figures/chapter11/dlk_grading.png)
-*Figura 11.2: Classificação visual da DLK. Do grau benigno (1) ao tóxico (4). O aspecto "granular" na interface é patognomónico. O tratamento precoce evita o "melting" estromal.*
+*Figura 11.2: Classificação visual da DLK. Do grau benigno (1) ao tóxico (4). O aspeto "granular" na interface é patognomónico. O tratamento precoce evita o "melting" estromal.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Visualizar a progressão da inflamação estéril na interface.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Painel Quádruplo (2x2) de lâmpada de fenda (Slit Lamp View).
+
+### Painel 1: Grau 1 (Focal)
+*   Interface transparente no centro.
+*   Pontos brancos ténues apenas na periferia do flap.
+*   Label: "**Grau 1: Periférico**".
+
+### Painel 2: Grau 2 (Difuso Ligeiro)
+*   Pontos espalham-se para o centro.
+*   Ainda é possível ver a iris claramente através da córnea.
+*   Label: "**Grau 2: Paracentral**".
+
+### Painel 3: Grau 3 (Denso - "Sahara")
+*   Toda a interface está coberta de material granular branco.
+*   Aspeto de "areia molhada". Visão da iris está turva.
+*   Label: "**Grau 3: Agregado (Perigo!)**".
+
+### Painel 4: Grau 4 (Severo - Toxicidade)
+*   Opacidade central intensa.
+*   Dobras estromais (striae) visíveis.
+*   Label: "**Grau 4: Striae + Melting**".
+
+---
+
+## 2. Legenda Explicativa
+"A DLK (Diffuse Lamellar Keratitis) deve ser tratada agressivamente. Graus 1 e 2 respondem a esteróides tópicos. Grau 3 exige lavagem imediata da interface para remover as citocinas tóxicas e prevenir perda visual permanente (Grau 4)." [1]
+
 
 ### 11.3.2. Epithelial Ingrowth
 
@@ -345,8 +482,8 @@ Perfis asféricos com ablação paracentral profunda podem ter:
   - Levantar flap
   - Remover tecido epitelial com Weck-Cel + espátula
   - **Cauterização borda** (opcional mas reduz recorrência):
-    - Álcool 20% 30 segundos
-    - ou Cautery térmica punctual
+  - Álcool 20% 30 segundos
+  - ou Cautery térmica punctual
   - Reposição flap com stretching (remover "slack")
 
 **Taxa Recorrência Pós-Debridamento:** 15-25%
@@ -384,19 +521,19 @@ Perfis asféricos com ablação paracentral profunda podem ter:
 **Objetivo:** INTERROMPER PROGRESSÃO (não "curar")
 
 1. **Cross-Linking Corneal (CXL):**
-   - **Epi-Off (Dresden Protocol):** Maior eficácia, mais invasivo
-   - **Transepithelial:** Menos invasivo, eficácia ligeiramente inferior
-   - **Timing:** Quanto mais cedo, melhor
-   - **Outcome:** Estabilização em 85-90%; melhoria visual modesta (~1 linha)
+  - **Epi-Off (Dresden Protocol):** Maior eficácia, mais invasivo
+  - **Transepithelial:** Menos invasivo, eficácia ligeiramente inferior
+  - **Timing:** Quanto mais cedo, melhor
+  - **Outcome:** Estabilização em 85-90%; melhoria visual modesta (~1 linha)
 
 2. **Gestão Óptica:**
-   - Lentes RGP (corrigem irregularidade melhor que óculos)
-   - Se intolerância: Lentes híbridas (RGP centro + soft periferia)
-   - Lentes esclerais (casos severos)
+  - Lentes RGP (corrigem irregularidade melhor que óculos)
+  - Se intolerância: Lentes híbridas (RGP centro + soft periferia)
+  - Lentes esclerais (casos severos)
 
 3. **Cirurgia Avançada (Se Progressão Apesar CXL):**
-   - Intacs (anel estromal corneano) - Raramente eficaz em pós-LASIK
-   - **Transplante Corneano:** DALK ou PKP (último recurso)
+  - Intacs (anel estromal corneano) - Raramente eficaz em pós-LASIK
+  - **Transplante Corneano:** DALK ou PKP (último recurso)
 
 **Prevenção é Crítica:**
 
@@ -432,18 +569,18 @@ Perfis asféricos com ablação paracentral profunda podem ter:
 **Gestão:**
 
 1. **Re-Teste com Lente Contacto:**
-   - Simular reversão (LC monofocal bilateral longe)
-   - Se paciente prefere dramaticamente: **Reversão indicada**
+  - Simular reversão (LC monofocal bilateral longe)
+  - Se paciente prefere dramaticamente: **Reversão indicada**
 
 2. **Reversão Cirúrgica:**
-   - Olho não-dominante: Topoguiado para remover multifocalidade/miopia
-   - Target: Plano bilateral
-   - **Outcome:** 70-80% satisfação recuperada, mas **perde perto** (volta a precisar óculos)
+  - Olho não-dominante: Topoguiado para remover multifocalidade/miopia
+  - Target: Plano bilateral
+  - **Outcome:** 70-80% satisfação recuperada, mas **perde perto** (volta a precisar óculos)
 
 3. **Tentativa de "Re-Balancear" (Alternativa):**
-   - Ajustar olho dominante para ligeira miopia (-0.50 D)
-   - Reduz anisometropia total
-   - Pode melhorar tolerância sem reversão completa
+  - Ajustar olho dominante para ligeira miopia (-0.50 D)
+  - Reduz anisometropia total
+  - Pode melhorar tolerância sem reversão completa
 
 ### 11.4.2. Insatisfação "Psicogénica"
 
@@ -472,20 +609,20 @@ Paciente objetivamente com bom resultado (UCDVA ≥20/25, UCNVA ≥J3, topografi
 **Se Confirmado "Psicogénico":**
 
 1. **Reassurance Extensivo:**
-   - Mostrar dados objetivos ("Seus resultados são excelentes numericamente")
-   - Comparar com médias de literatura
+  - Mostrar dados objetivos ("Seus resultados são excelentes numericamente")
+  - Comparar com médias de literatura
 
 2. **Referência Psicológica:**
-   - Psicólogo/psiquiatra se sintomas ansi edade/depressão evidentes
-   - Pode precisar farmacoterapia (SSRI)
+  - Psicólogo/psiquiatra se sintomas ansi edade/depressão evidentes
+  - Pode precisar farmacoterapia (SSRI)
 
 3. **Re-Contratualização:**
-   - Explicar **não há "fix" cirúrgico** adicional para problema não-técnico
-   - Reversão não resolverá (troca um set de queixas por outro)
+  - Explicar **não há "fix" cirúrgico** adicional para problema não-técnico
+  - Reversão não resolverá (troca um set de queixas por outro)
 
 4. **Evitar Retoque Cirúrgico Desnecessário:**
-   - Retoque Cirúrgico em paciente psicogénico frequentemente **piora situação**
-   - Cria novo foco de queixas
+  - Retoque Cirúrgico em paciente psicogénico frequentemente **piora situação**
+  - Cria novo foco de queixas
 
 **Outcome:**
 
@@ -509,4 +646,3 @@ Paciente objetivamente com bom resultado (UCDVA ≥20/25, UCNVA ≥J3, topografi
 7. Schallhorn JM, Shallhorn SC. Dry eye and LASIK: current opinion. *Current Opinion in Ophthalmology*. 2016;27(4):284-289.
 
 ---
-

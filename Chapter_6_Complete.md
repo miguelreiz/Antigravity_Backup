@@ -1,7 +1,7 @@
 # Capítulo 6: PresbyMAX (Schwind) - A Abordagem Bi-Asférica Multifocal
 
 > [!NOTE]
-> **Definição Tecnológica:** O **PresbyMAX** (Schwind Eye-Tech-Solutions, Alemanha) é um módulo de software de ablação proprietário que difere fundamentalmente da modulação de asfericidade global contínua (Q-factor/Custom-Q). Baseia-se na criação de um perfil corneano **bi-asférico multifocal**, consistindo numa zona central otimizada para visão de perto e uma zona periférica para visão de longe, conectadas por uma zona de transição asférica suave. Esta arquitetura mimética a óptica de lentes de contacto multifocais de **Design Centro-Perto (Center-Near Design)**. [1]
+> **Definição Tecnológica:** O **PresbyMAX** (Schwind Eye-Tech-Solutions, Alemanha) é um módulo de software de ablação proprietário que difere fundamentalmente da modulação de asfericidade global contínua (Q-factor/Custom-Q). Baseia-se na criação de um perfil corneano **bi-asférico multifocal**, consistindo numa zona central otimizada para visão de perto e uma zona periférica para visão de longe, conectadas por uma zona de transição asférica suave. Esta arquitetura mimetiza a óptica de lentes de contacto multifocais de **Design Centro-Perto (Center-Near Design)**. [1]
 
 ## 6.1. Princípios Ópticos: Bi-Asfericidade vs. Prolatividade Contínua
 
@@ -17,7 +17,7 @@ Ao contrário do Custom-Q/PresbyCor, que induz uma **curva de potência contínu
 - Função: Foca raios paraciais na distância de leitura (~33-40 cm)
 - Potência adicional: +1.50 a +2.50 D (dependendo do perfil selecionado)
 
-**Design Óptico Interno:**  
+**Design Óptico Interno:** 
 A zona central **não é uma simples esfera positiva** (o que induziria aberração esférica excessiva). Em vez disso, utiliza um perfil asférico otimizado que:
 - Maximiza potência de perto
 - Minimiza aberrações de alta ordem desnecessárias (redução de SA positiva que degradaria qualidade)
@@ -29,11 +29,11 @@ A zona central **não é uma simples esfera positiva** (o que induziria aberraç
   - Evita degraus abruptos que gerariam difração severa
   - Cria gradiente de potência contínuo (sem "saltos")
   
-**Evidência:** Baenninger demonstrou que a qualidade da zona de transição correlaciona diretamente com sensibilidade ao contraste pós-operatória. Perfis com transições <0.8 mm apresentaram perda de >0.4 log units em frequências médias. [2]
+**Evidência:** Baenninger demonstrou que a qualidade da zona de transição correlaciona diretamente com sensibilidade ao contraste pós-operatória. Perfis com transições <0.8 mm apresentaram perda de >0.4 log units em frequências médias. [2] [10]
 
 **Zona 3 - Zona Periférica de Longe (Peripheral Distance Zone):**
 - Início: ~3.5-4.0 mm do centro
-- Extenção radial: Até zona óptica total (6.5-7.0 mm)
+- Extensão radial: Até zona óptica total (6.5-7.0 mm)
 - Geometria: Ligeiramente prolata a esférica
 - Função: Foca raios periféricos no infinito óptico
 
@@ -75,7 +75,7 @@ Esta formulação cria um perfil de **"elevação tipo Gaussiana" (Gaussian-like
 
 ### 6.2.1. PresbyMAX Simétrico (Symmetric)
 
-**Configuração:**  
+**Configuração:** 
 Ambos os olhos recebem o mesmo perfil multifocal com adição central completa.
 
 **Parâmetros Standard:**
@@ -98,12 +98,12 @@ Ambos os olhos recebem o mesmo perfil multifocal com adição central completa.
 - **Halos noturnos severos:** 30-40% reportam halos proeminentes (especialmente pupilas >5.5 mm)
 - **Sensibilidade ao contraste reduzida:** -0.2 a -0.3 log units em 12 cpd
 
-**Indicação Atual:**  
+**Indicação Atual:** 
 Rara. Maioria dos cirurgiões abandonou estratégia simétrica em favor da híbrida (ver abaixo).
 
 ### 6.2.2. PresbyMAX Híbrido (Hybrid) - **PADRÃO ATUAL**
 
-**Conceito (Uthoff et al.):**  
+**Conceito (Uthoff et al.):** 
 Combinar os benefícios da multifocalidade com os da monovisão, minimizando as desvantagens de cada uma. [4]
 
 **Configuração:**
@@ -134,9 +134,9 @@ A estratégia híbrida permite:
 1. **Olho dominante:** Fornece imagem de longe de alta qualidade (sem multifocalidade = sem perda de contraste)
 2. **Olho não-dominante:** Fornece EDOF completa (perto + intermédio)
 3. **Fusão binocular:** 
-   - Longe: Cérebro seleciona input dominante (nítido)
-   - Perto: Cérebro seleciona input não-dominante (multifocal)
-   - Intermédio: Somação parcial de ambos
+  - Longe: Cérebro seleciona input dominante (nítido)
+  - Perto: Cérebro seleciona input não-dominante (multifocal)
+  - Intermédio: Somação parcial de ambos
 
 **Resultados Clínicos Híbrido (Baenninger, Luger):** [2,5]
 
@@ -147,9 +147,9 @@ A estratégia híbrida permite:
 | **Halo Severo** | 35% | **18%** | Híbrido -17% |
 | **Perda de Linhas CDVA** | 1.8 linhas | **0.4 linhas** | Híbrido preserva longe |
 | **Satisfação Global** | 78% | **89%** | Híbrido +11% |
-| **taxa de retratamento** | 18% | **9%** | Híbrido -50% |
+| **Taxa de Retratamento** | 18% | **9%** | Híbrido -50% |
 
-**Conclusão Baseada em Evidência:**  
+**Conclusão Baseada em Evidência:** 
 PresbyMAX Híbrido é a estratégia de escolha atual, com melhoria dramática em CDVA e satisfação comparado ao simétrico. [2,5,11]
 
 *Nota: Dados derivados de estudos multicenter Schwind. Resultados individuais variam com seleção de pacientes e experiência cirúrgica.*
@@ -159,7 +159,39 @@ PresbyMAX Híbrido é a estratégia de escolha atual, com melhoria dramática em
 ### Infográfico 6.2: Estratégia Híbrida vs. Simétrica (Esquema Binocular)
 
 ![Estratégia Híbrida vs. Simétrica: Comparação Binocular](figures/chapter6/presbymax_hybrid_vs_symmetric.png)
-*Figura 6.2: Comparação da estratégia Simétrica (Painel A: ambos olhos multifocais completos) vs. Híbrida (Painel B: olho dominante distance otimizado + não-dominante multifocal). Híbrida demonstra superioridade: UCDVA 92% vs 75% (≥20/25), halos severos 18% vs 35%, satisfação 89% vs 78%, taxa de retratamento 9% vs 18%. A "vitória da assimetria" - olho dominante garante contraste de longe enquanto não-dominante carrega carga multifocal, permitindo fusão binocular seletiva.*
+*Figura 6.2: Comparação da estratégia Simétrica (Painel A: ambos olhos multifocais completos) vs. Híbrida (Painel B: olho dominante distance otimizado + não-dominante multifocal). Híbrida demonstra superioridade: UCDVA 92% vs 75% (≥20/25), halos severos 18% vs 35%, satisfação 89% vs 78%, Taxa de Retratamento 9% vs 18%. A "vitória da assimetria" - olho dominante garante contraste de longe enquanto não-dominante carrega carga multifocal, permitindo fusão binocular seletiva.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Explicar por que a "Estratégia Híbrida" é o Gold Standard hoje (e por que a Simétrica falhou).
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Comparação Cabeça-a-Cabeça (Dois Pares de Olhos).
+
+### Painel A: Simétrico (Desuso)
+*   Dois olhos com a "bossa central" vermelha GRANDE.
+*   **Visão de Longe:** Ícone desfocado.
+*   **Visão de Perto:** Ícone muito nítido.
+*   **Efeito Colateral:** Ícones de **Halos Grandes** em ambos os olhos.
+*   Label: "**Conflito Binocular (Perda de Longe)**".
+
+### Painel B: Híbrido (Recomendado)
+*   **Olho Dominante (Direito):** Perfil quase plano (Azul). Apenas uma micro-elevação central imperceptível.
+*   **Olho Não-Dominante (Esquerdo):** Perfil multifocal completo (Vermelho).
+*   **Somação Binocular:** Setas convergem para um cérebro sorridente.
+    *   Seta Azul: Traz Nitidez.
+    *   Seta Vermelha: Traz Leitura.
+*   Label: "**Sinergia (O Melhor de Dois Mundos)**".
+
+---
+
+## 2. Legenda Explicativa
+"A simetria é inimiga da qualidade em PresbyMAX. Ao tratar ambos os olhos agressivamente, 'matamos' a visão de longe. A estratégia híbrida preserva um 'Olho de Segurança' (Dominante) quase intocado, usando o outro como 'Olho de Trabalho'."
+
 
 ---
 
@@ -178,7 +210,7 @@ O design multifocal zonal do PresbyMAX cria uma **dependência crítica do diâm
   - Visão de longe: **Comprometida** (sem acesso à zona periférica distance)
   - Efeito dominante: Near vision
 
-**Problema Clínico:**  
+**Problema Clínico:** 
 Pacientes com miose fisiológica acentuada (pupilas fotópicas <2.0 mm, comum em pessoas >60 anos) podem ter dificuldade em longe durante o dia.
 
 **Condições Mesópicas/Escotópicas (Iluminação Reduzida, Pupila ~5.5-6.5 mm):**
@@ -222,8 +254,8 @@ Pacientes com miose fisiológica acentuada (pupilas fotópicas <2.0 mm, comum em
 **Protocolo de Avaliação:**
 
 1. **Pentacam Pupil Diameter Module** ou **Sirius Pupilometry:**
-   - Medir pupila fotópica (85 cd/m², luz ambiente brilhante)
-   - Medir pupila mesópica (0.4 cd/m², luz muito reduzida)
+  - Medir pupila fotópica (85 cd/m², luz ambiente brilhante)
+  - Medir pupila mesópica (0.4 cd/m², luz muito reduzida)
 
 2. **Critérios de Decisão para PresbyMAX:**
 
@@ -237,7 +269,7 @@ Pacientes com miose fisiológica acentuada (pupilas fotópicas <2.0 mm, comum em
 | Qualquer | >7.0 mm | **ALTO RISCO** - Contraindicar Symmetric, Hybrid com add reduzida |
 
 > [!TIP]
-> **Vantagem Técnica Schwind Amaris:**  
+> **Vantagem Técnica Schwind Amaris:** 
 > A plataforma Schwind Amaris permite tratar zonas ópticas até **7,0 mm**, conferindo maior margem de segurança para pupilas na **Zona de Alerta** (6,0-6,5 mm) conforme Protocolo de Segurança Pupilar (Cap. 3.3.4). Esta é uma vantagem técnica do PresbyMAX sobre plataformas limitadas a OZ de 6,0 mm. Para pupilas 6,0-6,5 mm, a ampliação da OZ para 6,5-7,0 mm é a conduta preferencial, desde que a paquimetria permita (RSB >300 μm).
 
 ### 6.2.4. Caso Clínico Ideal PresbyMAX (Caso Demonstrativo)
@@ -259,27 +291,27 @@ Pacientes com miose fisiológica acentuada (pupilas fotópicas <2.0 mm, comum em
 - **Curvatura Corneana (K médio):** 42-46 D
 - **Add Necessária:** +1.50 a +2.00 D
 
-**Justificação:**  
+**Justificação:** 
 Hipermétropes beneficiam-se duplamente: correção da hipermetropia de longe + adição de perto, ambas atingidas pelo mesmo perfil de steepening central.
 
 ### 6.4.2. Curvatura Corneana e Resposta Biomecânica
 
 **Córneas Planas (K <40 D):**
 
-**Desafio Biomecânico:**  
+**Desafio Biomecânico:** 
 Córneas planas têm:
 - Menor reserva de curvatura para modificação
 - Maior rigidez biomecânica (raio de curvatura grande = lamelas sob maior tensão)
 
-**Resultado:**  
+**Resultado:** 
 Taxa elevada de **hipocorreção e regressão** do efeito multifocal.
 
-**Evidência:**  
+**Evidência:** 
 Estudo de Luger demonstrou que córneas com K <40 D apresentaram:
 - Perda de Add aos 12 meses: 0.40 ± 0.22 D (vs. 0.18 ± 0.12 D em K >42 D)
 - Taxa de enhancement: 24% (vs. 12% em K normal) [5]
 
-**Gestão:**  
+**Gestão:** 
 Advertir paciente sobre maior probabilidade de retoque ou considerar RLE.
 
 **Córneas Curvas (K >48 D):**
@@ -320,7 +352,7 @@ O sucesso do PresbyMAX depende de um **protocolo estruturado e rigoroso** que mi
 - Mês 1: "Valley assessment" (decisão enhancement se necessário)
 - Mês 3-6: "Stabilization" (resultado final)
 
-**Por que o intervalo entre olhos é mandatório?**  
+**Por que o intervalo entre olhos é mandatório?** 
 Permite neuroadaptação parcial ao primeiro olho. Se o paciente não tolera o olho dominante monofocal no Day 7, não tolerará a estratégia completa → **ABORT segundo olho** (safety checkpoint).
 
 ---
@@ -347,8 +379,8 @@ Na plataforma Amaris, o módulo PresbyCALC solicita:
 
 1. **Add Desejada:** +1.00, +1.50, +2.00, +2.50 D (menu drop-down)
 2. **Estratégia:** 
-   - ☐ Symmetric (ambos os olhos iguais)
-   - ☑ Hybrid (recomendado - olho dominante distance, não-dominante multifocal)
+  - ☐ Symmetric (ambos os olhos iguais)
+  - ☑ Hybrid (recomendado - olho dominante distance, não-dominante multifocal)
 3. **Dominância Ocular:** Esquerdo / Direito
 4. **Pupila Mesópica:** ___ mm (input manual da Pentacam)
 5. **Curvatura (K médio):** ___ D
@@ -387,10 +419,10 @@ Cirurgiões experientes podem modificar:
 
 #### Centragem Crítica
 
-**Diferença vs. Custom-Q:**  
+**Diferença vs. Custom-Q:** 
 Em PresbyMAX, a centragem é ainda **mais crítica** porque a zona central é uma "ilha" discreta (não um gradiente).
 
-**Regra de Ouro:**  
+**Regra de Ouro:** 
 Centrar **estritamente no eixo visual (Purkinje reflex)**.
 
 **Tolerância de Descentramento:**
@@ -407,13 +439,13 @@ Antes de iniciar ablação:
 1. Confirmar que crosshair está **exatamente** sobre Purkinje na imagem de íris capturada
 2. Eye-tracker mostra centragem estável (verde contínuo) por >5 segundos
 3. Se eye-tracker perde tracking (vermelho): **Parar, reposicionar, recalibrar**
-   - Nunca "forçar" ablação com tracking subótimo
+  - Nunca "forçar" ablação com tracking subótimo
 
 #### Gestão de Hidratação (Identica a Custom-Q)
 
 (Ver Capítulo 5, Secção 5.5.4 para protocolo detalhado)
 
-**Sumário:**  
+**Sumário:** 
 Secagem padronizada com 2 Weck-Cel, 5 segundos, aguardar 10 seg, ablação imediata (<45 seg).
 
 ---
@@ -452,7 +484,7 @@ Estudos com CSV-1000 (Contrast Sensitivity Testing):
 | 12 cpd (Média) | **-0.25 log units** (significativa) |
 | 18 cpd (Alta) | -0.35 log units |
 
-**Implicação:**  
+**Implicação:** 
 Leitura de texto normal (6-12 cpd) é funcional, mas leitura prolongada ou texto muito pequeno pode ser subótima.
 
 **Fenómenos Fóticos:**
@@ -463,7 +495,7 @@ Leitura de texto normal (6-12 cpd) é funcional, mas leitura prolongada ou texto
 - **Glare:** 25-30%
 - **Efeito Estrela (Starburst):** 15-20%
 
-**Nota:**  
+**Nota:** 
 Fenômenos fóticos tendem a **reduzir com neuroadaptação** ao longo de 6-12 meses. Apenas ~5-8% persistem sintomáticos após 1 ano.
 
 ### 6.6.3. Estabilidade Refrativa e Regressão
@@ -487,18 +519,18 @@ Uma característica única (marketing) da Schwind é a **reversibilidade teorét
 
 ### 6.7.1. Conceito de Reversão
 
-**Princípio:**  
+**Princípio:** 
 Como o perfil multifocal é superficial (criado no estroma anterior/interface), é teoricamente possível realizar uma **ablação subsequente** para "aplanar" a ilha central, revertendo para um perfil monofocal.
 
 **Técnica:**
 
 1. **Captura de Topografia Pós-PresbyMAX:**
-   - Pentacam mostrando a ilha central multifocal
+  - Pentacam mostrando a ilha central multifocal
 
 2. **Topography-Guided Ablation (T-CAT / Contoura):**
-   - Software calcula ablação para "aplanar" elevação central
-   - Remove tecido da zona central steep (~20-30 μm)
-   - Resultado: Córnea com perfil mais próximo de monofocal
+  - Software calcula ablação para "aplanar" elevação central
+  - Remove tecido da zona central steep (~20-30 μm)
+  - Resultado: Córnea com perfil mais próximo de monofocal
 
 **Limitações Reais:**
 
@@ -529,7 +561,41 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 ### Infográfico 6.5: Reversão de PresbyMAX (Protocolo Step-by-Step)
 
 ![Protocolo de Reversão PresbyMAX: A Rede de Segurança](figures/chapter6/presbymax_reversal_protocol.png)
-*Figura 6.5: Protocolo step-by-step para reversão de PresbyMAX intolerável. Etapa 1: Captura topografia pós-PresbyMAX (Pentacam) mostrando ilha central multifocal elevada. Etapa 2: Software T-CAT/Contoura calcula ablação para "aplanar" elevação central (remoção ~20-30μm zona steep). Etapa 3: Topography-Guided Ablation executada. Etapa 4: Resultado final - córnea mais próxima de monofocal. Limitações destacadas: Reversão nunca 100% (Q-factor residual alterado, aberraturas podem persistir), consumo tecidual total alto (primária 60-80μm + reversão 20-30μm → RSB muito reduzido), taxa sucesso 70-80% recuperam CDVA 20/20. Taxa de reversão na literatura: 2-5% casos.*
+*Figura 6.5: Protocolo step-by-step para reversão de PresbyMAX intolerável. Etapa 1: Captura topografia pós-PresbyMAX (Pentacam) mostrando ilha central multifocal elevada. Etapa 2: Software T-CAT/Contoura calcula ablação para "aplanar" elevação central (remoção ~20-30μm zona steep). Etapa 3: Topography-Guided Ablation executada. Etapa 4: Resultado final - córnea mais próxima de monofocal. Limitações destacadas: Reversão nunca 100% (Q-factor residual alterado, aberrações podem persistir), consumo tecidual total alto (primária 60-80μm + reversão 20-30μm → RSB muito reduzido), taxa sucesso 70-80% recuperam CDVA 20/20. Taxa de reversão na literatura: 2-5% casos.* [8] [9]
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Mostrar como "desfazer" o PresbyMAX. É um argumento de venda poderoso (segurança).
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Sequência de 3 Passos (Antes -> Durante -> Depois).
+
+### Passo 1: O Problema (Pós-Op Imediato)
+*   Topografia com um "Hot Spot" vermelho central intenso.
+*   Label: "**Ilha Multifocal (Causa de Halos)**".
+
+### Passo 2: A Ação (Ablação Guiada)
+*   Padrão de tiro do laser (pontos amarelos) concentrado APENAS no anel vermelho.
+*   O laser ignora a periferia.
+*   Label: "**Aplanamento Seletivo (Selective Flattening)**".
+
+### Passo 3: O Resultado (Reversão)
+*   Topografia azul/verde uniforme.
+*   Perfil de curvatura volta a ser suave.
+*   Label: "**Retorno à Monofocalidade**".
+
+### Aviso de Custo
+*   Barra lateral vermelha: "**Custo de Tecido: 20-30 mícrons**".
+
+---
+
+## 2. Legenda Explicativa
+"A grande vantagem do PresbyMAX é ser 'reversível'. Como a multifocalidade é criada por adição de curvatura central, podemos usar uma ablação guiada por topografia para 'raspar' essa elevação e restaurar a óptica original do paciente."
+
 
 ---
 
@@ -549,7 +615,7 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 *Nota sobre Add: Custom-Q pode atingir +2.0D em casos selecionados (córneas >44D, hipermetrópicos). PresbyMAX oferece add mais consistente para faixa +2.0-2.5D.*
 | **Sensibilidade Contraste** | Redução ligeira (-0.15 log) | Redução moderada (-0.25 log) |
 | **Estabilidade Refrativa** | Alta | Moderada (mais regressão) |
-| **taxa de retratamento** | 12-18% | 10-15% |
+| **Taxa de Retratamento** | 12-18% | 10-15% |
 | **Reversibilidade** | Difícil (perfil contínuo) | Mais viável (ilha discreta) |
 | **Plataformas** | Qualquer com Custom-Q | **Exclusivo Schwind Amaris** |
 | **Custo** | Equipamento standard | Requer licença módulo PresbyMAX |
@@ -650,16 +716,3 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 11. Schwind Eye-Tech-Solutions. PresbyMAX Hybrid Clinical Study: Multicenter Results. *Schwind Technical Report*. 2016. (Proprietary data on file)
 
 ---
-
-**Este Capítulo 6 está agora COMPLETO**, com:
-- ✅ Princípios bi-asféricos detalhados
-- ✅ Variantes Symmetric vs. Hybrid (comparação extensa)
-- ✅ Dependência pupilar crítica (análise completa)
-- ✅ Protocolo Schwind Amaris
-- ✅ Resultados clínicos multi-cêntricos
-- ✅ Reversibilidade (conceito e limitações)
-- ✅ Casos clínicos ilustrativos
-- ✅ 10 Referências bibliográficas
-- ✅ 5 Infográficos clínicos detalhados (descritivos)
-
-Pronto para copiar para o Google Drive!

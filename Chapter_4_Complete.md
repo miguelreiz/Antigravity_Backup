@@ -18,47 +18,47 @@ A resposta cicatricial após ablação excimer segue um padrão temporal bem car
 
 **Eventos Celulares:**
 1. **Apoptose de Queratócitos Superficiais:**
-   - A radiação UV do excimer induz morte celular programada nas primeiras 100-150 μm do estroma
-   - Pico de apoptose: 4-6 horas pós-ablação
-   - Libertação de citoquinas (IL-1, TNF-α, TGF-β) que recrutam células inflamatórias
+  - A radiação UV do excimer induz morte celular programada nas primeiras 100-150 μm do estroma
+  - Pico de apoptose: 4-6 horas pós-ablação
+  - Libertação de citoquinas (IL-1, TNF-α, TGF-β) que recrutam células inflamatórias
 
 2. **Migração e Proliferação Epitelial:**
-   - Reepitelização completa: 3-5 dias (PRK/TransPRK)
-   - Migração centrípeta de células limbares
-   - Proliferação basal acelerada (ciclagem celular 12-16 horas, vs. 7-10 dias normal)
+  - Reepitelização completa: 3-5 dias (PRK/TransPRK)
+  - Migração centrípeta de células limbares
+  - Proliferação basal acelerada (ciclagem celular 12-16 horas, vs. 7-10 dias normal) [12]
 
-**Implicação Clínica:**  
+**Implicação Clínica:** 
 Durante esta fase, a irregularidade da superfície epitelial causa flutuação refrativa significativa, especialmente em PRK. Visão funcional só é atingida após reepitelização completa.
 
 #### Fase Subaguda (1-4 semanas)
 
 **Eventos Estromais:**
 1. **Ativação de Queratócitos Residuais:**
-   - Transformação fibroblástica (expressão de α-smooth muscle actin)
-   - Síntese de matriz extracelular (colagénio tipo I e III)
-   - Produção de metaloproteinases (MMPs) para remodelação
+  - Transformação fibroblástica (expressão de α-smooth muscle actin)
+  - Síntese de matriz extracelular (colagénio tipo I e III)
+  - Produção de metaloproteinases (MMPs) para remodelação
 
 2. **Remodelação Epitelial Inicial:**
-   - Ajuste da espessura epitelial para compensar irregularidades estromais (ver Secção 4.2)
+  - Ajuste da espessura epitelial para compensar irregularidades estromais (ver Secção 4.2)
 
-**Implicação Clínica:**  
+**Implicação Clínica:** 
 Início da resposta de "mascaramento" epitelial. Em perfis presbiópicos hipermetrópicos (steepening central), o epitélio começa a adelgaçar sobre o ápice.
 
 #### Fase Crónica (1-12 meses)
 
 **Remodelação Matricial:**
 1. **Deposição de Colagénio:**
-   - Síntese contínua de nova matriz extracelular
-   - Reorganização de fibras de colagénio (alinhamento lamellar)
-   
-2. **Haze (em PRK):**
-   - Pico: 1-3 meses
-   - Resolução: 6-12 meses (na maioria dos casos)
-   - Persistência: Correlaciona com profundidade de ablação e ausência de MMC
+  - Síntese contínua de nova matriz extracelular
+  - Reorganização de fibras de colagénio (alinhamento lamellar)
+  
+2. **Haze (em PRK):** [7]
+  - Pico: 1-3 meses
+  - Resolução: 6-12 meses (na maioria dos casos)
+  - Persistência: Correlaciona com profundidade de ablação e ausência de MMC
 
 3. **Estabilização Refrativa:**
-   - Platô refrativo: 3-6 meses (LASIK), 6-12 meses (PRK)
-   - Regressão hipermetrópica: Maior em PRK hipermetrópico (10-15% vs. 5-8% LASIK) [2]
+  - Platô refrativo: 3-6 meses (LASIK), 6-12 meses (PRK)
+  - Regressão hipermetrópica: Maior em PRK hipermetrópico (10-15% vs. 5-8% LASIK) [2]
 
 ---
 
@@ -90,7 +90,7 @@ Em perfis presbiópicos que criam um **steepening central** (incurvamento para a
 | **Paracentral (3-5 mm)** | Zona de transição | Espessura normal (~50 μm) | Mínimo efeito |
 | **Periférica (5-7 mm)** | Depressão (ablação profunda) | **Espessamento** (55-60 μm) | "Preenche o fosso", reduz prolatividade |
 
-**Resultado Global:**  
+**Resultado Global:** 
 O perfil asférico induzido é **suavizado** (smoothing), reduzindo:
 - A aberração esférica negativa planeada
 - A profundidade de campo efetiva
@@ -123,7 +123,7 @@ $$Q_{\text{programado}} = Q_{\text{target}} - (0.1 \text{ a } 0.15)$$
 
 $$Q_{\text{programado}} = -0.70 - 0.12 = -0.82$$
 
-**Justificação:**  
+**Justificação:** 
 A sobrecorreção de 0.10-0.15 em Q compensa a perda esperada por alisamento epitelial.
 
 #### Mitomicina C (MMC) em PRK
@@ -131,12 +131,12 @@ A sobrecorreção de 0.10-0.15 em Q compensa a perda esperada por alisamento epi
 A Mitomicina C modula a resposta cicatricial através de:
 
 1. **Inibição de Proliferação Fibroblástica:**
-   - Bloqueio do ciclo celular (fase G1/S)
-   - Redução de síntese de colagénio tipo III (pró-opacificação)
+  - Bloqueio do ciclo celular (fase G1/S)
+  - Redução de síntese de colagénio tipo III (pró-opacificação)
 
 2. **Redução de Remodelação Epitelial:**
-   - Menor hiperplasia epitelial compensatória
-   - Preservação superior do perfil ablativo original
+  - Menor hiperplasia epitelial compensatória
+  - Preservação superior do perfil ablativo original
 
 **Protocolo Standard:**
 - Concentração: 0.02% (0.2 mg/mL)
@@ -144,7 +144,7 @@ A Mitomicina C modula a resposta cicatricial através de:
 - Duração: 20-30 segundos (ablações <60 μm) a 40-60 segundos (ablações >60 μm)
 - Lavagem: 20 mL BSS para remover resíduo
 
-**Evidência:**  
+**Evidência:** 
 Meta-análise de Santhiago demonstrou redução de 60-70% na incidência de haze significativo (grau ≥2) em ablações hipermetrópicas >+3.00 D. [4]
 
 ---
@@ -158,21 +158,21 @@ A ablação de superfície (PRK/TransPRK/LASEK) em presbiopia apresenta desafios
 **Indicações Primárias:**
 
 1. **Córnea Fina:**
-   - Paquimetria <500 μm (insuficiente para LASIK + ablação presbiópica)
-   - História de LASIK miópico prévio com Leito Estromal Residual (RSB) limítrofe
+  - Paquimetria <500 μm (insuficiente para LASIK + ablação presbiópica)
+  - História de LASIK miópico prévio com Leito Estromal Residual (RSB) limítrofe
 
 2. **Profissões de Alto Risco Traumático:**
-   - Desportistas de contacto
-   - Militares, polícias
-   - Risco de deslocamento de flap inaceitável
+  - Desportistas de contacto
+  - Militares, polícias
+  - Risco de deslocamento de flap inaceitável
 
 3. **Retratamento Tardio:**
-   - >5-10 anos após LASIK primário
-   - Interface cicatrizada; lifting de flap de alto risco (epithelial ingrowth)
+  - >5-10 anos após LASIK primário
+  - Interface cicatrizada; lifting de flap de alto risco (epithelial ingrowth) [15]
 
 4. **Preferência do Paciente:**
-   - Evitar criação de interface permanente
-   - Menor risco de olho seco a longo prazo (preservação de nervos estromais profundos)
+  - Evitar criação de interface permanente
+  - Menor risco de olho seco a longo prazo (preservação de nervos estromais profundos)
 
 **Indicações Relativas:**
 
@@ -186,16 +186,16 @@ A ablação de superfície (PRK/TransPRK/LASEK) em presbiopia apresenta desafios
 **Opções Técnicas:**
 
 1. **Mecânica (Amoils Brush Technique):**
-   - Remoção com escova rotatória após instilação de álcool 20% (15-20 seg)
-   - Vantagem: Rápida, controlo visual direto
-   - Desvantagem: Variabilidade na profundidade de desepitelização
+  - Remoção com escova rotatória após instilação de álcool 20% (15-20 seg)
+  - Vantagem: Rápida, controlo visual direto
+  - Desvantagem: Variabilidade na profundidade de desepitelização
 
-2. **TransPRK (Excimer Laser Desepitelização):**
-   - Laser remove epitélio (primeira fase) + estroma (segunda fase) sem toque
-   - Vantagem: "No-touch", reprodutibilidade, ausência de álcool (menos tóxico)
-   - Desvantagem: Consome tecido (50 μm epitélio + ablação), tempo laser mais longo
+2. **TransPRK (Excimer Laser Desepitelização):** [8] [10]
+  - Laser remove epitélio (primeira fase) + estroma (segunda fase) sem toque
+  - Vantagem: "No-touch", reprodutibilidade, ausência de álcool (menos tóxico)
+  - Desvantagem: Consome tecido (50 μm epitélio + ablação), tempo laser mais longo
 
-**Recomendação em Presbiopia:**  
+**Recomendação em Presbiopia:** 
 TransPRK preferível em perfis complexos (multifocais) onde a centragem e precisão são críticas.
 
 #### Ablação Presbiópica
@@ -221,10 +221,10 @@ MANDATÓRIA em qualquer ablação hipermetrópica >+1.50 D ou Q-shift >0.50.
 2. Esponja Merocel (3-4 mm diâmetro) embebida em MMC
 3. Aplicar sobre leito estromal com pressão ligeira
 4. **Duração baseada em ablação:**
-   - <50 μm ablação: 20 segundos
-   - 50-70 μm ablação: 30 segundos
-   - 70-90 μm ablação: 40-45 segundos
-   - >90 μm ablação: 60 segundos (máximo)
+  - <50 μm ablação: 20 segundos
+  - 50-70 μm ablação: 30 segundos
+  - 70-90 μm ablação: 40-45 segundos
+  - >90 μm ablação: 60 segundos (máximo)
 5. Lavagem copiosa: 20-30 mL BSS (mínimo 30 segundos de irrigação ativa)
 6. Secagem com esponja seca antes de colocar lente contacto terapêutica
 
@@ -251,7 +251,7 @@ MANDATÓRIA em qualquer ablação hipermetrópica >+1.50 D ou Q-shift >0.50.
 ### Infográfico 4.4: Protocolo MMC Step-by-Step
 
 ![Protocolo de Segurança Mitomicina C: Guia Passo-a-Passo](figures/chapter4/mmc_protocol_pt.png)
-*Figura 4.4: Protocolo de segurança MMC em 4 etapas para PRK presbiópico. Etapa 1 (Preparação, azul): Concentração crítica 0.02% em esponja Merocel 6-8mm, NUNCA gotas líquidas diretas. Etapa 2 (Aplicação, amarelo): Cronómetro digital mostrando tempos baseados em profundidade de ablação (<50μm: 15-20seg; 50-80μm: 30-45seg; >80μm: 60seg MÁXIMO). Etapa 3 (Lavagem, azul): Irrigação vigorosa MÍNIMO 30ml BSS sobre leito estromal E fundos de saco conjuntivais (diluição mandatória). Etapa 4 (Proteção, verde): Lente de contacto terapêutica High-DK (Dk/t >100) cobrindo todo o limbo. Legenda inferior enfatiza: sucesso não é evitar MMC, mas garantir concentração correta e lavagem exaustiva para prevenir toxicidade endotelial e scleral melt.*
+*Figura 4.4: Protocolo de segurança MMC em 4 etapas para PRK presbiópico. Etapa 1 (Preparação, azul): Concentração crítica 0.02% em esponja Merocel 6-8mm, NUNCA gotas líquidas diretas. Etapa 2 (Aplicação, amarelo): Cronómetro digital mostrando tempos baseados em profundidade de ablação (<50μm: 15-20seg; 50-80μm: 30-45seg; >80μm: 60seg MÁXIMO). Etapa 3 (Lavagem, azul): Irrigação vigorosa MÍNIMO 30ml BSS sobre leito estromal E fundos de saco conjuntivais (diluição mandatória). Etapa 4 (Proteção, verde): Lente de contacto terapêutica High-DK (Dk/t >100) cobrindo todo o limbo. Legenda inferior enfatiza: sucesso não é evitar MMC, mas garantir concentração correta e lavagem exaustiva para prevenir toxicidade endotelial e scleral melt.* [11]
 
 
 ### Infográfico 4.4b: O Mapa de Risco de Haze (Zona de Perigo UV)
@@ -289,28 +289,28 @@ O LASIK permanece a técnica de eleição para a correção presbiópica cornean
 **Mecanismo da Superioridade:**
 
 1. **Barreira Mecânica do Flap:**
-   - O flap atua como uma "membrana limitante" que reduz a comunicação entre epitélio e estroma
-   - Menor transmissão de citoquinas pró-fibróticas (TGF-β1)
-   - Menor ativação de fibroblastos estromais
+  - O flap atua como uma "membrana limitante" que reduz a comunicação entre epitélio e estroma
+  - Menor transmissão de citoquinas pró-fibróticas (TGF-β1)
+  - Menor ativação de fibroblastos estromais
 
 2. **Preservação de Células Limbares:**
-   - Hinge (dobradiça) intacta preserva população de células-tronco limbares
-   - Reepitelização mais fisiológica (migração centrípeta ordenada vs. caótica em PRK)
+  - Hinge (dobradiça) intacta preserva população de células-tronco limbares
+  - Reepitelização mais fisiológica (migração centrípeta ordenada vs. caótica em PRK)
 
 3. **Menor Exposição ao Ambiente:**
-   - Interface protegida; leito estromal não exposto a lágrima (com mediadores inflamatórios)
+  - Interface protegida; leito estromal não exposto a lágrima (com mediadores inflamatórios)
 
 #### Efeito de "Low-Pass Filter" (Filtro Passa-Baixa)
 
 O flap suaviza micro-irregularidades de alta frequência espacial do perfil de ablação:
 
-**Vantagem:**  
+**Vantagem:** 
 Reduz aberrações de ordem muito alta (5ª, 6ª ordem) que são opticamente deletérias.
 
-**Desvantagem:**  
+**Desvantagem:** 
 Pode "amortecer" detalhes finos de perfis de ablação muito complexos (ex: multifocal com múltiplas zonas anulares discretas).
 
-**Implicação:**  
+**Implicação:** 
 Para perfis presbiópicos baseados em SA negativa contínua (Custom-Q, PRESBYOND), o LASIK é ideal. Para perfis multi-zonais abruptos (PresbyMAX híbrido), a transmissão pode ser ligeiramente reduzida.
 
 ### 4.4.2. Criação do Flap: Femtosegundo vs. Microquerátomo
@@ -320,18 +320,18 @@ Para perfis presbiópicos baseados em SA negativa contínua (Custom-Q, PRESBYOND
 **Vantagens:**
 
 1. **Espessura Previsível:**
-   - Variação intra-operatória: ±5-10 μm
-   - Microquerátomo: ±15-30 μm
-   - **Implicação:** Cálculo de Leito Estromal Residual (RSB) mais fiável
+  - Variação intra-operatória: ±5-10 μm
+  - Microquerátomo: ±15-30 μm
+  - **Implicação:** Cálculo de Leito Estromal Residual (RSB) mais fiável
 
 2. **Geometria Customizável:**
-   - Ângulo de corte lateral: 70-90° (vs. meniscus do microquerátomo)
-   - Diâmetro ajustável (8.5-9.5 mm)
-   - Posicionamento de hinge superior (preferível) vs. nasal/temporal
+  - Ângulo de corte lateral: 70-90° (vs. meniscus do microquerátomo)
+  - Diâmetro ajustável (8.5-9.5 mm)
+  - Posicionamento de hinge superior (preferível) vs. nasal/temporal
 
 3. **Complicações Reduzidas:**
-   - Risco de flap irregular/buttonhole: <0.1% (vs. 1-2% microquerátomo)
-   - Sem risco de free cap (perda de hinge)
+  - Risco de flap irregular/buttonhole: <0.1% (vs. 1-2% microquerátomo)
+  - Sem risco de free cap (perda de hinge)
 
 **Desvantagens:**
 
@@ -354,7 +354,7 @@ Para perfis presbiópicos baseados em SA negativa contínua (Custom-Q, PRESBYOND
 - Risco de complicações intra-operatórias (buttonhole, partial cap)
 - Menor controlo de geometria
 
-**Recomendação em Presbiopia:**  
+**Recomendação em Presbiopia:** 
 **Femtosegundo preferível** devido à previsibilidade de Leito Estromal Residual (RSB) (essencial quando ablações hipermetrópicas consomem muito tecido periférico).
 
 ### 4.4.3. Protocolo Cirúrgico LASIK Presbiópico
@@ -381,7 +381,7 @@ Em perfis Custom-Q, a hidratação estromal afeta a precisão do Q induzido:
 3. Aguardar 10 segundos (evaporação adicional)
 4. Verificar espelho estromal uniforme (sem lagos de fluido)
 
-**Evidência:**  
+**Evidência:** 
 Gatinel demonstrou que hidratação estromal >1.5% acima do fisiológico resulta em hipocorreção de ~8-12% do efeito asférico planeado. [5]
 
 #### Centragem e Eye-Tracking
@@ -432,13 +432,13 @@ Antes de iniciar ablação:
 2. Reposicionamento com cânula de íris (sem tocar flap com instrumento metálico)
 3. **Alinhamento anatómico:** Usar marcas limbares/vasculares de referência
 4. Secagem das bordas do flap:
-   - **Técnica striae-preventing:** Secar de centro para periferia, evitando tracção radial
-   - Weck-Cel nas bordas por 30-60 segundos (função de sucção capilar para aderência)
+  - **Técnica striae-preventing:** Secar de centro para periferia, evitando tracção radial
+  - Weck-Cel nas bordas por 30-60 segundos (função de sucção capilar para aderência)
 
 5. Verificação de aderência (Flap Adherence Test):
-   - Deslocamento digital gentil da borda do flap com Weck-Cel
-   - Se move facilmente: Aguardar mais 30 segundos
-   - Se resistente: Flap aderido adequadamente
+  - Deslocamento digital gentil da borda do flap com Weck-Cel
+  - Se move facilmente: Aguardar mais 30 segundos
+  - Se resistente: Flap aderido adequadamente
 
 **Striae (Estrias) de Flap:**
 
@@ -483,14 +483,14 @@ Complicação devastadora em PresbyLASIK (degrada perfil asférico induzido):
 
 A plasticidade cortical requer exposição consistente ao padrão de aberração induzido. A flutuação visual prolongada do PRK **atrasa a neuroadaptação** em ~2-3 meses.
 
-**Evidência:**  
+**Evidência:** 
 Alió et al. demonstraram que pacientes PresbyLASIK atingem independence de óculos de perto em 3 meses, enquanto PRK presbiópico requer 5-6 meses em média. [6]
 
 
 ### Infográfico 4.3: Linha Temporal de Recuperação Visual (PRK vs. LASIK)
 
 ![A Corrida da Recuperação: PRK vs. LASIK](figures/chapter4/recovery_timeline_pt.png)
-*Figura 4.3: Comparação temporal de recuperação visual entre PRK e LASIK em cirurgia presbiópica. Curva LASIK ("A Lebre", azul): início alto aos 80% (Dia 1), rápida ascensão a 95% (Semana 1), platô de 100% (Mês 1) com "Efeito Wow" e capacidade de condução no Dia 2-3. Curva PRK ("A Tartaruga", laranja): início baixo aos 20% (Dia 1), queda para "Poço do Desespero" aos 10% (Dia 3 - pico inflamatório com dor/fotofobia), recuperação lenta a 50% (Dia 5-7 com remoção de lente terapêutica), zona de flutuação 60-70% (Semanas 2-4 com ghosting/haze transiente), cruzamento das curvas aos 95% (Mês 3 - convergência), platô final 100% (Mês 6). Gap de Reabilitação sombreado demonstra período de resiliência necessária. Painéis laterais mostram jornadas do paciente: LASIK ("já lendo telefone Dia 1") vs PRK ("Semana Cega" e "maraton completa Mês 3").*
+*Figura 4.3: Comparação temporal de recuperação visual entre PRK e LASIK em cirurgia presbiópica. Curva LASIK ("A Lebre", azul): início alto aos 80% (Dia 1), rápida ascensão a 95% (Semana 1), platô de 100% (Mês 1) com "Efeito Wow" e capacidade de condução no Dia 2-3. Curva PRK ("A Tartaruga", laranja): início baixo aos 20% (Dia 1), queda para "Poço do Desespero" aos 10% (Dia 3 - pico inflamatório com dor/fotofobia), recuperação lenta a 50% (Dia 5-7 com remoção de lente terapêutica), zona de flutuação 60-70% (Semanas 2-4 com ghosting/haze transiente), cruzamento das curvas aos 95% (Mês 3 - convergência), platô final 100% (Mês 6). Gap de Reabilitação sombreado demonstra período de resiliência necessária. Painéis laterais mostram jornadas do paciente: LASIK ("já lendo telefone Dia 1") vs PRK ("Semana Cega" e "maraton completa Mês 3").* [13]
 
 
 ### 4.5.2. Tabela Comparativa Completa
@@ -514,7 +514,7 @@ Alió et al. demonstraram que pacientes PresbyLASIK atingem independence de ócu
 
 ### Infográfico 4.6: Decisão Algorítmica PRK vs. LASIK (Árvore de Decisão Completa)
 
-![Árvore de Decisão: PRK vs. LASIK](figures/chapter4/decision_tree_pt.png)
+![Árvore de Decisão: PRK vs. LASIK](figures/chapter4/diagram_lasik_vs_prk.png)
 *Figura 4.6: Árvore de decisão clínica ilustrada. Topo (Start): "Candidato Presbiopia Corneana". Nó 1 (Paquimetria): <480μm → PROIBIDO LASIK (Seta Vermelha) → PRK. Nó 2 (Lifestyle): Desporto Contacto/Militar → PRK. Nó 3 (História): LASIK prévio >10 anos → PRK (evitar re-lift). Nó 4 (Olho Seco Severo): → PRK. Nó 5 (Recuperação Rápida Necessária?): SIM → LASIK (Seta Verde). Default → LASIK. Caixa resumo inferior contrasta indicações absolutas de cada técnica.*
 
 **Árvore Detalhada (Texto):**
@@ -534,23 +534,11 @@ Alió et al. demonstraram que pacientes PresbyLASIK atingem independence de ócu
 | LASIK prévio >10 anos | Necessidade de visão rápida |
 | Olho seco severo | Superfície ocular normal |
 
-**Objetivo:**  
+**Objetivo:** 
 Educar sobre reconhecimento precoce e gestão graduada de epithelial ingrowth, complicação específica de LASIK.
 
----
 
-
-
-**Este Capítulo 4 está agora COMPLETO**, com:
-- ✅ Biomecânica e cicatrização detalhada
-- ✅ Efeito de mascaramento epitelial (com matemática)
-- ✅ Protocolos PRK e LASIK completos
-- ✅ Comparação sistemática
-- ✅ Gestão de complicações
-- ✅ 15 Referências bibliográficas
-- ✅ 6 Infográficos detalhados
-
-Pronto para copiar para o Google Drive! Quer que continue com mais capítulos?
+ Quer que continue com mais capítulos?
 
 
 ---
@@ -568,15 +556,15 @@ Pronto para copiar para o Google Drive! Quer que continue com mais capítulos?
 **Gestão:**
 
 1. **Conservadora (Coma <0.40 μm):**
-   - Aguardar neuroadaptação (3-6 meses)
-   - Lentes de contacto RGP para mascarar irregularidade
-   - Se melhoria, manter observação
+  - Aguardar neuroadaptação (3-6 meses)
+  - Lentes de contacto RGP para mascarar irregularidade
+  - Se melhoria, manter observação
 
 2. **Cirúrgica (Coma >0.40 μm ou sintomas intoleráveis):**
-   - **Topography-Guided Ablation (Contoura Vision, T-CAT):**
-     - Captura topografia de alta resolução
-     - Planeamento de ablação para regularizar (geralmente remove tecido do lado oposto ao displacement)
-     - Resultado: Redução de coma em 50-70%, raramente eliminação completa
+  - **Topography-Guided Ablation (Contoura Vision, T-CAT):**
+  - Captura topografia de alta resolução
+  - Planeamento de ablação para regularizar (geralmente remove tecido do lado oposto ao displacement)
+  - Resultado: Redução de coma em 50-70%, raramente eliminação completa
 
 ### 4.6.2. Epithelial Ingrowth Pós-LASIK
 
@@ -598,7 +586,7 @@ Particularmente relevante em retratamentos presbiópicos (flap re-lift).
 ### Infográfico 4.5: Complicação – Epithelial Ingrowth (Classificação e Gestão)
 
 ![Sistema de Semáforo: Classificação de Ingrowth Epitelial Pós-LASIK](figures/chapter4/epithelial_ingrowth_pt.png)
-*Figura 4.5: Sistema de classificação "Semáforo" para invasão epitelial na interface LASIK. Grau 1 (Verde - Benigno): Ilha perolada pequena <2mm da borda, BCVA 20/20, sem sintomas → Ação: Observação semestral. Grau 2 (Amarelo - Suspeito): Ninhos celulares espessos avançando >2mm, BCVA 20/25, halos ligeiros → Ação: Vigilância mensal, se avançar 1mm → Cirurgia. Grau 3 (Vermelho - Maligno): Invasão densa opaca perto do eixo visual, BCVA ≥20/40, sinal de "melting" (flap corroido por colagenases) → Ação: CIRURGIA IMEDIATA (re-lift + debridamento mecânico #15 blade + cauterização química Etanol 100% 15seg + sutura 10-0 Nylon se recorrente). Legenda inferior: epitélio na interface é "bomba-relógio biológica" que liberta colagenases derretendo o flap estromal.*
+*Figura 4.5: Sistema de classificação "Semáforo" para invasão epitelial na interface LASIK. Grau 1 (Verde - Benigno): Ilha perolada pequena <2mm da borda, BCVA 20/20, sem sintomas → Ação: Observação semestral. Grau 2 (Amarelo - Suspeito): Ninhos celulares espessos avançando >2mm, BCVA 20/25, halos ligeiros → Ação: Vigilância mensal, se avançar 1mm → Cirurgia. Grau 3 (Vermelho - Maligno): Invasão densa opaca perto do eixo visual, BCVA ≥20/40, sinal de "melting" (flap corroido por colagenases) → Ação: CIRURGIA IMEDIATA (re-lift + debridamento mecânico #15 blade + cauterização química Etanol 100% 15seg + sutura 10-0 Nylon se recorrente). Legenda inferior: epitélio na interface é "bomba-relógio biológica" que liberta colagenases derretendo o flap estromal.* [9] [14]
 
 **Detalhes da Classificação Visual (Painéis do Infográfico):**
 
@@ -615,9 +603,6 @@ Particularmente relevante em retratamentos presbiópicos (flap re-lift).
 - **Imagem:** Invasão central ou melting estromal.
 - **Conduta:** **CIRURGIA MANDATÓRIA** (Protocolo descrita acima).
 
----
-
-
 
 ---
 
@@ -625,14 +610,14 @@ Particularmente relevante em retratamentos presbiópicos (flap re-lift).
 
 ### 4.7.1. Ajuste da Hidratação Estromal (Gatinel Protocol)
 
-**Problema:**  
-Estroma demasiado hidratado → Hipo-correção do efeito asférico  
+**Problema:** 
+Estroma demasiado hidratado → Hipo-correção do efeito asférico 
 Estroma demasiado seco → Sobre-correção (risco de regressão precoce)
 
 **Solução - Protocolo de Hidratação Padronizada:**
 
 1. Após lifting de flap (LASIK) ou desepitelização (PRK):
-   - Irrigar com 5 mL BSS
+  - Irrigar com 5 mL BSS
 2. Aguardar 30 segundos (equilíbrio osmótico)
 3. Secar com Weck-Cel x2, 5 segundos cada
 4. Aguardar 10 segundos adicionais
@@ -643,7 +628,7 @@ Estroma demasiado seco → Sobre-correção (risco de regressão precoce)
 
 Relevante quando há componente cilíndrica associada.
 
-**Problema:**  
+**Problema:** 
 Paciente sentado (refração) vs. deitado (cirurgia): Rotação do olho até 5-10° (mediana ~3°).
 
 **Solução:**

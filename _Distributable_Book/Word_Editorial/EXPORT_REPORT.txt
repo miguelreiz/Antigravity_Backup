@@ -1,0 +1,204 @@
+============================================================
+PRESBYCOR — RELATÓRIO DE EXPORTAÇÃO EDITORIAL
+Data: 2026-05-10 11:55:37
+Engine: export_chapters_to_word.py v2.0
+============================================================
+
+============================================================
+CAPÍTULO 0: Prefácio e Metodologia Editorial
+Arquivo fonte: Preface_Methodology.md
+Saída: PresbyCor_Preface_Editorial.docx
+  ✓ Salvo: PresbyCor_Preface_Editorial.docx (40 KB)
+
+============================================================
+CAPÍTULO 1: Fundamentals of Presbyopia – Anatomy and Pathophysiology
+Arquivo fonte: Chapter_1_Complete.md
+Saída: PresbyCor_Chapter_01_Editorial.docx
+  ✓ Figura inserida: anatomy_accommodation.png
+  ✓ Figura inserida: ciliary_muscle_anatomy_detailed.png
+  ✓ Figura inserida: helmholtz_mechanism_comparison.png
+  ✓ Figura inserida: presbyopia_lenticular_progression.png
+  ✓ Figura inserida: onion_model_sclerosis.png
+  ✓ Figura inserida: pathophysiology_theories.png
+  ✓ Figura inserida: duane_curve_clinical_comprehensive.png
+  ✓ Figura inserida: presbyopia_geographic_latitude_variation.png
+  ✓ Figura inserida: neural_effort_paradox.png
+  ✓ Figura inserida: dls_classification.png
+  ✓ Figura inserida: refractive_matrix.png
+  ✓ Figura inserida: pupil_dynamics_dof.png
+  ✓ Salvo: PresbyCor_Chapter_01_Editorial.docx (9068 KB)
+
+============================================================
+CAPÍTULO 2: Princípios Ópticos e Ciência de Frente de Onda
+Arquivo fonte: Chapter_2_Complete.md
+Saída: PresbyCor_Chapter_02_Editorial.docx
+  ✓ Figura inserida: q_factor_profiles.png
+  ✓ Figura inserida: sa_ray_tracing.png
+  ✓ Figura inserida: zernike_clinical_pyramid.png
+  ✓ Figura inserida: zernike_psf_manifestation.png
+  ✓ Figura inserida: goldilocks_zone_sa.png
+  ✓ Figura inserida: dof_mechanisms.png
+  ✓ Figura inserida: mtf_curve.png
+  ✓ Figura inserida: aberrations_pupil_scaling.png
+  ✓ Figura inserida: psf_pupil_comparison_grid.png
+  ✓ Figura inserida: oz_pupil_matrix.png
+  ✓ Figura inserida: psf_simulation.png
+  ✓ Figura inserida: vision_simulation_presbylasik.png
+  ✓ Figura inserida: goldilocks_zone_sa.png
+  ✓ Figura inserida: neural_filter_adaptation.png
+  ✓ Salvo: PresbyCor_Chapter_02_Editorial.docx (7882 KB)
+
+============================================================
+CAPÍTULO 3: Avaliação Pré-Operatória e Seleção de Pacientes
+Arquivo fonte: Chapter_3_Complete.md
+Saída: PresbyCor_Chapter_03_Editorial.docx
+  ✓ Figura inserida: opportunity_windows.png
+  ✓ Figura inserida: holland_filter.png
+  ✓ Figura inserida: screening_flow.png
+  ✓ Figura inserida: ectasia_screening_evolution_ambrosio.png
+  ✓ Figura inserida: biomechanics_pta_rsb_dual_calculator.png
+  ✓ Figura inserida: screening_trifecta_kappa_pupil_pta.png
+  ✓ Figura inserida: risk_matrix_v2.png
+  ✓ Salvo: PresbyCor_Chapter_03_Editorial.docx (5275 KB)
+
+============================================================
+CAPÍTULO 4: Bio-Óptica e Técnica Cirúrgica – LASIK vs PRK
+Arquivo fonte: Chapter_4_Complete.md
+Saída: PresbyCor_Chapter_04_Editorial.docx
+  ✓ Figura inserida: healing_cascade_pt.png
+  ✓ Figura inserida: epithelial_masking_effect_pt.png
+  ✓ Figura inserida: mmc_protocol_pt.png
+  ✓ Figura inserida: haze_hazard_map_pt.png
+  ✓ Figura inserida: centration_strategy_pt.png
+  ✓ Figura inserida: recovery_timeline_pt.png
+  ✓ Figura inserida: diagram_lasik_vs_prk.png
+  ✓ Figura inserida: epithelial_ingrowth_pt.png
+  ✓ Salvo: PresbyCor_Chapter_04_Editorial.docx (5146 KB)
+
+============================================================
+CAPÍTULO 5: PresbyCor & Alcon Custom-Q
+Arquivo fonte: Chapter_5_Complete.md
+Saída: PresbyCor_Chapter_05_Editorial.docx
+  ✓ Figura inserida: ablation_profile.png
+  ✓ Figura inserida: plot_qfactor_vs_add.png
+  ✓ Figura inserida: epithelial_doughnut.png
+  ✓ Figura inserida: infographic_5_5_pupil_coupling.png
+  ✓ Figura inserida: infographic_5_6_selection_quadrant.png
+  ✓ Figura inserida: topography_compare.png
+  ✓ Figura inserida: infographic_5_3_wavefront_psf.png
+  ✓ Figura inserida: troubleshooting_matrix.png
+  ✓ Figura inserida: infographic_5_2_algorithm_transfer.png
+  ✓ Salvo: PresbyCor_Chapter_05_Editorial.docx (4601 KB)
+
+============================================================
+CAPÍTULO 51: READ (Alcon) — A Nova Fronteira Automatizada (2023-2025)
+Arquivo fonte: Chapter_5_Plus_READ.md
+Saída: PresbyCor_Chapter_05Plus_Editorial.docx
+  ✓ Figura inserida: read_evolution.png
+  ✓ Figura inserida: read_epithelial_prediction.png
+  ⚠ Placeholder: Figura 51.3 (arquivo não encontrado)
+  ⚠ Placeholder: Figura 51.4 (arquivo não encontrado)
+  ✓ Figura inserida: myopic_paradox.png
+  ✓ Figura inserida: ai_optimization.png
+  ✓ Figura inserida: read_philosophy.png
+  ✓ Figura inserida: ablation_comparison.png
+  ✓ Figura inserida: double_knee_profile.png
+  ✓ Figura inserida: confidence_dashboard.png
+  ✓ Figura inserida: read_ui.png
+  ✓ Salvo: PresbyCor_Chapter_05Plus_Editorial.docx (5861 KB)
+
+============================================================
+CAPÍTULO 6: PresbyMAX (Schwind) – Abordagem Bi-Asférica
+Arquivo fonte: Chapter_6_Complete.md
+Saída: PresbyCor_Chapter_06_Editorial.docx
+  ✓ Figura inserida: presbymax_profile_schematic.png
+  ✓ Figura inserida: presbymax_hybrid_vs_symmetric.png
+  ✓ Figura inserida: presbymax_pupil_dynamics_graph.png
+  ✓ Figura inserida: clinical_workflow.png
+  ✓ Figura inserida: presbymax_reversal_protocol.png
+  ✓ Figura inserida: presbymax_vs_customq_flowchart.png
+  ✓ Salvo: PresbyCor_Chapter_06_Editorial.docx (3550 KB)
+
+============================================================
+CAPÍTULO 7: PRESBYOND (Zeiss) – Laser Blended Vision
+Arquivo fonte: Chapter_7_Complete.md
+Saída: PresbyCor_Chapter_07_Editorial.docx
+  ✓ Figura inserida: mechanism_comparison.png
+  ✓ Figura inserida: blend_zone_concept.png
+  ✓ Figura inserida: presbyond_vs_monovision_curve.png
+  ✓ Figura inserida: protocol_timeline.png
+  ✓ Figura inserida: decision_matrix.png
+  ✓ Salvo: PresbyCor_Chapter_07_Editorial.docx (2733 KB)
+
+============================================================
+CAPÍTULO 8: SUPRACOR (Bausch+Lomb) – Multifocalidade Extrema
+Arquivo fonte: Chapter_8_Complete.md
+Saída: PresbyCor_Chapter_08_Editorial.docx
+  ✓ Figura inserida: supracor_tradeoff_scale.png
+  ✓ Figura inserida: supracor_geometric_profile.png
+  ✓ Figura inserida: supracor_decision_algorithm.png
+  ✓ Figura inserida: supracor_neuroadaptation_curve.png
+  ✓ Figura inserida: supracor_reversal_triptych.png
+  ✓ Salvo: PresbyCor_Chapter_08_Editorial.docx (2876 KB)
+
+============================================================
+CAPÍTULO 9: O Desafio Pós-Refrativo
+Arquivo fonte: Chapter_9_Complete.md
+Saída: PresbyCor_Chapter_09_Editorial.docx
+  ✓ Figura inserida: tissue_impact.png
+  ✓ Figura inserida: delta_q_challenge.png
+  ✓ Figura inserida: oct_safety.png
+  ✓ Figura inserida: decision_flowchart.png
+  ✓ Salvo: PresbyCor_Chapter_09_Editorial.docx (2204 KB)
+
+============================================================
+CAPÍTULO 10: Neuroadaptação e Gestão de Pacientes
+Arquivo fonte: Chapter_10_Complete.md
+Saída: PresbyCor_Chapter_10_Editorial.docx
+  ✓ Figura inserida: neuroadaptation_curve.png
+  ✓ Figura inserida: troubleshooting.png
+  ✓ Figura inserida: expectation_contract.png
+  ✓ Salvo: PresbyCor_Chapter_10_Editorial.docx (1732 KB)
+
+============================================================
+CAPÍTULO 11: Complicações e Gestão
+Arquivo fonte: Chapter_11_Complete.md
+Saída: PresbyCor_Chapter_11_Editorial.docx
+  ✓ Figura inserida: complications_heatmap.png
+  ✓ Figura inserida: decentration_algo.png
+  ✓ Figura inserida: dry_eye_cycle.png
+  ✓ Figura inserida: dlk_grading.png
+  ✓ Salvo: PresbyCor_Chapter_11_Editorial.docx (2423 KB)
+
+============================================================
+CAPÍTULO 12: Corneal vs Lenticular – O Algoritmo Decisional
+Arquivo fonte: Chapter_12_Complete.md
+Saída: PresbyCor_Chapter_12_Editorial.docx
+  ✓ Figura inserida: corneal_vs_rle_comparison.png
+  ✓ Figura inserida: dls_visual_scale.png
+  ✓ Figura inserida: decision_heatmap.png
+  ✓ Figura inserida: age_refractive_matrix.png
+  ✓ Figura inserida: master_decision_algo.png
+  ✓ Figura inserida: outcomes_radar.png
+  ✓ Salvo: PresbyCor_Chapter_12_Editorial.docx (3805 KB)
+
+============================================================
+CAPÍTULO 13: Árvores de Decisão Clínica – Integração Final
+Arquivo fonte: Chapter_13_Complete.md
+Saída: PresbyCor_Chapter_13_Editorial.docx
+  ✓ Figura inserida: master_pathway.png
+  ✓ Figura inserida: triagem_decision.png
+  ✓ Figura inserida: propedeutica_viability.png
+  ✓ Figura inserida: corneal_vs_rle_flowchart.png
+  ✓ Figura inserida: technique_comparison_matrix.png
+  ✓ Figura inserida: preop_checklist_board.png
+  ✓ Figura inserida: case_journey_architect.png
+  ✓ Figura inserida: cheat_sheet.png
+  ✓ Figura inserida: patient_matcher_grid.png
+  ✓ Figura inserida: contraindications_traffic_light.png
+  ✓ Figura inserida: emergency_triage_flowchart.png
+  ✓ Figura inserida: followup_timeline.png
+  ✓ Salvo: PresbyCor_Chapter_13_Editorial.docx (8583 KB)
+
+============================================================
+RESUMO: 15 exportados, 0 com erro

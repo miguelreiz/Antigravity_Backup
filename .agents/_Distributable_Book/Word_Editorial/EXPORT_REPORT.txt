@@ -1,0 +1,14 @@
+============================================================
+PRESBYCOR — RELATÓRIO DE EXPORTAÇÃO EDITORIAL
+Data: 2026-03-24 21:12:05
+Engine: export_chapters_to_word.py v2.0
+============================================================
+
+============================================================
+CAPÍTULO 3: Avaliação Pré-Operatória e Seleção de Pacientes
+Arquivo fonte: Chapter_3_Complete.md
+Saída: PresbyCor_Chapter_03_Editorial.docx
+  ✗ Arquivo não encontrado: C:\Users\3D_OCT\Documents\Antigravity\Presbycor\.agents\Chapter_3_Complete.md
+
+============================================================
+RESUMO: 0 exportados, 1 com erro

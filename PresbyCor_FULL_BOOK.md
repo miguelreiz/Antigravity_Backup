@@ -1396,42 +1396,6 @@ Gestão de expectativas. Permite ao paciente decidir se o trade-off (halos vs. l
 
 ---
 
-## Infográficos Clínicos Sugeridos
-
-### Infográfico 2.1: A Pirâmide de Zernike Clínica (Hierarquia Funcional)
-
-**Descrição:**  
-Uma representação visual hierárquica em formato piramidal, organizada por ordem radial e relevância clínica.
-
-**Estrutura da Pirâmide:**
-
-**Base (Ordem 2 - Baixa Ordem):**
-- **Cor:** Azul claro
-- **Termos:** $Z_2^0$ (Defocus), $Z_2^{-2}$, $Z_2^{+2}$ (Astigmatismo)
-- **Label:** "Corrigível com Óculos/Lentes de Contacto"
-- **Ícone:** Óculos
-
-**Camada Intermédia (Ordem 3 - HOA Patológicas):**
-- **Cor:** Vermelho
-- **Termos:** $Z_3^{-1}$, $Z_3^{+1}$ (Coma), $Z_3^{-3}$, $Z_3^{+3}$ (Trefoil)
-- **Label:** "Aberrações Indesejadas – Descentramento/Irregularidade"
-- **Ícone:** Símbolo de alerta (triângulo)
-- **Anotação:** "Coma vertical = Principal causa de perda de linhas pós-LASIK"
-
-**Topo (Ordem 4 - HOA Terapêuticas):**
-- **Cor:** Verde
-- **Termo Destacado:** $Z_4^0$ (Aberração Esférica)
-- **Label:** "Ferramenta Terapêutica para Presbiopia"
-- **Ícone:** Laser excimer
-- **Anotação:** "SA negativa (-0.40 a -0.60 μm) = Extensão de DoF"
-
-**Elementos Adicionais:**
-- Setas laterais indicando: "Ordem Crescente = Impacto Visual Crescente"
-- Caixa de texto: "Objetivo Cirúrgico: Minimizar Ordem 3, Maximizar Ordem 4 negativa"
-
-**Objetivo:**  
-Demonstrar que nem todas as HOA são deletérias; o $Z_4^0$ é deliberadamente manipulado como ferramenta terapêutica.
-
 ---
 
 ### Infográfico 2.2: Fator Q e Perfil Corneano (Comparação Geométrica)
@@ -2309,7 +2273,6 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 3.1: Fluxograma de Decisão "Go / No-Go" (Algoritmo de Triagem)
 
@@ -3179,7 +3142,6 @@ Paciente sentado (refração) vs. deitado (cirurgia): Rotação do olho até 5-1
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 4.1: O Efeito de Mascaramento Epitelial (Corte Transversal Dinâmico)
 
@@ -4073,7 +4035,6 @@ Diferentes lasers normalizam SA para diâmetros pupilares diferentes:
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 5.1: A Curva de Ablação PresbyCor (Perfil de Profundidade)
 
@@ -4992,7 +4953,6 @@ Como o perfil multifocal é superficial (criado no estroma anterior/interface), 
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 6.1: Perfil Bi-Asférico PresbyMAX (Corte Transversal Anatómico)
 
@@ -5741,7 +5701,6 @@ Mediana de shift aos 12 meses:
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 7.1: Conceito "Blend Zone" (Diagrama Óptico)
 
@@ -6378,7 +6337,6 @@ Informar paciente repetidamente:
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 8.1: Perfil Geométrico SUPRACOR vs. Outras Técnicas
 
@@ -6993,7 +6951,6 @@ Mesmo com técnica adequada e result ados objetivamente bons, a **memória de vi
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 9.1: Estimação de RSB sem Dados Históricos (OCT Measurement)
 
@@ -7610,7 +7567,6 @@ Paciência + suporte = sucesso mesmo em caso com início difícil.
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 10.1: Curva Temporal de Neuroadaptação
 
@@ -8196,7 +8152,6 @@ Paciente objetivamente com bom resultado (UCDVA ≥20/25, UCNVA ≥J3, topografi
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 11.1: Algoritmo Gestão Descentramento
 
@@ -8777,7 +8732,6 @@ CORNEANA    RLE
 
 ---
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 12.1: Algoritmo Master Decisional (Visual Completo)
 

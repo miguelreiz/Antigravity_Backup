@@ -261,24 +261,6 @@ Assinatura: ________________  Data: __________
 ~2-5% pacientes nunca adaptam neurologicamente. Reversão é válida em casos selecionados.
 
 
-## Infográficos Clínicos Sugeridos
-
-### Infográfico 10.1: Curva Temporal de Neuroadaptação
-
-![O Vale do Desespero](figures/chapter10/neuroadaptation_curve.png)
-*Figura 10.1: A jornada do paciente. O gráfico mostra o "Vale do Desespero" inicial (Semana 1-Mês 1) onde a satisfação (verde) é baixa e os sintomas (vermelho) são altos. A normalização ocorre tipicamente após o mês 3.*
-
-### Infográfico 10.2: Protocolo de Troubleshooting (Algoritmo Visual)
-
-![Decisão: Óptico vs Neural](figures/chapter10/troubleshooting.png)
-*Figura 10.2: Antes de re-operar, pense. O algoritmo distingue falha óptica (corrigível com laser) de falha neural (não tocável). Intervir cirurgicamente num problema neural agrava o quadro (visão fantasma).*
-
-### Infográfico 10.3: "Contrato de Expectativas" (Template Visual)
-
-![O Acordo de Presbiopia](figures/chapter10/expectation_contract.png)
-*Figura 10.3: Vacina contra expectativas irreais. Um checklist visual para o consentimento informado, garantindo que o paciente aceita os 4 pilares: Compromisso, Tempo, Halos e Independência imperfeita.*
-
-
 # Capítulo 11: Complicações e Gestão
 
 > [!CAUTION]
@@ -929,10 +911,84 @@ IMEDIATO     ↓         ↓    TRANQUILIZAR
 ![The Master Pathway](figures/chapter13/master_pathway.png)
 *Figura 13.1: O algoritmo de suporte à vida do cirurgião refrativo. Comece no topo (Triagem) e siga o fluxo. A integridade do cristalino (DLS) é o principal divisor de águas entre LASIK (Verde) e RLE (Laranja).*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+O fluxograma "tudo-em-um" que o cirurgião imprime e cola na parede do consultório.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Fluxograma Vertical "Life-Support Style" (Clean, Moderno).
+
+### Zona 1 (Topo): Input
+*   **PACIENTE PRESBIÓPICO** (Caixa Branca).
+*   Filtro: "Idade < 42?" -> Seta "Não Operar".
+
+### Zona 2 (Centro): A Grande Bifurcação
+*   **Divisor Central:** "Estado do Cristalino (DLS)".
+*   **Caminho Esquerda (Verde):** "Cristalino Saudável (DLS 0-1) + Córnea Viável" -> Vai para **LASER**.
+*   **Caminho Direita (Laranja):** "Cristalino Disfuncional (DLS >2) ou Córnea Fina" -> Vai para **RLE**.
+
+### Zona 3 (Base): A Execução
+*   **Abaixo de LASER:**
+    *   **PRESBYOND** (Micro-Monovision).
+    *   **Custom-Q** (Asfericidade).
+*   **Abaixo de RLE:**
+    *   **Trifocal** (Independência).
+    *   **EDOF** (Sem Halos).
+
+### Roda-pé
+*   Seta de Ciclo: "**Neuroadaptação (3-6 Meses)**".
+
+---
+
+## 2. Legenda Explicativa
+"A síntese de 13 capítulos numa única imagem. Este algoritmo integra Idade, Biomecânica e Óptica para guiar o cirurgião à escolha segura: Preservar a Córnea (Verde) ou Substituir o Cristalino (Laranja)."
+
+
 ### Infográfico 13.2: The PresbyCor Cheat Sheet (Consulta Rápida)
 
 ![Cheat Sheet Clínico](figures/chapter13/cheat_sheet.png)
 *Figura 13.2: Guia de referência rápida para os 4 perfis de pacientes mais comuns. Use isto para uma validação mental rápida antes de confirmar a cirurgia.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Uma tabela visual de "Atalhos Clínicos" para situações comuns.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Tabela Gráfica Estilizada.
+
+### Cabeçalho
+*   **"QUICK REFERENCE GUIDE"** (Estilo Cartão de Emergência).
+
+### Linhas (Cenários Clínicos)
+1.  **"O Jovem Executivo" (<50 anos, DLS 0):**
+    *   Ícone: Pasta.
+    *   Ação: **PRESBYOND / Custom-Q**.
+2.  **"O Leitor Ávido" (>55 anos, Miopia Alta):**
+    *   Ícone: Livro.
+    *   Ação: **RLE Trifocal**.
+3.  **"O Piloto/Arquiteto" (Visão Intermédia, DLS 2):**
+    *   Ícone: Avião/Computador.
+    *   Ação: **RLE EDOF**.
+4.  **"O Pós-LASIK" (Córnea fina):**
+    *   Ícone: Sinal de AVISO.
+    *   Ação: **RLE (Safety First)**.
+
+### Cores
+*   Ícones vibrantes sobre fundo escuro (Dark Mode).
+
+---
+
+## 2. Legenda Explicativa
+"Não confie na memória sob pressão. Este guia rápido associa perfis de pacientes típicos às soluções cirúrgicas de maior probabilidade de sucesso (High Probability Outcome)."
+
 
 ### Infográfico 13.3: Árvore de Decisão - Triagem Inicial
 
@@ -2190,7 +2246,6 @@ Paciente sentado (refração) vs. deitado (cirurgia): Rotação do olho até 5-1
 4. **Alternativa Manual:** Marking pen no limbo a 0° e 180° com paciente sentado; verificar rotação ao microscópio
 
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 4.1: O Efeito de Mascaramento Epitelial (Corte Transversal Dinâmico)
 
@@ -2520,15 +2575,121 @@ Diferentes lasers normalizam SA para diâmetros pupilares diferentes:
 ![Mapa de Perfil de Potência PresbyCor](figures/chapter5/infographic_5_1_asphericity_map.png)
 *Figura 5.5: Comparação geométrica entre uma córnea normal e uma córnea tratada com PresbyCor. Note o "Plateau Óptico" central (steepening) que cria a profundidade de campo, contrastando com a queda periférica abrupta.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Visualizar a diferença geométrica entre uma córnea "normal" e uma córnea "PresbyCor". Mostrar onde "vive" a adição de perto na superfície corneana.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Perfil de Potência (Power Profile).
+
+### Eixos
+*   **Eixo X:** Distância Radial do Centro (0 a 4 mm).
+*   **Eixo Y:** Potência Dióptrica (D).
+
+### As Curvas
+1.  **Linha Azul (Córnea Normal Prolata - Q = -0.26):**
+    *   A potência é máxima no centro e cai suavemente em direção à periferia.
+    *   Queda suave e constante.
+
+2.  **Linha Vermelha (PresbyCor Hiper-Prolata - Q = -0.85):**
+    *   **O "Ombro" Central:** A curva começa muito mais alta no centro (steepening) e mantém um *plateau* elevado nos primeiros 1.5mm.
+    *   **A Queda Abrupta:** Após os 1.5mm, a potência cai dramaticamente para encontrar a córnea periférica.
+    *   **Área Sombreada:** A diferença de área entre a linha vermelha e azul representa o "Ganho de Profundidade de Campo".
+
+### Anotação Crítica
+*   Seta apontando para o plateau central: "**Zona de Leitura (Pupila Fotópica)**".
+*   Seta apontando para a zona de transição (3-4mm): "**Zona de Longe (Pupila Mesópica)**".
+
+---
+
+## 2. Legenda Explicativa
+"Ao induzir uma asfericidade hiper-prolata (Q < -0.60), criamos um 'colchão' de potência extra no centro da córnea. O segredo do PresbyCor não é multifocalidade zonal (anéis discretos), mas sim uma curvatura contínua que estende o foco."
+
+
 ### Infográfico 5.2: Fluxo de Decisão para Transferência de Algoritmo
 
 ![Universalidade do Algoritmo PresbyCor](figures/chapter5/infographic_5_2_algorithm_transfer.png)
 *Figura 5.6: "Tradutor Universal" de parâmetros. Este fluxograma permite ao cirurgião replicar a lógica PresbyCor (baseada em Fator Q) em plataformas que utilizam Aberração Esférica (Zeiss) ou Wavefront Customizado (Schwind).*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Um "Tradutor Universal" para aplicar a lógica PresbyCor em qualquer laser (Zeiss, Schwind, Nidek), não apenas Alcon.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Fluxograma Vertical (Input -> Black Box -> Output).
+
+### Bloco 1: O Paciente (Input)
+*   Caixas de dados:
+    *   **Q Pré-Operatório** (ex: -0.20).
+    *   **Refração Alvo** (ex: Plano).
+    *   **Pupila** (ex: 5.5mm).
+
+### Bloco 2: A "Black Box" Matemática (O Processo)
+*   **Fórmula Visível:**
+    $$Z_4^0 (\mu m) = -0.5 \times \Delta Q$$
+*   **Ação:** Conversão de "Fator Q" (Linguagem Alcon) para "Aberração Esférica" (Linguagem Universal/Zeiss).
+
+### Bloco 3: O Output (Programação do Laser)
+*   Três caminhos (Setas) para diferentes máquinas:
+    *   **Caminho Alcon:** Input direto "Target Q = -0.80".
+    *   **Caminho Zeiss (MEL 90):** Input "SA (c[4,0]) = -0.30 \mu m".
+    *   **Caminho Schwind:** Input "Custom Corneal Wavefront" (Manipulação Zernike).
+
+### Bloco 4: O "Fine Tuning" (Offset Miópico)
+*   Alerta lateral: "**Regra de Ouro:** Adicionar sempre -0.50D a -0.75D de miopia (Micro-Monovisão) no olho não-dominante para potenciar o efeito."
+
+---
+
+## 2. Legenda Explicativa
+"O algoritmo de Ghenassia é agnóstico ao hardware. Se o seu laser permite manipular aberração esférica, você pode realizar PresbyCor. A chave é a tradução da linguagem 'Q-Factor' para 'Zernike Z(4,0)'."
+
+
 ### Infográfico 5.3: Perfis de Frente de Onda Comparativos (PSF e MTF)
 
 ![Trade-off Óptico: Nitidez vs Profundidade](figures/chapter5/infographic_5_3_wavefront_psf.png)
 *Figura 5.7: Visualização do compromisso biofísico. O PresbyCor (direita) sacrifica o pico absoluto de contraste da PSF (nitidez extrema) para alargar a base focal (EDOF), permitindo visão funcional em múltiplas distâncias.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Mostrar que a "perda de qualidade" (contraste) é o preço necessário a pagar pelo "ganho de função" (profundidade de foco).
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Comparação Lado a Lado (Split Screen).
+
+### Lado Esquerdo: Visão Monofocal (Padrão Ouro de Longe)
+*   **PSF (Point Spread Function):** Um pico alto, estreito e agudo ("agulha").
+    *   *Significado:* Contraste máximo num ponto único.
+*   **MTF (Modulation Transfer Function):** Curva alta que cai suavemente.
+*   **Simulação de Visão:** Letra "E" de longe muito nítida, "E" de perto totalmente borrado.
+
+### Lado Direito: Visão PresbyCor (EDOF)
+*   **PSF:** Um pico mais baixo, mas com uma base muito mais larga ("montanha").
+    *   *Significado:* A energia luminosa é distribuída. O pico é menos "brilhante" (perda de contraste leve), mas cobre uma área maior (foco estendido).
+*   **MTF:** Curva ligeiramente rebaixada em todas as frequências("O Custo do Contraste").
+*   **Simulação de Visão:** Letra "E" de longe boa (aceitável), "E" de perto legível.
+
+### O "Trade-Off" (Balança Central)
+*   Ícone de balança:
+    *   Prato 1: **Nitidez Absoluta** (Cai).
+    *   Prato 2: **Intervalo de Foco** (Sobe).
+
+---
+
+## 2. Legenda Explicativa
+"Não existe almoço grátis em óptica. O PresbyCor achata o pico da PSF para alargar a sua base. O cirurgião deve explicar que o paciente perderá 'Super-Visão' (contraste ultra-alto) para ganhar 'Visão Útil' em todas as distâncias."
+
 
 ### Infográfico 5.4: O Cálculo do Offset de Aberração Esférica
 
@@ -2540,10 +2701,86 @@ Diferentes lasers normalizam SA para diâmetros pupilares diferentes:
 ![Dinâmica Pupilar Dia/Noite](figures/chapter5/infographic_5_5_pupil_coupling.png)
 *Figura 5.9: O efeito pseudo-acomodativo pupilar. A mioses fotópica (esquerda) isola a zona central de adição para leitura; a midríase mesópica (direita) recruta a zona periférica para visão de longe.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Demonstrar a "Magia" do PresbyCor: porque é que o paciente vê bem de longe à noite (pupila grande) e bem de perto de dia (pupila pequena).
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Comparação Dia (Sol) vs. Noite (Lua).
+
+### Lado Esquerdo: Dia (Leitura na Praia)
+*   **Ícone:** Sol brilhante.
+*   **Pupila:** Contrata (Mióse) para **2.5 mm**.
+*   **Ação Óptica:** A pupila pequena isola apenas o **Centro da Córnea**.
+*   **Geometria Corneana:** O centro é a zona de "Steepening" (Mais Curva = Mais Potência).
+*   **Resultado:** O olho torna-se efetivamente "Míope" (+Add). Foco perfeito para Perto.
+
+### Lado Direito: Noite (Condução)
+*   **Ícone:** Lua/Estrelas.
+*   **Pupila:** Dilata (Midríase) para **5.0 mm**.
+*   **Ação Óptica:** A pupila expõe a **Periferia da Córnea**.
+*   **Geometria Corneana:** A periferia é mais plana (Zona de Longe).
+*   **Resultado:** A média ponderada da luz shiftar para a emetropia. A visão de longe é restaurada (com ligeiro halo).
+
+### O Mecanismo (Diagrama de Raios)
+*   Raios Centrais (Vermelhos): Focam antes da retina (Perto).
+*   Raios Periféricos (Azuis): Focam na retina (Longe).
+*   **Legenda:** "Pseudo-Acomodação Pupilar".
+
+---
+
+## 2. Legenda Explicativa
+"O PresbyCor transforma a pupila num diafragma inteligente. O paciente 'acomoda' não mudando a forma do cristalino (que está velho), mas mudando o tamanho da pupila para selecionar a zona corneana de que precisa."
+
+
 ### Infográfico 5.6: Quadrante de Seleção de Candidatos ("Zona Ideal")
 
 ![Matriz de Seleção de Pacientes](figures/chapter5/infographic_5_6_selection_quadrant.png)
 *Figura 5.10: Matriz de risco pré-operatório. A zona verde representa a "Sweet Spot" biomecânica e óptica. Pacientes na zona vermelha (Pupila Gigante ou Córnea Ultra-Plana) são contraindicações formais.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Ferramenta de Triagem Rápida. "Posso operar este paciente com PresbyCor?"
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Matriz 2x2 (Scatter Plot).
+
+### Eixos
+*   **Eixo X:** Tamanho da Pupila Mesópica (Pequena < 4mm ... Grande > 6.5mm).
+*   **Eixo Y:** Curvatura Pré-Op (Plana < 41D ... Curva > 46D).
+
+### As Zonas (Regiões Coloridas)
+
+1.  **A "Sweet Spot" (Verde Escuro):**
+    *   Pupila: 4.5 - 5.5 mm.
+    *   Curvatura: 43 - 45 D.
+    *   **Ação:** PresbyCor Standard. Sucesso >95%.
+
+2.  **A Zona do Ajuste (Amarelo):**
+    *   Pupila Pequena (< 4mm): Precisa de OZ reduzida (6.0mm) + Q Agressivo.
+    *   Córnea Plana (< 42D): Risco de Regressão. Usar target Q conservador.
+
+3.  **A "No-Go Zone" (Vermelho - Perigo):**
+    *   **Pupila Gigante (> 7.0 mm):** Risco de Halos Intoleráveis (Night Vision Disturbance).
+    *   **Córnea Ultra-Plana (< 40D):** Biomecanicamente instável para indução de prolatividade.
+    *   **Ação:** Contraindicar PresbyCor. Considerar RLE ou Monovisão Pura.
+
+### Anotação Extra
+*   Um ícone de **"!"** na zona de Pupila Grande com o texto: "Risco de Queixas Noturnas Severas".
+
+---
+
+## 2. Legenda Explicativa
+"Nem todos os olhos aceitam a moldagem asférica. Córneas muito planas 'lutam' contra o perfil hiper-prolato, voltando à forma original. Pupilas muito grandes expõem aberrações demais. O cirurgião sábio opera apenas dentro da 'Zona Verde' ou 'Amarela controlada'."
+
 
 
 # Capítulo 5+: READ (Alcon) - A Nova Fronteira Automatizada (2023-2025)
@@ -2918,7 +3155,6 @@ Fenômenos fóticos tendem a **reduzir com neuroadaptação** ao longo de 6-12 m
 2. PresbyMAX requer seleção rigorosa (não é para todos)
 
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 6.1: Perfil Bi-Asférico PresbyMAX (Corte Transversal Anatómico)
 
@@ -2929,6 +3165,38 @@ Fenômenos fóticos tendem a **reduzir com neuroadaptação** ao longo de 6-12 m
 
 ![Estratégia Híbrida vs. Simétrica: Comparação Binocular](figures/chapter6/presbymax_hybrid_vs_symmetric.png)
 *Figura 6.2: Comparação da estratégia Simétrica (Painel A: ambos olhos multifocais completos) vs. Híbrida (Painel B: olho dominante distance otimizado + não-dominante multifocal). Híbrida demonstra superioridade: UCDVA 92% vs 75% (≥20/25), halos severos 18% vs 35%, satisfação 89% vs 78%, taxa de retratamento 9% vs 18%. A "vitória da assimetria" - olho dominante garante contraste de longe enquanto não-dominante carrega carga multifocal, permitindo fusão binocular seletiva.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Explicar por que a "Estratégia Híbrida" é o Gold Standard hoje (e por que a Simétrica falhou).
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Comparação Cabeça-a-Cabeça (Dois Pares de Olhos).
+
+### Painel A: Simétrico (Desuso)
+*   Dois olhos com a "bossa central" vermelha GRANDE.
+*   **Visão de Longe:** Ícone desfocado.
+*   **Visão de Perto:** Ícone muito nítido.
+*   **Efeito Colateral:** Ícones de **Halos Grandes** em ambos os olhos.
+*   Label: "**Conflito Binocular (Perda de Longe)**".
+
+### Painel B: Híbrido (Recomendado)
+*   **Olho Dominante (Direito):** Perfil quase plano (Azul). Apenas uma micro-elevação central imperceptível.
+*   **Olho Não-Dominante (Esquerdo):** Perfil multifocal completo (Vermelho).
+*   **Somação Binocular:** Setas convergem para um cérebro sorridente.
+    *   Seta Azul: Traz Nitidez.
+    *   Seta Vermelha: Traz Leitura.
+*   Label: "**Sinergia (O Melhor de Dois Mundos)**".
+
+---
+
+## 2. Legenda Explicativa
+"A simetria é inimiga da qualidade em PresbyMAX. Ao tratar ambos os olhos agressivamente, 'matamos' a visão de longe. A estratégia híbrida preserva um 'Olho de Segurança' (Dominante) quase intocado, usando o outro como 'Olho de Trabalho'."
+
 
 ### Infográfico 6.3: Dinâmica Pupilar e Performance (Gráfico Temporal Dia/Noite)
 
@@ -3257,7 +3525,6 @@ Mediana de shift aos 12 meses:
 **Lição:** Taxa de enhancement em PRESBYOND (8-10%) é aceitável; maioria resolve com ajuste simples.
 
 
-## Infográficos Clínicos Sugeridos
 
 ### Infográfico 7.1: Conceito "Blend Zone" (Diagrama Óptico)
 
@@ -3275,12 +3542,88 @@ Mediana de shift aos 12 meses:
 
 ![Timeline de Protocolo Cirúrgico PRESBYOND](figures/chapter7/protocol_timeline.png)
 *Figura 7.3: Linha do tempo do protocolo PRESBYOND bilateral. Etapa 1 (Preparação): Identificação de dominância ocular, pupilometria, topografia bilateral. Etapa 2 (Olho Dominante - Dia 1): LASIK/PRK com Q moderado negativo, target plano, eye-tracking centrado no eixo visual. Etapa 3 (Intervalo): 1-2 semanas para neuroadaptação parcial ao primeiro olho. Etapa 4 (Olho Não-Dominante - Dia 14): Custom-Q agressivo + target míope (-0.75 a -1.50D). Etapa 5 (Follow-up): Neuroadaptação completa 3-6 meses. Destaque: Seqüenciamento bilateral é mandatorito - nunca simultâneo.*
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Ilustrar o fluxo de trabalho "Low Risk" recomendado por Dan Reinstein.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Linha do Tempo Horizontal (Timeline com Marcos).
+
+### Marcos (Milestones)
+1.  **Semana -1 (O Teste Terapêutico):**
+    *   Ícone: Lentes de Contacto.
+    *   Texto: "**Prova de Conceito (3-7 dias)**".
+    *   Critério: "Aceitar apenas se sem náuseas".
+
+2.  **Dia 0 (O Primeiro Passo):**
+    *   Ícone: Olho Direito (ex: Não-dominante).
+    *   Texto: "**Cirurgia Olho Leitor (Não-Dom)**".
+    *   Nota: "Gerar miopia funcional primeiro".
+
+3.  **Dia 7 (A Decisão):**
+    *   Ícone: Semáforo (Verde/Vermelho).
+    *   Texto: "**Ponto de Controlo**".
+    *   Ramo A (Verde): Tolerância boa -> Operar Dominante.
+    *   Ramo B (Vermelho): Intolerância -> Reverter Não-Dom para Longe (Abortar LBV).
+
+4.  **Mês 3 (O Sucesso):**
+    *   Ícone: Cérebro a fundir imagens.
+    *   Texto: "**Neuroadaptação Completa**".
+
+---
+
+## 2. Legenda Explicativa
+"O protocolo estagiado (Doing Non-Dominant First) é a rede de segurança. Permite ao paciente experimentar a visão combinada antes de comprometer irreversiblemente o olho dominante. Se o paciente odiar a sensação na primeira semana, aborta-se a monovisão e corrige-se o primeiro olho para longe."
+
 *Figura 7.3: Fluxo de segurança. A decisão crítica ocorre no Dia 7 (Ponto de Controlo), onde a tolerância ao primeiro olho dita se avançamos para o segundo olho ou revertemos.*
 
 ### Infográfico 7.4: Matriz de Decisão - Qual Técnica Escolher?
 
 ![Matriz de Decisão: PRESBYOND vs. Alternativas](figures/chapter7/decision_matrix.png)
-*Figura 7.4: Matriz 2×2 de posicionamento estratégico. Eixo X: Tolerância ao blur (baixa → alta). Eixo Y: Add necessária (+1.0D → +2.5D). Quadrante superior esquerdo (Alta Add + Baixa tolerância): RLE/Lens Exchange. Quadrante superior direito (Alta Add + Alta tolerância): PresbyMAX ou Monvisão agressiva. Quadrante inferior esquerdo (Baixa Add + Baixa tolerância): Custom-Q conservador. Quadrante inferior direito - ZONA DOURADA (Baixa-Média Add +1.25-1.75D + Tolerância média): **PRESBYOND é ideal**. Símbolos de tráfego indicam candidáncia (verde/amarelo/vermelho).*
+*Figura 7.4: Matriz 2×2 de posicionamento estratégico. Eixo X: Tolerância ao blur (baixa → alta). Eixo Y: Add necessária (+1.0D → +2.5D). Quadrante superior esquerdo (Alta Add + Baixa tolerância): RLE/Lens Exchange. Quadrante superior direito (Alta Add + Alta tolerância): PresbyMAX ou Monvisão agressiva. Quadrante inferior esquerdo (Baixa Add + Baixa tolerância): Custom-Q conservador. Quadrante inferior direito - ZONA DOURADA (Baixa-Média Add +1.25-1.75D + Tolerância média): *
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Posicionar estrategicamente o PRESBYOND frente às alternativas (RLE, PresbyMAX, Custom-Q).
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Quadrantes Estratégicos (Matrix 2x2).
+
+### Eixos
+*   **Eixo X:** Idade / Perda de Acomodação.
+*   **Eixo Y:** Exigência Visual (Longe vs Perto).
+
+### Quadrante 1 (O Sweet Spot do PRESBYOND):
+*   **Perfil:** 45-55 anos, Emétrope/Hipermétrope Baixo.
+*   **Necessidade:** Computador/Escritório intenso.
+*   **Vencedor:** **PRESBYOND**.
+*   Justificação: "Melhor visão intermédia da classe".
+
+### Quadrante 2 (O Território do PresbyMAX):
+*   **Perfil:** Hipermétrope Alto (+4.00), Pupila Pequena.
+*   **Necessidade:** Leitura muito perto (costura, bula).
+*   **Vencedor:** **PresbyMAX**.
+*   Justificação: "Potência de perto bruta".
+
+### Quadrante 3 (O Território da RLE):
+*   **Perfil:** >60 anos, Catarata inicial.
+*   **Vencedor:** **Lente Intra-Ocular (RLE)**.
+*   Justificação: "Cristalino já não funciona".
+
+---
+
+## 2. Legenda Explicativa
+"O PRESBYOND domina o segmento 'Jovem Presbita' (45-55 anos) que trabalha em escritório. É a tecnologia de eleição para arquitetos, engenheiros e usuários intensivos de computador que precisam de uma visão intermédia robusta sem os riscos intra-oculares da RLE."
+*PRESBYOND é ideal**. Símbolos de tráfego indicam candidáncia (verde/amarelo/vermelho).*
 *Figura 7.4: Onde o PRESBYOND vence. Ideal para o "Jovem Presbita Emétrope" (45-55 anos) que valoriza visão de computador acima de tudo.*
 
 ### Infográfico 7.5: Comparação Visual - Monovisão vs. PRESBYOND Blend

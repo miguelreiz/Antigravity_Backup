@@ -11,45 +11,45 @@
 
 ```
 PACIENTE PRESBIÓPICO CONSULTA INICIAL
-              ↓
-    [TRIAGEM INICIAL]
-    Idade, Add Necessária, Expectativas
-              ↓
-    ┌─────────┴─────────┐
-    ↓                   ↓
-CANDIDATO           NÃO-CANDIDATO
-POTENCIAL          (Óculos/LC)
-    ↓
+  ↓
+  [TRIAGEM INICIAL]
+  Idade, Add Necessária, Expectativas
+  ↓
+  ┌─────────┴─────────┐
+  ↓ ↓
+CANDIDATO NÃO-CANDIDATO
+POTENCIAL (Óculos/LC)
+  ↓
 [PROPEDÊUTICA COMPLETA]
 Capítulo 3
-    ↓
-    ┌─────────┴─────────┐
-    ↓                   ↓
-CÓRNEA            CONTRAINDICAÇÕES
-ADEQUADA          (Ectasia, Olho Seco Severo)
-    ↓
+  ↓
+  ┌─────────┴─────────┐
+  ↓ ↓
+CÓRNEA CONTRAINDICAÇÕES
+ADEQUADA (Ectasia, Olho Seco Severo)
+  ↓
 [AVALIAÇÃO CRISTALINO]
 DLS, OSI, Densitometria
-    ↓
-    ┌─────────┴─────────┐
-    ↓                   ↓
-CORNEANA            RLE
-(Capítulos 4-8)    (Capítulo 12)
-    ↓
+  ↓
+  ┌─────────┴─────────┐
+  ↓ ↓
+CORNEANA RLE
+(Capítulos 4-8) (Capítulo 12)
+  ↓
 [QUAL TÉCNICA CORNEANA?]
 Custom-Q / PresbyMAX / PRESBYOND / SUPRACOR
-    ↓
+  ↓
 [CIRURGIA]
-    ↓
+  ↓
 [FOLLOW-UP & NEUROADAPTAÇÃO]
 Capítulo 10
-    ↓
-    ┌─────────┴─────────┐
-    ↓                   ↓
-SUCESSO         COMPLICAÇÃO/INSATISFAÇÃO
-(91%)           (Capítulo 11)
-    ↓                   ↓
-ALTA           GESTÃO/ENHANCEMENT/REVERSÃO
+  ↓
+  ┌─────────┴─────────┐
+  ↓ ↓
+SUCESSO COMPLICAÇÃO/INSATISFAÇÃO
+(91%) (Capítulo 11)
+  ↓ ↓
+ALTA GESTÃO/ENHANCEMENT/REVERSÃO
 ```
 
 ```
@@ -59,6 +59,43 @@ ALTA           GESTÃO/ENHANCEMENT/REVERSÃO
 ![The Master Pathway](figures/chapter13/master_pathway.png)
 *Figura 13.1: O algoritmo de suporte à vida do cirurgião refrativo. Comece no topo (Triagem) e siga o fluxo. A integridade do cristalino (DLS) é o principal divisor de águas entre LASIK (Verde) e RLE (Laranja).*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+O fluxograma "tudo-em-um" que o cirurgião imprime e cola na parede do consultório.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Fluxograma Vertical "Life-Support Style" (Clean, Moderno).
+
+### Zona 1 (Topo): Input
+*   **PACIENTE PRESBIÓPICO** (Caixa Branca).
+*   Filtro: "Idade < 42?" -> Seta "Não Operar".
+
+### Zona 2 (Centro): A Grande Bifurcação
+*   **Divisor Central:** "Estado do Cristalino (DLS)".
+*   **Caminho Esquerda (Verde):** "Cristalino Saudável (DLS 0-1) + Córnea Viável" -> Vai para **LASER**.
+*   **Caminho Direita (Laranja):** "Cristalino Disfuncional (DLS >2) ou Córnea Fina" -> Vai para **RLE**.
+
+### Zona 3 (Base): A Execução
+*   **Abaixo de LASER:**
+    *   **PRESBYOND** (Micro-Monovision).
+    *   **Custom-Q** (Asfericidade).
+*   **Abaixo de RLE:**
+    *   **Trifocal** (Independência).
+    *   **EDOF** (Sem Halos).
+
+### Roda-pé
+*   Seta de Ciclo: "**Neuroadaptação (3-6 Meses)**".
+
+---
+
+## 2. Legenda Explicativa
+"A síntese de 13 capítulos numa única imagem. Este algoritmo integra Idade, Biomecânica e Óptica para guiar o cirurgião à escolha segura: Preservar a Córnea (Verde) ou Substituir o Cristalino (Laranja)."
+
+
 ---
 
 ## 13.2. Árvore de Decisão 1: Triagem Inicial
@@ -67,29 +104,29 @@ ALTA           GESTÃO/ENHANCEMENT/REVERSÃO
 
 ```
 PACIENTE: "Quero eliminar óculos de leitura"
-         ↓
-    [IDADE?]
-         ↓
-    ┌────┴────┐
-    ↓         ↓
-<40 anos   ≥40 anos
-    ↓         ↓
-RECUSAR    [ADD NECESSÁRIA?]
-(Sem        ↓
-presbio-    ┌────────┴────────┐
-pia real)   ↓                 ↓
-         <+1.00D         ≥+1.00D
-            ↓                 ↓
-         OBSERVAR          [EXPECTATIVAS?]
-         (Ainda            ↓
-         consegue      ┌────┴────┐
-         acomodar)     ↓         ↓
-                   REALISTAS  IRREALISTAS
-                       ↓         ↓
-                   CANDIDATO  EDUCAR
-                   POTENCIAL  ou RECUSAR
-                       ↓
-             [Prosseguir Propedêutica]
+  ↓
+  [IDADE?]
+  ↓
+  ┌────┴────┐
+  ↓ ↓
+<40 anos ≥40 anos
+  ↓ ↓
+RECUSAR [ADD NECESSÁRIA?]
+(Sem ↓
+presbio- ┌────────┴────────┐
+pia real) ↓ ↓
+  <+1.00D ≥+1.00D
+  ↓ ↓
+  OBSERVAR [EXPECTATIVAS?]
+  (Ainda ↓
+  consegue ┌────┴────┐
+  acomodar) ↓ ↓
+  REALISTAS IRREALISTAS
+  ↓ ↓
+  CANDIDATO EDUCAR
+  POTENCIAL ou RECUSAR
+  ↓
+  [Prosseguir Propedêutica]
 ```
 
 **Critérios Exclusão na Triagem:**
@@ -113,41 +150,41 @@ pia real)   ↓                 ↓
 **Objetivo:** Determinar se córnea é adequada para cirurgia presbiópica.
 
 CANDIDATO POTENCIAL (da Árvore 1)
-         ↓
+  ↓
 [TOMOGRAFIA CORNEANA]
 Pentacam: BAD-D, Paquimetria, Q-fator
-         ↓
-    ┌────┴────┐
-    ↓         ↓
-BAD-D >1.6  BAD-D ≤1.6
-    ↓         ↓
-ECTASIA   [CALCULAR PTA PREVISTO]
-SUSPEITA  PTA = (Flap + Ablação)/CCT × 100
-    ↓         ↓
-CXL ou    ┌───┴───┐
-RECUSAR   ↓       ↓
-         ≥40%   <40%
-          ↓       ↓
-      CONTRA-  [RSB PREVISTO?]
-      INDICAÇÃO    ↓
-      ABSOLUTA ┌───┴───┐
-               ↓       ↓
-            <280μm  ≥280μm
-               ↓       ↓
-              RLE   [OLHO SECO?]
-              only      ↓
-                    ┌───┴───┐
-                    ↓       ↓
-                 SEVERO  LEVE/MOD
-                 (OSDI>40) (OSDI<40)
-                    ↓       ↓
-                 TRATAR  CÓRNEA
-                 primeiro VIÁVEL
-                    ↓       ↓
-            [Se não      [Avançar
-             melhora]    Árvore 3]
-                ↓
-               RLE
+  ↓
+  ┌────┴────┐
+  ↓ ↓
+BAD-D >1.6 BAD-D ≤1.6
+  ↓ ↓
+ECTASIA [CALCULAR PTA PREVISTO]
+SUSPEITA PTA = (Flap + Ablação)/CCT × 100
+  ↓ ↓
+CXL ou ┌───┴───┐
+RECUSAR ↓ ↓
+  ≥40% <40%
+  ↓ ↓
+  CONTRA- [RSB PREVISTO?]
+  INDICAÇÃO ↓
+  ABSOLUTA ┌───┴───┐
+  ↓ ↓
+  <280μm ≥280μm
+  ↓ ↓
+  RLE [OLHO SECO?]
+  only ↓
+  ┌───┴───┐
+  ↓ ↓
+  SEVERO LEVE/MOD
+  (OSDI>40) (OSDI<40)
+  ↓ ↓
+  TRATAR CÓRNEA
+  primeiro VIÁVEL
+  ↓ ↓
+  [Se não [Avançar
+  melhora] Árvore 3]
+  ↓
+  RLE
 ```
 
 **Parâmetros Críticos:**
@@ -163,7 +200,7 @@ RECUSAR   ↓       ↓
 ### Infográfico 13.5: Viabilidade Corneana (Propedêutica)
 
 ![Viabilidade Corneana](figures/chapter13/propedeutica_viability.png)
-*Figura 13.5: Safety check. O algoritmo de segurança para evitar ectasia e complicações de olho seco.*
+*Figura 13.5: Safety check. O algoritmo de segurança para evitar ectasia e complicações de olho seco.* [2]
 
 ---
 
@@ -173,28 +210,28 @@ RECUSAR   ↓       ↓
 
 ```
 CÓRNEA VIÁVEL (da Árvore 2)
-         ↓
-    [IDADE?]
-         ↓
-    ┌────┴────┐
-    ↓         ↓
-<55 anos   ≥55 anos
-    ↓         ↓
-[DLS?]     [DLS?]
-    ↓         ↓
-┌───┴───┐  ┌──┴──┐
-↓       ↓  ↓     ↓
+  ↓
+  [IDADE?]
+  ↓
+  ┌────┴────┐
+  ↓ ↓
+<55 anos ≥55 anos
+  ↓ ↓
+[DLS?] [DLS?]
+  ↓ ↓
+┌───┴───┐ ┌──┴──┐
+↓ ↓ ↓ ↓
 DLS 1-2 DLS3-4 DLS1-2 DLS3-4
-↓       ↓  ↓     ↓
-CORN    RLE AVALIAR RLE
-        ↓  MAIS   ↓
-    [OSI?]    ┌───┴───┐
-        ↓     ↓       ↓
-    ┌───┴───┐ <1.5   >2.0
-    ↓       ↓ ↓       ↓
-  <1.5   >2.0 CORN   RLE
-    ↓       ↓
-  CORN    RLE
+↓ ↓ ↓ ↓
+CORN RLE AVALIAR RLE
+  ↓ MAIS ↓
+  [OSI?] ┌───┴───┐
+  ↓ ↓ ↓
+  ┌───┴───┐ <1.5 >2.0
+  ↓ ↓ ↓ ↓
+  <1.5 >2.0 CORN RLE
+  ↓ ↓
+  CORN RLE
 ```
 
 **Decisão Simplificada (Regra Prática):**
@@ -205,7 +242,7 @@ CORN    RLE AVALIAR RLE
 | **52-60** | Análise individual | **RLE** |
 | **>60** | RLE preferível | **RLE** |
 
-**Se CORNEANA → Avançar para Árvore 4**  
+**Se CORNEANA → Avançar para Árvore 4** 
 **Se RLE → Referir para cirurgião catarata/IOL**
 
 ### Infográfico 13.X: Decisão Corneana vs RLE
@@ -221,49 +258,49 @@ CORN    RLE AVALIAR RLE
 
 ```
 DECISÃO: CIRURGIA CORNEANA (da Árvore 3)
-            ↓
-      [PLATAFORMA DISPONÍVEL?]
-            ↓
-    ┌───────┼───────┐
-    ↓       ↓       ↓
-Wavelight Schwind  Zeiss
-(Alcon)  (Amaris)  (MEL90)
-    ↓       ↓       ↓
+  ↓
+  [PLATAFORMA DISPONÍVEL?]
+  ↓
+  ┌───────┼───────┐
+  ↓ ↓ ↓
+Wavelight Schwind Zeiss
+(Alcon) (Amaris) (MEL90)
+  ↓ ↓ ↓
 Custom-Q PresbyMAX PRESBYOND
-ou        ou        ↓
+ou ou ↓
 Topoguiado Custom-Q [Continuar
-    ↓       ↓      decisão]
-    └───────┴───────┘
-            ↓
-    [ADD NECESSÁRIA?]
-            ↓
-    ┌───────┴───────┐
-    ↓               ↓
-≤+1.75D         >+1.75D
-    ↓               ↓
-[PUPILA       [PUPILA
-MESÓPICA?]    MESÓPICA?]
-    ↓               ↓
-┌───┴───┐       ┌───┴───┐
-↓       ↓       ↓       ↓
-<6.5mm >6.5mm  <6mm   >6mm
-↓       ↓       ↓       ↓
-PRESB   Custom  Presby  Custom
-ou      -Q      MAX     -Q
-Custom           ou      ↓
--Q               SUPRACOR [ERRO
-↓                ↓       REFRATIVO?]
-[PERFIL         [Cuidado    ↓
-PACIENTE?]      halos]   ┌──┴──┐
-↓                        ↓     ↓
-┌────┴────┐          Hiper Míope
-↓         ↓          +2 a  >-4D
-Valoriza  Valoriza   +4D    ↓
-Longe     Perto      ↓      RLE
-Ótimo     +Inter     Presby melhor
-↓         médio      MAX
-Custom    ↓
--Q        PRESBYOND
+  ↓ ↓ decisão]
+  └───────┴───────┘
+  ↓
+  [ADD NECESSÁRIA?]
+  ↓
+  ┌───────┴───────┐
+  ↓ ↓
+≤+1.75D >+1.75D
+  ↓ ↓
+[PUPILA [PUPILA
+MESÓPICA?] MESÓPICA?]
+  ↓ ↓
+┌───┴───┐ ┌───┴───┐
+↓ ↓ ↓ ↓
+<6.5mm >6.5mm <6mm >6mm
+↓ ↓ ↓ ↓
+PRESB Custom Presby Custom
+ou -Q MAX -Q
+Custom ou ↓
+-Q SUPRACOR [ERRO
+↓ ↓ REFRATIVO?]
+[PERFIL [Cuidado ↓
+PACIENTE?] halos] ┌──┴──┐
+↓ ↓ ↓
+┌────┴────┐ Hiper Míope
+↓ ↓ +2 a >-4D
+Valoriza Valoriza +4D ↓
+Longe Perto ↓ RLE
+Ótimo +Inter Presby melhor
+↓ médio MAX
+Custom ↓
+-Q PRESBYOND
 ```
 
 **Tabela Decisional Rápida:**
@@ -390,7 +427,7 @@ Custom    ↓
 - **Idade:** 57 anos (zona cinzenta)
 - **Profissão:** Arquiteto (visão intermediária crítica)
 - **Queixa:** "Não consigo mais trabalhar no computador sem óculos, e a leitura está impossível"
-- **Histórico:** LASIK miópico bilateral -4.50 D (realizado há 18 anos, aos 39 anos)
+- **Histórico:** LASIK miópico bilateral -4.50 D (realizado há 18 anos, aos 39 anos) [1]
 - **Refração Atual:** OD +0.50 D, OE +0.75 D (shift hipermetrópico pós-LASIK esperado)
 - **Add Necessária:** +2.25 D
 
@@ -503,6 +540,43 @@ Custom    ↓
 ![Cheat Sheet Clínico](figures/chapter13/cheat_sheet.png)
 *Figura 13.2: Guia de referência rápida para os 4 perfis de pacientes mais comuns. Use isto para uma validação mental rápida antes de confirmar a cirurgia.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Uma tabela visual de "Atalhos Clínicos" para situações comuns.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Tabela Gráfica Estilizada.
+
+### Cabeçalho
+*   **"QUICK REFERENCE GUIDE"** (Estilo Cartão de Emergência).
+
+### Linhas (Cenários Clínicos)
+1.  **"O Jovem Executivo" (<50 anos, DLS 0):**
+    *   Ícone: Pasta.
+    *   Ação: **PRESBYOND / Custom-Q**.
+2.  **"O Leitor Ávido" (>55 anos, Miopia Alta):**
+    *   Ícone: Livro.
+    *   Ação: **RLE Trifocal**.
+3.  **"O Piloto/Arquiteto" (Visão Intermédia, DLS 2):** [3]
+    *   Ícone: Avião/Computador.
+    *   Ação: **RLE EDOF**.
+4.  **"O Pós-LASIK" (Córnea fina):** [4]
+    *   Ícone: Sinal de AVISO.
+    *   Ação: **RLE (Safety First)**.
+
+### Cores
+*   Ícones vibrantes sobre fundo escuro (Dark Mode).
+
+---
+
+## 2. Legenda Explicativa
+"Não confie na memória sob pressão. Este guia rápido associa perfis de pacientes típicos às soluções cirúrgicas de maior probabilidade de sucesso (High Probability Outcome)."
+
+
 ### Infográfico 13.2B: Patient Matcher Grid (Matching Rápido)
 
 ![Patient Matcher Grid](figures/chapter13/patient_matcher_grid.png)
@@ -538,23 +612,23 @@ Custom    ↓
 
 ```
 PACIENTE LIGA: "Minha visão está muito ruim/estranha"
-                    ↓
-            [SINTOMAS?]
-                    ↓
-        ┌───────────┼───────────┐
-        ↓           ↓           ↓
-    DOR SEVERA  VISÃO TURVA  VISÃO "ESTRANHA"
-        ↓       MAS SEM DOR   MAS SEM DOR
-EMERGÊNCIA      ↓             ↓
-(DLK, Infec)  [BCVA?]     NEUROADAPTAÇÃO
-    ↓             ↓         NORMAL
-Chamar       ┌────┴────┐       ↓
-IMEDIATO     ↓         ↓    TRANQUILIZAR
-          <20/40   ≥20/40   "Vai melhorar
-          Avaliar  Normal   3-6 meses"
-          Urgente  inicial     ↓
-            ↓         ↓     Follow-up
-          [Causa?] Observar  Semana 2
+  ↓
+  [SINTOMAS?]
+  ↓
+  ┌───────────┼───────────┐
+  ↓ ↓ ↓
+  DOR SEVERA VISÃO TURVA VISÃO "ESTRANHA"
+  ↓ MAS SEM DOR MAS SEM DOR
+EMERGÊNCIA ↓ ↓
+(DLK, Infec) [BCVA?] NEUROADAPTAÇÃO
+  ↓ ↓ NORMAL
+Chamar ┌────┴────┐ ↓
+IMEDIATO ↓ ↓ TRANQUILIZAR
+  <20/40 ≥20/40 "Vai melhorar
+  Avaliar Normal 3-6 meses"
+  Urgente inicial ↓
+  ↓ ↓ Follow-up
+  [Causa?] Observar Semana 2
 ```
 
 ### Infográfico 13.9: Triagem de Emergência Pós-Operatória
@@ -574,4 +648,3 @@ IMEDIATO     ↓         ↓    TRANQUILIZAR
 1. Reinstein DZ, Archer TJ, Gobbe M. The history of LASIK. *Journal of Refractive Surgery*. 2012;28(4):291-298.
 
 2. Alió JL, Plaza-Puche AB, Férnandez-Buenaga R, Pikkel J, Maldonado M. Multifocal intraocular lenses: An overview. *Survey of Ophthalmology*. 2017;62(5):611-634.
-

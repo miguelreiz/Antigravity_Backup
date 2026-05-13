@@ -57,6 +57,40 @@ A córnea torna-se funcionalmente **trifocal**:
 ![A Montanha Central](figures/chapter8/supracor_geometric_profile.png)
 *Figura 8.1: A geometria da agressividade. Note a "montanha" central vermelha do SUPRACOR (+6.00D) elevando-se muito acima das curvas suaves do Custom-Q ou PresbyMAX. É esta elevação extrema que garante a leitura, mas causa os halos.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Visualizar a agressividade extrema do SUPRACOR comparada com outras técnicas. É um aviso visual.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Corte Transversal Multi-Linha (Ablation Depth/Power).
+
+### Eixos
+*   **Eixo X:** Distância Radial (0 a 4mm).
+*   **Eixo Y:** Potência Dióptrica (+6.00D Máx).
+
+### As Curvas
+1.  **Linha Azul (Custom-Q):** Uma colina suave (+1.00D). Perfil conservador.
+2.  **Linha Verde (PresbyMAX):** Um planalto moderado (+2.00D). Perfil zonal.
+3.  **Linha Vermelha GROSSA (SUPRACOR):**
+    *   Um pico agudo e altíssimo (+5.50D).
+    *   Forma de "Montanha" ou "Vulcão".
+    *   Queda abrupta nas laterais.
+    *   Label: "**Ablação Extrema (Risco de Halos)**".
+
+### Zona de Perigo
+*   Área sombreada sob a "Montanha" Vermelha.
+*   Texto: "Tecido Removido Extra".
+
+---
+
+## 2. Legenda Explicativa
+"O SUPRACOR não é subtil. O gráfico revela uma 'montanha' de potência central (+6.00D) que força a miopia de leitura. Esta geometria agressiva explica tanto a excelente visão de perto quanto os severos halos noturnos."
+
+
 ---
 
 ## 8.2. Plataforma: Bausch + Lomb Technolas Teneo
@@ -142,27 +176,27 @@ Bilateral SUPRACOR foi **abandonado universalmente**. Todos os protocolos atuais
 **Perfil Ideal (Difícil de Encontrar):**
 
 1. **Idade:** 55-65 anos (acomodação residual <1.0 D)
-   - **Não candidatos <50 anos:** Acomodação residual cria conflito com add fixa
-   
+  - **Não candidatos <50 anos:** Acomodação residual cria conflito com add fixa
+  
 2. **Add Necessária:** ≥+2.50 D (alta presbiopia)
-   - Pacientes com add <+2.00 D: Outras técnicas são melhores
-   
+  - Pacientes com add <+2.00 D: Outras técnicas são melhores
+  
 3. **Prioridade Visual:** **Perto > Intermédio > Longe**
-   - Paciente que passa >70% tempo em leitura/trabalho manual
-   - Exemplos: Joalheiro, relojoeiro, bordadeira, dentista (trabalho muito próximo)
-   
+  - Paciente que passa >70% tempo em leitura/trabalho manual
+  - Exemplos: Joalheiro, relojoeiro, bordadeira, dentista (trabalho muito próximo)
+  
 4. **Erro Refrativo:**
-   - **Hipermétropes +1.50 a +3.50 D:** Melhores candidatos
-   - Emétropes: Viáveis mas maior risco
-   - Míopes: Geralmente contraindicados (perdem visão natural de perto)
+  - **Hipermétropes +1.50 a +3.50 D:** Melhores candidatos
+  - Emétropes: Viáveis mas maior risco
+  - Míopes: Geralmente contraindicados (perdem visão natural de perto)
 
 5. **Pupila:**
-   - Fotópica: 2.0-3.0 mm (pequena)
-   - Mesópica: <5.5 mm (moderada, NÃO grande)
+  - Fotópica: 2.0-3.0 mm (pequena)
+  - Mesópica: <5.5 mm (moderada, NÃO grande)
 
-6. **Expectativas:**
-   - **Compreensão explícita:** "Vou ler perfeitamente mas minha visão de longe será inferior"
-   - Teste de lente de contacto MANDATÓRIO
+6. **Expectativas:** [6]
+  - **Compreensão explícita:** "Vou ler perfeitamente mas minha visão de longe será inferior"
+  - Teste de lente de contacto MANDATÓRIO
 
 ### 8.4.2. Teste de Lente de Contacto: Simulação de Compromisso
 
@@ -172,39 +206,39 @@ Simular **degradação de longe** que SUPRACOR induz:
 
 1. **Olho dominante:** LC para emetropia (0.00 D) → visão longe normal
 2. **Olho não-dominante:** LC multifocal center-near com add +3.00 D
-   - Alternativa (se LC multifocal indisponível): LC esférica +1.50 D (simula blur parcial de longe)
+  - Alternativa (se LC multifocal indisponível): LC esférica +1.50 D (simula blur parcial de longe)
 
 3. **Duração:** 7-10 dias (mínimo absoluto)
 
 4. **Testes Funcionais:**
-   - **Leitura:** Deve ser J1-J2 excelente
-   - **Condução diurna:** Deve ser funcional (≥20/40 binocular)
-   - **Condução noturna:** **Crítico** - se halos impedem condução → CONTRAINDICAR
+  - **Leitura:** Deve ser J1-J2 excelente
+  - **Condução diurna:** Deve ser funcional (≥20/40 binocular)
+  - **Condução noturna:** **Crítico** - se halos impedem condução → CONTRAINDICAR
 
 **Taxa de Falha no Teste:**
 
-Literatura: **25-35%** (muito superior a PRESBYOND 5-8% ou Custom-Q 10-15%)
+Literatura: **25-35%** (muito superior a PRESBYOND 5-8% ou Custom-Q 10-15%) [5]
 
 **Razão:** Trade-off é severo demais para a maioria.
 
 ### 8.4.3. Contraindicações Absolutas
 
 1. **Córnea Fina ou Suspeita de Ectasia:**
-   - Paquimetria <500 μm
-   - BAD-D >1.60 ou qualquer índice de ectasia
+  - Paquimetria <500 μm
+  - BAD-D >1.60 ou qualquer índice de ectasia
 
 2. **Pupila Mesópica >6.5 mm:** CONTRAINDICAÇÃO
-   - **Justificativa:** SUPRACOR utiliza OZ fixa 6.5mm. Pupila maior expõe zona de transição abrupta → difração severa e halos incapacitantes.
-   - **Nota:** Esta é limitação específica SUPRACOR. Plataformas com OZ ajustável (Schwind Amaris 7.0mm) ou perfis contínuos (PresbyCor) toleram Zona de Alerta 6.0-6.5mm com ajustes. Ver **Cap. 3.3.4** para framework pupilar completo.
+  - **Justificativa:** SUPRACOR utiliza OZ fixa 6.5mm. Pupila maior expõe zona de transição abrupta → difração severa e halos incapacitantes.
+  - **Nota:** Esta é limitação específica SUPRACOR. Plataformas com OZ ajustável (Schwind Amaris 7.0mm) ou perfis contínuos (PresbyCor) toleram Zona de Alerta 6.0-6.5mm com ajustes. Ver **Cap. 3.3.4** para framework pupilar completo.
 
 3. **Erro Refrativo Extremo:**
-   - Alto risco de arrependimento ("Eu via bem de longe antes!")
+  - Alto risco de arrependimento ("Eu via bem de longe antes!")
 
 4. **História de depressão ou ansiedade:**
-   - Período de adaptação pode ser psicologicamente devastador
+  - Período de adaptação pode ser psicologicamente devastador
 
 5. **Expectativas irrealistas:**
-   - "Quero ver perfeitamente longe E perto" → **Impossível com SUPRACOR**
+  - "Quero ver perfeitamente longe E perto" → **Impossível com SUPRACOR**
 
 ---
 
@@ -246,7 +280,7 @@ Medição CSV-1000:
 | 12 cpd | **-0.45 log** | **Muito Severa** |
 | 18 cpd | -0.60 log | Devastadora |
 
-**Contextualização:**  
+**Contextualização:** 
 Redução de 0.45 log em 12 cpd é **3× pior** que Custom-Q (-0.15 log).
 
 **Fenómenos Fóticos:**
@@ -324,6 +358,42 @@ SUPRACOR só faz sentido se:
 ![O Nicho Estreito](figures/chapter8/supracor_decision_algorithm.png)
 *Figura 8.3: Onde o SUPRACOR ainda faz sentido? O algoritmo mostra que o espaço para esta técnica é um "buraco de agulha" entre os 55-58 anos. Acima dos 60, a RLE (Lente Intraocular) é quase sempre superior.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Demonstrar que o SUPRACOR tem indicações muito limitadas hoje em dia, sendo frequentemente substituído pela RLE.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Fluxograma de Alto Contraste.
+
+### Nó Inicial
+*   "Paciente Alta Presbiopia (+3.00 Add)?"
+
+### Ramo 1: Idade > 58 Anos ou Cristalino Opaco
+*   Seta Grossa para Direita.
+*   Caixa Verde: "**RLE (Lente Intraocular)**".
+*   Justificação: "Solução Definitiva".
+
+### Ramo 2: Idade < 55 Anos
+*   Seta para Esquerda.
+*   Caixa Azul: "**PresbyMAX ou PRESBYOND**".
+*   Justificação: "Cristalino ainda acomoda".
+
+### Ramo 3: O "Buraco da Agulha" (Nicho SUPRACOR)
+*   Caminho estreito central.
+*   Condições: "55-58 nos" + "Cristalino Transparente" + "Recusa Cirurgia Intraocular".
+*   Caixa Amarela de Aviso: "**SUPRACOR**".
+*   Label: "**Último Recurso Corneano**".
+
+---
+
+## 2. Legenda Explicativa
+"O espaço para o SUPRACOR encolheu. Com a melhoria das Lentes Intraoculares (RLE), pacientes com >60 anos ficam melhor servidos com cirurgia de cristalino. O SUPRACOR resta agora como uma 'ponte' para pacientes entre 55-58 anos que recusam a cirurgia intraocular."
+
+
 ---
 
 ## 8.7. Protocolo Cirúrgico SUPRACOR
@@ -347,8 +417,8 @@ Protocolo standard (ver Capítulo 5).
 
 1. **Semana 0:** Operar olho não-dominante (SUPRACOR)
 2. **Semana 2-4:** Avaliar tolerância
-   - Se paciente insatisfeito severo (score <4/10): **NÃO operar dominante** (considerar reversão)
-   - Se tolerável: Proceder olho dominante (monofocal standard)
+  - Se paciente insatisfeito severo (score <4/10): **NÃO operar dominante** (considerar reversão) [4]
+  - Se tolerável: Proceder olho dominante (monofocal standard)
 
 ### 8.7.2. Gestão Pós-Operatória
 
@@ -371,6 +441,72 @@ Informar paciente repetidamente:
 ![O Vale do Arrependimento](figures/chapter8/supracor_neuroadaptation_curve.png)
 *Figura 8.4: Gestão de expectativas. A curva de satisfação (verde) sofre um mergulho profundo na primeira semana ("Semana do Arrependimento") devido ao blur de longe. A recuperação é lenta e os halos (vermelho) persistem.*
 
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Preparar psicologicamente o cirurgião e o paciente para os primeiros meses difíceis.
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Linha Temporal (Timeline Emocional).
+
+### Eixo X: Tempo
+*   Semana 1, Mês 1, Mês 3, Mês 12.
+
+### Eixo Y: Satisfação do Paciente (0-10)
+
+### A Curva (Vermelha - SUPRACOR)
+*   **Semana 1:** Mergulho profundo (Nível 3/10).
+    *   Label: "**Semana do Arrependimento (Blur de Longe)**".
+*   **Mês 1:** Recuperação lenta (Nível 5/10).
+*   **Mês 3:** Estabilização (Nível 7/10).
+*   **Mês 12:** Nunca atinge o topo (Máx 7.5/10).
+
+### Comparação Fantasma (Azul - PRESBYOND)
+*   Começa mais alta e atinge 9.5/10 no final.
+
+---
+
+## 2. Legenda Explicativa
+"O pós-operatório do SUPRACOR é psicologicamente exigente. A visão de longe fica turva ('foggy') nas primeiras semanas enquanto o cérebro luta para processar a multifocalidade extrema. É crucial avisar o paciente sobre a 'Semana do Arrependimento'."
+
+
+**Detalhes da Imagem:**
+
+**Objetivo Educacional:**
+Ferramenta para mostrar ao paciente no consultório: "Você está aqui (no vale), mas vai subir".
+
+---
+
+## 1. Descrição Visual (Layout)
+
+**Formato:** Gráfico de Linha Dupla (Evolução Temporal).
+
+### Eixo X (Tempo)
+*   Semana 1 -> Mês 1 -> Mês 3 -> Mês 6 -> Mês 12.
+
+### Curva Verde (Satisfação)
+*   **Início (Semana 1):** Ponto baixo (3/10). Label: "**Vale do Desespero**".
+*   **Subida:** Rápida entre Mês 1 e 3.
+*   **Fim (Mês 12):** Platô alto (9/10). Label: "**Normalização**".
+
+### Curva Vermelha (Sintomas/Halos)
+*   **Início:** Muito alta (9/10). Label: "**Halos Intensos**".
+*   **Queda:** Cruzamento com a curva verde no Mês 2.
+*   **Fim:** Baixa e estável (2/10).
+
+### Zona Sombreada Amarela
+*   Entre Semana 1 e Mês 1.
+*   Texto: "**Fase de Suporte Intensivo (Paciência)**".
+
+---
+
+## 2. Legenda Explicativa
+"A neuroadaptação não é linear. Existe um 'Vale do Desespero' inicial onde os sintomas superam a satisfação. Esta fase é fisiológica, não uma falha cirúrgica. A paciência (3-6 meses) é o tratamento."
+
+
 ---
 
 ## 8.8. Reversão de SUPRACOR
@@ -378,12 +514,12 @@ Informar paciente repetidamente:
 ### 8.8.1. Indicações
 
 1. **Intolerância severa persistente >6 meses:**
-   - UCDVA binocular <20/50
-   - Halos incapacitantes
-   - Score satisfação <3/10
+  - UCDVA binocular <20/50
+  - Halos incapacitantes
+  - Score satisfação <3/10
 
 2. **Mudança profissional:**
-   - Paciente muda para trabalho que exige longe (ex: aposentado volta a trabalhar como condutor)
+  - Paciente muda para trabalho que exige longe (ex: aposentado volta a trabalhar como condutor)
 
 ### 8.8.2. Técnica
 

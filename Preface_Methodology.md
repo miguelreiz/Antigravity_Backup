@@ -1,7 +1,6 @@
 # Prefácio
 
 
-
 A presbiopia é uma condição universal que afeta todos os seres humanos sem exceção. Aos 50 anos, a amplitude de acomodação está reduzida a valores que tornam a leitura confortável impossível sem correção óptica. Esta realidade fisiológica, descrita há mais de 150 anos por Donders e Helmholtz, permanece como um dos maiores desafios da cirurgia refrativa contemporânea.
 
 Ao contrário da miopia ou hipermetropia — onde o objetivo cirúrgico é claro e unidimensional (emetropia) — a correção da presbiopia exige um compromisso óptico fundamental: **não existe solução perfeita**. Qualquer estratégia cirúrgica que expanda a profundidade de campo inevitavelmente sacrifica qualidade óptica em alguma distância ou condição luminosa. O cirurgião refrativo que opera presbitas não promete perfeição; promete **gestão inteligente de trade-offs**.
@@ -58,13 +57,13 @@ Quando escolher abordagem corneana vs. lenticular (RLE)? Como selecionar entre d
 
 Esta obra integra conhecimento cirúrgico com infraestrutura editorial moderna. O processo utilizou assistência de IA (Antigravity, Google DeepMind) como ferramenta de estruturação e redação técnica sob supervisão autoral rigorosa.
 
-**Responsabilidade:**  
+**Responsabilidade:** 
 Toda afirmação clínica, interpretação algorítmica e decisão editorial é de responsabilidade do autor. Referências foram verificadas. Nomogramas refletem prática cirúrgica documentada na literatura.
 
-**Rastreabilidade:**  
+**Rastreabilidade:** 
 O processo editorial está documentado (Conversation ID: a2947515-a94f-45aa-9aad-3af9a5b1e1ad) para permitir verificabilidade académica e transparência metodológica, alinhando-se com standards editoriais contemporâneos de principais journals e editoras médicas.
 
-**Crédito Intelectual:**  
+**Crédito Intelectual:** 
 O algoritmo PresbyCor pertence ao Dr. Charles Ghenassia. Este livro oferece interpretação clínica, validação matemática independente e sistematização prática para aplicação cirúrgica multi-plataforma. A validação estatística descrita no Capítulo 5 (Seção 5.9) constitui análise educacional dos princípios publicados, não engenharia reversa.
 
 Se erros existirem, são meus. Se o livro servir cirurgiões, o mérito é do processo que privilegiou evidência sobre conveniência.
@@ -117,26 +116,26 @@ A cirurgia presbiópica não é para todos os cirurgiões. Exige paciência, cur
 
 ---
 
-**Dr. Miguel Reis**  
-Médico Oftalmologista  
-Especialista em Cirurgia Refrativa e Córnea  
+**Dr. Miguel Reis** 
+Médico Oftalmologista 
+Especialista em Cirurgia Refrativa e Córnea 
 São Paulo, Brasil
 
 ---
 
 ## Informação de Autoria
 
-**Autor Principal:** Dr. Miguel Reis  
-**Título:** Médico Oftalmologista, Especialista em Cirurgia Refrativa e Córnea  
-**Assistência Editorial:** Antigravity (AI Collaborator, Google DeepMind/Gemini 2.0)  
-**Conversation ID (Rastreabilidade):** a2947515-a94f-45aa-9aad-3af9a5b1e1ad  
-**Período de Produção:** Dezembro 2025 - Janeiro 2026  
+**Autor Principal:** Dr. Miguel Reis 
+**Título:** Médico Oftalmologista, Especialista em Cirurgia Refrativa e Córnea 
+**Assistência Editorial:** Antigravity (AI Collaborator, Google DeepMind/Gemini 2.0) 
+**Conversation ID (Rastreabilidade):** a2947515-a94f-45aa-9aad-3af9a5b1e1ad 
+**Período de Produção:** Dezembro 2025 - Janeiro 2026 
 
-**Declaração de Responsabilidade:**  
+**Declaração de Responsabilidade:** 
 O autor humano assume responsabilidade integral por todas as afirmações clínicas, validação de referências, decisões editoriais e precisão do conteúdo técnico. A assistência de IA foi utilizada para estruturação, redação técnica e organização sob supervisão editorial rigorosa.
 
 ---
 
-**Versão:** 1.0 (Research Edition)  
-**Idioma:** Português (com terminologia técnica internacional)  
+**Versão:** 1.0 (Research Edition) 
+**Idioma:** Português (com terminologia técnica internacional) 
 **Licença:** © Miguel Reis. Todos os direitos reservados.
