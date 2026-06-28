@@ -1,0 +1,9 @@
+Metric,Old_Fixed,New_Adaptive
+Total_columns_detected,88668,10175
+Detection_rate_pct,32.79,3.76
+Mean_boundary_smoothness,7.9930,2.9014
+Median_boundary_smoothness,5.1387,1.9428
+Mean_thickness_px,9.194,9.523
+Std_thickness_px,2.919,2.777
+Files_better,,0
+Files_worse,,50

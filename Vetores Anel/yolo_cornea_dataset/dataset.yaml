@@ -1,0 +1,7 @@
+names:
+  0: epithelium
+  1: stroma
+  2: endothelium
+path: C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\yolo_cornea_dataset
+train: images/train
+val: images/val

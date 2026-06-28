@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data (patient data - do not commit)
+*.SPR
+*.spr
+
+# YOLO dataset (too large, generated from SPR)
+yolo_cornea_dataset/images/
+yolo_cornea_dataset/labels/
+
+# YOLO model weights (large binaries)
+*.pt
+runs/
+
+# FEM large outputs
+fem_engine/*.xplt
+fem_engine/*.msh
+fem_engine/*.feb
+fem_engine/*.log
+fem_engine/disp*.csv
+fem_engine/stress*.csv
+
+# Scratch FEM outputs
+scratch/*.xplt
+scratch/*.msh
+scratch/*.feb
+scratch/*.log
+scratch/disp_*.csv
+scratch/stress_*.csv
+scratch/digital_twin.json
+
+# Large annotation images (can be regenerated)
+scratch/annotation_comparison_*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Agent internal
+.agent/
+.gemini/
+
+# Install scripts
+install.cmd

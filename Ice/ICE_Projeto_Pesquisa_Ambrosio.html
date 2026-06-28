@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Projeto de Pesquisa — ICE · BrAIn 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0b1a2e;--navy2:#122240;--navy3:#1a3055;
+  --blue:#1e6fa8;--blue2:#2892d7;--teal:#17a1a5;
+  --gold:#c9a84c;--gold2:#e8c56e;
+  --red:#c84b31;--green:#2d9e6b;
+  --white:#f0f4f8;--gray:#7a92aa;--light:#dce8f5;
+  --body:#1e2d42;
+}
+html{background:#e8edf4}
+body{font-family:'Inter',sans-serif;background:#e8edf4;color:var(--body);line-height:1.72;font-size:14px;padding:40px 0 80px}
+
+/* PAGE SHELL */
+.page{
+  width:210mm;max-width:900px;margin:0 auto;
+  background:white;
+  box-shadow:0 4px 40px rgba(0,0,0,.14);
+  border-radius:4px;
+  overflow:hidden;
+}
+
+/* HEADER BANNER */
+.header{
+  background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 45%,var(--navy3) 100%);
+  padding:52px 56px 44px;
+  position:relative;
+  overflow:hidden;
+}
+.header::before{
+  content:'';position:absolute;top:-60px;right:-60px;
+  width:280px;height:280px;border-radius:50%;
+  background:radial-gradient(circle,rgba(23,161,165,.18) 0%,transparent 70%);
+}
+.header::after{
+  content:'';position:absolute;bottom:-40px;left:40%;
+  width:200px;height:200px;border-radius:50%;
+  background:radial-gradient(circle,rgba(201,168,76,.1) 0%,transparent 70%);
+}
+.header-tag{
+  font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--teal);margin-bottom:14px;font-weight:500;
+}
+.header-title{
+  font-family:'Lora',serif;
+  font-size:26px;line-height:1.22;
+  color:white;max-width:560px;margin-bottom:10px;font-weight:600;
+}
+.header-title em{color:var(--gold2);font-style:italic}
+.header-sub{
+  font-size:12.5px;color:rgba(220,232,245,.7);
+  max-width:520px;margin-bottom:28px;line-height:1.55;
+}
+.header-meta{
+  display:flex;gap:32px;flex-wrap:wrap;
+  border-top:1px solid rgba(255,255,255,.1);
+  padding-top:20px;margin-top:4px;
+}
+.meta-item{font-size:11px;color:rgba(220,232,245,.6)}
+.meta-item strong{display:block;color:rgba(220,232,245,.95);font-size:12px;margin-bottom:2px}
+
+/* BODY CONTENT */
+.content{padding:48px 56px}
+
+/* SECTION HEADERS */
+.sec{margin-bottom:32px}
+.sec-label{
+  font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--teal);font-weight:600;margin-bottom:6px;
+}
+.sec-title{
+  font-family:'Lora',serif;font-size:18px;color:var(--navy);
+  font-weight:600;margin-bottom:14px;line-height:1.3;
+  padding-bottom:10px;border-bottom:2px solid #eef2f7;
+}
+.sec-title em{color:var(--gold);font-style:italic}
+p{color:#3a4f63;font-size:13.5px;margin-bottom:12px;line-height:1.72}
+strong{color:var(--navy);font-weight:600}
+
+/* CALLOUT BOX */
+.callout{
+  border-left:4px solid var(--gold);
+  padding:16px 20px;margin:20px 0;
+  background:#fdf9f0;border-radius:0 10px 10px 0;
+}
+.callout p{font-family:'Lora',serif;font-size:14.5px;color:#2a3a4a;font-style:italic;margin:0;line-height:1.6}
+.callout cite{font-size:11px;color:var(--gray);display:block;margin-top:6px;font-style:normal;font-family:'Inter',sans-serif}
+
+/* HYPOTHESIS BOX */
+.hyp{
+  background:linear-gradient(135deg,#f0f7ff,#e8f4fd);
+  border:1.5px solid rgba(40,146,215,.2);
+  border-radius:12px;padding:22px 24px;margin:20px 0;
+}
+.hyp-label{font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--blue2);font-weight:600;margin-bottom:8px}
+.hyp-text{font-size:14px;color:var(--navy);line-height:1.6}
+
+/* FORMULA BOX */
+.formula-box{
+  background:var(--navy);border-radius:12px;
+  padding:24px 28px;margin:20px 0;
+  display:flex;flex-direction:column;gap:10px;
+}
+.formula-title{font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--teal);font-weight:600}
+.formula-eq{
+  font-family:'Lora',serif;font-size:15px;
+  color:white;line-height:1.7;
+}
+.formula-eq em{color:var(--gold2)}
+.formula-note{font-size:11px;color:rgba(220,232,245,.6);line-height:1.5}
+
+/* GRID CARDS */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin:16px 0}
+.g4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;margin:16px 0}
+.card{border-radius:10px;padding:18px;border:1px solid #e2eaf4}
+.card-teal{background:#f0fbfb;border-color:rgba(23,161,165,.25);border-left:3px solid var(--teal)}
+.card-gold{background:#fdf9f0;border-color:rgba(201,168,76,.25);border-left:3px solid var(--gold)}
+.card-blue{background:#f0f7ff;border-color:rgba(40,146,215,.2);border-left:3px solid var(--blue2)}
+.card-green{background:#f0faf5;border-color:rgba(45,158,107,.22);border-left:3px solid var(--green)}
+.card-red{background:#fff5f3;border-color:rgba(200,75,49,.2);border-left:3px solid var(--red)}
+.card-gray{background:#f6f9fc;border-color:#dde6f0}
+.card-title{font-size:11.5px;font-weight:700;color:var(--navy);margin-bottom:7px;letter-spacing:.01em}
+.card-text{font-size:12px;color:#4a5f73;line-height:1.6}
+
+/* STAT NUMBERS */
+.stat-num{font-size:28px;font-weight:700;color:var(--blue2);line-height:1;margin-bottom:4px}
+.stat-label{font-size:11px;color:var(--gray);line-height:1.4}
+.stat-card{background:#f6f9fc;border:1px solid #dde6f0;border-radius:10px;padding:16px 14px;text-align:center}
+
+/* TABLE */
+.tbl{width:100%;border-collapse:collapse;font-size:12.5px;margin:14px 0}
+.tbl th{background:#f0f4fa;color:var(--gray);font-weight:600;padding:9px 12px;text-align:left;border-bottom:1.5px solid #dde6f0;font-size:11px;text-transform:uppercase;letter-spacing:.07em}
+.tbl td{padding:9px 12px;color:#3a4f63;border-bottom:1px solid #eef2f7;vertical-align:top}
+.tbl tr:last-child td{border-bottom:none}
+.tbl tr:hover td{background:#fafcff}
+
+/* BADGE */
+.badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:600;letter-spacing:.03em}
+.b-green{background:rgba(45,158,107,.12);color:#1a7a4a;border:1px solid rgba(45,158,107,.25)}
+.b-gold{background:rgba(201,168,76,.14);color:#8a6a10;border:1px solid rgba(201,168,76,.28)}
+.b-red{background:rgba(200,75,49,.1);color:#9a2f1a;border:1px solid rgba(200,75,49,.22)}
+.b-blue{background:rgba(40,146,215,.1);color:#1a55a0;border:1px solid rgba(40,146,215,.22)}
+.b-teal{background:rgba(23,161,165,.1);color:#0a6e72;border:1px solid rgba(23,161,165,.22)}
+
+/* TIMELINE */
+.timeline{display:flex;flex-direction:column;gap:0;margin:16px 0}
+.tl-item{display:flex;gap:16px;position:relative}
+.tl-item::before{content:'';position:absolute;left:15px;top:30px;bottom:-4px;width:2px;background:#eef2f7}
+.tl-item:last-child::before{display:none}
+.tl-dot{width:32px;height:32px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;border:2px solid}
+.tl-d1{background:#f0f7ff;color:var(--blue2);border-color:rgba(40,146,215,.4)}
+.tl-d2{background:#f0fbfb;color:var(--teal);border-color:rgba(23,161,165,.4)}
+.tl-d3{background:#fdf9f0;color:#8a6a10;border-color:rgba(201,168,76,.4)}
+.tl-d4{background:#f0faf5;color:#1a7a4a;border-color:rgba(45,158,107,.4)}
+.tl-body{padding-bottom:20px;flex:1}
+.tl-period{font-size:10.5px;color:var(--teal);font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:3px}
+.tl-title{font-size:13px;font-weight:600;color:var(--navy);margin-bottom:4px}
+.tl-desc{font-size:12px;color:#4a5f73;line-height:1.55}
+
+/* ALERT */
+.alert{border-radius:10px;padding:14px 18px;margin:16px 0;font-size:12.5px}
+.a-note{background:#f0f7ff;border:1px solid rgba(40,146,215,.2);color:#1a3a6a}
+.a-warn{background:#fff8f0;border:1px solid rgba(200,100,30,.25);color:#6a3a10}
+.a-tip{background:#f0faf5;border:1px solid rgba(45,158,107,.22);color:#1a4a30}
+
+/* DIVIDER */
+.div{height:1px;background:#eef2f7;margin:32px 0}
+
+/* SIGNATURE BLOCK */
+.sig-block{
+  background:var(--navy);color:white;
+  border-radius:12px;padding:28px 32px;margin-top:32px;
+  display:flex;justify-content:space-between;align-items:flex-start;
+  flex-wrap:wrap;gap:24px;
+}
+.sig-left .sig-name{font-family:'Lora',serif;font-size:17px;font-weight:600;color:white;margin-bottom:4px}
+.sig-left .sig-role{font-size:11.5px;color:rgba(220,232,245,.6);line-height:1.5}
+.sig-right{text-align:right}
+.sig-right .sig-label{font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--teal);margin-bottom:6px}
+.sig-right .sig-contact{font-size:12px;color:rgba(220,232,245,.8);line-height:1.6}
+.sig-badge{
+  display:inline-block;background:rgba(201,168,76,.15);
+  border:1px solid rgba(201,168,76,.3);
+  color:var(--gold2);padding:4px 12px;border-radius:20px;
+  font-size:10px;font-weight:600;letter-spacing:.08em;
+  margin-top:8px;
+}
+
+/* PAGE BREAK HINTS */
+@media print{
+  body{background:white;padding:0}
+  .page{box-shadow:none;border-radius:0;width:100%;max-width:100%}
+  .sec{page-break-inside:avoid}
+  .pb{page-break-before:always}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-tag">Projeto de Pesquisa · BrAIn / Rio de Janeiro · Junho 2026</div>
+  <div class="header-title">
+    Índice de Coerência do Eixo (<em>ICE</em>):<br>
+    Um preditor pré-operatório de resultado visual<br>no implante de anel intraestromal
+  </div>
+  <div class="header-sub">
+    Documento científico detalhado para avaliação de relevância clínica e validação do protocolo retrospectivo/prospectivo em ceratocone.
+  </div>
+  <div class="header-meta">
+    <div class="meta-item"><strong>Investigador Principal</strong>Miguel Reis — Biomecânica Corneana Computacional</div>
+    <div class="meta-item"><strong>Destinado para Parecer de</strong>Prof. Dr. Renato Ambrósio Jr. — BrAIn</div>
+    <div class="meta-item"><strong>Data de Submissão</strong>Junho 2026</div>
+    <div class="meta-item"><strong>Objetivo do Envio</strong>Apresentação e Parecer de Relevância Científica</div>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+<!-- 1. SUMÁRIO EXECUTIVO -->
+<div class="sec">
+  <div class="sec-label">Seção 1</div>
+  <div class="sec-title">Sumário <em>Executivo</em></div>
+
+  <div class="callout">
+    <p>O Kmax informa a altura do incêndio. O ICE informa se a saída de emergência ainda está alinhada.</p>
+    <cite>Analogia central do projeto: gravidade estrutural e coerência funcional são dimensões independentes.</cite>
+  </div>
+
+  <p>O <strong>Índice de Coerência do Eixo (ICE)</strong> é um índice pré-operatório desenvolvido para responder a uma pergunta que os índices existentes não respondem: <em>se o anel intraestromal corrigir a curvatura, o sistema visual deste paciente conseguirá converter essa melhora geométrica em ganho visual real?</em></p>
+
+  <p>O paradoxo que motivou o projeto é documentado clinicamente: pacientes com Kmax idêntico, mesma paquimetria, mesmo estadiamento — e respostas visuais radicalmente diferentes ao anel. A hipótese do ICE é que a causa dessa variabilidade está no <strong>desacoplamento entre três eixos ópticos</strong>: o eixo de maior curvatura (topografia), o eixo do cilindro manifesto (refração) e o eixo da aberração comática (aberrometria). Quando esses três eixos apontam em direções diferentes, a melhora geométrica produzida pelo anel se fragmenta ao longo do sistema óptico e não se integra em ganho de acuidade.</p>
+
+  <div class="g4">
+    <div class="stat-card"><div class="stat-num">443</div><div class="stat-label">pares clínicos<br>Pentacam + OCT</div></div>
+    <div class="stat-card"><div class="stat-num">660</div><div class="stat-label">perfis de curvatura<br>SPR Scheimpflug</div></div>
+    <div class="stat-card"><div class="stat-num">24</div><div class="stat-label">modelos FEM<br>anisotrópicos HGO</div></div>
+    <div class="stat-card"><div class="stat-num" style="font-size:22px">0,82</div><div class="stat-label">AUC ROC retrospectiva<br>predição ganho ≥3 linhas</div></div>
+  </div>
+</div>
+
+<div class="div"></div>
+
+<!-- 2. PROBLEMA E HIPÓTESE -->
+<div class="sec">
+  <div class="sec-label">Seção 2</div>
+  <div class="sec-title">Problema e <em>Hipótese</em></div>
+
+  <p>A literatura de ICRS em ceratocone documenta consistentemente uma variabilidade clínica que os nomogramas atuais não explicam. Estudos com mais de 300 olhos mostram que, entre pacientes operados com indicação tecnicamente adequada, cerca de <strong>27% obtêm ganho de BCVA inferior a duas linhas</strong>, mesmo com melhora objetiva da topografia. Essa dissociação entre resultado topográfico e resultado visual é o problema central que o ICE busca predizer.</p>
+
+  <div class="hyp">
+    <div class="hyp-label">Hipótese principal</div>
+    <div class="hyp-text">O grau de coerência entre o eixo topográfico, o eixo refrativo e o eixo comático — quantificado pelo ICE — é um preditor independente do ganho de BCVA após ICRS, com desempenho discriminativo superior ao Kmax isolado (AUC > 0,75 no estudo prospectivo).</div>
+  </div>
+
+  <div class="g2">
+    <div>
+      <p style="font-size:12.5px"><strong>Por que o Kmax é insuficiente</strong></p>
+      <p>O Kmax mede a magnitude da deformação corneana, mas não mede como essa deformação se propaga pelo sistema óptico. Dois olhos com Kmax 62 D podem ter:</p>
+      <ul style="margin:8px 0 12px 18px;font-size:12.5px;color:#3a4f63;line-height:1.7">
+        <li>Eixo topográfico e cilindro manifesto coincidentes (<strong>ICE alto</strong>) — sistema coerente, ganho esperado</li>
+        <li>Eixo topográfico, cilindro e coma em meridianos diferentes (<strong>ICE baixo</strong>) — sistema fragmentado, ganho improvável</li>
+      </ul>
+    </div>
+    <div>
+      <p style="font-size:12.5px"><strong>O achado que sustenta a hipótese</strong></p>
+      <p>Na análise de 660 perfis SPR, a correlação espacial entre os ápices da superfície anterior e posterior da córnea foi <strong>r = 0,028 (p = 0,50)</strong> — estatisticamente nula. O ápice posterior está, em média, 2,6 mm mais periférico, e em posição angular diferente. Isso significa que o eixo de referência convencional (K-steep) pode estar sistematicamente deslocado em relação ao eixo real do cone.</p>
+    </div>
+  </div>
+</div>
+
+<div class="div"></div>
+
+<!-- 3. O ÍNDICE ICE -->
+<div class="sec">
+  <div class="sec-label">Seção 3</div>
+  <div class="sec-title">O Índice ICE — <em>Definição Formal</em></div>
+
+  <p>O ICE é um índice contínuo entre 0 e 1, produto de três componentes independentes, cada um capturando uma dimensão distinta da coerência óptico-geométrica.</p>
+
+  <div class="formula-box">
+    <div class="formula-title">Fórmula ICE 2.0 — Triádico</div>
+    <div class="formula-eq">
+      ICE = <em>ICE_astig</em> × <em>Optical_coherence</em> × <em>ICE_axis_triad</em>
+    </div>
+    <div class="formula-eq" style="font-size:13px;margin-top:4px;opacity:.85">
+      = [1 − |Astig_T − Cyl| / (Astig_T + Cyl)]  ×  [LOA / (LOA + HOA)]  ×  [1 − D_max / 90°]
+    </div>
+    <div class="formula-note" style="margin-top:8px">
+      D_max = max( |θ_topo − θ_cyl|, |θ_topo − θ_coma|, |θ_cyl − θ_coma| ) · 
+      Astig_T = astigmatismo topográfico · Cyl = cilindro manifesto · 
+      LOA = aberrações de baixa ordem · HOA = aberrações de alta ordem
+    </div>
+  </div>
+
+  <div class="g3">
+    <div class="card card-teal">
+      <div class="card-title">Bloco 1 — Coerência de magnitude</div>
+      <div class="card-text">Compara a magnitude do astigmatismo topográfico com o cilindro manifesto. Dissociação entre os dois indica que o sistema refrativo não está "lendo" o que a córnea impõe — frequentemente por adaptação neural ou erro de medida.</div>
+    </div>
+    <div class="card card-gold">
+      <div class="card-title">Bloco 2 — Pureza óptica</div>
+      <div class="card-text">Razão entre aberrações de baixa ordem (corrigíveis) e totais. Quando aberrações de alta ordem dominam, halos e imagens duplas persistem mesmo com boa refração manifesta — o ganho de BCVA é estruturalmente limitado.</div>
+    </div>
+    <div class="card card-red">
+      <div class="card-title">Bloco 3 — Coerência angular triádica</div>
+      <div class="card-text">Maior discordância angular entre os três eixos (topográfico, refrativo, comático). Eixos a &lt;15°: alta coerência. A &gt;30°: o anel posicionado no K-steep pode aumentar o coma ao invés de reduzi-lo.</div>
+    </div>
+  </div>
+
+  <table class="tbl" style="margin-top:8px">
+    <thead><tr><th>Faixa ICE</th><th>Classificação</th><th>Interpretação</th><th>Conduta proposta</th></tr></thead>
+    <tbody>
+      <tr><td><strong style="color:#1a7a4a">≥ 0,65</strong></td><td><span class="badge b-green">Tipo 1 — Coerente</span></td><td>Eixos alinhados, HOA controladas, magnitude concordante</td><td>Operar. Maximizar VEsférico. Prometer ganho objetivo.</td></tr>
+      <tr><td><strong style="color:#8a6a10">0,50 – 0,64</strong></td><td><span class="badge b-gold">Zona cinzenta</span></td><td>Coerência parcial; pelo menos um bloco comprometido</td><td>Operar com cautela. Expectativa parcial com o paciente.</td></tr>
+      <tr><td><strong style="color:#9a2f1a">&lt; 0,50</strong></td><td><span class="badge b-red">Tipo 2 — Discordante</span></td><td>Eixos fragmentados, HOA dominantes ou magnitude dissociada</td><td>Redefinir objetivo. Considerar CXL, lente escleral ou anel tectônico.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="div"></div>
+
+<!-- 4. FUNDAMENTO BIOMECÂNICO -->
+<div class="sec">
+  <div class="sec-label">Seção 4</div>
+  <div class="sec-title">Fundamento <em>Biomecânico</em> — Modelos FEM</div>
+
+  <p>Para validar a premissa física do ICE — de que o desalinhamento entre o eixo do anel e o eixo real do cone reduz a eficácia da correção — foram desenvolvidos 24 modelos de elementos finitos utilizando o software FEBio com material anisotrópico Holzapfel-Gasser-Ogden (HGO), que reproduz a organização fibrilar do estroma.</p>
+
+  <div class="g2">
+    <div class="card card-blue">
+      <div class="card-title">Resultado principal — FEM</div>
+      <div class="card-text">O anel alinhado ao eixo principal do cone gera resposta apical <strong>1,24× mais eficiente</strong> do que o anel desalinhado em 30°. O desalinhamento de 30° reduz a eficácia apical em ~19%, com redistribuição da tensão para o meridiano perpendicular — potencialmente agravando o coma ao invés de reduzi-lo.</div>
+    </div>
+    <div class="card card-green">
+      <div class="card-title">Implicação clínica direta</div>
+      <div class="card-text">ICE alto significa que o eixo convencional de referência (K-steep) e o eixo real do cone estão alinhados — o anel posicionado pelo nomograma padrão está no campo de força correto. ICE baixo significa desperdício mecânico: parte da força corretiva age no meridiano errado.</div>
+    </div>
+  </div>
+
+  <div class="alert a-note">
+    <strong>Dissociação anterior-posterior (achado original):</strong> Na análise de 660 olhos, a correlação entre posição do ápice anterior e posterior foi r = 0,028 (p = 0,50 — nula). Isso significa que o ápice anterior — ponto de referência para o K-steep — não prediz a posição do ápice posterior, que é o verdadeiro motor biomecânico do ceratocone. O ICE captura parte dessa dissociação ao incluir o eixo comático, que reflete aberrações produzidas pela superfície posterior.
+  </div>
+</div>
+
+<div class="div"></div>
+
+<!-- 5. DADOS PRELIMINARES -->
+<div class="sec">
+  <div class="sec-label">Seção 5</div>
+  <div class="sec-title">Dados Preliminares <em>(Retrospectivo)</em></div>
+
+  <p>A análise retrospectiva utilizou dados de 8 estudos publicados entre 2013 e 2024, totalizando <strong>300 olhos com ICRS</strong>, recodificados segundo os critérios ICE a partir dos dados disponibilizados nos artigos. Os grupos foram definidos pelo ICE calculado retroativamente com os Blocos 1 e 2 (sem aberrometria — ICE biádico).</p>
+
+  <div class="g3" style="margin-bottom:20px">
+    <div class="stat-card">
+      <div class="stat-num" style="color:var(--green)">+4,2</div>
+      <div class="stat-label">linhas BCVA médio<br>ICE alto (n=118)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" style="color:#8a6a10">+2,8</div>
+      <div class="stat-label">linhas BCVA médio<br>ICE moderado (n=102)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" style="color:var(--red)">+1,6</div>
+      <div class="stat-label">linhas BCVA médio<br>ICE baixo (n=80)</div>
+    </div>
+  </div>
+
+  <table class="tbl">
+    <thead><tr><th>Métrica</th><th>AUC (predição ganho ≥ 3 linhas)</th><th>IC 95%</th><th>Comparação ICE</th></tr></thead>
+    <tbody>
+      <tr><td><strong>ICE</strong></td><td><strong style="color:var(--green)">0,82</strong></td><td>0,76 – 0,87</td><td>—</td></tr>
+      <tr><td>Kmax</td><td>0,68</td><td>0,61 – 0,75</td><td>DeLong p = 0,012</td></tr>
+      <tr><td>Paquimetria mínima</td><td>0,64</td><td>0,57 – 0,71</td><td>DeLong p = 0,004</td></tr>
+      <tr><td>Estadiamento Amsler-Krumeich</td><td>0,61</td><td>0,54 – 0,68</td><td>DeLong p &lt; 0,001</td></tr>
+    </tbody>
+  </table>
+
+  <div class="alert a-warn" style="margin-top:8px">
+    <strong>Limitação crítica:</strong> Estes dados são retroativos e baseados na reconstrução do ICE a partir de publicações de terceiros. O Bloco 3 (θ_coma) não pôde ser calculado por ausência de dados de aberrometria na maioria dos estudos — o ICE utilizado é biádico (Blocos 1 e 2). A AUC de 0,82 deve ser interpretada como estimativa conservadora do potencial do índice triádico completo.
+  </div>
+</div>
+
+<div class="div pb"></div>
+
+<!-- 6. PROTOCOLO PROSPECTIVO -->
+<div class="sec">
+  <div class="sec-label">Seção 6</div>
+  <div class="sec-title">Protocolo de Estudo <em>Prospectivo Proposto</em></div>
+
+  <div class="hyp">
+    <div class="hyp-label">Delineamento</div>
+    <div class="hyp-text">Estudo de coorte prospectivo, multicêntrico, com cegamento do cirurgião para o resultado do ICE até o desfecho primário. Período de acompanhamento: 6 meses pós-operatório.</div>
+  </div>
+
+  <div class="g2">
+    <div>
+      <p style="font-size:12.5px;font-weight:600;color:var(--navy)">Critérios de inclusão</p>
+      <ul style="margin:6px 0 14px 16px;font-size:12.5px;color:#3a4f63;line-height:1.7">
+        <li>Ceratocone confirmado (BAD-D ≥ 1,6 ou Kmax ≥ 47,2 D)</li>
+        <li>Candidato a ICRS por indicação clínica independente</li>
+        <li>CDVA ≤ 20/40 com melhor correção</li>
+        <li>Idade ≥ 18 anos</li>
+        <li>Dados disponíveis: Pentacam + aberrometria + refração manifesta</li>
+      </ul>
+      <p style="font-size:12.5px;font-weight:600;color:var(--navy)">Critérios de exclusão</p>
+      <ul style="margin:6px 0 0 16px;font-size:12.5px;color:#3a4f63;line-height:1.7">
+        <li>Cirurgia corneana prévia</li>
+        <li>Paquimetria mínima &lt; 350 µm</li>
+        <li>Doença ocular associada (glaucoma, uveíte)</li>
+        <li>CXL simultâneo (grupo separado, análise secundária)</li>
+      </ul>
+    </div>
+    <div>
+      <p style="font-size:12.5px;font-weight:600;color:var(--navy)">Tamanho amostral</p>
+      <table class="tbl" style="margin-bottom:14px">
+        <thead><tr><th>Parâmetro</th><th>Valor</th></tr></thead>
+        <tbody>
+          <tr><td>AUC esperada (ICE triádico)</td><td>0,82</td></tr>
+          <tr><td>AUC nula (H0)</td><td>0,70</td></tr>
+          <tr><td>Poder estatístico (1−β)</td><td>80%</td></tr>
+          <tr><td>α bilateral</td><td>0,05</td></tr>
+          <tr><td><strong>N necessário</strong></td><td><strong>168 olhos</strong></td></tr>
+          <tr><td>N proposto (+ 20% perdas)</td><td><strong>202 olhos</strong></td></tr>
+        </tbody>
+      </table>
+      <div class="alert a-tip"><strong>Viabilidade:</strong> Com o volume do BrAIn e centros parceiros, N=202 é alcançável em 12–18 meses.</div>
+    </div>
+  </div>
+
+  <p style="font-size:12.5px;font-weight:600;color:var(--navy);margin-bottom:8px">Desfechos</p>
+  <table class="tbl">
+    <thead><tr><th>Desfecho</th><th>Medida</th><th>Momento</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Primário</strong></td><td>Ganho de BCVA ≥ 3 linhas Snellen (predito pelo ICE)</td><td>6 meses</td></tr>
+      <tr><td>Secundário 1</td><td>Redução de Kmax ≥ 2 D</td><td>3 e 6 meses</td></tr>
+      <tr><td>Secundário 2</td><td>Variação de coma RMS</td><td>6 meses</td></tr>
+      <tr><td>Secundário 3</td><td>Satisfação subjetiva (VFQ-25)</td><td>6 meses</td></tr>
+      <tr><td>Secundário 4</td><td>Necessidade de explante ou reposicionamento</td><td>12 meses</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="div"></div>
+
+<!-- 7. CRONOGRAMA -->
+<div class="sec">
+  <div class="sec-label">Seção 7</div>
+  <div class="sec-title">Cronograma <em>Proposto</em></div>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot tl-d1">M0</div>
+      <div class="tl-body">
+        <div class="tl-period">Mês 0–2 · Preparação</div>
+        <div class="tl-title">Cálculo ICE retrospectivo + calibração da fórmula</div>
+        <div class="tl-desc">Calcular ICE biádico nos 443 pares disponíveis. Ajustar limiares de classificação com dados locais. Desenvolver planilha/ferramenta de cálculo automático a partir do export Pentacam.</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot tl-d2">M2</div>
+      <div class="tl-body">
+        <div class="tl-period">Mês 2–4 · Protocolo e aprovação</div>
+        <div class="tl-title">Submissão ao CEP + treinamento dos centros</div>
+        <div class="tl-desc">Elaborar protocolo formal com coinvestigadores. Submeter ao Comitê de Ética. Treinar equipe de coleta (Pentacam + aberrômetro + refração padronizada). Definir SOP de cegamento.</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot tl-d3">M4</div>
+      <div class="tl-body">
+        <div class="tl-period">Mês 4–18 · Coleta de dados</div>
+        <div class="tl-title">Recrutamento e seguimento prospectivo</div>
+        <div class="tl-desc">Meta: 202 olhos em 14 meses. Avaliação pré-operatória (ICE calculado e selado), cirurgia por indicação clínica padrão, avaliação 1m / 3m / 6m com equipe diferente do calculador do ICE.</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot tl-d4">M18</div>
+      <div class="tl-body">
+        <div class="tl-period">Mês 18–22 · Análise e publicação</div>
+        <div class="tl-title">Análise estatística, escrita e submissão</div>
+        <div class="tl-desc">Análise ROC primária. Regressão logística multivariada. Curvas Kaplan-Meier para desfechos secundários. Submissão ao <em>Journal of Refractive Surgery</em> ou <em>Cornea</em>.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="div"></div>
+
+<!-- 8. VALIDAÇÃO E PUBLICAÇÃO ALVO -->
+<div class="sec">
+  <div class="sec-label">Seção 8</div>
+  <div class="sec-title">Recursos Desenvolvidos e <em>Publicação Alvo</em></div>
+
+  <p>Este projeto visa consolidar a validação do índice ICE através do protocolo prospectivo apresentado. Os recursos e resultados já desenvolvidos estão estruturados para fundamentar uma publicação científica.</p>
+
+  <div class="g2">
+    <div class="card card-gold">
+      <div class="card-title">Recursos e Dados já Desenvolvidos</div>
+      <div class="card-text">
+        <ul style="margin-left:14px;line-height:1.8;font-size:12px">
+          <li>Dados retrospectivos: 443 pares Pentacam/OCT Triton consolidados</li>
+          <li>660 curvaturas SPR analisadas (evidência da dissociação A-P)</li>
+          <li>24 modelos FEM HGO rodados e validados no FEBio</li>
+          <li>Fórmula ICE 2.0 implementada e rotina de cálculo automatizada</li>
+          <li>Revisão sistemática concluída de 8 estudos clínicos de base</li>
+          <li>Rascunho inicial do artigo e material complementar estruturados</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card card-blue">
+      <div class="card-title">Requisitos Técnicos para Validação</div>
+      <div class="card-text">
+        <ul style="margin-left:14px;line-height:1.8;font-size:12px">
+          <li>Coorte prospectiva com exames completos pré e pós-operatórios</li>
+          <li>Dados de aberrometria por rastreamento de raios (Bloco 3)</li>
+          <li>Acompanhamento clínico padronizado aos 6 meses de BCVA</li>
+          <li>Cegamento estrito da equipe de refração pós-operatória</li>
+          <li>Análise estatística ROC para redefinição final de limiares</li>
+          <li>Integração com dados adicionais (TBI e BAD-D) como covariáveis</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card card-gray" style="margin-top:12px">
+    <div class="card-title">Publicação Científica Alvo (Artigo Principal)</div>
+    <div class="card-text">
+      <strong>Veículo:</strong> <em>Journal of Refractive Surgery</em> ou <em>Cornea</em><br>
+      <strong>Título Proposto:</strong> "Validação prospectiva do Índice de Coerência do Eixo (ICE) como preditor de ganho visual após implante de anel intraestromal em ceratocone".<br>
+      <strong>Escopo:</strong> Apresentar a fundamentação biofísica do índice (SPR/FEM), calibração retrospectiva da fórmula (AUC 0,82) e comprovação prospectiva de acurácia discriminativa a 6 meses.
+    </div>
+  </div>
+
+  <div class="alert a-tip" style="margin-top:14px">
+    <strong>Análise Retrospectiva Piloto:</strong> Os dados retrospectivos fundamentais (curvaturas Pentacam, eixos ópticos e refração pré e pós) para calibração do ICE biádico piloto podem ser estruturados diretamente a partir de bases de dados consolidadas existentes de pacientes já submetidos a implantes de anel.
+  </div>
+</div>
+
+<div class="div"></div>
+
+<!-- 9. POSIÇÃO HONESTA / LIMITAÇÕES -->
+<div class="sec">
+  <div class="sec-label">Seção 9</div>
+  <div class="sec-title">Posição Honesta — <em>Limitações e Incertezas</em></div>
+
+  <table class="tbl">
+    <thead><tr><th>Limitação</th><th>Status</th><th>Mitigação</th></tr></thead>
+    <tbody>
+      <tr><td>AUC baseada em dados retrospectivos e biádicos</td><td><span class="badge b-gold">Parcial</span></td><td>Estudo prospectivo com ICE triádico completo</td></tr>
+      <tr><td>θ_coma ausente na fórmula atual (dados limitados)</td><td><span class="badge b-red">Pendente</span></td><td>Inclusão de aberrometria sistemática no protocolo prospectivo</td></tr>
+      <tr><td>ICE-score (0–1) e ICE-min (°) não formalizados como métricas distintas</td><td><span class="badge b-gold">Em revisão</span></td><td>Artigo metodológico separado define ambos</td></tr>
+      <tr><td>Limiares (0,50 / 0,65) derivados de dados de terceiros</td><td><span class="badge b-red">Provisório</span></td><td>Análise ROC primária do estudo prospectivo redefine</td></tr>
+      <tr><td>Modelos FEM com geometria simplificada</td><td><span class="badge b-blue">Robusto</span></td><td>24 modelos com variação de parâmetros; achado 1,24× consistente</td></tr>
+      <tr><td>Dissociação A-P ainda não publicada</td><td><span class="badge b-teal">Pronto</span></td><td>Dados completos, análise finalizada, rascunho disponível</td></tr>
+    </tbody>
+  </table>
+
+  <div class="alert a-note" style="margin-top:8px">
+    O ICE é, neste momento, uma <strong>hipótese biofisicamente fundamentada com suporte retrospectivo moderado</strong>. Não é um índice clínico validado. A presente proposta destina-se à avaliação crítica de relevância científica por parte do Prof. Dr. Renato Ambrósio Jr., com vistas a validar o potencial biomédico e clínico do protocolo apresentado.
+  </div>
+</div>
+
+<div class="div"></div>
+
+<!-- ASSINATURA -->
+<div class="sig-block">
+  <div class="sig-left">
+    <div class="sig-name">Miguel Reis</div>
+    <div class="sig-role">
+      Biomecânica Corneana Computacional<br>
+      Projeto AVBC-ICRS · Junho 2026
+    </div>
+    <div class="sig-badge">ICE — Índice de Coerência do Eixo</div>
+  </div>
+  <div class="sig-right">
+    <div class="sig-label">Destinatário da Avaliação</div>
+    <div class="sig-contact">
+      Prof. Dr. Renato Ambrósio Jr.<br>
+      BrAIn — Rio de Janeiro<br>
+      Para Avaliação de Relevância Científica
+    </div>
+  </div>
+</div>
+
+</div><!-- /content -->
+</div><!-- /page -->
+</body>
+</html>
