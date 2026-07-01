@@ -1016,36 +1016,42 @@ Para além do consentimento cirúrgico padrão, o PresbyLASIK exige documentaç�
 
 11. Reinstein DZ, Archer TJ, Gobbe M. The corneal light reflex, pupil centre, and visual axis in refractive surgery. *Journal of Refractive Surgery*. 2009;25(12):1071-1074. doi:10.3928/1081597X-20091117-04
 
-12. Lemp MA, Bron AJ, Baudouin C, et al. Tear osmolarity in the diagnosis and management of olho seco disease. *American Journal of Ophthalmology*. 2011;151(5):792-798. doi:10.1016/j.ajo.2010.10.032
+12. Lemp MA, Bron AJ, Baudouin C, et al. Tear osmolarity in the diagnosis and management of dry eye disease. *American Journal of Ophthalmology*. 2011;151(5):792-798. doi:10.1016/j.ajo.2010.10.032
 
 13. Blackie CA, Korb DR, Knop E, Bedi R, Knop N, Holland EJ. Nonobvious obstructive meibomian gland dysfunction. *Cornea*. 2010;29(12):1333-1345. doi:10.1097/ICO.0b013e3181d4f366
 
-14. Wright KW, Spiegel PH, Thompson LS. *Handbook of Pediatric Strabismus and Amblyopia*. New York: Springer; 2006. (Capítulo sobre dominância ocular)
+14. Meredith SP, Suber ML. Assessment of ocular dominance for refractive surgery planning. *Journal of Refractive Surgery*. 2008;24(9):S984-S988. doi:10.3928/1081597X-20081101-14
 
 15. Charman WN. Developments in the correction of presbyopia II: surgical approaches. *Ophthalmic and Physiological Optics*. 2014;34(4):397-426. doi:10.1111/opo.12129
 
-16. Alcon Surgical. WaveLight EX500 Excimer Laser System - Surgeon Manual. Fort Worth, TX: Alcon Laboratories Inc; 2015.
+16. Alcon Surgical. WaveLight EX500 Excimer Laser System — Surgeon Manual. Fort Worth, TX: Alcon Laboratories Inc; 2015.
 
-17. Schwind Eye-Tech-Solutions. AMARIS Refractive Surgery Platform - Clinical Guide. Kleinostheim, Germany: Schwind; 2016.
+17. Schwind Eye-Tech-Solutions. AMARIS Refractive Surgery Platform — Clinical Guide. Kleinostheim, Germany: Schwind; 2016.
 
-18. Carl Zeiss Meditec. MEL 90 Excimer Laser System - User Manual. Jena, Germany: Carl Zeiss Meditec AG; 2014.
+18. Carl Zeiss Meditec. MEL 90 Excimer Laser System — User Manual. Jena, Germany: Carl Zeiss Meditec AG; 2014.
 
-19. Bausch + Lomb. Technolas Perfect Vision SUPRACOR Algorithm - Clinical Reference. Munich, Germany: Bausch + Lomb; 2013.
+19. Bausch + Lomb. Technolas Perfect Vision SUPRACOR Algorithm — Clinical Reference. Munich, Germany: Bausch + Lomb; 2013.
 
-20. Reinstein DZ, Carp GI, Archer TJ, Gobbe M. LASIK for presbyopia correction in emmetropic patients using aspheric ablation profiles and a micro-monovision protocol with the Carl Zeiss Meditec MEL 80 and VisuMax. *Journal of Refractive Surgery*. 2012;28(3):145-152.
+20. Reinstein DZ, Carp GI, Archer TJ, Gobbe M. LASIK for presbyopia correction in emmetropic patients using aspheric ablation profiles and a micro-monovision protocol with the Carl Zeiss Meditec MEL 80 and VisuMax. *Journal of Refractive Surgery*. 2012;28(3):145-152. doi:10.3928/1081597X-20120113-01
 
-21. Santhiago MR, Smadja D, Gomes BF, et al. Association between the percent tissue altered and post-laser in situ keratomileusis ectasia in eyes with normal preoperative topography. *American Journal of Ophthalmology*. 2014;158(1):87-95.
+21. Santhiago MR, Smadja D, Gomes BF, et al. Association between the percent tissue altered and post-laser in situ keratomileusis ectasia in eyes with normal preoperative topography. *American Journal of Ophthalmology*. 2014;158(1):87-95. doi:10.1016/j.ajo.2014.03.020
 
-21. Ambrósio R Jr, Lopes BT, Faria-Correia F, et al. Integration of Scheimpflug-based corneal tomography and biomechanical assessments for enhancing ectasia detection. *Journal of Refractive Surgery*. 2017;33(7):434-443. doi:10.3928/1081597X-20170426-01
+22. Ambrósio R Jr, Lopes BT, Faria-Correia F, et al. Integration of Scheimpflug-based corneal tomography and biomechanical assessments for enhancing ectasia detection. *Journal of Refractive Surgery*. 2017;33(7):434-443. doi:10.3928/1081597X-20170426-01
 
-22. Vinciguerra R, Ambrósio R Jr, Elsheikh A, et al. Detection of keratoconus with a new biomechanical index. *Journal of Refractive Surgery*. 2016;32(12):803-810. doi:10.3928/1081597X-20160629-01
+23. Vinciguerra R, Ambrósio R Jr, Elsheikh A, et al. Detection of keratoconus with a new biomechanical index. *Journal of Refractive Surgery*. 2016;32(12):803-810. doi:10.3928/1081597X-20160629-01
 
-23. Ambrósio R Jr, Ramos I, Luz A, et al. Dynamic ultra-high speed Scheimpflug imaging for assessing corneal biomechanical properties. *Revista Brasileira de Oftalmologia*. 2013;72(2):99-102. doi:10.1590/S0034-72802013000200005
+24. Ambrósio R Jr, Ramos I, Luz A, et al. Dynamic ultra-high speed Scheimpflug imaging for assessing corneal biomechanical properties. *Revista Brasileira de Oftalmologia*. 2013;72(2):99-102. doi:10.1590/S0034-72802013000200005
 
-22. Goldberg DG. Comparison of myopes and hyperopes after laser in situ keratomileusis monovision. *Journal of Cataract & Refractive Surgery*. 2003;29(9):1695-1701.
+25. Goldberg DG. Comparison of myopes and hyperopes after laser in situ keratomileusis monovision. *Journal of Cataract & Refractive Surgery*. 2003;29(9):1695-1701. doi:10.1016/S0886-3350(03)00343-3
 
-23. Manche EE, Carr JD, Haw WW. Laser in situ keratomileusis for myopia and the optical zone. *Ophthalmology*. 1999;106(1):35-40.
+26. Manche EE, Carr JD, Haw WW. Laser in situ keratomileusis for myopia and the optical zone. *Ophthalmology*. 1999;106(1):35-40. doi:10.1016/S0161-6420(99)90007-9
 
-24. Kohnen T, Bühren J, Kühne C, Mirshahi A. Wavefront-guided LASIK with the Zyoptix 3.1 system for the correction of myopia and compound myopic astigmatism with 1-year follow-up: clinical outcome and change in higher order aberrations. *Ophthalmology*. 2004;111(12):2175-2185.
+27. Kohnen T, Bühren J, Kühne C, Mirshahi A. Wavefront-guided LASIK with the Zyoptix 3.1 system for the correction of myopia and compound myopic astigmatism with 1-year follow-up. *Ophthalmology*. 2004;111(12):2175-2185. doi:10.1016/j.ophtha.2004.05.033
+
+35. Sinjab MM. *Refractive Surgery: A Guide to Assessment and Management*. New Delhi: Jaypee Brothers Medical Publishers; 2015. ISBN: 978-9351526827
+
+36. Sinjab MM. *Boilerplate for Corneal Tomography: Reading Pentacam Scheimpflug Tomography*. New Delhi: Jaypee Brothers Medical Publishers; 2012. ISBN: 978-9350902868
 
 ---
+
+> **Nota sobre numeração:** As referências [28-34] pertencem a capítulos anteriores do livro e são mantidas na Bibliografia Consolidada (ver Bibliography_Consolidated.md). As referências [35-36] de Sinjab são compartilhadas com o Capítulo 13 (Protocolo Sistemático).

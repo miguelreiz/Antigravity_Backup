@@ -118,7 +118,7 @@ A aberração esférica é quantificada pelo coeficiente de Zernike $Z_4^0$, med
 
 ### 2.2.3. Relação entre Fator Q e Aberração Esférica
 
-Existe uma relação matemática bem estabelecida entre o fator de asfericidade (Q) e a aberração esférica induzida:
+Existe uma relação matemática bem estabelecida entre o fator de asfericidade (Q) e a aberração esférica induzida [17]:
 
 $$Z_4^0 \approx \frac{-\sqrt{3} \cdot R^3}{8(n-1)} \cdot Q \cdot c^4$$
 
@@ -178,7 +178,7 @@ $$\text{Ganho de DoF} \propto |Z_4^0| \quad \text{mas} \quad \text{Perda de Cont
 
 ### 2.3.1. O que Realmente Importa: A Regra 80/20
 
-Em aberrometria, **cinco polinômios** explicam 80% dos resultados clínicos em cirurgia de presbiopia:
+Em aberrometria, **cinco polinômios** explicam 80% dos resultados clínicos em cirurgia de presbiopia [7]:
 
 | Polinômio | Nome Clínico | O que o Paciente Sente | Decisão Cirúrgica |
 |-----------|--------------|------------------------|-------------------|
@@ -851,11 +851,11 @@ Não existe "técnica superior absoluta". Cada uma resolve um **problema diferen
 
 **Referências para esta Seção:**
 
-19. Gatinel D, Hoang-Xuan T. Corneal asphericity modification and its implications in presbyLASIK. *J Cataract Refract Surg*. 2008;34(11):1843-1847 [17] [19].
+19. Gatinel D, Hoang-Xuan T. Corneal asphericity modification and its implications in presbyLASIK. *J Cataract Refract Surg*. 2008;34(11):1843-1847.
 
-20. Reinstein DZ, Couch DG, Archer TJ. LASIK for hyperopic astigmatism and presbyopia using micro-monovision with the Carl Zeiss Meditec MEL80 platform. *J Refract Surg*. 2009;25(1):37-58 [20].
+20. Reinstein DZ, Couch DG, Archer TJ. LASIK for hyperopic astigmatism and presbyopia using micro-monovision with the Carl Zeiss Meditec MEL80 platform. *J Refract Surg*. 2009;25(1):37-58.
 
-21. Uthoff D, Pölzl M, Hepper D, Holland D. A new method of corneal modulation with excimer laser for simultaneous correction of presbyopia and ametropia. *Graefes Arch Clin Exp Ophthalmol*. 2012;250(11):1649-1661 [21].
+21. Uthoff D, Pölzl M, Hepper D, Holland D. A new method of corneal modulation with excimer laser for simultaneous correction of presbyopia and ametropia. *Graefes Arch Clin Exp Ophthalmol*. 2012;250(11):1649-1661.
 
 ---
 
