@@ -29,6 +29,7 @@ for idx, row in df.iterrows():
             "k1": pd.to_numeric(row.get("OD Pre K1 (D)"), errors="coerce"),
             "k2": pd.to_numeric(row.get("OD Pre K2 (D)"), errors="coerce"),
             "q_pre": pd.to_numeric(row.get("OD Pre Asph Q"), errors="coerce"),
+            "pupillo": pd.to_numeric(row.get("OD Pre Pupillo (mm)"), errors="coerce"),
             "pachy": pd.to_numeric(row.get("OD Pre Pachy (um)"), errors="coerce"),
             
             # Target EQUI
@@ -58,6 +59,7 @@ for idx, row in df.iterrows():
             "k1": pd.to_numeric(row.get("OS Pre K1 (D)"), errors="coerce"),
             "k2": pd.to_numeric(row.get("OS Pre K2 (D)"), errors="coerce"),
             "q_pre": pd.to_numeric(row.get("OS Pre Asph Q"), errors="coerce"),
+            "pupillo": pd.to_numeric(row.get("OS Pre Pupillo (mm)"), errors="coerce"),
             "pachy": pd.to_numeric(row.get("OS Pre Pachy (um)"), errors="coerce"),
             
             # Target EQUI
@@ -80,7 +82,7 @@ df_eyes['k_mean'] = (df_eyes['k1'] + df_eyes['k2']) / 2
 df_eyes['se_pre'] = df_eyes['sph_pre'] + (df_eyes['cyl_pre'] / 2)
 
 # Remove rows missing essential pre-op data
-core_features = ['sph_pre', 'cyl_pre', 'k_mean', 'q_pre', 'add', 'dominant']
+core_features = ['sph_pre', 'cyl_pre', 'k_mean', 'q_pre', 'add', 'dominant', 'pupillo', 'pachy', 'age']
 df_eyes = df_eyes.dropna(subset=core_features).copy()
 
 print(f"Total eyes available with complete Pre-Op data: {len(df_eyes)}")
